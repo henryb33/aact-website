@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Meet our Team"
+date:   2014-09-07 14:36:23
+permalink: /people.html
+categories: people students faculty
+---
+<span class="image featured"><img src="/images/pic01.jpg" alt=""></span>
+Details on the team members.

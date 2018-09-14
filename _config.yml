@@ -1,0 +1,13 @@
+# Site settings
+title: Space Systems @ UW 
+email: lasso-cubesat@uw.edu
+description: > # this means to ignore newlines until "baseurl:"
+  A small satellite and space systems development lab in the W.E. Boeing Department
+  of Aeronautics and Astronautics at the University of Washington. 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://locahost:4000" # the base hostname & protocol for your site
+twitter_username: cubesat-uw
+github_username:  cubesat-uw
+
+# Build settings
+markdown: kramdown

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Space Systems @ UW</title>
+    <description>A small satellite and space systems development lab in the W.E. Boeing Department of Aeronautics and Astronautics at the University of Washington. 
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 14 Sep 2018 09:04:50 -0700</pubDate>
+    <lastBuildDate>Fri, 14 Sep 2018 09:04:50 -0700</lastBuildDate>
+    <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>Missions</title>
+        <description>&lt;p&gt;&lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;
+Details on our current missions.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 14 Sep 2018 07:36:23 -0700</pubDate>
+        <link>http://localhost:4000/missions.html</link>
+        <guid isPermaLink="true">http://localhost:4000/missions.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Meet our Team</title>
+        <description>&lt;p&gt;&lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;
+Details on the team members.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 07 Sep 2014 07:36:23 -0700</pubDate>
+        <link>http://localhost:4000/people.html</link>
+        <guid isPermaLink="true">http://localhost:4000/people.html</guid>
+        
+        
+        <category>people</category>
+        
+        <category>students</category>
+        
+        <category>faculty</category>
+        
+      </item>
+    
+      <item>
+        <title>Morbi a Semper</title>
+        <description>&lt;p&gt;&lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;
+Morbi a semper justo, non eleifend elit. Sed nulla nulla, porttitor nec volutpat eu, pulvinar vitae augue. Curabitur tempor quis lorem eget vestibulum. Aenean vel lacinia orci, ac sollicitudin felis. Nunc eros libero, posuere nec massa ac, consectetur sollicitudin elit. Duis tincidunt nunc et neque egestas rhoncus. Curabitur ut euismod lorem, ut rutrum neque. Nullam at sem eros. Nam interdum lectus non cursus viverra.&lt;/p&gt;
+
+&lt;p&gt;Duis eget magna at arcu tincidunt ultricies. Curabitur in facilisis sem, nec bibendum eros. Nunc fringilla imperdiet diam sed viverra. Vivamus lobortis dignissim mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet eu diam eu pellentesque. Duis tempus metus urna, vel faucibus ligula pharetra euismod. Donec rhoncus blandit posuere. Mauris mattis dolor est, dictum venenatis augue facilisis sit amet. Ut ante odio, congue eget arcu nec, semper eleifend urna. Donec rutrum pretium odio non pellentesque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam pellentesque nulla at tincidunt ultrices. Donec finibus malesuada magna. Phasellus eget tortor in lectus vehicula viverra sit amet sit amet purus.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 31 Aug 2014 07:36:23 -0700</pubDate>
+        <link>http://localhost:4000/2014/08/31/morbi-a-semper.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/08/31/morbi-a-semper.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
