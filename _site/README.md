@@ -15,6 +15,10 @@ Other
  - save posts with YYY-MM-DD-title.markdown
  - DO NOT run jekyll serve from inside any folder — must be in ROOT
 
+ Color Scheme
+ - UW purple: #4b2f84 || (75, 47, 132)
+ - UW gold: #b8a57a || ((184, 165, 122))
+
 	Icons:
 		Font Awesome (fortawesome.github.com/Font-Awesome)
 

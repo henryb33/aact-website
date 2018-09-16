@@ -6,9 +6,28 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 14 Sep 2018 09:14:11 -0700</pubDate>
-    <lastBuildDate>Fri, 14 Sep 2018 09:14:11 -0700</lastBuildDate>
+    <pubDate>Sat, 15 Sep 2018 19:11:55 -0700</pubDate>
+    <lastBuildDate>Sat, 15 Sep 2018 19:11:55 -0700</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>Publications</title>
+        <description>&lt;p&gt;List of publications from either previous work (pre-lab) and new publications (categorized). Provide either links or direct pdfs.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 14 Sep 2018 17:00:00 -0700</pubDate>
+        <link>http://localhost:4000/publications.html</link>
+        <guid isPermaLink="true">http://localhost:4000/publications.html</guid>
+        
+        
+        <category>publications</category>
+        
+        <category>papers</category>
+        
+        <category>research</category>
+        
+        <category>space-systems</category>
+        
+      </item>
     
       <item>
         <title>Missions</title>
@@ -23,11 +42,220 @@ Details on our current missions.&lt;/p&gt;
       </item>
     
       <item>
+        <title>Electric Propulsion</title>
+        <description>&lt;!-- One --&gt;
+&lt;section class=&quot;wrapper style4 container&quot;&gt;			
+	&lt;div class=&quot;row oneandhalf&quot;&gt;
+		&lt;div class=&quot;8u&quot;&gt;						
+		&lt;!-- Content --&gt;
+			&lt;div class=&quot;content&quot;&gt;
+				&lt;section&gt;
+					&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;&lt;img src=&quot;images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+					&lt;header&gt;
+						&lt;h3&gt;CubeSat Propulsion&lt;/h3&gt;
+					&lt;/header&gt;
+					&lt;p&gt;something something rockets!.&lt;/p&gt;
+					&lt;p&gt;Maybe provide some idea/link to work you guys are doing in EP and how that might play into what we do on certain missions.&lt;/p&gt;
+				&lt;/section&gt;
+			&lt;/div&gt;	
+		&lt;/div&gt;
+		&lt;div class=&quot;4u&quot;&gt;								
+		&lt;!-- Sidebar --&gt;
+			&lt;div class=&quot;sidebar&quot;&gt;
+				&lt;section&gt;
+					&lt;header&gt;
+						&lt;h3&gt;Pulsed Plasma Thrusters&lt;/h3&gt;
+					&lt;/header&gt;
+					&lt;p&gt;Our use of PPTs is to...&lt;/p&gt;
+&lt;!-- 					&lt;footer&gt;
+						&lt;ul class=&quot;buttons&quot;&gt;
+							&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small&quot;&gt;Learn More&lt;/a&gt;&lt;/li&gt;
+						&lt;/ul&gt;
+					&lt;/footer&gt; --&gt;
+				&lt;/section&gt;
+				&lt;section&gt;
+					&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;&lt;img src=&quot;images/pic04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+					&lt;header&gt;
+						&lt;h3&gt;Placeholder&lt;/h3&gt;
+					&lt;/header&gt;
+					&lt;p&gt;Placeholder text.&lt;/p&gt;
+&lt;!-- 					&lt;footer&gt;
+						&lt;ul class=&quot;buttons&quot;&gt;
+							&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small&quot;&gt;Learn More&lt;/a&gt;&lt;/li&gt;
+						&lt;/ul&gt;
+					&lt;/footer&gt; --&gt;
+				&lt;/section&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;					
+&lt;/section&gt;
+&lt;!-- Two --&gt;
+&lt;section class=&quot;wrapper style1 container special&quot;&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;4u&quot;&gt;					
+			&lt;section&gt;
+				&lt;header&gt;
+					&lt;h3&gt;Link to something&lt;/h3&gt;
+				&lt;/header&gt;
+				&lt;p&gt;Description of (external) link.&lt;/p&gt;
+				&lt;footer&gt;
+					&lt;ul class=&quot;buttons&quot;&gt;
+						&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small special&quot;&gt;Learn More&lt;/a&gt;&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/footer&gt;
+			&lt;/section&gt;				
+		&lt;/div&gt;
+		&lt;div class=&quot;4u&quot;&gt;					
+			&lt;section&gt;
+				&lt;header&gt;
+					&lt;h3&gt;Also Something&lt;/h3&gt;
+				&lt;/header&gt;
+				&lt;p&gt;Description of (external) link.&lt;/p&gt;
+				&lt;footer&gt;
+					&lt;ul class=&quot;buttons&quot;&gt;
+						&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small special&quot;&gt;Learn More&lt;/a&gt;&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/footer&gt;
+			&lt;/section&gt;			
+		&lt;/div&gt;
+		&lt;div class=&quot;4u&quot;&gt;					
+			&lt;section&gt;
+				&lt;header&gt;
+					&lt;h3&gt;Probably Something&lt;/h3&gt;
+				&lt;/header&gt;
+				&lt;p&gt;Description of (external) link.&lt;/p&gt;
+				&lt;footer&gt;
+					&lt;ul class=&quot;buttons&quot;&gt;
+						&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small special&quot;&gt;Learn More&lt;/a&gt;&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/footer&gt;
+			&lt;/section&gt;						
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Thu, 13 Sep 2018 17:00:00 -0700</pubDate>
+        <link>http://localhost:4000/electric-propulsion.html</link>
+        <guid isPermaLink="true">http://localhost:4000/electric-propulsion.html</guid>
+        
+        
+        <category>research</category>
+        
+        <category>electric-propulsion</category>
+        
+        <category>propulsion</category>
+        
+      </item>
+    
+      <item>
+        <title>Constrained Attitude Control</title>
+        <description>&lt;!-- One --&gt;
+&lt;section class=&quot;wrapper style4 container&quot;&gt;					
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;4u&quot;&gt;
+		&lt;!-- Sidebar --&gt;
+			&lt;div class=&quot;sidebar&quot;&gt;
+				&lt;section&gt;
+					&lt;header&gt;
+					&lt;h3&gt;Attitude Constraints&lt;/h3&gt;
+					&lt;/header&gt;
+					&lt;p&gt;Quickly describe some previous work and how this is useful. Only high-level stuff here. Maybe grab some figures from Kim and Mesbahi 2010. &lt;/p&gt;
+					&lt;footer&gt;
+					&lt;ul class=&quot;buttons&quot;&gt;
+						&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small&quot;&gt;Learn More&lt;/a&gt;&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;/footer&gt;
+				&lt;/section&gt;
+				&lt;section&gt;
+				&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;&lt;img src=&quot;images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+					&lt;header&gt;
+					&lt;h3&gt;Optimal Control and Convex Optimization&lt;/h3&gt;
+					&lt;/header&gt;
+					&lt;p&gt;We combine elements of optimal control theory and convex optimization to compute actuator commands that will satisfy mission-level constraints. These are implemented in the on-board flight software.&lt;/p&gt;
+				&lt;/section&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;8u skel-cell-important&quot;&gt;								
+		&lt;!-- Content --&gt;
+			&lt;div class=&quot;content&quot;&gt;
+				&lt;section&gt;
+					&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;&lt;img src=&quot;images/pic02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+						&lt;header&gt;
+						&lt;h3&gt;Constrained Attitude Control&lt;/h3&gt;
+						&lt;/header&gt;
+						&lt;p&gt;Use this section to give some details on our implementation, problem statements, etc. Figure out how to put latex equations in here.&lt;/p&gt;
+						&lt;p&gt;Make sure to provide references and links to the works. &lt;/p&gt;
+				&lt;/section&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;					
+&lt;/section&gt;
+&lt;!-- Two --&gt;
+&lt;section class=&quot;wrapper style1 container special&quot;&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;4u&quot;&gt;						
+			&lt;section&gt;
+				&lt;header&gt;
+				&lt;h3&gt;Software Implementation&lt;/h3&gt;
+				&lt;/header&gt;
+				&lt;p&gt;We can maybe link to our github page for the code base (which is open source).&lt;/p&gt;
+				&lt;footer&gt;
+				&lt;ul class=&quot;buttons&quot;&gt;
+					&lt;li&gt;&lt;a href=&quot;https://github.com/tpreynolds/uw_cubesat_adcs&quot; class=&quot;button small special&quot;&gt;Visit GitHub&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+				&lt;/footer&gt;
+			&lt;/section&gt;					
+		&lt;/div&gt;
+		&lt;div class=&quot;4u&quot;&gt;						
+			&lt;section&gt;
+				&lt;header&gt;
+					&lt;h3&gt;Hardware Testing&lt;/h3&gt;
+				&lt;/header&gt;
+					&lt;p&gt;Have a sub-page with some pics of testing the system?&lt;/p&gt;
+				&lt;footer&gt;
+					&lt;ul class=&quot;buttons&quot;&gt;
+						&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small special&quot;&gt;See the Process&lt;/a&gt;&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/footer&gt;
+			&lt;/section&gt;				
+		&lt;/div&gt;
+		&lt;div class=&quot;4u&quot;&gt;						
+			&lt;section&gt;
+				&lt;header&gt;
+					&lt;h3&gt;Publications&lt;/h3&gt;
+				&lt;/header&gt;
+				&lt;p&gt;Link over to the publications page to read more on this.&lt;/p&gt;
+				&lt;footer&gt;
+					&lt;ul class=&quot;buttons&quot;&gt;
+						&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small special&quot;&gt;Read More&lt;/a&gt;&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/footer&gt;
+			&lt;/section&gt;						
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Thu, 13 Sep 2018 17:00:00 -0700</pubDate>
+        <link>http://localhost:4000/attitude-control.html</link>
+        <guid isPermaLink="true">http://localhost:4000/attitude-control.html</guid>
+        
+        
+        <category>research</category>
+        
+        <category>attitude-control</category>
+        
+        <category>optimal-control</category>
+        
+        <category>convex-optimization</category>
+        
+      </item>
+    
+      <item>
         <title>Meet our Team</title>
         <description>&lt;p&gt;&lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;
 Details on the team members.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 07 Sep 2014 07:36:23 -0700</pubDate>
+        <pubDate>Thu, 13 Sep 2018 17:00:00 -0700</pubDate>
         <link>http://localhost:4000/people.html</link>
         <guid isPermaLink="true">http://localhost:4000/people.html</guid>
         

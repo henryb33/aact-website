@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Meet our Team"
-date:   2014-09-07 14:36:23
+date:   2018-09-14 00:00:00
+author: UW Space Systems
 permalink: /people.html
 categories: people students faculty
 ---
