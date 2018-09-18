@@ -275,6 +275,35 @@
 				width: 100%;
 			}
 
+	.number {
+		position: relative;
+	}
+
+		.number:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: serif;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+		.number.featured {
+			cursor: default;
+			display: block;
+			margin: 0 0 1.5em 0;
+			opacity: 0.35;
+			text-align: center;
+		}
+
+			.number.featured:before {
+				font-size: 5em;
+				line-height: 1em;
+			}
+
+		.number > .label {
+			display: none;
+		}
+
 /* Icon */
 
 	.icon {

@@ -6,15 +6,15 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 15 Sep 2018 19:11:55 -0700</pubDate>
-    <lastBuildDate>Sat, 15 Sep 2018 19:11:55 -0700</lastBuildDate>
+    <pubDate>Tue, 18 Sep 2018 13:54:12 -0400</pubDate>
+    <lastBuildDate>Tue, 18 Sep 2018 13:54:12 -0400</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
         <title>Publications</title>
         <description>&lt;p&gt;List of publications from either previous work (pre-lab) and new publications (categorized). Provide either links or direct pdfs.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 14 Sep 2018 17:00:00 -0700</pubDate>
+        <pubDate>Fri, 14 Sep 2018 20:00:00 -0400</pubDate>
         <link>http://localhost:4000/publications.html</link>
         <guid isPermaLink="true">http://localhost:4000/publications.html</guid>
         
@@ -31,10 +31,44 @@
     
       <item>
         <title>Missions</title>
-        <description>&lt;p&gt;&lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;
-Details on our current missions.&lt;/p&gt;
+        <description>&lt;!-- &lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic02.jpg&quot; alt=&quot;&quot;&gt;&lt;/span&gt; --&gt;
+
+&lt;div&gt;
+	&lt;header class=&quot;special container small&quot;&gt;
+		&lt;span class=&quot;icon&quot;&gt; &lt;strong&gt; Mission I &lt;/strong&gt; &lt;/span&gt;
+			&lt;h2&gt; &lt;strong&gt;RainierSat&lt;/strong&gt; &lt;/h2&gt; 
+			&lt;h3&gt;A demonstration of CubeSat electric propulsion.&lt;/h3&gt;
+				&lt;br /&gt;
+					&lt;p&gt; Named after the focal point of the Seattle landscape, our first mission will develop core technologies to be used in future missions. Electric propulsion is a strength of the UWs Aeronautics and Astronautics department, and comprises the primary payload of this satellite. Moreover, this mission will kick-off our integration with senior capstone design and curriculum integration
+				&lt;/p&gt;
+		&lt;center&gt;
+			&lt;section class=&quot;major&quot;&gt;
+				&lt;ul class=&quot;buttons&quot;&gt;
+					&lt;li&gt;&lt;a href=&quot;/missions/rainiersat.html&quot; class=&quot;button special&quot;&gt;RainierSat Mission&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/section&gt;
+		&lt;/center&gt;
+	&lt;/header&gt;
+&lt;/div&gt;
+&lt;div&gt;
+	&lt;header class=&quot;special container small&quot;&gt; 
+		&lt;span class=&quot;icon&quot;&gt; &lt;strong&gt; Mission II &lt;/strong&gt; &lt;/span&gt;
+			&lt;h2&gt;&lt;strong&gt; AdamsSat &lt;/strong&gt;&lt;/h2&gt;
+			&lt;h3&gt; A demonstration of constrained attitude control &lt;/h3&gt;
+			&lt;br /&gt;
+			&lt;p&gt; Named after the second tallest mountain in our state, our second mission will develop an advanced guidance, navigation and control (GNC) subsystem capable of reorienting the spacecraft while satisfying key constraints. This represents another strenght of UWs Aeronautics and Astronautics department, and can provide earth-imaging capability. &lt;/p&gt;
+		&lt;center&gt;
+			&lt;section class=&quot;major&quot;&gt;
+				&lt;ul class=&quot;buttons&quot;&gt;
+					&lt;li&gt;&lt;a href=&quot;/missions/adamssat.html&quot; class=&quot;button special&quot;&gt;AdamsSat Mission&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/section&gt;
+		&lt;/center&gt;
+	&lt;/header&gt;
+&lt;/div&gt;
+
 </description>
-        <pubDate>Fri, 14 Sep 2018 07:36:23 -0700</pubDate>
+        <pubDate>Fri, 14 Sep 2018 10:36:23 -0400</pubDate>
         <link>http://localhost:4000/missions.html</link>
         <guid isPermaLink="true">http://localhost:4000/missions.html</guid>
         
@@ -134,7 +168,7 @@ Details on our current missions.&lt;/p&gt;
 	&lt;/div&gt;
 &lt;/section&gt;
 </description>
-        <pubDate>Thu, 13 Sep 2018 17:00:00 -0700</pubDate>
+        <pubDate>Thu, 13 Sep 2018 20:00:00 -0400</pubDate>
         <link>http://localhost:4000/electric-propulsion.html</link>
         <guid isPermaLink="true">http://localhost:4000/electric-propulsion.html</guid>
         
@@ -235,7 +269,7 @@ Details on our current missions.&lt;/p&gt;
 	&lt;/div&gt;
 &lt;/section&gt;
 </description>
-        <pubDate>Thu, 13 Sep 2018 17:00:00 -0700</pubDate>
+        <pubDate>Thu, 13 Sep 2018 20:00:00 -0400</pubDate>
         <link>http://localhost:4000/attitude-control.html</link>
         <guid isPermaLink="true">http://localhost:4000/attitude-control.html</guid>
         
@@ -252,10 +286,38 @@ Details on our current missions.&lt;/p&gt;
     
       <item>
         <title>Meet our Team</title>
-        <description>&lt;p&gt;&lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;
-Details on the team members.&lt;/p&gt;
+        <description>&lt;!-- &lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic01.jpg&quot; alt=&quot;&quot;&gt;&lt;/span&gt; --&gt;
+
+&lt;section class=&quot;wrapper style2&quot;&gt;
+	&lt;div class=&quot;row half&quot;&gt;
+		&lt;div class=&quot;31-2u&quot;&gt;
+			&lt;header&gt;
+				&lt;h2&gt; &lt;strong&gt;Faculty&lt;/strong&gt; &lt;/h2&gt;
+			&lt;/header&gt;
+			&lt;p&gt;Show the faculty (with links to their own pages) here.&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;			
+&lt;/section&gt;
+&lt;section class=&quot;wrapper style3&quot;&gt;
+	&lt;!-- &lt;div class=&quot;row half&quot;&gt; --&gt;
+		&lt;div class=&quot;31-2u&quot;&gt;
+			&lt;header&gt; 
+				&lt;h2&gt; 
+					&lt;strong&gt; Graduate Students &lt;/strong&gt; 
+				&lt;/h2&gt; 
+			&lt;/header&gt;
+			&lt;p&gt; List the graduate students (possibly with links to their own pages). &lt;/p&gt;
+		&lt;/div&gt;
+	&lt;!-- &lt;/div&gt; --&gt;
+&lt;/section&gt;
+&lt;section class=&quot;wrapper style3&quot;&gt;
+	&lt;div class=&quot;31-2u&quot;&gt;
+		&lt;header&gt; &lt;h2&gt; &lt;strong&gt; Undergraduate Students &lt;/strong&gt;&lt;/h2&gt;&lt;/header&gt;
+			&lt;p&gt; List the undergraduate students, possibly with grouping into capstone project groups.&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
 </description>
-        <pubDate>Thu, 13 Sep 2018 17:00:00 -0700</pubDate>
+        <pubDate>Thu, 13 Sep 2018 20:00:00 -0400</pubDate>
         <link>http://localhost:4000/people.html</link>
         <guid isPermaLink="true">http://localhost:4000/people.html</guid>
         
@@ -269,13 +331,44 @@ Details on the team members.&lt;/p&gt;
       </item>
     
       <item>
+        <title>AdamsSat</title>
+        <description>&lt;p&gt;&lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Named after the second tallest mountain in our state, our second mission will develop an advanced guidance, navigation and control (GNC) subsystem capable of reorienting the spacecraft while satisfying key constraints. This represents another strenght of UWs Aeronautics and Astronautics department, and can provide earth-imaging capability.&lt;/p&gt;
+
+&lt;p&gt;Using convex optimization, time-optimal control torques are computed that guarantee the sun does not leave the field of view of on-board sun sensors, while ensuring on-board cameras are not subject to direct sunlight.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 13 Sep 2018 20:00:00 -0400</pubDate>
+        <link>http://localhost:4000/missions/adamssat.html</link>
+        <guid isPermaLink="true">http://localhost:4000/missions/adamssat.html</guid>
+        
+        
+        <category>missions adams</category>
+        
+      </item>
+    
+      <item>
+        <title>RainierSat</title>
+        <description>&lt;p&gt;&lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic02.jpg&quot; /&gt;&lt;/span&gt;
+Details on mission I.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 13 Sep 2018 20:00:00 -0400</pubDate>
+        <link>http://localhost:4000/missions/rainiersat.html</link>
+        <guid isPermaLink="true">http://localhost:4000/missions/rainiersat.html</guid>
+        
+        
+        <category>missions rainier</category>
+        
+      </item>
+    
+      <item>
         <title>Morbi a Semper</title>
         <description>&lt;p&gt;&lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;
 Morbi a semper justo, non eleifend elit. Sed nulla nulla, porttitor nec volutpat eu, pulvinar vitae augue. Curabitur tempor quis lorem eget vestibulum. Aenean vel lacinia orci, ac sollicitudin felis. Nunc eros libero, posuere nec massa ac, consectetur sollicitudin elit. Duis tincidunt nunc et neque egestas rhoncus. Curabitur ut euismod lorem, ut rutrum neque. Nullam at sem eros. Nam interdum lectus non cursus viverra.&lt;/p&gt;
 
 &lt;p&gt;Duis eget magna at arcu tincidunt ultricies. Curabitur in facilisis sem, nec bibendum eros. Nunc fringilla imperdiet diam sed viverra. Vivamus lobortis dignissim mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet eu diam eu pellentesque. Duis tempus metus urna, vel faucibus ligula pharetra euismod. Donec rhoncus blandit posuere. Mauris mattis dolor est, dictum venenatis augue facilisis sit amet. Ut ante odio, congue eget arcu nec, semper eleifend urna. Donec rutrum pretium odio non pellentesque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam pellentesque nulla at tincidunt ultrices. Donec finibus malesuada magna. Phasellus eget tortor in lectus vehicula viverra sit amet sit amet purus.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 31 Aug 2014 07:36:23 -0700</pubDate>
+        <pubDate>Sun, 31 Aug 2014 10:36:23 -0400</pubDate>
         <link>http://localhost:4000/2014/08/31/morbi-a-semper.html</link>
         <guid isPermaLink="true">http://localhost:4000/2014/08/31/morbi-a-semper.html</guid>
         

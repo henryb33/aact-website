@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /missions-all.html
 ---
 
 <article id="main">
@@ -10,14 +11,14 @@ layout: default
     <section class="wrapper style4 container">
         <ul class="posts">
           {% for post in site.posts.missions %}
-            <li class="wrapper {% if forloop.first %} style2 {% else %} style1 {% endif %}">
+            <!-- <li class="wrapper {% if forloop.first %} style2 {% else %} style1 {% endif %}"> -->
               <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
                 {{ post.excerpt }}
                 <section class="special">
                     <ul class="buttons">
                         <li><a href="{{ post.url }}" class="button">Read more</a></li>
                     </ul></section>
-            </li>
+            <!-- </li> -->
           {% endfor %}
         </ul>
     </section>
