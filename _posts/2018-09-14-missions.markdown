@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Missions"
+title: "Current and Previous Missions"
 date:   2018-09-14 14:36:23
 permalink: /missions.html
 ---
