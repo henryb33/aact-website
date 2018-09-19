@@ -1,0 +1,380 @@
+\usepackage{rotating}
+\usepackage{tikz}
+\usetikzlibrary{patterns}
+\usetikzlibrary{math}
+\usetikzlibrary{scopes}
+\usetikzlibrary{fadings}
+\usetikzlibrary{arrows}
+\tikzset{>=latex}
+
+% NOT BEAMER
+
+\pgfdeclarelayer{bg}    % declare background layer
+\pgfsetlayers{bg,main}  % set the order of the layers (main is the standard layer)
+
+\definecolor{beige}{RGB}{245,245,220}
+\definecolor{darkred}{rgb}{0.90,0.00,0.00}%red}%!75!black!100}
+\definecolor{darkgreen}{rgb}{0.00,0.45,0.00}
+
+\newcommand{\threeaxes}[8]{
+	\tikzmath{
+    	\Lxr=#3;\Lxl=#3;\Lyt=#4;\Lyb=#4;\Zt= #5;\Zb= #6;\Xang=#7;\Yang=#8;
+    	\Xxr= cos(\Xang)*\Lxr; \Xyr=-sin(\Xang)*\Lxr;
+    	\Xxl=-cos(\Xang)*\Lxl; \Xyl= sin(\Xang)*\Lxl;
+        \Yxt= sin(\Yang)*\Lyt; \Yyt= cos(\Yang)*\Lyt;
+        \Yxb=-sin(\Yang)*\Lyb; \Yyb=-cos(\Yang)*\Lyb;
+        \zzz=0;
+    }
+    \begin{scope}[shift={(#1,#2)},rotate=0]
+        \ifx\Zt\zzz\else  \draw[black,->] (0,0) -- +(0, \Zt);    \fi
+        \ifx\Zb\zzz\else  \draw[black,->] (0,0) -- +(0,-\Zb);    \fi
+        \ifx\Lxr\zzz\else \draw[black,->] (0,0) -- +(\Xxr,\Xyr); \fi
+        \ifx\Lxl\zzz\else \draw[black,->] (0,0) -- +(\Xxl,\Xyl); \fi
+        \ifx\Lyt\zzz\else \draw[black,->] (0,0) -- +(\Yxt,\Yyt); \fi
+        \ifx\Lyb\zzz\else \draw[black,->] (0,0) -- +(\Yxb,\Yyb); \fi
+	\end{scope}
+}
+\newcommand{\threeaxeslabelx}[9]{
+	\tikzmath{
+    	\Lxr=#3;\Lxl=#3;\Lyt=#4;\Lyb=#4;\Zt= #5;\Zb= #6;\Xang=#7;\Yang=#8;
+    	\Xxr= cos(\Xang)*\Lxr; \Xyr=-sin(\Xang)*\Lxr;
+    	\Xxl=-cos(\Xang)*\Lxl; \Xyl= sin(\Xang)*\Lxl;
+        \Yxt= sin(\Yang)*\Lyt; \Yyt= cos(\Yang)*\Lyt;
+        \Yxb=-sin(\Yang)*\Lyb; \Yyb=-cos(\Yang)*\Lyb;
+        \zzz=0;
+    }
+    \begin{scope}[shift={(#1,#2)},rotate=0]
+%        \ifx\Zt\zzz\else  \draw (0,\Zt)     node[anchor=south west] {#9}; \fi
+        \ifx\Lxr\zzz\else \draw (\Xxr,\Xyr) node[anchor=south west] {#9}; \fi
+%        \ifx\Lyt\zzz\else \draw (\Yxt,\Yyt) node[anchor=south west] {#9}; \fi
+	\end{scope}
+}
+\newcommand{\threeaxeslabely}[9]{
+	\tikzmath{
+    	\Lxr=#3;\Lxl=#3;\Lyt=#4;\Lyb=#4;\Zt= #5;\Zb= #6;\Xang=#7;\Yang=#8;
+    	\Xxr= cos(\Xang)*\Lxr; \Xyr=-sin(\Xang)*\Lxr;
+    	\Xxl=-cos(\Xang)*\Lxl; \Xyl= sin(\Xang)*\Lxl;
+        \Yxt= sin(\Yang)*\Lyt; \Yyt= cos(\Yang)*\Lyt;
+        \Yxb=-sin(\Yang)*\Lyb; \Yyb=-cos(\Yang)*\Lyb;
+        \zzz=0;
+    }
+    \begin{scope}[shift={(#1,#2)},rotate=0]
+%        \ifx\Zt\zzz\else  \draw (0,\Zt)     node[anchor=south west] {#9}; \fi
+%        \ifx\Lxr\zzz\else \draw (\Xxr,\Xyr) node[anchor=south west] {#9}; \fi
+        \ifx\Lyt\zzz\else \draw (\Yxt,\Yyt) node[anchor=south west] {#9}; \fi
+	\end{scope}
+}
+\newcommand{\threeaxeslabelz}[9]{
+	\tikzmath{
+    	\Lxr=#3;\Lxl=#3;\Lyt=#4;\Lyb=#4;\Zt= #5;\Zb= #6;\Xang=#7;\Yang=#8;
+    	\Xxr= cos(\Xang)*\Lxr; \Xyr=-sin(\Xang)*\Lxr;
+    	\Xxl=-cos(\Xang)*\Lxl; \Xyl= sin(\Xang)*\Lxl;
+        \Yxt= sin(\Yang)*\Lyt; \Yyt= cos(\Yang)*\Lyt;
+        \Yxb=-sin(\Yang)*\Lyb; \Yyb=-cos(\Yang)*\Lyb;
+        \zzz=0;
+    }
+    \begin{scope}[shift={(#1,#2)},rotate=0]
+        \ifx\Zt\zzz\else  \draw (0,\Zt)     node[anchor=west] {$\;$#9}; \fi
+%        \ifx\Lxr\zzz\else \draw (\Xxr,\Xyr) node[anchor=south west] {#9}; \fi
+%        \ifx\Lyt\zzz\else \draw (\Yxt,\Yyt) node[anchor=south west] {#9}; \fi
+	\end{scope}
+}
+
+\newcommand{\isoaxes}[9]{
+    \tikzmath{
+        \rot=#3;
+        \len=#4;
+        \ddd=#5;
+        \pX=  0; \Xx=cos(\pX)*\len; \Xy=sin(\pX))*\len;
+        \pY=120; \Yx=cos(\pY)*\len; \Yy=sin(\pY))*\len;
+        \pZ=240; \Zx=cos(\pZ)*\len; \Zy=sin(\pZ))*\len;
+        \Xxx=cos(\ddd)*\Xx-sin(\ddd)*\Xy; \Xxy=sin(\ddd)*\Xx+cos(\ddd)*\Xy;
+        \Yxx=cos(\ddd)*\Yx-sin(\ddd)*\Yy; \Yxy=sin(\ddd)*\Yx+cos(\ddd)*\Yy;
+        \Zxx=cos(\ddd)*\Zx-sin(\ddd)*\Zy; \Zxy=sin(\ddd)*\Zx+cos(\ddd)*\Zy;
+    }
+    \begin{scope}[shift={(#1,#2)},rotate=\rot]
+		\filldraw[black] (0,0) circle (2pt);
+        \draw[black,thick,->] (0,0) -- +(\Xx,\Xy);
+        \draw[black,thick,->] (0,0) -- +(\Yx,\Yy);
+        \draw[black,thick,->] (0,0) -- +(\Zx,\Zy);
+        \draw (0.1,0.6)   node[rotate=0,anchor=center] {#6};
+        \draw (\Xxx,\Xxy) node[rotate=0,anchor=center] {#7};
+        \draw (\Yxx,\Yxy) node[rotate=0,anchor=center] {#8};
+        \draw (\Zxx,\Zxy) node[rotate=0,anchor=center] {#9};
+    \end{scope}
+}
+
+\newcommand{\isoaxesNL}[6]{
+    \tikzmath{
+        \rot=#3;
+        \len=#4;
+        \ddd=#5;
+        \pX=  0; \Xx=cos(\pX)*\len; \Xy=sin(\pX))*\len;
+        \pY=120; \Yx=cos(\pY)*\len; \Yy=sin(\pY))*\len;
+        \pZ=240; \Zx=cos(\pZ)*\len; \Zy=sin(\pZ))*\len;
+        \Xxx=cos(\ddd)*\Xx-sin(\ddd)*\Xy; \Xxy=sin(\ddd)*\Xx+cos(\ddd)*\Xy;
+        \Yxx=cos(\ddd)*\Yx-sin(\ddd)*\Yy; \Yxy=sin(\ddd)*\Yx+cos(\ddd)*\Yy;
+        \Zxx=cos(\ddd)*\Zx-sin(\ddd)*\Zy; \Zxy=sin(\ddd)*\Zx+cos(\ddd)*\Zy;
+    }
+    \begin{scope}[shift={(#1,#2)},rotate=\rot]
+		\filldraw[black] (0,0) circle (2pt);
+        \draw[black,thick,->] (0,0) -- +(\Xx,\Xy);
+        \draw[black,thick,->] (0,0) -- +(\Yx,\Yy);
+        \draw[black,thick,->] (0,0) -- +(\Zx,\Zy);
+        \draw (0.1,0.6)   node[rotate=0,anchor=center] {#6};
+    \end{scope}
+}
+
+\newcommand{\isoaxesNLC}[7]{
+    \tikzmath{
+        \rot=#3;
+        \len=#4;
+        \ddd=#5;
+        \pX=  0; \Xx=cos(\pX)*\len; \Xy=sin(\pX))*\len;
+        \pY=120; \Yx=cos(\pY)*\len; \Yy=sin(\pY))*\len;
+        \pZ=240; \Zx=cos(\pZ)*\len; \Zy=sin(\pZ))*\len;
+        \Xxx=cos(\ddd)*\Xx-sin(\ddd)*\Xy; \Xxy=sin(\ddd)*\Xx+cos(\ddd)*\Xy;
+        \Yxx=cos(\ddd)*\Yx-sin(\ddd)*\Yy; \Yxy=sin(\ddd)*\Yx+cos(\ddd)*\Yy;
+        \Zxx=cos(\ddd)*\Zx-sin(\ddd)*\Zy; \Zxy=sin(\ddd)*\Zx+cos(\ddd)*\Zy;
+    }
+    \begin{scope}[shift={(#1,#2)},rotate=\rot]
+		\filldraw[#7] (0,0) circle (2pt);
+        \draw[#7,thick,->] (0,0) -- +(\Xx,\Xy);
+        \draw[#7,thick,->] (0,0) -- +(\Yx,\Yy);
+        \draw[#7,thick,->] (0,0) -- +(\Zx,\Zy);
+        \draw (0.1,0.6)   node[#7,rotate=0,anchor=center] {#6};
+    \end{scope}
+}
+
+\newcommand{\centerofmass}[1]{%
+    \tikz[radius=0.4em,scale=#1] {%
+        \fill (0,0) -- ++(0.4em,0) arc [start angle=0,end angle=90] -- ++(0,-0.8em) arc [start angle=270, end angle=180];%
+        \draw (0,0) circle;%
+    }%
+}
+
+\newcommand{\pane}[7]{
+	\tikzmath{
+    	\rot=#3;
+    	\width=#4;
+        \height=#5;
+        \corner=#6;
+    	\px1= 0.5*\width-\corner; \py1=-0.5*\height;
+        \px2= 0.5*\width;         \py2=-0.5*\height+\corner;
+        \px3= 0.5*\width;         \py3= 0.5*\height-\corner;
+        \px4= 0.5*\width-\corner; \py4= 0.5*\height;
+        \px5=-0.5*\width+\corner; \py5= 0.5*\height;
+        \px6=-0.5*\width;         \py6= 0.5*\height-\corner;
+        \px7=-0.5*\width;         \py7=-0.5*\height+\corner;
+        \px8=-0.5*\width+\corner; \py8=-0.5*\height;
+    }
+	\begin{scope}[shift={(#1,#2)},rotate=\rot]
+    	\filldraw[{#7}]
+        (\px1,\py1) to[out=    0,in=  -90] (\px2,\py2) --
+        (\px3,\py3) to[out=   90,in=    0] (\px4,\py4) --
+        (\px5,\py5) to[out= -180,in=   90] (\px6,\py6) --
+        (\px7,\py7) to[out=  -90,in= -180] (\px8,\py8) -- cycle;
+    \end{scope}
+}
+\newcommand{\cpane}[7]{
+	\tikzmath{
+		\pLTx=#1;
+		\pRBx=#2;
+		\pLTy=#3;
+		\pRBy=#4;
+	}
+	\pane{0.5*\pLTx+0.5*\pRBx}{0.5*\pLTy+0.5*\pRBy}{#5}{\pRBx-\pLTx}{\pLTy-\pRBy}{#6}{#7}
+}
+
+\newcommand{\coneback}[7]{
+	\tikzmath{\rot=#3;
+              \length=#4; \radius=\length*tan(0.5*#5); \depth=#6;
+              \sx =  cos(\rot)*#1 + sin(\rot)*#2;
+              \sy = -sin(\rot)*#1 + cos(\rot)*#2;
+    }
+    \begin{scope}[shift={(\sx,\sy)},transform canvas={rotate=\rot}]
+	    \draw[{#7}] (\radius,-\length) arc(360:180: {\radius} and {-\depth});
+    \end{scope}
+}
+
+\newcommand{\cone}[7]{
+	\tikzmath{\rot=#3;
+              \length=#4; \radius=\length*tan(0.5*#5); \depth=#6;
+              \sx =  cos(\rot)*#1 + sin(\rot)*#2;
+              \sy = -sin(\rot)*#1 + cos(\rot)*#2;
+	}
+    \begin{scope}[shift={(\sx,\sy)},transform canvas={rotate=\rot}]
+    	\fill[{#7}] (0,0) -- (\radius,-\length) arc(360:180: {\radius} and {\depth}) -- cycle;
+    	\draw[color=black!100] (0,0) -- (\radius,-\length) arc(360:180: {\radius} and {\depth}) -- cycle;
+    \end{scope}
+}
+
+\newcommand{\rocket}[6]{
+	\tikzmath{\rot=#3;
+    		  \length=#4;
+              \throttle=(\length/0.8)*0.6*#5;
+              \gimbalangle=#6;
+    		  \LL = \length; \RR = \LL/8;
+              \HH = \LL/5;   \WW = \LL/16;
+              \rr = \LL/16;  \ww = \LL/16;
+              \HG = \LL/8;   \RG = \LL/11; \WG = \LL/16;
+              \sx =  cos(\rot)*#1 + sin(\rot)*#2;
+              \sy = -sin(\rot)*#1 + cos(\rot)*#2;
+    }
+    \begin{scope}[shift={(\sx,\sy)},transform canvas={rotate=\rot}]
+		\begin{scope}[shift={(0,-0.5*\LL)},rotate=\gimbalangle]
+          	% Flame %
+          	\fill[fill=orange!100,shading=axis,shading angle=90,left color=orange!100,right color=orange!25]
+            	(-\RG,-\HG) -- (0,-\HG-\throttle) -- (\RG,-\HG) -- cycle;
+        	% Gimbal %
+        	\filldraw[color=black!100,fill=black!10,shading=axis,shading angle=90,left color=black!30,right color=black!0]
+        	(0,0) -- (\RG,-\HG) arc(360:180: {\RG} and {\WG}) -- cycle;
+		\end{scope}
+        
+        % Rocket Body %
+    	\filldraw[color=black!100,fill=black!10,shading=ball,shading angle=90,left color=black!30,right color=black!0]
+        	(-\RR,-0.5*\LL) arc(180:360: {\RR} and {\WW}) -- (\RR,0.5*\LL) -- (\RR,0.5*\LL) arc(360:180: {\RR} and {\WW}) -- (-\RR,-0.5*\LL) -- cycle;
+        
+        % Rocket Nose %
+    	\filldraw[color=black!100,fill=black!10,shading=axis,shading angle=90,left color=black!30,right color=black!0]
+        	(\RR,0.5*\LL) arc(360:180: {\RR} and {\WW}) -- (-\rr,0.5*\LL+\HH) arc(-180:0: {\rr} and {-\ww}) -- cycle;
+    \end{scope}
+}
+
+\newcommand{\munderbrace}[7]{
+	\tikzmath{
+%		\cx = #1;
+%		\cy = #2;
+%		\rot = #3;
+%		\width = #4;
+%		\heightb = #5;
+%		\heightt = #6;
+	}
+	\begin{scope}[shift={(#1,#2)},rotate=#3]
+		\draw [{#7}] (0,0) -- (0,#5);
+		\draw [{#7}] (0.5*#4,#5+#6) -- (0.5*#4,#5) -- (-0.5*#4,#5) -- (-0.5*#4,#5+#6);
+	\end{scope}
+}
+
+\newcommand{\quadrotor}[6]{
+	\tikzmath{
+		\Larm = 1; \Rr = 0.9;
+		%\Rrx = \Rr; \Rry = \Rr; 
+		\rx1= \Larm; \ry1= \Larm;
+		\rx2= \Larm; \ry2=-\Larm;
+		\rx3=-\Larm; \ry3=-\Larm;
+		\rx4=-\Larm; \ry4= \Larm;
+		\drx1=\rx1+\Rr*cos(45); \dry1=\ry1+\Rr*sin(45);
+		\val3 = #3;
+		\val2 = #4;
+		\val1 = #5;
+	}
+	\begin{scope}[shift={(#1,#2)}]
+		\begin{scope}[transform canvas={scale=#6}]
+			\shade [ball color=white] (0,0) circle (5pt);
+			\draw [black,line width=0.5pt] (0,0) circle (5pt);
+			
+			\begin{scope}[rotate=\val1]
+				\begin{scope}[xscale=\val2]
+					\begin{scope}[rotate=-\val3]
+%						\begin{scope}[yscale=\val3]
+							\begin{scope}[shift={(\rx1,\ry1)}]
+								\fill[shading=radial,outer color=orange!25,inner color=orange!100] (0,0) circle (\Rr);
+								\draw[-,>=stealth,line cap=round,line width=2pt] ( 90:\Rr) arc ( 90:-270:\Rr);
+							\end{scope}
+							\begin{scope}[shift={(\rx2,\ry2)}]
+								\fill[shading=radial,outer color=black!5,inner color=black!25] (0,0) circle (\Rr);
+								\draw[-,>=stealth,line cap=round,line width=2pt] (-90:\Rr) arc (-90: 270:\Rr);
+							\end{scope}
+							\begin{scope}[shift={(\rx3,\ry3)}]
+								\fill[shading=radial,outer color=black!5,inner color=black!25] (0,0) circle (\Rr);
+								\draw[-,>=stealth,line cap=round,line width=2pt] (-90:\Rr) arc (-90: 270:\Rr);
+							\end{scope}
+							\begin{scope}[shift={(\rx4,\ry4)}]
+								\fill[shading=radial,outer color=orange!25,inner color=orange!100] (0,0) circle (\Rr);
+								\draw[-,>=stealth,line cap=round,line width=2pt] ( 90:\Rr) arc ( 90:-270:\Rr);
+							\end{scope}
+						\end{scope}
+%					\end{scope}
+				\end{scope}
+			\end{scope}
+			
+%			\begin{scope}[rotate=-90]
+%				\begin{scope}[xscale=\val1]
+%					\begin{scope}[rotate=-\val2]
+%						\begin{scope}[yscale=\val3]
+%							\draw [black,->,line width=0.75pt] (0,0) -- +(0,3);% node[anchor=south west] {$x$};
+%							\draw [black,->,line width=0.75pt] (0,0) -- +(3,0);% node[anchor=south west] {$y$};
+%						\end{scope}
+%					\end{scope}
+%				\end{scope}
+			
+		\end{scope}
+	\end{scope}
+}
+
+\newcommand{\backwall}[8] {
+	\tikzmath {
+			\h1=#1; \w1=#2; \a1=#3;
+			\h2=#4; \w2=#5; \a2=#6;
+			\ax1=0.0;                   \ay1=0.5*\h2;
+			\ax2=\ax1;                  \ay2=0.5*\h1;
+			\ax3=\ax2-0.5*cos(\a1)*\w1; \ay3=\ay2+0.5*sin(\a1)*\w1;
+			\ax4=\ax3;                  \ay4=\ay3-\h1;
+			\ax5=\ax4+0.5*cos(\a1)*\w1; \ay5=\ay4-0.5*sin(\a1)*\w1;
+			\ax6=\ax5;                  \ay6=-\ay1;
+			\ax7=\ax6-cos(\a2)*\w2;     \ay7=\ay6+sin(\a2)*\w2;
+			\ax8=\ax7;                  \ay8=\ay7+\h2;
+	}
+	
+	\fill[#7] (\ax1,\ay1)
+				 -- (\ax2,\ay2)
+				 -- (\ax3,\ay3)
+				 -- (\ax4,\ay4)
+				 -- (\ax5,\ay5)
+				 -- (\ax6,\ay6)
+				 -- (\ax7,\ay7)
+				 -- (\ax8,\ay8)
+				 -- cycle;
+	\draw[#8] (\ax2,\ay2)
+ 				 -- (\ax3,\ay3)
+				 -- (\ax4,\ay4)
+				 -- (\ax5,\ay5);
+	\draw[#8] (\ax6,\ay6)
+				 -- (\ax7,\ay7)
+				 -- (\ax8,\ay8)
+				 -- (\ax1,\ay1);
+}
+
+\newcommand{\forewall}[8] {
+	\tikzmath {
+			\h1=#1; \w1=#2; \a1=#3;
+			\h2=#4; \w2=#5; \a2=#6;
+			\ax1=0.0;                   \ay1=0.5*\h2;
+			\ax2=\ax1;                  \ay2=0.5*\h1;
+			\ax3=\ax2-0.5*cos(\a1)*\w1; \ay3=\ay2+0.5*sin(\a1)*\w1;
+			\ax4=\ax3;                  \ay4=\ay3-\h1;
+			\ax5=\ax4+0.5*cos(\a1)*\w1; \ay5=\ay4-0.5*sin(\a1)*\w1;
+			\ax6=\ax5;                  \ay6=-\ay1;
+			\ax7=\ax6-cos(\a2)*\w2;     \ay7=\ay6+sin(\a2)*\w2;
+			\ax8=\ax7;                  \ay8=\ay7+\h2;
+	}
+	
+	\fill[#7] (-\ax1,-\ay1)
+				 -- (-\ax2,-\ay2)
+				 -- (-\ax3,-\ay3)
+				 -- (-\ax4,-\ay4)
+				 -- (-\ax5,-\ay5)
+		     -- (-\ax6,-\ay6)
+				 -- (-\ax7,-\ay7)
+				 -- (-\ax8,-\ay8)
+				 -- cycle;
+	\draw[#8] (-\ax2,-\ay2)
+				 -- (-\ax3,-\ay3)
+ 				 -- (-\ax4,-\ay4)
+ 				 -- (-\ax5,-\ay5);
+	\draw[#8] (-\ax6,-\ay6)
+				 -- (-\ax7,-\ay7)
+				 -- (-\ax8,-\ay8)
+				 -- (-\ax1,-\ay1);
+}
