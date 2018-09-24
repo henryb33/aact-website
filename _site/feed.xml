@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 19 Sep 2018 14:36:46 -0400</pubDate>
-    <lastBuildDate>Wed, 19 Sep 2018 14:36:46 -0400</lastBuildDate>
+    <pubDate>Sun, 23 Sep 2018 19:38:32 -0700</pubDate>
+    <lastBuildDate>Sun, 23 Sep 2018 19:38:32 -0700</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -34,7 +34,7 @@
 &lt;/div&gt;
 
 </description>
-        <pubDate>Tue, 18 Sep 2018 20:00:00 -0400</pubDate>
+        <pubDate>Tue, 18 Sep 2018 17:00:00 -0700</pubDate>
         <link>http://localhost:4000/contact-students.html</link>
         <guid isPermaLink="true">http://localhost:4000/contact-students.html</guid>
         
@@ -64,7 +64,7 @@
 &lt;/div&gt;
 
 </description>
-        <pubDate>Tue, 18 Sep 2018 20:00:00 -0400</pubDate>
+        <pubDate>Tue, 18 Sep 2018 17:00:00 -0700</pubDate>
         <link>http://localhost:4000/contact-sponsor.html</link>
         <guid isPermaLink="true">http://localhost:4000/contact-sponsor.html</guid>
         
@@ -103,7 +103,7 @@
 &lt;/section&gt;
 
 </description>
-        <pubDate>Tue, 18 Sep 2018 20:00:00 -0400</pubDate>
+        <pubDate>Tue, 18 Sep 2018 17:00:00 -0700</pubDate>
         <link>http://localhost:4000/contact-main.html</link>
         <guid isPermaLink="true">http://localhost:4000/contact-main.html</guid>
         
@@ -155,7 +155,7 @@
 &lt;/section&gt;
 
 </description>
-        <pubDate>Sat, 15 Sep 2018 20:00:00 -0400</pubDate>
+        <pubDate>Sat, 15 Sep 2018 17:00:00 -0700</pubDate>
         <link>http://localhost:4000/facilities.html</link>
         <guid isPermaLink="true">http://localhost:4000/facilities.html</guid>
         
@@ -170,7 +170,7 @@
 	&lt;ul style=&quot;list-style-type: none&quot;&gt;
   		&lt;li&gt;&lt;h2&gt; Conferences &lt;/h2&gt;&lt;/li&gt;
   			&lt;ul style=&quot;list-style-type: circle&quot;&gt;
-  				 &lt;li&gt; T. P. Reynolds, K. Kaycee, B. Barzgaran, M. Hudoba de Badyn, S. Rice, E. Hansen, A. Adler, B. Acikmese and M. Mesbahi, “&lt;a href=&quot;#&quot;&gt; Development of a Generic Guidance Navigation &amp;amp; Control System for Small Satellites: Application to HuskySat-1, &lt;/a&gt;” AIAA Space Forum, Orlando, FL, 2018.&lt;/li&gt;
+  				 &lt;li&gt; T. P. Reynolds, K. Kaycee, B. Barzgaran, M. Hudoba de Badyn, S. Rice, E. Hansen, A. Adler, B. Acikmese and M. Mesbahi, “&lt;a href=&quot;https://arc.aiaa.org/doi/abs/10.2514/6.2018-5403&quot;&gt; Development of a Generic Guidance Navigation &amp;amp; Control System for Small Satellites: Application to HuskySat-1, &lt;/a&gt;” AIAA Space Forum, Orlando, FL, 2018.&lt;/li&gt;
   			&lt;/ul&gt;
   		&lt;li&gt;&lt;h2&gt; Journals &lt;/h2&gt;&lt;/li&gt;
   			&lt;ul style=&quot;list-style-type: circle&quot;&gt;
@@ -180,7 +180,7 @@
 &lt;/section&gt;
 
 </description>
-        <pubDate>Fri, 14 Sep 2018 20:00:00 -0400</pubDate>
+        <pubDate>Fri, 14 Sep 2018 17:00:00 -0700</pubDate>
         <link>http://localhost:4000/publications.html</link>
         <guid isPermaLink="true">http://localhost:4000/publications.html</guid>
         
@@ -234,7 +234,7 @@
 &lt;/div&gt;
 
 </description>
-        <pubDate>Fri, 14 Sep 2018 10:36:23 -0400</pubDate>
+        <pubDate>Fri, 14 Sep 2018 07:36:23 -0700</pubDate>
         <link>http://localhost:4000/missions.html</link>
         <guid isPermaLink="true">http://localhost:4000/missions.html</guid>
         
@@ -334,7 +334,7 @@
 	&lt;/div&gt;
 &lt;/section&gt;
 </description>
-        <pubDate>Thu, 13 Sep 2018 20:00:00 -0400</pubDate>
+        <pubDate>Thu, 13 Sep 2018 17:00:00 -0700</pubDate>
         <link>http://localhost:4000/electric-propulsion.html</link>
         <guid isPermaLink="true">http://localhost:4000/electric-propulsion.html</guid>
         
@@ -435,7 +435,7 @@
 	&lt;/div&gt;
 &lt;/section&gt;
 </description>
-        <pubDate>Thu, 13 Sep 2018 20:00:00 -0400</pubDate>
+        <pubDate>Thu, 13 Sep 2018 17:00:00 -0700</pubDate>
         <link>http://localhost:4000/attitude-control.html</link>
         <guid isPermaLink="true">http://localhost:4000/attitude-control.html</guid>
         
@@ -573,7 +573,7 @@
 	&lt;/div&gt;
 &lt;/section&gt;
 </description>
-        <pubDate>Thu, 13 Sep 2018 20:00:00 -0400</pubDate>
+        <pubDate>Thu, 13 Sep 2018 17:00:00 -0700</pubDate>
         <link>http://localhost:4000/people.html</link>
         <guid isPermaLink="true">http://localhost:4000/people.html</guid>
         
@@ -675,7 +675,7 @@
 						&lt;p&gt;See our publications to read more on this topic.&lt;/p&gt;
 					&lt;footer&gt;
 						&lt;ul class=&quot;buttons&quot;&gt;
-							&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small special&quot;&gt;Read More&lt;/a&gt;&lt;/li&gt;
+							&lt;li&gt;&lt;a href=&quot;/publications.html&quot; class=&quot;button small special&quot;&gt;Read More&lt;/a&gt;&lt;/li&gt;
 						&lt;/ul&gt;
 					&lt;/footer&gt;
 				&lt;/center&gt;
@@ -707,7 +707,7 @@
 &lt;/section&gt;
 
 </description>
-        <pubDate>Thu, 13 Sep 2018 20:00:00 -0400</pubDate>
+        <pubDate>Thu, 13 Sep 2018 17:00:00 -0700</pubDate>
         <link>http://localhost:4000/missions/adamssat.html</link>
         <guid isPermaLink="true">http://localhost:4000/missions/adamssat.html</guid>
         

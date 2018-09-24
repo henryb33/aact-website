@@ -93,7 +93,7 @@ icon: fa-sync
 						<p>See our publications to read more on this topic.</p>
 					<footer>
 						<ul class="buttons">
-							<li><a href="#" class="button small special">Read More</a></li>
+							<li><a href="/publications.html" class="button small special">Read More</a></li>
 						</ul>
 					</footer>
 				</center>
