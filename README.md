@@ -17,13 +17,18 @@
 ## Other stuff 
 Themes:
  - Based on Twenty by HTML5 UP (n33.co @n33co dribbble.com/n33)
-
-Video Walkthroughs:
- - https://jekyllrb.com/tutorials/video-walkthroughs/ 
+Color Scheme:
+ - UW purple: #4b2f84 || (75, 47, 132)
+ - UW gold: #b8a57a || ((184, 165, 122))
+Icons: 
+ - Come from: Font Awesome (fortawesome.github.com/Font-Awesome)
 
 Other:
  - I've found that I need to run the command `eval “$(rbenv init -)”` before running `jekyll serve` to get the website up and running. 
  - homepage for jekyll: https://jekyllrb.com/ 
  - Always save posts with `YYYY-MM-DD-title.markdown` format.
  - DO NOT run jekyll serve from inside any sub-folder — must be in the ROOT.
- - Icons come from: Font Awesome (fortawesome.github.com/Font-Awesome)
+ - video walkthroughs on how to use jekyll: https://jekyllrb.com/tutorials/video-walkthroughs/ 
+
+
+

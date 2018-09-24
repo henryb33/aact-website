@@ -32,6 +32,10 @@
 			width: 900px;
 		}
 
+		.container.medium {
+			width: 1000px;
+		}
+
 		.container.large {
 			width: 100%;
 

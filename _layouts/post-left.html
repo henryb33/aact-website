@@ -1,14 +1,15 @@
 ---
-layout: default
+layout: default-left
 ---
 
     <article id="main">
   <header class="special container">
+    <span class="fas {{page.icon}}"></span>
     <h2 class="post-title">{{ page.title }}</h2>
     <p class="post-meta">{% if page.author %}{{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
-  <section class="style4 wrapper container">
+  <section class="style1 wrapper container">
     {{ content }}
   </section>
     
