@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Space Systems @ UW</title>
+    <title>A&amp;ampA CubeSat Team</title>
     <description>A small satellite and space systems development lab in the W.E. Boeing Department of Aeronautics and Astronautics at the University of Washington. 
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 23 Sep 2018 19:38:32 -0700</pubDate>
-    <lastBuildDate>Sun, 23 Sep 2018 19:38:32 -0700</lastBuildDate>
+    <pubDate>Thu, 04 Oct 2018 15:24:29 -0700</pubDate>
+    <lastBuildDate>Thu, 04 Oct 2018 15:24:29 -0700</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -20,7 +20,7 @@
 		&lt;/p&gt;
 		Here are the best ways to get in touch with us:
 			&lt;ul style=&quot;list-style-type: disc&quot;&gt;
-				&lt;li&gt; Email us at &lt;a href=&quot;#&quot;&gt; uwss@uw.edu.&lt;/a&gt; Be sure to include: &lt;/li&gt; 
+				&lt;li&gt; Email us at &lt;a href=&quot;#&quot;&gt; aact@uw.edu.&lt;/a&gt; Be sure to include: &lt;/li&gt; 
 					&lt;ul style=&quot;margin-left: 1em; list-style-type: circle&quot;&gt;
 						&lt;li&gt; Academic status (undergrad, Master's or Ph.D.) and home department,&lt;/li&gt;
 						&lt;li&gt; A copy of your resume, &lt;/li&gt;
@@ -198,8 +198,23 @@
       <item>
         <title>Current and Previous Missions</title>
         <description>&lt;!-- &lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic02.jpg&quot; alt=&quot;&quot;&gt;&lt;/span&gt; --&gt;
-
 &lt;div&gt;
+	&lt;header class=&quot;special container small&quot;&gt; 
+		&lt;span class=&quot;icon&quot;&gt; &lt;strong&gt; Mission I &lt;/strong&gt; &lt;/span&gt;
+			&lt;h2&gt;&lt;strong&gt; SOC-i &lt;/strong&gt;&lt;/h2&gt;
+			&lt;h3&gt; A demonstration of constrained attitude control &lt;/h3&gt;
+			&lt;br /&gt;
+			&lt;p&gt; Our first mission will develop an advanced guidance, navigation and control (GNC) subsystem capable of reorienting the spacecraft while satisfying multiple pointing constraints. The mission will also provide low-resolution earth-imaging capability. &lt;/p&gt;
+		&lt;center&gt;
+			&lt;section class=&quot;major&quot;&gt;
+				&lt;ul class=&quot;buttons&quot;&gt;
+					&lt;li&gt;&lt;a href=&quot;/missions/missionI.html&quot; class=&quot;button special&quot;&gt;SOC-i Mission&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/section&gt;
+		&lt;/center&gt;
+	&lt;/header&gt;
+&lt;/div&gt;
+&lt;!-- &lt;div&gt;
 	&lt;header class=&quot;special container small&quot;&gt;
 		&lt;span class=&quot;icon&quot;&gt; &lt;strong&gt; Mission I &lt;/strong&gt; &lt;/span&gt;
 			&lt;h2&gt; &lt;strong&gt;RainierSat&lt;/strong&gt; &lt;/h2&gt; 
@@ -215,23 +230,7 @@
 			&lt;/section&gt;
 		&lt;/center&gt;
 	&lt;/header&gt;
-&lt;/div&gt;
-&lt;div&gt;
-	&lt;header class=&quot;special container small&quot;&gt; 
-		&lt;span class=&quot;icon&quot;&gt; &lt;strong&gt; Mission II &lt;/strong&gt; &lt;/span&gt;
-			&lt;h2&gt;&lt;strong&gt; AdamsSat &lt;/strong&gt;&lt;/h2&gt;
-			&lt;h3&gt; A demonstration of constrained attitude control &lt;/h3&gt;
-			&lt;br /&gt;
-			&lt;p&gt; Named after the second tallest mountain in our state, our second mission will develop an advanced guidance, navigation and control (GNC) subsystem capable of reorienting the spacecraft while satisfying key constraints. This represents another strenght of UWs Aeronautics and Astronautics department, and can provide earth-imaging capability. &lt;/p&gt;
-		&lt;center&gt;
-			&lt;section class=&quot;major&quot;&gt;
-				&lt;ul class=&quot;buttons&quot;&gt;
-					&lt;li&gt;&lt;a href=&quot;/missions/adamssat.html&quot; class=&quot;button special&quot;&gt;AdamsSat Mission&lt;/a&gt;&lt;/li&gt;
-				&lt;/ul&gt;
-			&lt;/section&gt;
-		&lt;/center&gt;
-	&lt;/header&gt;
-&lt;/div&gt;
+&lt;/div&gt; --&gt;
 
 </description>
         <pubDate>Fri, 14 Sep 2018 07:36:23 -0700</pubDate>
@@ -587,103 +586,60 @@
       </item>
     
       <item>
-        <title>AdamsSat</title>
+        <title>RainierSat</title>
         <description>&lt;section class=&quot;wrapper style2 container&quot;&gt;
 	&lt;header&gt; &lt;h2&gt; Mission Objectives &lt;/h2&gt; &lt;/header&gt;
-	&lt;p&gt; Named after the second tallest mountain in our state, our second mission will develop an advanced guidance, navigation and control (GNC) subsystem capable of reorienting the spacecraft while satisfying key constraints. This mission will also provide earth-imaging capability, with stringent pointing requirements allowing us to image specified regions of the earth. &lt;br /&gt;&lt;br /&gt;
-	Using convex optimization, time-optimal control torques are computed that guarantee the sun does not leave the field of view of on-board sun sensors, while ensuring on-board cameras are not subject to direct sunlight. &lt;/p&gt;
+	&lt;p&gt; The mission objectives are... &lt;/p&gt;
 &lt;/section&gt;
-&lt;!-- One --&gt;
-&lt;section class=&quot;wrapper style4&quot;&gt;		
-	&lt;header&gt;&lt;h2&gt; Guidance Navigation and Control &lt;/h2&gt;&lt;/header&gt;
-			&lt;p&gt; The primary payload of AdamsSat is an experimental GNC system capable of reorienting the spacecraft while guaranteeing hard pointing constraints and in a time-optimal fashion.&lt;/p&gt;			
-	&lt;div class=&quot;row&quot;&gt;
-		&lt;div class=&quot;4u&quot;&gt;
+
+&lt;section class=&quot;wrapper style4 container&quot;&gt;			
+	&lt;div class=&quot;row oneandhalf&quot;&gt;
+		&lt;div class=&quot;8u&quot;&gt;			
+		&lt;header&gt;&lt;h2&gt; Propulsion System &lt;/h2&gt;&lt;/header&gt;	
+		&lt;p&gt; The primary payload of RainierSat, our propulsion system is capable of giving us 5000 m/s of delta-V over the mission's lifetime. Wow! &lt;/p&gt;		
+		&lt;!-- Content --&gt;
+			&lt;div class=&quot;content&quot;&gt;
+				&lt;section&gt;
+					&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+					&lt;header&gt;
+						&lt;h3&gt;CubeSat Propulsion&lt;/h3&gt;
+					&lt;/header&gt;
+					&lt;p&gt;something something rockets!.&lt;/p&gt;
+					&lt;p&gt;Maybe provide some idea/link to work you guys are doing in EP and how that might play into what we do on certain missions.&lt;/p&gt;
+				&lt;/section&gt;
+			&lt;/div&gt;	
+		&lt;/div&gt;
+		&lt;div class=&quot;4u&quot;&gt;								
 		&lt;!-- Sidebar --&gt;
 			&lt;div class=&quot;sidebar&quot;&gt;
 				&lt;section&gt;
 					&lt;header&gt;
-					&lt;h3&gt;Attitude Constraints&lt;/h3&gt;
+						&lt;h3&gt;Pulsed Plasma Thrusters&lt;/h3&gt;
 					&lt;/header&gt;
-					&lt;p&gt;The GNC system guarantees that attitude maneuvers can be accomplished with the sun in the field of view of a sun-sensor, while not in the field of view of our on-board camera. &lt;/p&gt;
+					&lt;p&gt;Our use of PPTs is to...&lt;/p&gt;
 &lt;!-- 					&lt;footer&gt;
-					&lt;ul class=&quot;buttons&quot;&gt;
-						&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small&quot;&gt;Learn More&lt;/a&gt;&lt;/li&gt;
-					&lt;/ul&gt;
+						&lt;ul class=&quot;buttons&quot;&gt;
+							&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small&quot;&gt;Learn More&lt;/a&gt;&lt;/li&gt;
+						&lt;/ul&gt;
 					&lt;/footer&gt; --&gt;
 				&lt;/section&gt;
 				&lt;section&gt;
-				&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+					&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
 					&lt;header&gt;
-					&lt;h3&gt;Optimal Control and Convex Optimization&lt;/h3&gt;
+						&lt;h3&gt;See More&lt;/h3&gt;
 					&lt;/header&gt;
-					&lt;p&gt;We combine elements of optimal control theory and convex optimization to compute actuator commands that will satisfy mission-level constraints. These are implemented in the on-board flight software.&lt;/p&gt;
+					&lt;p&gt;See our publications on the topic for more details.&lt;/p&gt;
+					&lt;footer&gt;
+						&lt;ul class=&quot;buttons&quot;&gt;
+							&lt;li&gt;&lt;a href=&quot;/publications.html&quot; class=&quot;button special small&quot;&gt;Learn More&lt;/a&gt;&lt;/li&gt;
+						&lt;/ul&gt;
+					&lt;/footer&gt;
 				&lt;/section&gt;
 			&lt;/div&gt;
 		&lt;/div&gt;
-		&lt;div class=&quot;8u skel-cell-important&quot;&gt;								
-		&lt;!-- Content --&gt;
-			&lt;div class=&quot;content&quot;&gt;
-				&lt;section&gt;
-					&lt;a href=&quot;#&quot; class=&quot;imagenb featured&quot;&gt;&lt;img src=&quot;/images/tikz_cubesat_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-						&lt;header&gt;
-						&lt;h3&gt;Constrained Attitude Control&lt;/h3&gt;
-						&lt;/header&gt;
-						&lt;p&gt;Use this section to give some details on our implementation, problem statements, etc. Figure out how to put latex equations in here.&lt;/p&gt;
-						&lt;p&gt;Make sure to provide references and links to the works. &lt;/p&gt;
-				&lt;/section&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;			
-	&lt;div class=&quot;row&quot;&gt;
-		&lt;div class=&quot;4u&quot;&gt;						
-			&lt;section&gt;
-				&lt;center&gt;
-					&lt;header&gt;
-						&lt;h3&gt;Software Implementation&lt;/h3&gt;
-					&lt;/header&gt;
-					&lt;p&gt;See the open source GNC code based in Matlab/Simulink.&lt;/p&gt;
-					&lt;footer&gt;
-						&lt;ul class=&quot;buttons&quot;&gt;
-						&lt;li&gt;&lt;a href=&quot;https://github.com/tpreynolds/uw_cubesat_adcs&quot; class=&quot;button small special&quot;&gt;Visit GitHub&lt;/a&gt;&lt;/li&gt;
-						&lt;/ul&gt;
-					&lt;/footer&gt;
-				&lt;/center&gt;	
-			&lt;/section&gt;					
-		&lt;/div&gt;
-		&lt;div class=&quot;4u&quot;&gt;						
-			&lt;section&gt;
-				&lt;center&gt;
-					&lt;header&gt;
-						&lt;h3&gt;System Validation&lt;/h3&gt;
-					&lt;/header&gt;
-					&lt;p&gt;Read about our experimental GNC system validation&lt;/p&gt;
-					&lt;footer&gt;
-						&lt;ul class=&quot;buttons&quot;&gt;
-							&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small special&quot;&gt;See the Process&lt;/a&gt;&lt;/li&gt;
-						&lt;/ul&gt;
-					&lt;/footer&gt;
-				&lt;/center&gt;
-			&lt;/section&gt;				
-		&lt;/div&gt;
-		&lt;div class=&quot;4u&quot;&gt;						
-			&lt;section&gt;
-				&lt;center&gt;
-					&lt;header&gt;
-						&lt;h3&gt;Publications&lt;/h3&gt;
-					&lt;/header&gt;
-						&lt;p&gt;See our publications to read more on this topic.&lt;/p&gt;
-					&lt;footer&gt;
-						&lt;ul class=&quot;buttons&quot;&gt;
-							&lt;li&gt;&lt;a href=&quot;/publications.html&quot; class=&quot;button small special&quot;&gt;Read More&lt;/a&gt;&lt;/li&gt;
-						&lt;/ul&gt;
-					&lt;/footer&gt;
-				&lt;/center&gt;
-			&lt;/section&gt;						
-		&lt;/div&gt;
-	&lt;/div&gt;		
+	&lt;/div&gt;					
 &lt;/section&gt;
-&lt;!-- Other Subsystems --&gt;
+
 &lt;section class=&quot;wrapper style4 container&quot;&gt;
 	&lt;header&gt; &lt;h2&gt; Power System &lt;/h2&gt; &lt;/header&gt;
 	&lt;p&gt; Placeholder for description of power system &lt;/p&gt;
@@ -692,6 +648,11 @@
 &lt;section class=&quot;wrapper style4 container&quot;&gt;
 	&lt;header&gt; &lt;h2&gt; Communication System &lt;/h2&gt; &lt;/header&gt;
 	&lt;p&gt; Placeholder for description of communication system &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;wrapper style4 container&quot;&gt;
+	&lt;header&gt; &lt;h2&gt; Guidance Navigation and Control System &lt;/h2&gt; &lt;/header&gt;
+	&lt;p&gt; Placeholder for description of GNC system &lt;/p&gt;
 &lt;/section&gt;
 
 &lt;section class=&quot;wrapper style4 container&quot;&gt;
@@ -708,11 +669,11 @@
 
 </description>
         <pubDate>Thu, 13 Sep 2018 17:00:00 -0700</pubDate>
-        <link>http://localhost:4000/missions/adamssat.html</link>
-        <guid isPermaLink="true">http://localhost:4000/missions/adamssat.html</guid>
+        <link>http://localhost:4000/missions/rainiersat.html</link>
+        <guid isPermaLink="true">http://localhost:4000/missions/rainiersat.html</guid>
         
         
-        <category>missions adams attitude-control optimal-control convex-optimization optimal-spacecraft-attitude-motion</category>
+        <category>missions rainier electric-propulsion propulsion</category>
         
       </item>
     

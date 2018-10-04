@@ -15,7 +15,7 @@ icon: fa-user-graduate
 		</p>
 		Here are the best ways to get in touch with us:
 			<ul style="list-style-type: disc">
-				<li> Email us at <a href="#"> uwss@uw.edu.</a> Be sure to include: </li> 
+				<li> Email us at <a href="#"> aact@uw.edu.</a> Be sure to include: </li> 
 					<ul style="margin-left: 1em; list-style-type: circle">
 						<li> Academic status (undergrad, Master's or Ph.D.) and home department,</li>
 						<li> A copy of your resume, </li>
