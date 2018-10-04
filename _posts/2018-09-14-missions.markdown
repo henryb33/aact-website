@@ -5,8 +5,23 @@ date:   2018-09-14 14:36:23
 permalink: /missions.html
 ---
 <!-- <span class="image featured"><img src="/images/pic02.jpg" alt=""></span> -->
-
 <div>
+	<header class="special container small"> 
+		<span class="icon"> <strong> Mission I </strong> </span>
+			<h2><strong> SOC-i </strong></h2>
+			<h3> A demonstration of constrained attitude control </h3>
+			<br />
+			<p> Our first mission will develop an advanced guidance, navigation and control (GNC) subsystem capable of reorienting the spacecraft while satisfying multiple pointing constraints. The mission will also provide low-resolution earth-imaging capability. </p>
+		<center>
+			<section class="major">
+				<ul class="buttons">
+					<li><a href="/missions/missionI.html" class="button special">SOC-i Mission</a></li>
+				</ul>
+			</section>
+		</center>
+	</header>
+</div>
+<!-- <div>
 	<header class="special container small">
 		<span class="icon"> <strong> Mission I </strong> </span>
 			<h2> <strong>RainierSat</strong> </h2> 
@@ -22,22 +37,5 @@ permalink: /missions.html
 			</section>
 		</center>
 	</header>
-</div>
-<div>
-	<header class="special container small"> 
-		<span class="icon"> <strong> Mission II </strong> </span>
-			<h2><strong> AdamsSat </strong></h2>
-			<h3> A demonstration of constrained attitude control </h3>
-			<br />
-			<p> Named after the second tallest mountain in our state, our second mission will develop an advanced guidance, navigation and control (GNC) subsystem capable of reorienting the spacecraft while satisfying key constraints. This represents another strenght of UWs Aeronautics and Astronautics department, and can provide earth-imaging capability. </p>
-		<center>
-			<section class="major">
-				<ul class="buttons">
-					<li><a href="/missions/adamssat.html" class="button special">AdamsSat Mission</a></li>
-				</ul>
-			</section>
-		</center>
-	</header>
-</div>
-
+</div> -->
 
