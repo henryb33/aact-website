@@ -16,8 +16,8 @@ icon: fa-handshake
 		<p>
 			If you are interested in hearing more about our work and/or getting involved, please contact either:
 			<ul style="list-style-type: disc">
-				<li> <a href="#"> Mehran Mesbahi </a> at mesbahi@uw.edu </li>
-				<li> <a href="#"> Behcet Acikmese </a> at behcet@uw.edu </li>
+				<li> <a href="mailto:mesbahi@uw.edu"> Mehran Mesbahi </a> at mesbahi@uw.edu </li>
+				<li> <a href="mailto:behcet@uw.edu"> Behcet Acikmese </a> at behcet@uw.edu </li>
 			</ul>
 		</p>
 

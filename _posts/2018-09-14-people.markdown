@@ -17,11 +17,11 @@ icon: featured fa-user-astronaut
 			<div class="row">
 				<div class="4u">
 					<section>
-						<a href="http://faculty.washington.edu/mesbahi/" class="image featured">
+						<a href="https://faculty.washington.edu/mesbahi/" class="image featured">
 							<img src="images/mehran.jpg">
 						</a>
 						<center>
-							<header><h5><a href="http://faculty.washington.edu/mesbahi/"> Mehran Mesbahi </a></h5></header>
+							<header><h5><a href="https://faculty.washington.edu/mesbahi/"> Mehran Mesbahi </a></h5></header>
 						<p> Faculty champion </p>
 						</center>
 					</section>
@@ -85,11 +85,11 @@ icon: featured fa-user-astronaut
 				</div>
 				<div class="4u">
 					<section>
-						<a href="http://depts.washington.edu/uwrainlab/taylor/" class="image featured">
+						<a href="https://depts.washington.edu/uwrainlab/taylor/" class="image featured">
 							<img src="images/taylor.jpg">
 						</a>
 						<center>
-							<header><h5><a href="http://depts.washington.edu/uwrainlab/taylor/"> Taylor Reynolds </a></h5></header>
+							<header><h5><a href="https://depts.washington.edu/uwrainlab/taylor/"> Taylor Reynolds </a></h5></header>
 							<p> Role #2 </p>
 						</center>
 					</section>

@@ -15,14 +15,13 @@ icon: fa-user-graduate
 		</p>
 		Here are the best ways to get in touch with us:
 			<ul style="list-style-type: disc">
-				<li> Email us at <a href="#"> aact@uw.edu.</a> Be sure to include: </li> 
+				<li> Email us at <a href="mailto:aact@uw.edu"> aact@uw.edu.</a> Be sure to include: </li> 
 					<ul style="margin-left: 1em; list-style-type: circle">
 						<li> Academic status (undergrad, Master's or Ph.D.) and home department,</li>
 						<li> A copy of your resume, </li>
 						<li> A quick description of why you're interested in joining our team,</li>
 						<li> If possible, highlight relevant experience. This is not a requirement but it helps us get a sense of how you'd fit into our project!</li>
 					</ul>
-				<li> Find <a href="/people.html">Taylor</a> in Guggenheim 315 or <a href="/people.html"> Charlie </a> in AERB 118.</li>
 				<li> Drop by the Engineering Design Lab in AERB 023.</li>
 			</ul> 
 	</header>
