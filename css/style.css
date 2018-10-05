@@ -262,7 +262,7 @@
 	}
 
 		.image:before {
-			background: url("images/overlay.png");
+			background: url("");
 			content: '';
 			height: 100%;
 			left: 0;
