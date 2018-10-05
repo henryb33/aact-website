@@ -3,13 +3,13 @@ layout: post
 title: "Current and Previous Missions"
 date:   2018-09-14 14:36:23
 permalink: /missions.html
+icon: fa-microscope
 ---
 <!-- <span class="image featured"><img src="/images/pic02.jpg" alt=""></span> -->
 <div>
 	<header class="special container small"> 
 		<span class="icon"> <strong> Mission I </strong> </span>
-			<h2><strong> SOC-i </strong></h2>
-			<h3> A demonstration of constrained attitude control </h3>
+			<h2> <strong>S</strong>atellite for <strong>O</strong>ptimal <strong>C</strong>ontrol and <strong>I</strong>maging </h2>
 			<br />
 			<p> Our first mission will develop an advanced guidance, navigation and control (GNC) subsystem capable of reorienting the spacecraft while satisfying multiple pointing constraints. The mission will also provide low-resolution earth-imaging capability. </p>
 		<center>

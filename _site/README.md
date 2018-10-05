@@ -1,10 +1,12 @@
-# uwss-website
+# aact-website
+
+The website is hosted at `aact.space`
 
 ## To get up and running:
 1. Install a ruby development environment. See https://jekyllrb.com/docs/installation/.
 2. Install Jekyll using: `gem install jekyll bundler` at the command line.
-3. Clone the git repo to your computer: `git clone https:git@github.com/tpreynolds/uwss-website uwss-website`. I'd suggest putting this in your home directory.
-4. cd into the directory `uwss-website` that you just created.
+3. Clone the git repo to your computer: `git clone https:git@github.com/tpreynolds/aact-website aact-website`. I'd suggest putting this in your home directory.
+4. cd into the directory `aact-website` that you just created.
 5. Run the command `bundle exec jekyll serve` at the command line.
 6. In a web browser, go to `http://localhost:4000` to see the website.
 

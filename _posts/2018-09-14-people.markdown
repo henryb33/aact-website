@@ -5,8 +5,8 @@ date:   2018-09-14 00:00:00
 author: UW Space Systems
 permalink: /people.html
 categories: people students faculty
+icon: featured fa-user-astronaut
 ---
-<!-- <span class="image featured"><img src="/images/pic01.jpg" alt=""></span> -->
 
 <section class="wrapper style2">
 	<div class="row half">

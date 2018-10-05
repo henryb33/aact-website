@@ -5,6 +5,7 @@ date:   2018-09-15 00:00:00
 author: UW Space Systems
 permalink: /publications.html
 categories: publications papers research space-systems
+icon: fa-book-open
 ---
 
 <section class="wrapper style4">

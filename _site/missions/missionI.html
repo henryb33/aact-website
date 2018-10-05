@@ -61,22 +61,24 @@
   <section class="style1 wrapper container">
     <section class="wrapper style2 container">
 	<header> <h2> Mission Objectives </h2> </header>
-	<p> Our first mission will develop an advanced guidance, navigation and control (GNC) subsystem capable of reorienting the spacecraft while satisfying multiple pointing constraints. The mission will also provide low-resolution earth-imaging capability, with stringent pointing requirements allowing us to image specified regions of the earth. <br /><br />
-	Using convex optimization, time-optimal control torques are computed that guarantee the sun does not leave the field of view of on-board sun sensors, while ensuring on-board cameras are not subject to direct sunlight. </p>
+	<p> The SOC-I mission will develop an advanced guidance, navigation and control (GNC) subsystem capable of reorienting the spacecraft while satisfying multiple pointing constraints. The mission will also provide low-resolution earth-imaging capability, with stringent pointing requirements allowing us to image specified regions of the earth. <br /><br />
+	Using convex optimization, time-optimal control torques are computed that guarantee the sun does not leave the field of view of on-board sun sensors, while ensuring on-board cameras are not subject to direct sunlight. <br /><br />
+	The remaining subsystems are being developed to support the primary science objective, while also serving to define and develop a standard 3U bus to be leveraged for future missions.
+	 </p>
 </section>
 <!-- One -->
 <section class="wrapper style4">		
-	<header><h2> Guidance Navigation and Control </h2></header>
-			<p> The primary payload of AdamsSat is an experimental GNC system capable of reorienting the spacecraft while guaranteeing hard pointing constraints and in a time-optimal fashion.</p>			
+	<header><h2> <strong> Guidance Navigation and Control </strong> </h2></header>
+			<p> The primary payload of SOC-I is an experimental GNC system capable of reorienting the spacecraft while guaranteeing hard pointing constraints and in a time-optimal fashion. The satellite will also carry a suite of more traditional GNC software capable of performing all mission objectives. </p>			
 	<div class="row">
 		<div class="4u">
 		<!-- Sidebar -->
 			<div class="sidebar">
 				<section>
 					<header>
-					<h3>Attitude Constraints</h3>
+					<h3>Primary GNC System</h3>
 					</header>
-					<p>The GNC system guarantees that attitude maneuvers can be accomplished with the sun in the field of view of a sun-sensor, while not in the field of view of our on-board camera. </p>
+					<p> Our primary GNC software system does not use any advanced control techniques. Rather, it uses elements from our work presented at <a href="#"> AIAA Space 2018 </a>. The generic version of this code base is open-source and <a href="https://github.com/tpreynolds/uw_cubesat_adcs"> available on our GitHub!</a> </p>
 <!-- 					<footer>
 					<ul class="buttons">
 						<li><a href="#" class="button small">Learn More</a></li>
@@ -84,7 +86,7 @@
 					</footer> -->
 				</section>
 				<section>
-				<a href="#" class="image featured"><img src="/images/pic01.jpg" alt="" /></a>
+				<!-- <a href="#" class="image featured"><img src="/images/pic01.jpg" alt="" /></a> -->
 					<header>
 					<h3>Optimal Control and Convex Optimization</h3>
 					</header>
@@ -100,8 +102,8 @@
 						<header>
 						<h3>Constrained Attitude Control</h3>
 						</header>
-						<p>Use this section to give some details on our implementation, problem statements, etc. Figure out how to put latex equations in here.</p>
-						<p>Make sure to provide references and links to the works. </p>
+						<p>The GNC system is able to guarantee that attitude maneuvers are accomplished with the sun remaining inside the field of view of a single sun-sensor, while simultaneously avoiding the field of view of our on-board camera.</p>
+						<p> This payload leverages previous work done at the UW in this area. In particular, we adapt methods from  <a href="https://ieeexplore.ieee.org/abstract/document/5545176?reload=true">(Kim et al, 2010)</a> and <a href="https://pdfs.semanticscholar.org/0389/248a953b679e747ffe4d14dd613d273142cb.pdf">(Lee and Mesbahi, 2013)</a> to formulate the problem. </p>
 				</section>
 			</div>
 		</div>

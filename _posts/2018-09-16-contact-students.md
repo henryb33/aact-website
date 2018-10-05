@@ -22,7 +22,7 @@ icon: fa-user-graduate
 						<li> A quick description of why you're interested in joining our team,</li>
 						<li> If possible, highlight relevant experience. This is not a requirement but it helps us get a sense of how you'd fit into our project!</li>
 					</ul>
-				<li> Find <a href="http://depts.washington.edu/uwrainlab/taylor/">Taylor</a> in Guggenheim 315 or <a href="#"> Charlie </a> in AERB 118.</li>
+				<li> Find <a href="/people.html">Taylor</a> in Guggenheim 315 or <a href="/people.html"> Charlie </a> in AERB 118.</li>
 				<li> Drop by the Engineering Design Lab in AERB 023.</li>
 			</ul> 
 	</header>

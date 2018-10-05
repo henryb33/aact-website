@@ -6,9 +6,9 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 04 Oct 2018 21:11:52 -0700</pubDate>
-    <lastBuildDate>Thu, 04 Oct 2018 21:11:52 -0700</lastBuildDate>
-    <generator>Jekyll v3.8.3</generator>
+    <pubDate>Thu, 04 Oct 2018 22:16:12 -0700</pubDate>
+    <lastBuildDate>Thu, 04 Oct 2018 22:16:12 -0700</lastBuildDate>
+    <generator>Jekyll v3.7.4</generator>
     
       <item>
         <title>Contact Us</title>
@@ -27,7 +27,7 @@
 						&lt;li&gt; A quick description of why you're interested in joining our team,&lt;/li&gt;
 						&lt;li&gt; If possible, highlight relevant experience. This is not a requirement but it helps us get a sense of how you'd fit into our project!&lt;/li&gt;
 					&lt;/ul&gt;
-				&lt;li&gt; Find &lt;a href=&quot;http://depts.washington.edu/uwrainlab/taylor/&quot;&gt;Taylor&lt;/a&gt; in Guggenheim 315 or &lt;a href=&quot;#&quot;&gt; Charlie &lt;/a&gt; in AERB 118.&lt;/li&gt;
+				&lt;li&gt; Find &lt;a href=&quot;/people.html&quot;&gt;Taylor&lt;/a&gt; in Guggenheim 315 or &lt;a href=&quot;/people.html&quot;&gt; Charlie &lt;/a&gt; in AERB 118.&lt;/li&gt;
 				&lt;li&gt; Drop by the Engineering Design Lab in AERB 023.&lt;/li&gt;
 			&lt;/ul&gt; 
 	&lt;/header&gt;
@@ -201,8 +201,7 @@
 &lt;div&gt;
 	&lt;header class=&quot;special container small&quot;&gt; 
 		&lt;span class=&quot;icon&quot;&gt; &lt;strong&gt; Mission I &lt;/strong&gt; &lt;/span&gt;
-			&lt;h2&gt;&lt;strong&gt; SOC-i &lt;/strong&gt;&lt;/h2&gt;
-			&lt;h3&gt; A demonstration of constrained attitude control &lt;/h3&gt;
+			&lt;h2&gt; &lt;strong&gt;S&lt;/strong&gt;atellite for &lt;strong&gt;O&lt;/strong&gt;ptimal &lt;strong&gt;C&lt;/strong&gt;ontrol and &lt;strong&gt;I&lt;/strong&gt;maging &lt;/h2&gt;
 			&lt;br /&gt;
 			&lt;p&gt; Our first mission will develop an advanced guidance, navigation and control (GNC) subsystem capable of reorienting the spacecraft while satisfying multiple pointing constraints. The mission will also provide low-resolution earth-imaging capability. &lt;/p&gt;
 		&lt;center&gt;
@@ -587,9 +586,7 @@
     
       <item>
         <title>Meet our Team</title>
-        <description>&lt;!-- &lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic01.jpg&quot; alt=&quot;&quot;&gt;&lt;/span&gt; --&gt;
-
-&lt;section class=&quot;wrapper style2&quot;&gt;
+        <description>&lt;section class=&quot;wrapper style2&quot;&gt;
 	&lt;div class=&quot;row half&quot;&gt;
 		&lt;div class=&quot;31-2u&quot;&gt;
 			&lt;header&gt;
