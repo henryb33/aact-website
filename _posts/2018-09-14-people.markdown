@@ -40,7 +40,7 @@ icon: featured fa-user-astronaut
 				<div class="4u">
 					<section>
 						<a href="https://www.aa.washington.edu/people/faculty/morgansen/" class="image featured">
-							<img src="images/taylor.jpg">
+							<img src="images/kristi.jpg">
 						</a>
 						<center>
 							<header><h5><a href="https://www.aa.washington.edu/people/faculty/morgansen/"> Kristi Morgansen </a></h5></header>
@@ -51,7 +51,7 @@ icon: featured fa-user-astronaut
 				<div class="4u">
 					<section>
 						<a href="#" class="image featured">
-							<img src="images/taylor.jpg">
+							<img src="images/Justin.png">
 						</a>
 						<center>
 							<header><h5><a href="#"> Justin Little </a></h5></header>
