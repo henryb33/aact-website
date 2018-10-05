@@ -15,7 +15,7 @@ icon: featured fa-user-astronaut
 				<h2> <strong>Faculty</strong> </h2>
 			</header>
 			<div class="row">
-				<div class="2u">
+				<div class="4u">
 					<section>
 						<a href="https://faculty.washington.edu/mesbahi/" class="image featured">
 							<img src="images/mehran.jpg">
@@ -26,7 +26,7 @@ icon: featured fa-user-astronaut
 						</center>
 					</section>
 				</div>
-				<div class="2u">
+				<div class="4u">
 					<section>
 						<a href="https://sites.google.com/a/uw.edu/uw_acl/home" class="image featured">
 							<img src="images/behcet.jpg">
@@ -39,7 +39,7 @@ icon: featured fa-user-astronaut
 				</div>
             </div>
             <div class="row">
-				<div class="2u">
+				<div class="4u">
 					<section>
 						<a href="https://www.aa.washington.edu/people/faculty/morgansen/" class="image featured">
 							<img src="images/kristi.jpg">
@@ -50,7 +50,7 @@ icon: featured fa-user-astronaut
 						</center>
 					</section>
 				</div>
-				<div class="2u">
+				<div class="4u">
 					<section>
 						<a href="#" class="image featured">
 							<img src="images/Justin.png">
