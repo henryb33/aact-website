@@ -74,7 +74,7 @@ icon: featured fa-user-astronaut
 				</h2> 
 			</header>
 			<div class="row">
-				<div class="4u">
+				<div class="6u">
 					<section>
 						<a href="#" class="image featured">
 							<img src="images/Charlie.png">
@@ -85,7 +85,7 @@ icon: featured fa-user-astronaut
 						</center>
 					</section>
 				</div>
-				<div class="4u">
+				<div class="6u">
 					<section>
 						<a href="https://depts.washington.edu/uwrainlab/taylor/" class="image featured">
 							<img src="images/taylor.jpg">
@@ -96,7 +96,9 @@ icon: featured fa-user-astronaut
 						</center>
 					</section>
 				</div>
-				<div class="4u">
+            </div>
+            <div class="row">
+				<div class="6u">
 					<section>
 						<a href="#" class="image featured">
 							<img src="">
@@ -107,7 +109,7 @@ icon: featured fa-user-astronaut
 						</center>
 					</section>
 				</div>
-				<div class="4u">
+				<div class="6u">
 					<section>
 						<a href="#" class="image featured">
 							<img src="">
