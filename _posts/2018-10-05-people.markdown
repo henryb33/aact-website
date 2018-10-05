@@ -37,6 +37,8 @@ icon: featured fa-user-astronaut
 						</center>
 					</section>
 				</div>
+            </div>
+            <div class="row">
 				<div class="4u">
 					<section>
 						<a href="https://www.aa.washington.edu/people/faculty/morgansen/" class="image featured">
