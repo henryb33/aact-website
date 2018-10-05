@@ -2,6 +2,7 @@
 layout: post
 title: "Current and Previous Missions"
 date:   2018-09-14 14:36:23
+author: A&ampA CubeSat Team
 permalink: /missions.html
 icon: fa-microscope
 ---

@@ -2,7 +2,7 @@
 layout: post-left
 title:  "Constrained Attitude Control"
 date:   2018-09-14 00:00:00
-author: UW Space Systems
+author: A&ampA CubeSat Team
 permalink: /attitude-control.html
 categories: research attitude-control optimal-control convex-optimization
 ---				

@@ -2,6 +2,7 @@
 layout: post-right
 title: "RainierSat"
 date:   2018-09-14 00:00:00
+author: A&ampA CubeSat Team
 permalink: /missions/rainiersat.html
 category: missions rainier electric-propulsion propulsion
 ---

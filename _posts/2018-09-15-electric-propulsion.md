@@ -2,7 +2,7 @@
 layout: post-right
 title:  "Electric Propulsion"
 date:   2018-09-14 00:00:00
-author: UW Space Systems
+author: A&andA CubeSat Team
 permalink: /electric-propulsion.html
 categories: research electric-propulsion propulsion
 ---				

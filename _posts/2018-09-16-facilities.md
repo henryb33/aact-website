@@ -2,6 +2,7 @@
 layout: post-left
 title:  "Our Design Facilities"
 date:   2018-09-16 00:00:00
+author: A&ampA CubeSat Team
 permalink: /facilities.html
 category: space-systems-lab space-design-facilities space-engineering-lab
 icon: fa-drafting-compass

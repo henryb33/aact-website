@@ -2,6 +2,7 @@
 layout: post-left
 title:  "Contact Us"
 date:   2018-09-19 00:00:00
+author: A&ampA CubeSat Team
 permalink: /contact-sponsor.html
 category: space-systems-lab uw-space-engineering-lab university-of-washington-space uw-space sponsor-uw
 icon: fa-handshake
