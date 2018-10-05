@@ -75,11 +75,11 @@ icon: featured fa-user-astronaut
 				<div class="4u">
 					<section>
 						<a href="#" class="image featured">
-							<img src="images/taylor.jpg">
+							<img src="images/Charlie.png">
 						</a>
 						<center>
 							<header><h5><a href="#"> Charlie Kelly </a></h5></header>
-						<p> Role #1 </p>
+						<p> Project Manager </p>
 						</center>
 					</section>
 				</div>
@@ -90,35 +90,36 @@ icon: featured fa-user-astronaut
 						</a>
 						<center>
 							<header><h5><a href="https://depts.washington.edu/uwrainlab/taylor/"> Taylor Reynolds </a></h5></header>
-							<p> Role #2 </p>
+							<p> Project Scientist </p>
 						</center>
 					</section>
 				</div>
 				<div class="4u">
 					<section>
 						<a href="#" class="image featured">
-							<img src="images/taylor.jpg">
+							<img src="">
 						</a>
 						<center>
 							<header><h5><a href="#"> Devan Tormey </a></h5></header>
-							<p> Role #3 </p>
+							<p> GNC Lead </p>
 						</center>
 					</section>
 				</div>
 				<div class="4u">
 					<section>
 						<a href="#" class="image featured">
-							<img src="images/taylor.jpg">
+							<img src="">
 						</a>
 						<center>
 							<header><h5><a href="#"> Nadiah Jenkins </a></h5></header>
-							<p> Role #4 </p>
+							<p> Systems Engineer </p>
 						</center>
 					</section>
 				</div>
 			</div>
 		</div>
 	<!-- </div> -->
+<!--
 </section>
 <section class="wrapper style2">
 	<div class="31-2u">
@@ -126,3 +127,4 @@ icon: featured fa-user-astronaut
 			<p> List the undergraduate students, possibly with grouping into capstone project groups.</p>
 	</div>
 </section>
+ -->
