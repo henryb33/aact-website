@@ -6,42 +6,9 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 04 Oct 2018 22:16:12 -0700</pubDate>
-    <lastBuildDate>Thu, 04 Oct 2018 22:16:12 -0700</lastBuildDate>
+    <pubDate>Sat, 06 Oct 2018 11:46:01 -0700</pubDate>
+    <lastBuildDate>Sat, 06 Oct 2018 11:46:01 -0700</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
-    
-      <item>
-        <title>Contact Us</title>
-        <description>&lt;div&gt;
-	&lt;header class=&quot;wrapper style2&quot;&gt;
-		&lt;h2&gt; For Students: &lt;/h2&gt;
-		&lt;p&gt;
-			If you're an undergraduate or graduate student at the University of Washington interested in joining our team, this is the place to start! We are always looking for motivated students at all levels.
-		&lt;/p&gt;
-		Here are the best ways to get in touch with us:
-			&lt;ul style=&quot;list-style-type: disc&quot;&gt;
-				&lt;li&gt; Email us at &lt;a href=&quot;#&quot;&gt; aact@uw.edu.&lt;/a&gt; Be sure to include: &lt;/li&gt; 
-					&lt;ul style=&quot;margin-left: 1em; list-style-type: circle&quot;&gt;
-						&lt;li&gt; Academic status (undergrad, Master's or Ph.D.) and home department,&lt;/li&gt;
-						&lt;li&gt; A copy of your resume, &lt;/li&gt;
-						&lt;li&gt; A quick description of why you're interested in joining our team,&lt;/li&gt;
-						&lt;li&gt; If possible, highlight relevant experience. This is not a requirement but it helps us get a sense of how you'd fit into our project!&lt;/li&gt;
-					&lt;/ul&gt;
-				&lt;li&gt; Find &lt;a href=&quot;/people.html&quot;&gt;Taylor&lt;/a&gt; in Guggenheim 315 or &lt;a href=&quot;/people.html&quot;&gt; Charlie &lt;/a&gt; in AERB 118.&lt;/li&gt;
-				&lt;li&gt; Drop by the Engineering Design Lab in AERB 023.&lt;/li&gt;
-			&lt;/ul&gt; 
-	&lt;/header&gt;
-&lt;/div&gt;
-
-</description>
-        <pubDate>Tue, 18 Sep 2018 17:00:00 -0700</pubDate>
-        <link>http://localhost:4000/contact-students.html</link>
-        <guid isPermaLink="true">http://localhost:4000/contact-students.html</guid>
-        
-        
-        <category>space-systems-lab uw-space-engineering-lab university-of-washington-space uw-space students</category>
-        
-      </item>
     
       <item>
         <title>Contact Us</title>
@@ -49,13 +16,10 @@
 	&lt;header class=&quot;wrapper style2&quot;&gt;
 		&lt;h2&gt; For Sponsors: &lt;/h2&gt;
 		&lt;p&gt;
-			We are always greatful to work with industry and government mentors, as well as other academic groups. Our success often depends on support from these groups! 
-		&lt;/p&gt;
-		&lt;p&gt;
-			If you are interested in hearing more about our work and/or getting involved, please contact either:
+			We are always grateful to work with industry and government mentors, as well as other academic groups. Our success depends on support from these groups! If you are interested in hearing more about our work, getting involved, or supporting the team, please contact either:
 			&lt;ul style=&quot;list-style-type: disc&quot;&gt;
-				&lt;li&gt; &lt;a href=&quot;#&quot;&gt; Mehran Mesbahi &lt;/a&gt; at mesbahi@uw.edu &lt;/li&gt;
-				&lt;li&gt; &lt;a href=&quot;#&quot;&gt; Behcet Acikmese &lt;/a&gt; at behcet@uw.edu &lt;/li&gt;
+				&lt;li&gt; &lt;a href=&quot;mailto:mesbahi@uw.edu&quot;&gt; Mehran Mesbahi &lt;/a&gt; at mesbahi@uw.edu &lt;/li&gt;
+				&lt;li&gt; &lt;a href=&quot;mailto:behcet@uw.edu&quot;&gt; Behcet Acikmese &lt;/a&gt; at behcet@uw.edu &lt;/li&gt;
 			&lt;/ul&gt;
 		&lt;/p&gt;
 
@@ -80,10 +44,10 @@
 		&lt;div class=&quot;6u&quot;&gt;
 			&lt;center&gt;
 				&lt;header&gt; &lt;h3&gt; For Students &lt;/h3&gt;&lt;/header&gt;
-				Get in touch to learn how to join our team and start working on a project!
+				Join our team and start working on a project!
 				&lt;footer&gt;
 					&lt;ul class=&quot;buttons&quot;&gt;
-						&lt;li&gt;&lt;a href=&quot;/contact-students.html&quot; class=&quot;button special&quot;&gt;Get in Touch&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href=&quot;/contact-students.html&quot; class=&quot;button special&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
 					&lt;/ul&gt;
 				&lt;/footer&gt;
 			&lt;/center&gt;
@@ -91,10 +55,10 @@
 		&lt;div class=&quot;6u&quot;&gt;
 			&lt;center&gt;
 				&lt;header&gt; &lt;h3&gt; For Sponsors &lt;/h3&gt;&lt;/header&gt;
-				Get in touch with us about sponsoring and mentoring our work!
+				Sponsor a project or mentor students!
 				&lt;footer&gt;
 					&lt;ul class=&quot;buttons&quot;&gt;
-						&lt;li&gt;&lt;a href=&quot;/contact-sponsor.html&quot; class=&quot;button special&quot;&gt;Get in Touch&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href=&quot;/contact-sponsor.html&quot; class=&quot;button special&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
 					&lt;/ul&gt;
 				&lt;/footer&gt;
 			&lt;/center&gt;
@@ -109,6 +73,38 @@
         
         
         <category>space-systems-lab uw-space-engineering-lab university-of-washington-space uw-space sponsor-uw students contact</category>
+        
+      </item>
+    
+      <item>
+        <title>Contact Us</title>
+        <description>&lt;div&gt;
+	&lt;header class=&quot;wrapper style2&quot;&gt;
+		&lt;h2&gt; For Students: &lt;/h2&gt;
+		&lt;p&gt;
+			If you're an undergraduate or graduate student at the University of Washington interested in joining our team, this is the place to start! We are always looking for motivated students at all levels.
+		&lt;/p&gt;
+		Here are the best ways to get in touch with us:
+			&lt;ul style=&quot;list-style-type: disc&quot;&gt;
+				&lt;li&gt; Email us at &lt;a href=&quot;mailto:aact@uw.edu&quot;&gt; aact@uw.edu.&lt;/a&gt; Be sure to include: &lt;/li&gt; 
+					&lt;ul style=&quot;margin-left: 1em; list-style-type: circle&quot;&gt;
+						&lt;li&gt; Academic status (undergrad, Master's or Ph.D.) and home department,&lt;/li&gt;
+						&lt;li&gt; A copy of your resume, &lt;/li&gt;
+						&lt;li&gt; A quick description of why you're interested in joining our team,&lt;/li&gt;
+						&lt;li&gt; If possible, highlight relevant experience. This is not a requirement but it helps us get a sense of how you'd fit into our project!&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;li&gt; Drop by the Engineering Design Lab in AERB 023.&lt;/li&gt;
+			&lt;/ul&gt; 
+	&lt;/header&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Tue, 18 Sep 2018 17:00:00 -0700</pubDate>
+        <link>http://localhost:4000/contact-students.html</link>
+        <guid isPermaLink="true">http://localhost:4000/contact-students.html</guid>
+        
+        
+        <category>space-systems-lab uw-space-engineering-lab university-of-washington-space uw-space students</category>
         
       </item>
     
@@ -172,10 +168,12 @@
   			&lt;ul style=&quot;list-style-type: circle&quot;&gt;
   				 &lt;li&gt; T. P. Reynolds, K. Kaycee, B. Barzgaran, M. Hudoba de Badyn, S. Rice, E. Hansen, A. Adler, B. Acikmese and M. Mesbahi, “&lt;a href=&quot;https://arc.aiaa.org/doi/abs/10.2514/6.2018-5403&quot;&gt; Development of a Generic Guidance Navigation &amp;amp; Control System for Small Satellites: Application to HuskySat-1, &lt;/a&gt;” AIAA Space Forum, Orlando, FL, 2018.&lt;/li&gt;
   			&lt;/ul&gt;
+&lt;!--
   		&lt;li&gt;&lt;h2&gt; Journals &lt;/h2&gt;&lt;/li&gt;
   			&lt;ul style=&quot;list-style-type: circle&quot;&gt;
   				  &lt;li&gt; Journal paper 1 &lt;/li&gt;
   			&lt;/ul&gt;
+ --&gt;
 	&lt;/ul&gt;
 &lt;/section&gt;
 
@@ -203,7 +201,7 @@
 		&lt;span class=&quot;icon&quot;&gt; &lt;strong&gt; Mission I &lt;/strong&gt; &lt;/span&gt;
 			&lt;h2&gt; &lt;strong&gt;S&lt;/strong&gt;atellite for &lt;strong&gt;O&lt;/strong&gt;ptimal &lt;strong&gt;C&lt;/strong&gt;ontrol and &lt;strong&gt;I&lt;/strong&gt;maging &lt;/h2&gt;
 			&lt;br /&gt;
-			&lt;p&gt; Our first mission will develop an advanced guidance, navigation and control (GNC) subsystem capable of reorienting the spacecraft while satisfying multiple pointing constraints. The mission will also provide low-resolution earth-imaging capability. &lt;/p&gt;
+			&lt;p&gt; SOC-i will carry an advanced guidance, navigation and control (GNC) subsystem capable of reorienting the spacecraft while satisfying multiple pointing constraints. This will provide accurate pointing for an onboard Earth imaging camera. &lt;/p&gt;
 		&lt;center&gt;
 			&lt;section class=&quot;major&quot;&gt;
 				&lt;ul class=&quot;buttons&quot;&gt;
@@ -236,6 +234,279 @@
         <link>http://localhost:4000/missions.html</link>
         <guid isPermaLink="true">http://localhost:4000/missions.html</guid>
         
+        
+      </item>
+    
+      <item>
+        <title>Satellite for Optimal Control and Imaging</title>
+        <description>&lt;section class=&quot;wrapper style2 container&quot;&gt;
+	&lt;header&gt; &lt;h2&gt; Mission Objectives &lt;/h2&gt; &lt;/header&gt;
+	&lt;p&gt; The SOC-i mission will carry an advanced guidance, navigation and control (GNC) payload capable of reorienting the spacecraft while satisfying multiple pointing constraints. SOC-i will also carry an Earth imaging camera, enabling it to take pictures of specified ground locations requiring stringent pointing.&lt;br /&gt;&lt;br /&gt;
+	Using convex optimization, time-optimal control torques are computed that guarantee the sun does not leave the field of view of on-board sun sensors, while ensuring the imaging camera is not subject to direct sunlight. &lt;br /&gt;&lt;br /&gt;
+	The remaining subsystems are being developed to support the primary science objective, while also serving to define an AACT standard 3U bus for future missions.
+	 &lt;/p&gt;
+&lt;/section&gt;
+&lt;!-- One --&gt;
+&lt;section class=&quot;wrapper style4&quot;&gt;		
+	&lt;header&gt;&lt;h2&gt; &lt;strong&gt; Guidance Navigation and Control &lt;/strong&gt; &lt;/h2&gt;&lt;/header&gt;
+			&lt;p&gt; The primary payload of SOC-I is an experimental GNC system capable of reorienting the spacecraft while guaranteeing hard pointing constraints and in a time-optimal fashion. The satellite will also carry a suite of more traditional GNC software capable of performing all mission objectives. &lt;/p&gt;			
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;4u&quot;&gt;
+		&lt;!-- Sidebar --&gt;
+			&lt;div class=&quot;sidebar&quot;&gt;
+				&lt;section&gt;
+					&lt;header&gt;
+					&lt;h3&gt;Primary GNC System&lt;/h3&gt;
+					&lt;/header&gt;
+					&lt;p&gt; Our primary GNC software system does not use any advanced control techniques. Rather, it uses elements from our work presented at &lt;a href=&quot;#&quot;&gt; AIAA Space 2018 &lt;/a&gt;. The generic version of this code base is open-source and &lt;a href=&quot;https://github.com/tpreynolds/uw_cubesat_adcs&quot;&gt; available on our GitHub!&lt;/a&gt; &lt;/p&gt;
+&lt;!-- 					&lt;footer&gt;
+					&lt;ul class=&quot;buttons&quot;&gt;
+						&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small&quot;&gt;Learn More&lt;/a&gt;&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;/footer&gt; --&gt;
+				&lt;/section&gt;
+				&lt;section&gt;
+				&lt;!-- &lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt; --&gt;
+					&lt;header&gt;
+					&lt;h3&gt;Optimal Control and Convex Optimization&lt;/h3&gt;
+					&lt;/header&gt;
+					&lt;p&gt;We combine elements of optimal control theory and convex optimization to compute actuator commands that will satisfy mission-level constraints. These are implemented in the on-board flight software.&lt;/p&gt;
+				&lt;/section&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;8u skel-cell-important&quot;&gt;								
+		&lt;!-- Content --&gt;
+			&lt;div class=&quot;content&quot;&gt;
+				&lt;section&gt;
+					&lt;a href=&quot;#&quot; class=&quot;imagenb featured&quot;&gt;&lt;img src=&quot;/images/tikz_cubesat_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+						&lt;header&gt;
+						&lt;h3&gt;Constrained Attitude Control&lt;/h3&gt;
+						&lt;/header&gt;
+						&lt;p&gt;The GNC system is able to guarantee that attitude maneuvers are accomplished with the sun remaining inside the field of view of a single sun-sensor, while simultaneously avoiding the field of view of our on-board camera.&lt;/p&gt;
+						&lt;p&gt; This payload leverages previous work done at the UW in this area. In particular, we adapt methods from  &lt;a href=&quot;https://ieeexplore.ieee.org/abstract/document/5545176?reload=true&quot;&gt;(Kim et al, 2010)&lt;/a&gt; and &lt;a href=&quot;https://pdfs.semanticscholar.org/0389/248a953b679e747ffe4d14dd613d273142cb.pdf&quot;&gt;(Lee and Mesbahi, 2013)&lt;/a&gt; to formulate the problem. &lt;/p&gt;
+				&lt;/section&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;			
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;4u&quot;&gt;						
+			&lt;section&gt;
+				&lt;center&gt;
+					&lt;header&gt;
+						&lt;h3&gt;Software&lt;/h3&gt;
+					&lt;/header&gt;
+					&lt;p&gt;See the open source GNC code based in Matlab/Simulink.&lt;/p&gt;
+					&lt;footer&gt;
+						&lt;ul class=&quot;buttons&quot;&gt;
+						&lt;li&gt;&lt;a href=&quot;https://github.com/tpreynolds/uw_cubesat_adcs&quot; class=&quot;button small special&quot;&gt;Visit GitHub&lt;/a&gt;&lt;/li&gt;
+						&lt;/ul&gt;
+					&lt;/footer&gt;
+				&lt;/center&gt;	
+			&lt;/section&gt;					
+		&lt;/div&gt;
+		&lt;div class=&quot;4u&quot;&gt;						
+			&lt;section&gt;
+				&lt;center&gt;
+					&lt;header&gt;
+						&lt;h3&gt;System Validation&lt;/h3&gt;
+					&lt;/header&gt;
+					&lt;p&gt;Read about our experimental GNC system validation&lt;/p&gt;
+					&lt;footer&gt;
+						&lt;ul class=&quot;buttons&quot;&gt;
+							&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small special&quot;&gt;See the Process&lt;/a&gt;&lt;/li&gt;
+						&lt;/ul&gt;
+					&lt;/footer&gt;
+				&lt;/center&gt;
+			&lt;/section&gt;				
+		&lt;/div&gt;
+		&lt;div class=&quot;4u&quot;&gt;						
+			&lt;section&gt;
+				&lt;center&gt;
+					&lt;header&gt;
+						&lt;h3&gt;Publications&lt;/h3&gt;
+					&lt;/header&gt;
+						&lt;p&gt;See our publications to read more on this topic.&lt;/p&gt;
+					&lt;footer&gt;
+						&lt;ul class=&quot;buttons&quot;&gt;
+							&lt;li&gt;&lt;a href=&quot;/publications.html&quot; class=&quot;button small special&quot;&gt;Read More&lt;/a&gt;&lt;/li&gt;
+						&lt;/ul&gt;
+					&lt;/footer&gt;
+				&lt;/center&gt;
+			&lt;/section&gt;						
+		&lt;/div&gt;
+	&lt;/div&gt;		
+&lt;/section&gt;
+&lt;!-- Other Subsystems --&gt;
+&lt;section class=&quot;wrapper style4 container&quot;&gt;
+	&lt;header&gt; &lt;h2&gt; Power System &lt;/h2&gt; &lt;/header&gt;
+	&lt;p&gt; Placeholder for description of power system &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;wrapper style4 container&quot;&gt;
+	&lt;header&gt; &lt;h2&gt; Communication System &lt;/h2&gt; &lt;/header&gt;
+	&lt;p&gt; Placeholder for description of communication system &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;wrapper style4 container&quot;&gt;
+	&lt;header&gt; &lt;h2&gt; Structural and Thermal System &lt;/h2&gt; &lt;/header&gt;
+	&lt;p&gt; Placeholder for description of structure/thermal system &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section id=&quot;cta&quot;&gt;			
+	&lt;header&gt;
+		&lt;h2&gt;&lt;strong&gt; Project Partners &lt;/strong&gt;&lt;/h2&gt;
+		&lt;p&gt;Put logos of folks that partnered with us on this specific project.&lt;/p&gt;
+	&lt;/header&gt;	
+&lt;/section&gt;
+
+</description>
+        <pubDate>Thu, 13 Sep 2018 17:00:00 -0700</pubDate>
+        <link>http://localhost:4000/missions/missionI.html</link>
+        <guid isPermaLink="true">http://localhost:4000/missions/missionI.html</guid>
+        
+        
+        <category>missions soc-i attitude-control optimal-control convex-optimization optimal-spacecraft-attitude-motion</category>
+        
+      </item>
+    
+      <item>
+        <title>Meet our Team</title>
+        <description>&lt;section class=&quot;wrapper style2&quot;&gt;
+	&lt;div class=&quot;row half&quot;&gt;
+		&lt;div class=&quot;31-2u&quot;&gt;
+			&lt;header&gt;
+				&lt;h2&gt; &lt;strong&gt;Faculty&lt;/strong&gt; &lt;/h2&gt;
+			&lt;/header&gt;
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;6u&quot;&gt;
+					&lt;section&gt;
+						&lt;a href=&quot;https://faculty.washington.edu/mesbahi/&quot; class=&quot;image featured&quot;&gt;
+							&lt;img src=&quot;images/mehran.jpg&quot; /&gt;
+						&lt;/a&gt;
+						&lt;center&gt;
+							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://faculty.washington.edu/mesbahi/&quot;&gt; Mehran Mesbahi &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+						&lt;p&gt; Faculty champion &lt;/p&gt;
+						&lt;/center&gt;
+					&lt;/section&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;6u&quot;&gt;
+					&lt;section&gt;
+						&lt;a href=&quot;https://sites.google.com/a/uw.edu/uw_acl/home&quot; class=&quot;image featured&quot;&gt;
+							&lt;img src=&quot;images/behcet.jpg&quot; /&gt;
+						&lt;/a&gt;
+						&lt;center&gt;
+							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://sites.google.com/a/uw.edu/uw_acl/home&quot;&gt; Behcet Acikmese &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+							&lt;p&gt; Faculty champion &lt;/p&gt;
+						&lt;/center&gt;
+					&lt;/section&gt;
+				&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;6u&quot;&gt;
+					&lt;section&gt;
+						&lt;a href=&quot;https://www.aa.washington.edu/people/faculty/morgansen/&quot; class=&quot;image featured&quot;&gt;
+							&lt;img src=&quot;images/kristi.jpg&quot; /&gt;
+						&lt;/a&gt;
+						&lt;center&gt;
+							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.aa.washington.edu/people/faculty/morgansen/&quot;&gt; Kristi Morgansen &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+							&lt;p&gt; Faculty champion &lt;/p&gt;
+						&lt;/center&gt;
+					&lt;/section&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;6u&quot;&gt;
+					&lt;section&gt;
+						&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;
+							&lt;img src=&quot;images/Justin.png&quot; /&gt;
+						&lt;/a&gt;
+						&lt;center&gt;
+							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;#&quot;&gt; Justin Little &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+							&lt;p&gt; Faculty Technical Lead &lt;/p&gt;
+						&lt;/center&gt;
+					&lt;/section&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;			
+&lt;/section&gt;
+&lt;section class=&quot;wrapper style2&quot;&gt;
+	&lt;!-- &lt;div class=&quot;row half&quot;&gt; --&gt;
+		&lt;div class=&quot;31-2u&quot;&gt;
+			&lt;header&gt; 
+				&lt;h2&gt; 
+					&lt;strong&gt; Graduate Students &lt;/strong&gt; 
+				&lt;/h2&gt; 
+			&lt;/header&gt;
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;6u&quot;&gt;
+					&lt;section&gt;
+						&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;
+							&lt;img src=&quot;images/Charlie.png&quot; /&gt;
+						&lt;/a&gt;
+						&lt;center&gt;
+							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;#&quot;&gt; Charlie Kelly &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+						&lt;p&gt; Project Manager &lt;/p&gt;
+						&lt;/center&gt;
+					&lt;/section&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;6u&quot;&gt;
+					&lt;section&gt;
+						&lt;a href=&quot;https://depts.washington.edu/uwrainlab/taylor/&quot; class=&quot;image featured&quot;&gt;
+							&lt;img src=&quot;images/taylor.jpg&quot; /&gt;
+						&lt;/a&gt;
+						&lt;center&gt;
+							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://depts.washington.edu/uwrainlab/taylor/&quot;&gt; Taylor Reynolds &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+							&lt;p&gt; Project Scientist &lt;/p&gt;
+						&lt;/center&gt;
+					&lt;/section&gt;
+				&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;6u&quot;&gt;
+					&lt;section&gt;
+						&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;
+							&lt;img src=&quot;&quot; /&gt;
+						&lt;/a&gt;
+						&lt;center&gt;
+							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;#&quot;&gt; Devan Tormey &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+							&lt;p&gt; GNC Lead &lt;/p&gt;
+						&lt;/center&gt;
+					&lt;/section&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;6u&quot;&gt;
+					&lt;section&gt;
+						&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;
+							&lt;img src=&quot;&quot; /&gt;
+						&lt;/a&gt;
+						&lt;center&gt;
+							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;#&quot;&gt; Nadiah Jenkins &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+							&lt;p&gt; Systems Engineer &lt;/p&gt;
+						&lt;/center&gt;
+					&lt;/section&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;!-- &lt;/div&gt; --&gt;
+&lt;!--
+&lt;/section&gt;
+&lt;section class=&quot;wrapper style2&quot;&gt;
+	&lt;div class=&quot;31-2u&quot;&gt;
+		&lt;header&gt; &lt;h2&gt; &lt;strong&gt; Undergraduate Students &lt;/strong&gt;&lt;/h2&gt;&lt;/header&gt;
+			&lt;p&gt; List the undergraduate students, possibly with grouping into capstone project groups.&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+ --&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Thu, 13 Sep 2018 17:00:00 -0700</pubDate>
+        <link>http://localhost:4000/people.html</link>
+        <guid isPermaLink="true">http://localhost:4000/people.html</guid>
+        
+        
+        <category>people</category>
+        
+        <category>students</category>
+        
+        <category>faculty</category>
         
       </item>
     
@@ -478,243 +749,6 @@
         <category>electric-propulsion</category>
         
         <category>propulsion</category>
-        
-      </item>
-    
-      <item>
-        <title>Constrained Attitude Control</title>
-        <description>&lt;!-- One --&gt;
-&lt;section class=&quot;wrapper style4 container&quot;&gt;					
-	&lt;div class=&quot;row&quot;&gt;
-		&lt;div class=&quot;4u&quot;&gt;
-		&lt;!-- Sidebar --&gt;
-			&lt;div class=&quot;sidebar&quot;&gt;
-				&lt;section&gt;
-					&lt;header&gt;
-					&lt;h3&gt;Attitude Constraints&lt;/h3&gt;
-					&lt;/header&gt;
-					&lt;p&gt;Quickly describe some previous work and how this is useful. Only high-level stuff here. Maybe grab some figures from Kim and Mesbahi 2010. &lt;/p&gt;
-					&lt;footer&gt;
-					&lt;ul class=&quot;buttons&quot;&gt;
-						&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small&quot;&gt;Learn More&lt;/a&gt;&lt;/li&gt;
-					&lt;/ul&gt;
-					&lt;/footer&gt;
-				&lt;/section&gt;
-				&lt;section&gt;
-				&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;&lt;img src=&quot;images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-					&lt;header&gt;
-					&lt;h3&gt;Optimal Control and Convex Optimization&lt;/h3&gt;
-					&lt;/header&gt;
-					&lt;p&gt;We combine elements of optimal control theory and convex optimization to compute actuator commands that will satisfy mission-level constraints. These are implemented in the on-board flight software.&lt;/p&gt;
-				&lt;/section&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;8u skel-cell-important&quot;&gt;								
-		&lt;!-- Content --&gt;
-			&lt;div class=&quot;content&quot;&gt;
-				&lt;section&gt;
-					&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;&lt;img src=&quot;images/pic02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-						&lt;header&gt;
-						&lt;h3&gt;Constrained Attitude Control&lt;/h3&gt;
-						&lt;/header&gt;
-						&lt;p&gt;Use this section to give some details on our implementation, problem statements, etc. Figure out how to put latex equations in here.&lt;/p&gt;
-						&lt;p&gt;Make sure to provide references and links to the works. &lt;/p&gt;
-				&lt;/section&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;					
-&lt;/section&gt;
-&lt;!-- Two --&gt;
-&lt;section class=&quot;wrapper style1 container special&quot;&gt;
-	&lt;div class=&quot;row&quot;&gt;
-		&lt;div class=&quot;4u&quot;&gt;						
-			&lt;section&gt;
-				&lt;header&gt;
-				&lt;h3&gt;Software Implementation&lt;/h3&gt;
-				&lt;/header&gt;
-				&lt;p&gt;We can maybe link to our github page for the code base (which is open source).&lt;/p&gt;
-				&lt;footer&gt;
-				&lt;ul class=&quot;buttons&quot;&gt;
-					&lt;li&gt;&lt;a href=&quot;https://github.com/tpreynolds/uw_cubesat_adcs&quot; class=&quot;button small special&quot;&gt;Visit GitHub&lt;/a&gt;&lt;/li&gt;
-				&lt;/ul&gt;
-				&lt;/footer&gt;
-			&lt;/section&gt;					
-		&lt;/div&gt;
-		&lt;div class=&quot;4u&quot;&gt;						
-			&lt;section&gt;
-				&lt;header&gt;
-					&lt;h3&gt;Hardware Testing&lt;/h3&gt;
-				&lt;/header&gt;
-					&lt;p&gt;Have a sub-page with some pics of testing the system?&lt;/p&gt;
-				&lt;footer&gt;
-					&lt;ul class=&quot;buttons&quot;&gt;
-						&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small special&quot;&gt;See the Process&lt;/a&gt;&lt;/li&gt;
-					&lt;/ul&gt;
-				&lt;/footer&gt;
-			&lt;/section&gt;				
-		&lt;/div&gt;
-		&lt;div class=&quot;4u&quot;&gt;						
-			&lt;section&gt;
-				&lt;header&gt;
-					&lt;h3&gt;Publications&lt;/h3&gt;
-				&lt;/header&gt;
-				&lt;p&gt;Link over to the publications page to read more on this.&lt;/p&gt;
-				&lt;footer&gt;
-					&lt;ul class=&quot;buttons&quot;&gt;
-						&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small special&quot;&gt;Read More&lt;/a&gt;&lt;/li&gt;
-					&lt;/ul&gt;
-				&lt;/footer&gt;
-			&lt;/section&gt;						
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/section&gt;
-</description>
-        <pubDate>Thu, 13 Sep 2018 17:00:00 -0700</pubDate>
-        <link>http://localhost:4000/attitude-control.html</link>
-        <guid isPermaLink="true">http://localhost:4000/attitude-control.html</guid>
-        
-        
-        <category>research</category>
-        
-        <category>attitude-control</category>
-        
-        <category>optimal-control</category>
-        
-        <category>convex-optimization</category>
-        
-      </item>
-    
-      <item>
-        <title>Meet our Team</title>
-        <description>&lt;section class=&quot;wrapper style2&quot;&gt;
-	&lt;div class=&quot;row half&quot;&gt;
-		&lt;div class=&quot;31-2u&quot;&gt;
-			&lt;header&gt;
-				&lt;h2&gt; &lt;strong&gt;Faculty&lt;/strong&gt; &lt;/h2&gt;
-			&lt;/header&gt;
-			&lt;div class=&quot;row&quot;&gt;
-				&lt;div class=&quot;4u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;http://faculty.washington.edu/mesbahi/&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/mehran.jpg&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;http://faculty.washington.edu/mesbahi/&quot;&gt; Mehran Mesbahi &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-						&lt;p&gt; Faculty champion &lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-				&lt;div class=&quot;4u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;https://sites.google.com/a/uw.edu/uw_acl/home&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/behcet.jpg&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://sites.google.com/a/uw.edu/uw_acl/home&quot;&gt; Behcet Acikmese &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-							&lt;p&gt; Faculty champion &lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-				&lt;div class=&quot;4u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;https://www.aa.washington.edu/people/faculty/morgansen/&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/taylor.jpg&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.aa.washington.edu/people/faculty/morgansen/&quot;&gt; Kristi Morgansen &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-							&lt;p&gt; Faculty champion &lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-				&lt;div class=&quot;4u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/taylor.jpg&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;#&quot;&gt; Justin Little &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-							&lt;p&gt; Faculty Technical Lead &lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;			
-&lt;/section&gt;
-&lt;section class=&quot;wrapper style2&quot;&gt;
-	&lt;!-- &lt;div class=&quot;row half&quot;&gt; --&gt;
-		&lt;div class=&quot;31-2u&quot;&gt;
-			&lt;header&gt; 
-				&lt;h2&gt; 
-					&lt;strong&gt; Graduate Students &lt;/strong&gt; 
-				&lt;/h2&gt; 
-			&lt;/header&gt;
-			&lt;div class=&quot;row&quot;&gt;
-				&lt;div class=&quot;4u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/taylor.jpg&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;#&quot;&gt; Charlie Kelly &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-						&lt;p&gt; Role #1 &lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-				&lt;div class=&quot;4u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;http://depts.washington.edu/uwrainlab/taylor/&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/taylor.jpg&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;http://depts.washington.edu/uwrainlab/taylor/&quot;&gt; Taylor Reynolds &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-							&lt;p&gt; Role #2 &lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-				&lt;div class=&quot;4u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/taylor.jpg&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;#&quot;&gt; Devan Tormey &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-							&lt;p&gt; Role #3 &lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-				&lt;div class=&quot;4u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/taylor.jpg&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;#&quot;&gt; Nadiah Jenkins &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-							&lt;p&gt; Role #4 &lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;!-- &lt;/div&gt; --&gt;
-&lt;/section&gt;
-&lt;section class=&quot;wrapper style2&quot;&gt;
-	&lt;div class=&quot;31-2u&quot;&gt;
-		&lt;header&gt; &lt;h2&gt; &lt;strong&gt; Undergraduate Students &lt;/strong&gt;&lt;/h2&gt;&lt;/header&gt;
-			&lt;p&gt; List the undergraduate students, possibly with grouping into capstone project groups.&lt;/p&gt;
-	&lt;/div&gt;
-&lt;/section&gt;
-</description>
-        <pubDate>Thu, 13 Sep 2018 17:00:00 -0700</pubDate>
-        <link>http://localhost:4000/people.html</link>
-        <guid isPermaLink="true">http://localhost:4000/people.html</guid>
-        
-        
-        <category>people</category>
-        
-        <category>students</category>
-        
-        <category>faculty</category>
         
       </item>
     
