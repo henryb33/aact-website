@@ -6,9 +6,182 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 06 Oct 2018 11:46:01 -0700</pubDate>
-    <lastBuildDate>Sat, 06 Oct 2018 11:46:01 -0700</lastBuildDate>
+    <pubDate>Sun, 07 Oct 2018 19:06:26 -0700</pubDate>
+    <lastBuildDate>Sun, 07 Oct 2018 19:06:26 -0700</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Meet our Team</title>
+        <description>&lt;section class=&quot;wrapper style2&quot;&gt;
+	&lt;div class=&quot;row half&quot;&gt;
+		&lt;div class=&quot;31-2u&quot;&gt;
+			&lt;header&gt;
+				&lt;h2&gt; &lt;strong&gt;Faculty&lt;/strong&gt; &lt;/h2&gt;
+			&lt;/header&gt;
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;6u&quot;&gt;
+					&lt;section&gt;
+						&lt;a href=&quot;https://faculty.washington.edu/mesbahi/&quot; class=&quot;image featured&quot;&gt;
+							&lt;img src=&quot;images/mehran.jpg&quot; /&gt;
+						&lt;/a&gt;
+						&lt;center&gt;
+							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://faculty.washington.edu/mesbahi/&quot;&gt; Mehran Mesbahi &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+						&lt;p&gt; Faculty champion &lt;/p&gt;
+						&lt;/center&gt;
+					&lt;/section&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;6u&quot;&gt;
+					&lt;section&gt;
+						&lt;a href=&quot;https://sites.google.com/a/uw.edu/uw_acl/home&quot; class=&quot;image featured&quot;&gt;
+							&lt;img src=&quot;images/behcet.jpg&quot; /&gt;
+						&lt;/a&gt;
+						&lt;center&gt;
+							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://sites.google.com/a/uw.edu/uw_acl/home&quot;&gt; Behcet Acikmese &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+							&lt;p&gt; Faculty champion &lt;/p&gt;
+						&lt;/center&gt;
+					&lt;/section&gt;
+				&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;6u&quot;&gt;
+					&lt;section&gt;
+						&lt;a href=&quot;https://www.aa.washington.edu/people/faculty/morgansen/&quot; class=&quot;image featured&quot;&gt;
+							&lt;img src=&quot;images/kristi.jpg&quot; /&gt;
+						&lt;/a&gt;
+						&lt;center&gt;
+							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.aa.washington.edu/people/faculty/morgansen/&quot;&gt; Kristi Morgansen &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+							&lt;p&gt; Faculty champion &lt;/p&gt;
+						&lt;/center&gt;
+					&lt;/section&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;6u&quot;&gt;
+					&lt;section&gt;
+						&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;
+							&lt;img src=&quot;images/Justin.png&quot; /&gt;
+						&lt;/a&gt;
+						&lt;center&gt;
+							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;#&quot;&gt; Justin Little &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+							&lt;p&gt; Faculty Technical Lead &lt;/p&gt;
+						&lt;/center&gt;
+					&lt;/section&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;			
+&lt;/section&gt;
+&lt;section class=&quot;wrapper style2&quot;&gt;
+	&lt;!-- &lt;div class=&quot;row half&quot;&gt; --&gt;
+		&lt;div class=&quot;31-2u&quot;&gt;
+			&lt;header&gt; 
+				&lt;h2&gt; 
+					&lt;strong&gt; Graduate Students &lt;/strong&gt; 
+				&lt;/h2&gt; 
+			&lt;/header&gt;
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;6u&quot;&gt;
+					&lt;section&gt;
+						&lt;a href=&quot;https://uwspacelab2018.wixsite.com/mysite/people&quot; class=&quot;image featured&quot;&gt;
+							&lt;img src=&quot;images/Charlie.png&quot; /&gt;
+						&lt;/a&gt;
+						&lt;center&gt;
+							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://uwspacelab2018.wixsite.com/mysite/people&quot;&gt; Charlie Kelly &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+						&lt;p&gt; Project Manager &lt;/p&gt;
+						&lt;/center&gt;
+					&lt;/section&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;6u&quot;&gt;
+					&lt;section&gt;
+						&lt;a href=&quot;https://depts.washington.edu/uwrainlab/taylor/&quot; class=&quot;image featured&quot;&gt;
+							&lt;img src=&quot;images/taylor.jpg&quot; /&gt;
+						&lt;/a&gt;
+						&lt;center&gt;
+							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://depts.washington.edu/uwrainlab/taylor/&quot;&gt; Taylor Reynolds &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+							&lt;p&gt; Project Scientist &lt;/p&gt;
+						&lt;/center&gt;
+					&lt;/section&gt;
+				&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;6u&quot;&gt;
+					&lt;section&gt;
+						&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;
+							&lt;img src=&quot;&quot; /&gt;
+						&lt;/a&gt;
+						&lt;center&gt;
+							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;#&quot;&gt; Devan Tormey &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+							&lt;p&gt; GNC Lead &lt;/p&gt;
+						&lt;/center&gt;
+					&lt;/section&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;6u&quot;&gt;
+					&lt;section&gt;
+						&lt;a href=&quot;https://uwspacelab2018.wixsite.com/mysite/people&quot; class=&quot;image featured&quot;&gt;
+							&lt;img src=&quot;images/Nadiah.jpg&quot; /&gt;
+						&lt;/a&gt;
+						&lt;center&gt;
+							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://uwspacelab2018.wixsite.com/mysite/people&quot;&gt; Nadiah Jenkins &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+							&lt;p&gt; Systems Engineer &lt;/p&gt;
+						&lt;/center&gt;
+					&lt;/section&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;!-- &lt;/div&gt; --&gt;
+&lt;!--
+&lt;/section&gt;
+&lt;section class=&quot;wrapper style2&quot;&gt;
+	&lt;div class=&quot;31-2u&quot;&gt;
+		&lt;header&gt; &lt;h2&gt; &lt;strong&gt; Undergraduate Students &lt;/strong&gt;&lt;/h2&gt;&lt;/header&gt;
+			&lt;p&gt; List the undergraduate students, possibly with grouping into capstone project groups.&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+ --&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Sat, 06 Oct 2018 17:00:00 -0700</pubDate>
+        <link>http://localhost:4000/people.html</link>
+        <guid isPermaLink="true">http://localhost:4000/people.html</guid>
+        
+        
+        <category>people</category>
+        
+        <category>students</category>
+        
+        <category>faculty</category>
+        
+      </item>
+    
+      <item>
+        <title>Contact Us</title>
+        <description>&lt;div&gt;
+	&lt;header class=&quot;wrapper style2&quot;&gt;
+		&lt;h2&gt; For Students: &lt;/h2&gt;
+		&lt;p&gt;
+			If you're an undergraduate or graduate student at the University of Washington interested in joining our team, this is the place to start! We are always looking for motivated students at all levels.
+		&lt;/p&gt;
+		Here are the best ways to get in touch with us:
+			&lt;ul style=&quot;list-style-type: disc&quot;&gt;
+				&lt;li&gt; Email us at &lt;a href=&quot;mailto:aact@uw.edu&quot;&gt; aact@uw.edu.&lt;/a&gt; Be sure to include: &lt;/li&gt; 
+					&lt;ul style=&quot;margin-left: 1em; list-style-type: circle&quot;&gt;
+						&lt;li&gt; Academic status (undergrad, Master's or Ph.D.) and home department,&lt;/li&gt;
+						&lt;li&gt; A copy of your resume, &lt;/li&gt;
+						&lt;li&gt; A quick description of why you're interested in joining our team,&lt;/li&gt;
+						&lt;li&gt; If possible, highlight relevant experience. This is not a requirement but it helps us get a sense of how you'd fit into our project!&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;li&gt; Drop by the Engineering Design Lab in AERB 023.&lt;/li&gt;
+			&lt;/ul&gt; 
+	&lt;/header&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Tue, 18 Sep 2018 17:00:00 -0700</pubDate>
+        <link>http://localhost:4000/contact-students.html</link>
+        <guid isPermaLink="true">http://localhost:4000/contact-students.html</guid>
+        
+        
+        <category>space-systems-lab uw-space-engineering-lab university-of-washington-space uw-space students</category>
+        
+      </item>
     
       <item>
         <title>Contact Us</title>
@@ -73,38 +246,6 @@
         
         
         <category>space-systems-lab uw-space-engineering-lab university-of-washington-space uw-space sponsor-uw students contact</category>
-        
-      </item>
-    
-      <item>
-        <title>Contact Us</title>
-        <description>&lt;div&gt;
-	&lt;header class=&quot;wrapper style2&quot;&gt;
-		&lt;h2&gt; For Students: &lt;/h2&gt;
-		&lt;p&gt;
-			If you're an undergraduate or graduate student at the University of Washington interested in joining our team, this is the place to start! We are always looking for motivated students at all levels.
-		&lt;/p&gt;
-		Here are the best ways to get in touch with us:
-			&lt;ul style=&quot;list-style-type: disc&quot;&gt;
-				&lt;li&gt; Email us at &lt;a href=&quot;mailto:aact@uw.edu&quot;&gt; aact@uw.edu.&lt;/a&gt; Be sure to include: &lt;/li&gt; 
-					&lt;ul style=&quot;margin-left: 1em; list-style-type: circle&quot;&gt;
-						&lt;li&gt; Academic status (undergrad, Master's or Ph.D.) and home department,&lt;/li&gt;
-						&lt;li&gt; A copy of your resume, &lt;/li&gt;
-						&lt;li&gt; A quick description of why you're interested in joining our team,&lt;/li&gt;
-						&lt;li&gt; If possible, highlight relevant experience. This is not a requirement but it helps us get a sense of how you'd fit into our project!&lt;/li&gt;
-					&lt;/ul&gt;
-				&lt;li&gt; Drop by the Engineering Design Lab in AERB 023.&lt;/li&gt;
-			&lt;/ul&gt; 
-	&lt;/header&gt;
-&lt;/div&gt;
-
-</description>
-        <pubDate>Tue, 18 Sep 2018 17:00:00 -0700</pubDate>
-        <link>http://localhost:4000/contact-students.html</link>
-        <guid isPermaLink="true">http://localhost:4000/contact-students.html</guid>
-        
-        
-        <category>space-systems-lab uw-space-engineering-lab university-of-washington-space uw-space students</category>
         
       </item>
     
@@ -238,6 +379,98 @@
       </item>
     
       <item>
+        <title>RainierSat</title>
+        <description>&lt;section class=&quot;wrapper style2 container&quot;&gt;
+	&lt;header&gt; &lt;h2&gt; Mission Objectives &lt;/h2&gt; &lt;/header&gt;
+	&lt;p&gt; The mission objectives are... &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;wrapper style4 container&quot;&gt;			
+	&lt;div class=&quot;row oneandhalf&quot;&gt;
+		&lt;div class=&quot;8u&quot;&gt;			
+		&lt;header&gt;&lt;h2&gt; Propulsion System &lt;/h2&gt;&lt;/header&gt;	
+		&lt;p&gt; The primary payload of RainierSat, our propulsion system is capable of giving us 5000 m/s of delta-V over the mission's lifetime. Wow! &lt;/p&gt;		
+		&lt;!-- Content --&gt;
+			&lt;div class=&quot;content&quot;&gt;
+				&lt;section&gt;
+					&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+					&lt;header&gt;
+						&lt;h3&gt;CubeSat Propulsion&lt;/h3&gt;
+					&lt;/header&gt;
+					&lt;p&gt;something something rockets!.&lt;/p&gt;
+					&lt;p&gt;Maybe provide some idea/link to work you guys are doing in EP and how that might play into what we do on certain missions.&lt;/p&gt;
+				&lt;/section&gt;
+			&lt;/div&gt;	
+		&lt;/div&gt;
+		&lt;div class=&quot;4u&quot;&gt;								
+		&lt;!-- Sidebar --&gt;
+			&lt;div class=&quot;sidebar&quot;&gt;
+				&lt;section&gt;
+					&lt;header&gt;
+						&lt;h3&gt;Pulsed Plasma Thrusters&lt;/h3&gt;
+					&lt;/header&gt;
+					&lt;p&gt;Our use of PPTs is to...&lt;/p&gt;
+&lt;!-- 					&lt;footer&gt;
+						&lt;ul class=&quot;buttons&quot;&gt;
+							&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small&quot;&gt;Learn More&lt;/a&gt;&lt;/li&gt;
+						&lt;/ul&gt;
+					&lt;/footer&gt; --&gt;
+				&lt;/section&gt;
+				&lt;section&gt;
+					&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+					&lt;header&gt;
+						&lt;h3&gt;See More&lt;/h3&gt;
+					&lt;/header&gt;
+					&lt;p&gt;See our publications on the topic for more details.&lt;/p&gt;
+					&lt;footer&gt;
+						&lt;ul class=&quot;buttons&quot;&gt;
+							&lt;li&gt;&lt;a href=&quot;/publications.html&quot; class=&quot;button special small&quot;&gt;Learn More&lt;/a&gt;&lt;/li&gt;
+						&lt;/ul&gt;
+					&lt;/footer&gt;
+				&lt;/section&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;					
+&lt;/section&gt;
+
+&lt;section class=&quot;wrapper style4 container&quot;&gt;
+	&lt;header&gt; &lt;h2&gt; Power System &lt;/h2&gt; &lt;/header&gt;
+	&lt;p&gt; Placeholder for description of power system &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;wrapper style4 container&quot;&gt;
+	&lt;header&gt; &lt;h2&gt; Communication System &lt;/h2&gt; &lt;/header&gt;
+	&lt;p&gt; Placeholder for description of communication system &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;wrapper style4 container&quot;&gt;
+	&lt;header&gt; &lt;h2&gt; Guidance Navigation and Control System &lt;/h2&gt; &lt;/header&gt;
+	&lt;p&gt; Placeholder for description of GNC system &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;wrapper style4 container&quot;&gt;
+	&lt;header&gt; &lt;h2&gt; Structural and Thermal System &lt;/h2&gt; &lt;/header&gt;
+	&lt;p&gt; Placeholder for description of structure/thermal system &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section id=&quot;cta&quot;&gt;			
+	&lt;header&gt;
+		&lt;h2&gt;&lt;strong&gt; Project Partners &lt;/strong&gt;&lt;/h2&gt;
+		&lt;p&gt;Put logos of folks that partnered with us on this specific project.&lt;/p&gt;
+	&lt;/header&gt;	
+&lt;/section&gt;
+
+</description>
+        <pubDate>Thu, 13 Sep 2018 17:00:00 -0700</pubDate>
+        <link>http://localhost:4000/missions/rainiersat.html</link>
+        <guid isPermaLink="true">http://localhost:4000/missions/rainiersat.html</guid>
+        
+        
+        <category>missions rainier electric-propulsion propulsion</category>
+        
+      </item>
+    
+      <item>
         <title>Satellite for Optimal Control and Imaging</title>
         <description>&lt;section class=&quot;wrapper style2 container&quot;&gt;
 	&lt;header&gt; &lt;h2&gt; Mission Objectives &lt;/h2&gt; &lt;/header&gt;
@@ -366,283 +599,6 @@
         
         
         <category>missions soc-i attitude-control optimal-control convex-optimization optimal-spacecraft-attitude-motion</category>
-        
-      </item>
-    
-      <item>
-        <title>Meet our Team</title>
-        <description>&lt;section class=&quot;wrapper style2&quot;&gt;
-	&lt;div class=&quot;row half&quot;&gt;
-		&lt;div class=&quot;31-2u&quot;&gt;
-			&lt;header&gt;
-				&lt;h2&gt; &lt;strong&gt;Faculty&lt;/strong&gt; &lt;/h2&gt;
-			&lt;/header&gt;
-			&lt;div class=&quot;row&quot;&gt;
-				&lt;div class=&quot;6u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;https://faculty.washington.edu/mesbahi/&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/mehran.jpg&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://faculty.washington.edu/mesbahi/&quot;&gt; Mehran Mesbahi &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-						&lt;p&gt; Faculty champion &lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-				&lt;div class=&quot;6u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;https://sites.google.com/a/uw.edu/uw_acl/home&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/behcet.jpg&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://sites.google.com/a/uw.edu/uw_acl/home&quot;&gt; Behcet Acikmese &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-							&lt;p&gt; Faculty champion &lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;row&quot;&gt;
-				&lt;div class=&quot;6u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;https://www.aa.washington.edu/people/faculty/morgansen/&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/kristi.jpg&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.aa.washington.edu/people/faculty/morgansen/&quot;&gt; Kristi Morgansen &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-							&lt;p&gt; Faculty champion &lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-				&lt;div class=&quot;6u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/Justin.png&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;#&quot;&gt; Justin Little &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-							&lt;p&gt; Faculty Technical Lead &lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;			
-&lt;/section&gt;
-&lt;section class=&quot;wrapper style2&quot;&gt;
-	&lt;!-- &lt;div class=&quot;row half&quot;&gt; --&gt;
-		&lt;div class=&quot;31-2u&quot;&gt;
-			&lt;header&gt; 
-				&lt;h2&gt; 
-					&lt;strong&gt; Graduate Students &lt;/strong&gt; 
-				&lt;/h2&gt; 
-			&lt;/header&gt;
-			&lt;div class=&quot;row&quot;&gt;
-				&lt;div class=&quot;6u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/Charlie.png&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;#&quot;&gt; Charlie Kelly &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-						&lt;p&gt; Project Manager &lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-				&lt;div class=&quot;6u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;https://depts.washington.edu/uwrainlab/taylor/&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/taylor.jpg&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://depts.washington.edu/uwrainlab/taylor/&quot;&gt; Taylor Reynolds &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-							&lt;p&gt; Project Scientist &lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;row&quot;&gt;
-				&lt;div class=&quot;6u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;#&quot;&gt; Devan Tormey &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-							&lt;p&gt; GNC Lead &lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-				&lt;div class=&quot;6u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;#&quot;&gt; Nadiah Jenkins &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-							&lt;p&gt; Systems Engineer &lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;!-- &lt;/div&gt; --&gt;
-&lt;!--
-&lt;/section&gt;
-&lt;section class=&quot;wrapper style2&quot;&gt;
-	&lt;div class=&quot;31-2u&quot;&gt;
-		&lt;header&gt; &lt;h2&gt; &lt;strong&gt; Undergraduate Students &lt;/strong&gt;&lt;/h2&gt;&lt;/header&gt;
-			&lt;p&gt; List the undergraduate students, possibly with grouping into capstone project groups.&lt;/p&gt;
-	&lt;/div&gt;
-&lt;/section&gt;
- --&gt;
-&lt;/section&gt;
-</description>
-        <pubDate>Thu, 13 Sep 2018 17:00:00 -0700</pubDate>
-        <link>http://localhost:4000/people.html</link>
-        <guid isPermaLink="true">http://localhost:4000/people.html</guid>
-        
-        
-        <category>people</category>
-        
-        <category>students</category>
-        
-        <category>faculty</category>
-        
-      </item>
-    
-      <item>
-        <title>Meet our Team</title>
-        <description>&lt;!-- &lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic01.jpg&quot; alt=&quot;&quot;&gt;&lt;/span&gt; --&gt;
-
-&lt;section class=&quot;wrapper style2&quot;&gt;
-	&lt;div class=&quot;row half&quot;&gt;
-		&lt;div class=&quot;31-2u&quot;&gt;
-			&lt;header&gt;
-				&lt;h2&gt; &lt;strong&gt;Faculty&lt;/strong&gt; &lt;/h2&gt;
-			&lt;/header&gt;
-			&lt;div class=&quot;row&quot;&gt;
-				&lt;div class=&quot;4u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;http://faculty.washington.edu/mesbahi/&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/mehran.jpg&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;http://faculty.washington.edu/mesbahi/&quot;&gt; Mehran Mesbahi &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-						&lt;p&gt; Faculty champion &lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-				&lt;div class=&quot;4u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;https://sites.google.com/a/uw.edu/uw_acl/home&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/behcet.jpg&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://sites.google.com/a/uw.edu/uw_acl/home&quot;&gt; Behcet Acikmese &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-							&lt;p&gt; Faculty champion &lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-				&lt;div class=&quot;4u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;https://www.aa.washington.edu/people/faculty/morgansen/&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/taylor.jpg&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.aa.washington.edu/people/faculty/morgansen/&quot;&gt; Kristi Morgansen &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-							&lt;p&gt; Faculty champion &lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-				&lt;div class=&quot;4u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/taylor.jpg&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;#&quot;&gt; Justin Little &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-							&lt;p&gt; Faculty Technical Lead &lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;			
-&lt;/section&gt;
-&lt;section class=&quot;wrapper style2&quot;&gt;
-	&lt;!-- &lt;div class=&quot;row half&quot;&gt; --&gt;
-		&lt;div class=&quot;31-2u&quot;&gt;
-			&lt;header&gt; 
-				&lt;h2&gt; 
-					&lt;strong&gt; Graduate Students &lt;/strong&gt; 
-				&lt;/h2&gt; 
-			&lt;/header&gt;
-			&lt;div class=&quot;row&quot;&gt;
-				&lt;div class=&quot;4u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/Charlie.png&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;#&quot;&gt; Charlie Kelly &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-						&lt;p&gt; Role #1 &lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-				&lt;div class=&quot;4u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;http://depts.washington.edu/uwrainlab/taylor/&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/taylor.jpg&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;http://depts.washington.edu/uwrainlab/taylor/&quot;&gt; Taylor Reynolds &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-							&lt;p&gt; Role #2 &lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-				&lt;div class=&quot;4u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/taylor.jpg&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;#&quot;&gt; Devan Tormey &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-							&lt;p&gt; Role #3 &lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-				&lt;div class=&quot;4u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/taylor.jpg&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;#&quot;&gt; Nadiah Jenkins &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-							&lt;p&gt; Role #4 &lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;!-- &lt;/div&gt; --&gt;
-&lt;/section&gt;
-&lt;section class=&quot;wrapper style2&quot;&gt;
-	&lt;div class=&quot;31-2u&quot;&gt;
-		&lt;header&gt; &lt;h2&gt; &lt;strong&gt; Undergraduate Students &lt;/strong&gt;&lt;/h2&gt;&lt;/header&gt;
-			&lt;p&gt; List the undergraduate students, possibly with grouping into capstone project groups.&lt;/p&gt;
-	&lt;/div&gt;
-&lt;/section&gt;
-</description>
-        <pubDate>Thu, 13 Sep 2018 17:00:00 -0700</pubDate>
-        <link>http://localhost:4000/people.html</link>
-        <guid isPermaLink="true">http://localhost:4000/people.html</guid>
-        
-        
-        <category>people</category>
-        
-        <category>students</category>
-        
-        <category>faculty</category>
         
       </item>
     

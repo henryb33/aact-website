@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Meet our Team"
-date:   2018-09-14 00:00:00
+date:   2018-10-07 00:00:00
 author: A&ampA CubeSat Team
 permalink: /people.html
 categories: people students faculty
+icon: featured fa-user-astronaut
 ---
-<!-- <span class="image featured"><img src="/images/pic01.jpg" alt=""></span> -->
 
 <section class="wrapper style2">
 	<div class="row half">
@@ -15,18 +15,18 @@ categories: people students faculty
 				<h2> <strong>Faculty</strong> </h2>
 			</header>
 			<div class="row">
-				<div class="4u">
+				<div class="6u">
 					<section>
-						<a href="http://faculty.washington.edu/mesbahi/" class="image featured">
+						<a href="https://faculty.washington.edu/mesbahi/" class="image featured">
 							<img src="images/mehran.jpg">
 						</a>
 						<center>
-							<header><h5><a href="http://faculty.washington.edu/mesbahi/"> Mehran Mesbahi </a></h5></header>
+							<header><h5><a href="https://faculty.washington.edu/mesbahi/"> Mehran Mesbahi </a></h5></header>
 						<p> Faculty champion </p>
 						</center>
 					</section>
 				</div>
-				<div class="4u">
+				<div class="6u">
 					<section>
 						<a href="https://sites.google.com/a/uw.edu/uw_acl/home" class="image featured">
 							<img src="images/behcet.jpg">
@@ -37,10 +37,12 @@ categories: people students faculty
 						</center>
 					</section>
 				</div>
-				<div class="4u">
+            </div>
+            <div class="row">
+				<div class="6u">
 					<section>
 						<a href="https://www.aa.washington.edu/people/faculty/morgansen/" class="image featured">
-							<img src="images/taylor.jpg">
+							<img src="images/kristi.jpg">
 						</a>
 						<center>
 							<header><h5><a href="https://www.aa.washington.edu/people/faculty/morgansen/"> Kristi Morgansen </a></h5></header>
@@ -48,10 +50,10 @@ categories: people students faculty
 						</center>
 					</section>
 				</div>
-				<div class="4u">
+				<div class="6u">
 					<section>
 						<a href="#" class="image featured">
-							<img src="images/taylor.jpg">
+							<img src="images/Justin.png">
 						</a>
 						<center>
 							<header><h5><a href="#"> Justin Little </a></h5></header>
@@ -72,53 +74,56 @@ categories: people students faculty
 				</h2> 
 			</header>
 			<div class="row">
-				<div class="4u">
+				<div class="6u">
 					<section>
-						<a href="#" class="image featured">
+						<a href="https://uwspacelab2018.wixsite.com/mysite/people" class="image featured">
 							<img src="images/Charlie.png">
 						</a>
 						<center>
-							<header><h5><a href="#"> Charlie Kelly </a></h5></header>
-						<p> Role #1 </p>
+							<header><h5><a href="https://uwspacelab2018.wixsite.com/mysite/people"> Charlie Kelly </a></h5></header>
+						<p> Project Manager </p>
 						</center>
 					</section>
 				</div>
-				<div class="4u">
+				<div class="6u">
 					<section>
-						<a href="http://depts.washington.edu/uwrainlab/taylor/" class="image featured">
+						<a href="https://depts.washington.edu/uwrainlab/taylor/" class="image featured">
 							<img src="images/taylor.jpg">
 						</a>
 						<center>
-							<header><h5><a href="http://depts.washington.edu/uwrainlab/taylor/"> Taylor Reynolds </a></h5></header>
-							<p> Role #2 </p>
+							<header><h5><a href="https://depts.washington.edu/uwrainlab/taylor/"> Taylor Reynolds </a></h5></header>
+							<p> Project Scientist </p>
 						</center>
 					</section>
 				</div>
-				<div class="4u">
+            </div>
+            <div class="row">
+				<div class="6u">
 					<section>
 						<a href="#" class="image featured">
-							<img src="images/taylor.jpg">
+							<img src="">
 						</a>
 						<center>
 							<header><h5><a href="#"> Devan Tormey </a></h5></header>
-							<p> Role #3 </p>
+							<p> GNC Lead </p>
 						</center>
 					</section>
 				</div>
-				<div class="4u">
+				<div class="6u">
 					<section>
-						<a href="#" class="image featured">
-							<img src="images/taylor.jpg">
+						<a href="https://uwspacelab2018.wixsite.com/mysite/people" class="image featured">
+							<img src="images/Nadiah.jpg">
 						</a>
 						<center>
-							<header><h5><a href="#"> Nadiah Jenkins </a></h5></header>
-							<p> Role #4 </p>
+							<header><h5><a href="https://uwspacelab2018.wixsite.com/mysite/people"> Nadiah Jenkins </a></h5></header>
+							<p> Systems Engineer </p>
 						</center>
 					</section>
 				</div>
 			</div>
 		</div>
 	<!-- </div> -->
+<!--
 </section>
 <section class="wrapper style2">
 	<div class="31-2u">
@@ -126,3 +131,4 @@ categories: people students faculty
 			<p> List the undergraduate students, possibly with grouping into capstone project groups.</p>
 	</div>
 </section>
+ -->
