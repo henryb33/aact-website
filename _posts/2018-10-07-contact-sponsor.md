@@ -14,8 +14,8 @@ icon: fa-handshake
 		<p>
 			We are always grateful to work with industry and government mentors, as well as other academic groups. Our success depends on support from these groups! If you are interested in hearing more about our work, getting involved, or supporting the team, please contact either:
 			<ul style="list-style-type: disc">
-				<li> <a href="mailto:mesbahi@uw.edu"> Mehran Mesbahi </a> at mesbahi@uw.edu </li>
-				<li> <a href="mailto:behcet@uw.edu"> Behcet Acikmese </a> at behcet@uw.edu </li>
+				<li> Mehran Mesbahi at <a href="mailto:mesbahi@uw.edu"> mesbahi@uw.edu </a> </li>
+				<li> Behcet Acikmese at <a href="mailto:behcet@uw.edu"> behcet@uw.edu </a> </li>
 			</ul>
 		</p>
 

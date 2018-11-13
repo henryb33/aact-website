@@ -70,7 +70,7 @@ icon: featured fa-user-astronaut
 		<div class="31-2u">
 			<header> 
 				<h2> 
-					<strong> Graduate Students </strong> 
+					<strong> Students </strong> 
 				</h2> 
 			</header>
 			<div class="row">
@@ -97,7 +97,7 @@ icon: featured fa-user-astronaut
 					</section>
 				</div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
 				<div class="6u">
 					<section>
 						<a href="#" class="image featured">
@@ -120,8 +120,40 @@ icon: featured fa-user-astronaut
 						</center>
 					</section>
 				</div>
-			</div>
+			</div> -->
 		</div>
+		<svg height="5" width="1000">
+  <line x1="0" y1="0" x2="43em" y2="0" style="stroke:rgb(210,210,210);stroke-width:2" />
+		</svg>
+		    <div>
+            	<ul style="list-style-type: disc">
+            		<li> <strong> Guidance, Navigation and Control </strong> </li>
+            		<ul>
+            			<li> Lead: Devan Tormey </li>
+            		</ul>
+            		<li> <strong> Structures, Thermal and Configuration </strong> </li>
+            		<ul>
+            			<li> A&A 4th year Captsone Group </li>
+            		</ul>
+            		<li> <strong> Electrical Power Systems </strong> </li>
+            		<ul>
+            			<li> </li>
+            		</ul>
+            		<li> <strong> Communications </strong> </li>
+            		<ul>
+            			<li> James Rosenthal </li>
+            		</ul>
+            	 	<li> <strong> Command and Data Handling </strong> </li>
+            		<ul>
+            			<li>  </li>
+            		</ul>
+            		<li> <strong> Imaging Payload </strong> </li>
+            		<ul>
+            			<li>  </li>
+            		</ul>
+            	</ul>
+            	<p> We're always looking for new students. <a href="/contact-main.html"> Start here </a> if you're interested in joining the team! </p>
+            </div> 
 	<!-- </div> -->
 <!--
 </section>

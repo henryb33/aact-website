@@ -12,7 +12,7 @@ icon: fa-comment
 		<div class="6u">
 			<center>
 				<header> <h3> For Students </h3></header>
-				Join our team and start working on a project!
+				Join our team and start working on a project! <br><br/>
 				<footer>
 					<ul class="buttons">
 						<li><a href="/contact-students.html" class="button special">Contact</a></li>
@@ -23,7 +23,7 @@ icon: fa-comment
 		<div class="6u">
 			<center>
 				<header> <h3> For Sponsors </h3></header>
-				Sponsor a project or mentor students!
+				Sponsor a project or mentor students! <br><br/>
 				<footer>
 					<ul class="buttons">
 						<li><a href="/contact-sponsor.html" class="button special">Contact</a></li>

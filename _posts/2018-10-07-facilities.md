@@ -11,14 +11,14 @@ icon: fa-drafting-compass
 <section class="wrapper style4">
 	<header><h2> Engineering Development Lab </h2></header>
 	<span class="image featured"><img src="/images/pic03.jpg" alt=""></span>
-	Description of our engineering design space. <br/><br/>
+	Our engineering design space is in the Aerospace Engineering and Research Building (AERB) rooms 023 and 013. <br/><br/>
 	<div class="row">
 		<div class="4u">						
 			<section>
 				<header>
 				<h3>T-Vac Chamber</h3>
 				</header>
-				<p>Small pic and description of our T-Vac chamber.</p>
+				<p>With industry support, students from our department have put together a thermal vaccum chamber that we can use to rigorously test the space-readiness of our satellites.</p>
 				<span class="imagenb featured"><img src="/images/pic03.jpg" alt=""></span>
 			</section>					
 		</div>
@@ -27,16 +27,16 @@ icon: fa-drafting-compass
 				<header>
 				<h3>Vibrational Table</h3>
 				</header>
-				<p>Small pic and description of our vib table.</p>
+				<p>A newly purchased vibrational table allows us to assess the structural integrity of our satellites before we send them for launch.<br><br/></p>
 				<span class="imagenb featured"><img src="/images/pic03.jpg" alt=""></span>
 			</section>				
 		</div>
 		<div class="4u">						
 			<section>
 				<header>
-				<h3>Cool equipment no. 3</h3>
+				<h3>Clean Room</h3>
 				</header>
-				<p>Small pic and description of cool equipment #3.</p>
+				<p>An on-campus clean room supports final flight model integration.<br><br/><br><br/></p>
 				<span class="imagenb featured"><img src="/images/pic03.jpg" alt=""></span>
 			</section>						
 		</div>
@@ -45,6 +45,6 @@ icon: fa-drafting-compass
 <section class="wrapper style2">
 	<header><h2> Mission Control Center</h2></header>
 	<span class="image featured"><img src="/images/pic03.jpg" alt=""></span>
-	Description of our mission control center.
+	A mission control center is being constructed in AERB 120 that will support all on-orbit communication with the satellite. Antennae mounted on the roof of the building will be used to send telecommands to the satellite, while receiving critical telemetry to assess the health of the spacecraft and verify mission objectives are being met.
 </section>
 

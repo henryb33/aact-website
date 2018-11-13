@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 07 Oct 2018 19:06:26 -0700</pubDate>
-    <lastBuildDate>Sun, 07 Oct 2018 19:06:26 -0700</lastBuildDate>
+    <pubDate>Mon, 12 Nov 2018 23:55:23 -0800</pubDate>
+    <lastBuildDate>Mon, 12 Nov 2018 23:55:23 -0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -74,7 +74,7 @@
 		&lt;div class=&quot;31-2u&quot;&gt;
 			&lt;header&gt; 
 				&lt;h2&gt; 
-					&lt;strong&gt; Graduate Students &lt;/strong&gt; 
+					&lt;strong&gt; Students &lt;/strong&gt; 
 				&lt;/h2&gt; 
 			&lt;/header&gt;
 			&lt;div class=&quot;row&quot;&gt;
@@ -101,11 +101,11 @@
 					&lt;/section&gt;
 				&lt;/div&gt;
             &lt;/div&gt;
-            &lt;div class=&quot;row&quot;&gt;
+            &lt;!-- &lt;div class=&quot;row&quot;&gt;
 				&lt;div class=&quot;6u&quot;&gt;
 					&lt;section&gt;
 						&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;&quot; /&gt;
+							&lt;img src=&quot;&quot;&gt;
 						&lt;/a&gt;
 						&lt;center&gt;
 							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;#&quot;&gt; Devan Tormey &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
@@ -116,7 +116,7 @@
 				&lt;div class=&quot;6u&quot;&gt;
 					&lt;section&gt;
 						&lt;a href=&quot;https://uwspacelab2018.wixsite.com/mysite/people&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/Nadiah.jpg&quot; /&gt;
+							&lt;img src=&quot;images/Nadiah.jpg&quot;&gt;
 						&lt;/a&gt;
 						&lt;center&gt;
 							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://uwspacelab2018.wixsite.com/mysite/people&quot;&gt; Nadiah Jenkins &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
@@ -124,8 +124,40 @@
 						&lt;/center&gt;
 					&lt;/section&gt;
 				&lt;/div&gt;
-			&lt;/div&gt;
+			&lt;/div&gt; --&gt;
 		&lt;/div&gt;
+		&lt;svg height=&quot;5&quot; width=&quot;1000&quot;&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;43em&quot; y2=&quot;0&quot; style=&quot;stroke:rgb(210,210,210);stroke-width:2&quot; /&gt;
+		&lt;/svg&gt;
+		    &lt;div&gt;
+            	&lt;ul style=&quot;list-style-type: disc&quot;&gt;
+            		&lt;li&gt; &lt;strong&gt; Guidance, Navigation and Control &lt;/strong&gt; &lt;/li&gt;
+            		&lt;ul&gt;
+            			&lt;li&gt; Lead: Devan Tormey &lt;/li&gt;
+            		&lt;/ul&gt;
+            		&lt;li&gt; &lt;strong&gt; Structures, Thermal and Configuration &lt;/strong&gt; &lt;/li&gt;
+            		&lt;ul&gt;
+            			&lt;li&gt; A&amp;amp;A 4th year Captsone Group &lt;/li&gt;
+            		&lt;/ul&gt;
+            		&lt;li&gt; &lt;strong&gt; Electrical Power Systems &lt;/strong&gt; &lt;/li&gt;
+            		&lt;ul&gt;
+            			&lt;li&gt; &lt;/li&gt;
+            		&lt;/ul&gt;
+            		&lt;li&gt; &lt;strong&gt; Communications &lt;/strong&gt; &lt;/li&gt;
+            		&lt;ul&gt;
+            			&lt;li&gt; James Rosenthal &lt;/li&gt;
+            		&lt;/ul&gt;
+            	 	&lt;li&gt; &lt;strong&gt; Command and Data Handling &lt;/strong&gt; &lt;/li&gt;
+            		&lt;ul&gt;
+            			&lt;li&gt;  &lt;/li&gt;
+            		&lt;/ul&gt;
+            		&lt;li&gt; &lt;strong&gt; Imaging Payload &lt;/strong&gt; &lt;/li&gt;
+            		&lt;ul&gt;
+            			&lt;li&gt;  &lt;/li&gt;
+            		&lt;/ul&gt;
+            	&lt;/ul&gt;
+            	&lt;p&gt; We're always looking for new students. &lt;a href=&quot;/contact-main.html&quot;&gt; Start here &lt;/a&gt; if you're interested in joining the team! &lt;/p&gt;
+            &lt;/div&gt; 
 	&lt;!-- &lt;/div&gt; --&gt;
 &lt;!--
 &lt;/section&gt;
@@ -159,7 +191,10 @@
 		&lt;p&gt;
 			If you're an undergraduate or graduate student at the University of Washington interested in joining our team, this is the place to start! We are always looking for motivated students at all levels.
 		&lt;/p&gt;
-		Here are the best ways to get in touch with us:
+		&lt;p&gt;
+			&lt;strong&gt; We encourage all interested students to start by reading through our &lt;a href=&quot;https://github.com/AA-CubeSat-Team/getting-started&quot;&gt; getting started page &lt;/a&gt; on GitHub. &lt;/strong&gt;
+		&lt;/p&gt;
+		After some light reading, here are the best ways to get involved:
 			&lt;ul style=&quot;list-style-type: disc&quot;&gt;
 				&lt;li&gt; Email us at &lt;a href=&quot;mailto:aact@uw.edu&quot;&gt; aact@uw.edu.&lt;/a&gt; Be sure to include: &lt;/li&gt; 
 					&lt;ul style=&quot;margin-left: 1em; list-style-type: circle&quot;&gt;
@@ -168,7 +203,11 @@
 						&lt;li&gt; A quick description of why you're interested in joining our team,&lt;/li&gt;
 						&lt;li&gt; If possible, highlight relevant experience. This is not a requirement but it helps us get a sense of how you'd fit into our project!&lt;/li&gt;
 					&lt;/ul&gt;
-				&lt;li&gt; Drop by the Engineering Design Lab in AERB 023.&lt;/li&gt;
+				&lt;li&gt; Drop by the Engineering Design Lab in AERB 023 during our shop hours:.&lt;/li&gt;
+				&lt;ul style=&quot;margin-left: 1em; list-style-type: circle&quot;&gt;
+					&lt;li&gt; Wednesday 2-5 pm &lt;/li&gt;
+					&lt;li&gt; Friday 9-11 am &lt;/li&gt;
+				&lt;/ul&gt;
 			&lt;/ul&gt; 
 	&lt;/header&gt;
 &lt;/div&gt;
@@ -191,8 +230,8 @@
 		&lt;p&gt;
 			We are always grateful to work with industry and government mentors, as well as other academic groups. Our success depends on support from these groups! If you are interested in hearing more about our work, getting involved, or supporting the team, please contact either:
 			&lt;ul style=&quot;list-style-type: disc&quot;&gt;
-				&lt;li&gt; &lt;a href=&quot;mailto:mesbahi@uw.edu&quot;&gt; Mehran Mesbahi &lt;/a&gt; at mesbahi@uw.edu &lt;/li&gt;
-				&lt;li&gt; &lt;a href=&quot;mailto:behcet@uw.edu&quot;&gt; Behcet Acikmese &lt;/a&gt; at behcet@uw.edu &lt;/li&gt;
+				&lt;li&gt; Mehran Mesbahi at &lt;a href=&quot;mailto:mesbahi@uw.edu&quot;&gt; mesbahi@uw.edu &lt;/a&gt; &lt;/li&gt;
+				&lt;li&gt; Behcet Acikmese at &lt;a href=&quot;mailto:behcet@uw.edu&quot;&gt; behcet@uw.edu &lt;/a&gt; &lt;/li&gt;
 			&lt;/ul&gt;
 		&lt;/p&gt;
 
@@ -217,7 +256,7 @@
 		&lt;div class=&quot;6u&quot;&gt;
 			&lt;center&gt;
 				&lt;header&gt; &lt;h3&gt; For Students &lt;/h3&gt;&lt;/header&gt;
-				Join our team and start working on a project!
+				Join our team and start working on a project! &lt;br /&gt;&lt;br /&gt;
 				&lt;footer&gt;
 					&lt;ul class=&quot;buttons&quot;&gt;
 						&lt;li&gt;&lt;a href=&quot;/contact-students.html&quot; class=&quot;button special&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
@@ -228,7 +267,7 @@
 		&lt;div class=&quot;6u&quot;&gt;
 			&lt;center&gt;
 				&lt;header&gt; &lt;h3&gt; For Sponsors &lt;/h3&gt;&lt;/header&gt;
-				Sponsor a project or mentor students!
+				Sponsor a project or mentor students! &lt;br /&gt;&lt;br /&gt;
 				&lt;footer&gt;
 					&lt;ul class=&quot;buttons&quot;&gt;
 						&lt;li&gt;&lt;a href=&quot;/contact-sponsor.html&quot; class=&quot;button special&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
@@ -254,14 +293,14 @@
         <description>&lt;section class=&quot;wrapper style4&quot;&gt;
 	&lt;header&gt;&lt;h2&gt; Engineering Development Lab &lt;/h2&gt;&lt;/header&gt;
 	&lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;
-	Description of our engineering design space. &lt;br /&gt;&lt;br /&gt;
+	Our engineering design space is in the Aerospace Engineering and Research Building (AERB) rooms 023 and 013. &lt;br /&gt;&lt;br /&gt;
 	&lt;div class=&quot;row&quot;&gt;
 		&lt;div class=&quot;4u&quot;&gt;						
 			&lt;section&gt;
 				&lt;header&gt;
 				&lt;h3&gt;T-Vac Chamber&lt;/h3&gt;
 				&lt;/header&gt;
-				&lt;p&gt;Small pic and description of our T-Vac chamber.&lt;/p&gt;
+				&lt;p&gt;With industry support, students from our department have put together a thermal vaccum chamber that we can use to rigorously test the space-readiness of our satellites.&lt;/p&gt;
 				&lt;span class=&quot;imagenb featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;
 			&lt;/section&gt;					
 		&lt;/div&gt;
@@ -270,16 +309,16 @@
 				&lt;header&gt;
 				&lt;h3&gt;Vibrational Table&lt;/h3&gt;
 				&lt;/header&gt;
-				&lt;p&gt;Small pic and description of our vib table.&lt;/p&gt;
+				&lt;p&gt;A newly purchased vibrational table allows us to assess the structural integrity of our satellites before we send them for launch.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 				&lt;span class=&quot;imagenb featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;
 			&lt;/section&gt;				
 		&lt;/div&gt;
 		&lt;div class=&quot;4u&quot;&gt;						
 			&lt;section&gt;
 				&lt;header&gt;
-				&lt;h3&gt;Cool equipment no. 3&lt;/h3&gt;
+				&lt;h3&gt;Clean Room&lt;/h3&gt;
 				&lt;/header&gt;
-				&lt;p&gt;Small pic and description of cool equipment #3.&lt;/p&gt;
+				&lt;p&gt;An on-campus clean room supports final flight model integration.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 				&lt;span class=&quot;imagenb featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;
 			&lt;/section&gt;						
 		&lt;/div&gt;
@@ -288,7 +327,7 @@
 &lt;section class=&quot;wrapper style2&quot;&gt;
 	&lt;header&gt;&lt;h2&gt; Mission Control Center&lt;/h2&gt;&lt;/header&gt;
 	&lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;
-	Description of our mission control center.
+	A mission control center is being constructed in AERB 120 that will support all on-orbit communication with the satellite. Antennae mounted on the roof of the building will be used to send telecommands to the satellite, while receiving critical telemetry to assess the health of the spacecraft and verify mission objectives are being met.
 &lt;/section&gt;
 
 </description>
@@ -340,9 +379,16 @@
 &lt;div&gt;
 	&lt;header class=&quot;special container small&quot;&gt; 
 		&lt;span class=&quot;icon&quot;&gt; &lt;strong&gt; Mission I &lt;/strong&gt; &lt;/span&gt;
+&lt;!-- 			&lt;div style=&quot;max-width:500px; margin:0 auto; text-align: center&quot;&gt;
+				&lt;section&gt;
+					&lt;a href=&quot;/missions/missionI.html&quot; class=&quot;image featured&quot;&gt;
+						&lt;img src=&quot;images/socipatch.png&quot;&gt;
+					&lt;/a&gt;
+				&lt;/section&gt;
+			&lt;/div&gt; --&gt;
 			&lt;h2&gt; &lt;strong&gt;S&lt;/strong&gt;atellite for &lt;strong&gt;O&lt;/strong&gt;ptimal &lt;strong&gt;C&lt;/strong&gt;ontrol and &lt;strong&gt;I&lt;/strong&gt;maging &lt;/h2&gt;
 			&lt;br /&gt;
-			&lt;p&gt; SOC-i will carry an advanced guidance, navigation and control (GNC) subsystem capable of reorienting the spacecraft while satisfying multiple pointing constraints. This will provide accurate pointing for an onboard Earth imaging camera. &lt;/p&gt;
+			&lt;p&gt; SOC-i will carry an advanced guidance, navigation and control (GNC) payload capable of reorienting the spacecraft while satisfying multiple pointing constraints. Along side a standard GNC system, this will provide accurate pointing for an onboard Earth imaging camera. &lt;/p&gt;
 		&lt;center&gt;
 			&lt;section class=&quot;major&quot;&gt;
 				&lt;ul class=&quot;buttons&quot;&gt;
@@ -474,15 +520,17 @@
         <title>Satellite for Optimal Control and Imaging</title>
         <description>&lt;section class=&quot;wrapper style2 container&quot;&gt;
 	&lt;header&gt; &lt;h2&gt; Mission Objectives &lt;/h2&gt; &lt;/header&gt;
-	&lt;p&gt; The SOC-i mission will carry an advanced guidance, navigation and control (GNC) payload capable of reorienting the spacecraft while satisfying multiple pointing constraints. SOC-i will also carry an Earth imaging camera, enabling it to take pictures of specified ground locations requiring stringent pointing.&lt;br /&gt;&lt;br /&gt;
-	Using convex optimization, time-optimal control torques are computed that guarantee the sun does not leave the field of view of on-board sun sensors, while ensuring the imaging camera is not subject to direct sunlight. &lt;br /&gt;&lt;br /&gt;
-	The remaining subsystems are being developed to support the primary science objective, while also serving to define an AACT standard 3U bus for future missions.
+	&lt;p&gt; The SOC-i mission will carry an advanced guidance, navigation and control (GNC) payload capable of reorienting the spacecraft while satisfying multiple pointing constraints. SOC-i will also carry an Earth imaging camera, enabling it to take pictures of specified ground locations requiring stringent pointing.
+	&lt;br /&gt;&lt;br /&gt;
+	The mission will operate in space for 6 months, while supported by a UW ground station being developed in the Aerospace Engineering Research Building. It is a stated goal of the mission to be completely open-source, maintain code on our team's &lt;a href=&quot;https://github.com/AA-CubeSat-Team&quot;&gt; GitHub page &lt;/a&gt;. 
+	&lt;br /&gt;&lt;br /&gt;
+	All subsystems are being developed to support the primary science objectives, while also serving to define an AACT-standard 3U bus for future missions.
 	 &lt;/p&gt;
 &lt;/section&gt;
 &lt;!-- One --&gt;
 &lt;section class=&quot;wrapper style4&quot;&gt;		
 	&lt;header&gt;&lt;h2&gt; &lt;strong&gt; Guidance Navigation and Control &lt;/strong&gt; &lt;/h2&gt;&lt;/header&gt;
-			&lt;p&gt; The primary payload of SOC-I is an experimental GNC system capable of reorienting the spacecraft while guaranteeing hard pointing constraints and in a time-optimal fashion. The satellite will also carry a suite of more traditional GNC software capable of performing all mission objectives. &lt;/p&gt;			
+			&lt;p&gt; The experimental GNC system is capable of reorienting the spacecraft while guaranteeing hard pointing constraints and in a time-optimal fashion. In the figure below, the green cone represents a navigation sensor's field of view, while the red cone represents the camera's field of view. Reorientation maneuvers must be executed such that (i) the sun vector &lt;img src=&quot;http://latex.codecogs.com/svg.latex?\boldmath{s}_{\mathcal{B}}&quot; border=&quot;0&quot; /&gt; remains inside the green cone, (ii) the sun vecotr simultaneously remains outside the red cone, (iii) actuator limits are not violated and (iv) the reorientation takes minimal time. The satellite must compute these solutions on-board and in real-time, without any pre-loaded solutions or ground intervention. &lt;/p&gt;			
 	&lt;div class=&quot;row&quot;&gt;
 		&lt;div class=&quot;4u&quot;&gt;
 		&lt;!-- Sidebar --&gt;
@@ -491,7 +539,7 @@
 					&lt;header&gt;
 					&lt;h3&gt;Primary GNC System&lt;/h3&gt;
 					&lt;/header&gt;
-					&lt;p&gt; Our primary GNC software system does not use any advanced control techniques. Rather, it uses elements from our work presented at &lt;a href=&quot;#&quot;&gt; AIAA Space 2018 &lt;/a&gt;. The generic version of this code base is open-source and &lt;a href=&quot;https://github.com/tpreynolds/uw_cubesat_adcs&quot;&gt; available on our GitHub!&lt;/a&gt; &lt;/p&gt;
+					&lt;p&gt; The satellite will also carry a suite of standard GNC software capable of performing all mission objectives. This software system does not use any advanced control techniques. Rather, it uses elements from our work presented at &lt;a href=&quot;https://arc.aiaa.org/doi/abs/10.2514/6.2018-5403&quot;&gt; AIAA Space 2018 &lt;/a&gt;. The generic version of this code base is open-source and &lt;a href=&quot;https://github.com/tpreynolds/uw_cubesat_adcs&quot;&gt; available on our GitHub!&lt;/a&gt; &lt;/p&gt;
 &lt;!-- 					&lt;footer&gt;
 					&lt;ul class=&quot;buttons&quot;&gt;
 						&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small&quot;&gt;Learn More&lt;/a&gt;&lt;/li&gt;
@@ -503,7 +551,7 @@
 					&lt;header&gt;
 					&lt;h3&gt;Optimal Control and Convex Optimization&lt;/h3&gt;
 					&lt;/header&gt;
-					&lt;p&gt;We combine elements of optimal control theory and convex optimization to compute actuator commands that will satisfy mission-level constraints. These are implemented in the on-board flight software.&lt;/p&gt;
+					&lt;p&gt;We combine elements of optimal control theory and convex optimization to compute actuator commands that will satisfy mission-level constraints. These are implemented in the on-board flight software. &lt;/p&gt;
 				&lt;/section&gt;
 			&lt;/div&gt;
 		&lt;/div&gt;
@@ -512,11 +560,11 @@
 			&lt;div class=&quot;content&quot;&gt;
 				&lt;section&gt;
 					&lt;a href=&quot;#&quot; class=&quot;imagenb featured&quot;&gt;&lt;img src=&quot;/images/tikz_cubesat_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-						&lt;header&gt;
-						&lt;h3&gt;Constrained Attitude Control&lt;/h3&gt;
-						&lt;/header&gt;
-						&lt;p&gt;The GNC system is able to guarantee that attitude maneuvers are accomplished with the sun remaining inside the field of view of a single sun-sensor, while simultaneously avoiding the field of view of our on-board camera.&lt;/p&gt;
-						&lt;p&gt; This payload leverages previous work done at the UW in this area. In particular, we adapt methods from  &lt;a href=&quot;https://ieeexplore.ieee.org/abstract/document/5545176?reload=true&quot;&gt;(Kim et al, 2010)&lt;/a&gt; and &lt;a href=&quot;https://pdfs.semanticscholar.org/0389/248a953b679e747ffe4d14dd613d273142cb.pdf&quot;&gt;(Lee and Mesbahi, 2013)&lt;/a&gt; to formulate the problem. &lt;/p&gt;
+						&lt;!-- &lt;header&gt; --&gt;
+						&lt;!-- &lt;h3&gt;Constrained Attitude Control&lt;/h3&gt; --&gt;
+						&lt;!-- &lt;/header&gt; --&gt;
+						&lt;p&gt;This payload leverages previous work done at the UW in this area. In particular, we adapt methods from  &lt;a href=&quot;https://ieeexplore.ieee.org/abstract/document/5545176?reload=true&quot;&gt;(Kim et al, 2010)&lt;/a&gt; and &lt;a href=&quot;https://pdfs.semanticscholar.org/0389/248a953b679e747ffe4d14dd613d273142cb.pdf&quot;&gt;(Lee and Mesbahi, 2013)&lt;/a&gt; to formulate the problem. &lt;br /&gt;&lt;br /&gt; 
+						Solutions are obtained in real-time using the &lt;a href=&quot;https://www.embotech.com/ECOS&quot;&gt; ECOS &lt;/a&gt; solver running on the main flight computer. Our implementation is an on-going process, but will use elements of optimal control theory or &lt;a href=&quot;https://arxiv.org/abs/1608.05133&quot;&gt; Successive Convexification &lt;/a&gt;. &lt;/p&gt;
 				&lt;/section&gt;
 			&lt;/div&gt;
 		&lt;/div&gt;
@@ -571,6 +619,10 @@
 &lt;/section&gt;
 &lt;!-- Other Subsystems --&gt;
 &lt;section class=&quot;wrapper style4 container&quot;&gt;
+	&lt;header&gt; &lt;h2&gt; Imaging System &lt;/h2&gt; &lt;/header&gt;
+	&lt;p&gt; We are currently performing trade studies on candidate imaging systems sufficient for our mission's needs. &lt;/p&gt;
+&lt;/section&gt;
+&lt;!-- &lt;section class=&quot;wrapper style4 container&quot;&gt;
 	&lt;header&gt; &lt;h2&gt; Power System &lt;/h2&gt; &lt;/header&gt;
 	&lt;p&gt; Placeholder for description of power system &lt;/p&gt;
 &lt;/section&gt;
@@ -583,12 +635,12 @@
 &lt;section class=&quot;wrapper style4 container&quot;&gt;
 	&lt;header&gt; &lt;h2&gt; Structural and Thermal System &lt;/h2&gt; &lt;/header&gt;
 	&lt;p&gt; Placeholder for description of structure/thermal system &lt;/p&gt;
-&lt;/section&gt;
+&lt;/section&gt; --&gt;
 
 &lt;section id=&quot;cta&quot;&gt;			
 	&lt;header&gt;
 		&lt;h2&gt;&lt;strong&gt; Project Partners &lt;/strong&gt;&lt;/h2&gt;
-		&lt;p&gt;Put logos of folks that partnered with us on this specific project.&lt;/p&gt;
+		&lt;p&gt;  &lt;/p&gt;
 	&lt;/header&gt;	
 &lt;/section&gt;
 
