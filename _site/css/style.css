@@ -290,6 +290,12 @@
 				width: 100%;
 			}
 
+		.image.logo {
+			display: block;
+			background-color: rgb(243,246,250);
+			width: 225px;
+		}
+
 	.imagenb {
 		border: 0;
 		position: relative;
