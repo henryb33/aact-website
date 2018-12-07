@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 16 Nov 2018 11:49:41 -0800</pubDate>
-    <lastBuildDate>Fri, 16 Nov 2018 11:49:41 -0800</lastBuildDate>
+    <pubDate>Fri, 07 Dec 2018 12:27:07 -0800</pubDate>
+    <lastBuildDate>Fri, 07 Dec 2018 12:27:07 -0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -379,13 +379,13 @@
 &lt;div&gt;
 	&lt;header class=&quot;special container small&quot;&gt; 
 		&lt;span class=&quot;icon&quot;&gt; &lt;strong&gt; Mission I &lt;/strong&gt; &lt;/span&gt;
-&lt;!-- 			&lt;div style=&quot;max-width:500px; margin:0 auto; text-align: center&quot;&gt;
+			&lt;div style=&quot;max-width:300px; margin:0 auto; text-align: center&quot;&gt;
 				&lt;section&gt;
 					&lt;a href=&quot;/missions/missionI.html&quot; class=&quot;image featured&quot;&gt;
-						&lt;img src=&quot;images/socipatch.png&quot;&gt;
+						&lt;img src=&quot;images/m1_patch.png&quot; /&gt;
 					&lt;/a&gt;
 				&lt;/section&gt;
-			&lt;/div&gt; --&gt;
+			&lt;/div&gt;
 			&lt;h2&gt; &lt;strong&gt;S&lt;/strong&gt;atellite for &lt;strong&gt;O&lt;/strong&gt;ptimal &lt;strong&gt;C&lt;/strong&gt;ontrol and &lt;strong&gt;I&lt;/strong&gt;maging &lt;/h2&gt;
 			&lt;br /&gt;
 			&lt;p&gt; SOC-i will carry an advanced guidance, navigation and control (GNC) payload capable of reorienting the spacecraft while satisfying multiple pointing constraints. Along side a standard GNC system, this will provide accurate pointing for an onboard Earth imaging camera. &lt;/p&gt;
@@ -518,7 +518,14 @@
     
       <item>
         <title>Satellite for Optimal Control and Imaging</title>
-        <description>&lt;section class=&quot;wrapper style2 container&quot;&gt;
+        <description>&lt;div style=&quot;max-width:300px; margin:0 auto; text-align: center&quot;&gt;
+	&lt;section&gt;
+		&lt;a class=&quot;image featured&quot;&gt;
+			&lt;img src=&quot;/images/m1_patch.png&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/section&gt;
+&lt;/div&gt;
+&lt;section class=&quot;wrapper style2 container&quot;&gt;
 	&lt;header&gt; &lt;h2&gt; Mission Objectives &lt;/h2&gt; &lt;/header&gt;
 	&lt;p&gt; The SOC-i mission will carry an advanced guidance, navigation and control (GNC) payload capable of reorienting the spacecraft while satisfying multiple pointing constraints. SOC-i will also carry an Earth imaging camera, enabling it to take pictures of specified ground locations requiring stringent pointing.
 	&lt;br /&gt;&lt;br /&gt;
