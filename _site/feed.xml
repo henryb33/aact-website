@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 07 Dec 2018 12:27:07 -0800</pubDate>
-    <lastBuildDate>Fri, 07 Dec 2018 12:27:07 -0800</lastBuildDate>
+    <pubDate>Fri, 18 Jan 2019 10:25:41 -0800</pubDate>
+    <lastBuildDate>Fri, 18 Jan 2019 10:25:41 -0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -134,17 +134,23 @@
             		&lt;li&gt; &lt;strong&gt; Guidance, Navigation and Control &lt;/strong&gt; &lt;/li&gt;
             		&lt;ul&gt;
             			&lt;li&gt; Lead: Devan Tormey &lt;/li&gt;
+            			&lt;li&gt; Ivan Machuca &lt;/li&gt;
+            			&lt;li&gt; Katherine Williams &lt;/li&gt;
+            			&lt;li&gt; Arvean Labib &lt;/li&gt;
             		&lt;/ul&gt;
             		&lt;li&gt; &lt;strong&gt; Structures, Thermal and Configuration &lt;/strong&gt; &lt;/li&gt;
             		&lt;ul&gt;
-            			&lt;li&gt; A&amp;amp;A 4th year Captsone Group &lt;/li&gt;
+            			&lt;li&gt; Lead: Arnela Grebovic &lt;/li&gt;
+            			&lt;li&gt; 2019 A&amp;amp;A 4th year Captsone Group: Brian Harr and Ivan Cordei &lt;/li&gt;
             		&lt;/ul&gt;
             		&lt;li&gt; &lt;strong&gt; Electrical Power Systems &lt;/strong&gt; &lt;/li&gt;
             		&lt;ul&gt;
-            			&lt;li&gt; &lt;/li&gt;
+            			&lt;li&gt; Lead: Jerrold Erickson &lt;/li&gt;
+            			&lt;li&gt; Ishaan Bhimani &lt;/li&gt;
             		&lt;/ul&gt;
             		&lt;li&gt; &lt;strong&gt; Communications &lt;/strong&gt; &lt;/li&gt;
             		&lt;ul&gt;
+            			&lt;li&gt; Lead: Ellory Freneau &lt;/li&gt;
             			&lt;li&gt; James Rosenthal &lt;/li&gt;
             		&lt;/ul&gt;
             	 	&lt;li&gt; &lt;strong&gt; Command and Data Handling &lt;/strong&gt; &lt;/li&gt;
@@ -205,8 +211,8 @@
 					&lt;/ul&gt;
 				&lt;li&gt; Drop by the Engineering Design Lab in AERB 023 during our shop hours:.&lt;/li&gt;
 				&lt;ul style=&quot;margin-left: 1em; list-style-type: circle&quot;&gt;
-					&lt;li&gt; Wednesday 2-5 pm &lt;/li&gt;
-					&lt;li&gt; Friday 9-11 am &lt;/li&gt;
+					&lt;li&gt; Thursday 12-3 pm &lt;/li&gt;
+&lt;!-- 					&lt;li&gt; Friday 9-11 am &lt;/li&gt; --&gt;
 				&lt;/ul&gt;
 			&lt;/ul&gt; 
 	&lt;/header&gt;
