@@ -80,7 +80,7 @@ icon: featured fa-user-astronaut
 							<img src="images/Charlie.png">
 						</a>
 						<center>
-							<header><h5><a href="https://uwspacelab2018.wixsite.com/mysite/people"> Charlie Kelly </a></h5></header>
+							<header><h5><a href="https://www.uwspacelab.com/people"> Charlie Kelly </a></h5></header>
 						<p> Project Manager </p>
 						</center>
 					</section>
@@ -134,10 +134,10 @@ icon: featured fa-user-astronaut
             			<li> Katherine Williams </li>
             			<li> Arvean Labib </li>
             		</ul>
-            		<li> <strong> Structures, Thermal and Configuration </strong> </li>
+            		<li> <strong> Structures, Thermal, and Configuration </strong> </li>
             		<ul>
             			<li> Lead: Arnela Grebovic </li>
-            			<li> 2019 A&A 4th year Captsone Group: Brian Harr and Ivan Cordei </li>
+            			<li> 2019 A&A 4th year Capstone: Brian Harr and Ivan Cordero </li>
             		</ul>
             		<li> <strong> Electrical Power Systems </strong> </li>
             		<ul>
