@@ -68,17 +68,17 @@
 </div>
 <section class="wrapper style2 container">
 	<header> <h2> Mission Objectives </h2> </header>
-	<p> The SOC-i mission will carry an advanced guidance, navigation and control (GNC) payload capable of reorienting the spacecraft while satisfying multiple pointing constraints. SOC-i will also carry an Earth imaging camera, enabling it to take pictures of specified ground locations requiring stringent pointing.
+	<p> The SOC-i mission will carry an advanced guidance, navigation and control (GNC) payload capable of reorienting the spacecraft while satisfying multiple pointing constraints. SOC-i will also carry an Earth imaging camera, enabling it to take pictures of specified ground locations.
 	<br /><br />
-	The mission will operate in space for 6 months, while supported by a UW ground station being developed in the Aerospace Engineering Research Building. It is a stated goal of the mission to be completely open-source, maintain code on our team's <a href="https://github.com/AA-CubeSat-Team"> GitHub page </a>. 
+	The mission will operate in space for 6 months, and will be supported by a UW ground station being developed in the Aerospace Engineering Research Building. It is a stated goal of the mission to be completely open-source, maintain code on our team's <a href="https://github.com/AA-CubeSat-Team"> GitHub page </a>. 
 	<br /><br />
-	All subsystems are being developed to support the primary science objectives, while also serving to define an AACT-standard 3U bus for future missions.
+<!-- 	All subsystems are being developed to support the primary science objectives, while also serving to define an AACT-standard 3U bus for future missions. -->
 	 </p>
 </section>
 <!-- One -->
 <section class="wrapper style4">		
 	<header><h2> <strong> Guidance Navigation and Control </strong> </h2></header>
-			<p> The experimental GNC system is capable of reorienting the spacecraft while guaranteeing hard pointing constraints and in a time-optimal fashion. In the figure below, the green cone represents a navigation sensor's field of view, while the red cone represents the camera's field of view. Reorientation maneuvers must be executed such that (i) the sun vector <img src="http://latex.codecogs.com/svg.latex?\boldmath{s}_{\mathcal{B}}" border="0" /> remains inside the green cone, (ii) the sun vecotr simultaneously remains outside the red cone, (iii) actuator limits are not violated and (iv) the reorientation takes minimal time. The satellite must compute these solutions on-board and in real-time, without any pre-loaded solutions or ground intervention. </p>			
+			<p> The experimental GNC system is capable of reorienting the spacecraft while guaranteeing hard pointing constraints and minimizing the change in angular momentum stored in a set of three reaction wheels. In the figure below, the green cone represents a navigation sensor's field of view, while the red cone represents the camera's field of view. Reorientation maneuvers must be executed such that (i) the sun vector <img src="http://latex.codecogs.com/svg.latex?\boldmath{s}_{\mathcal{B}}" border="0" /> remains inside the green cone, (ii) the sun vector simultaneously remains outside the red cone and (iii) actuator and slew-rate limits are not violated. The satellite must compute these solutions on-board without any pre-loaded solutions or ground intervention. </p>			
 	<div class="row">
 		<div class="4u">
 		<!-- Sidebar -->
@@ -87,7 +87,7 @@
 					<header>
 					<h3>Primary GNC System</h3>
 					</header>
-					<p> The satellite will also carry a suite of standard GNC software capable of performing all mission objectives. This software system does not use any advanced control techniques. Rather, it uses elements from our work presented at <a href="https://arc.aiaa.org/doi/abs/10.2514/6.2018-5403"> AIAA Space 2018 </a>. The generic version of this code base is open-source and <a href="https://github.com/tpreynolds/uw_cubesat_adcs"> available on our GitHub!</a> </p>
+					<p> The satellite will also carry a standard suite of GNC software capable of performing all mission objectives. This software system does not use any advanced control techniques. Rather, it uses elements from our work presented at <a href="https://arc.aiaa.org/doi/abs/10.2514/6.2018-5403"> AIAA Space 2018 </a>. The generic version of this code base is open-source and <a href="https://github.com/tpreynolds/uw_cubesat_adcs"> available on our GitHub!</a> </p>
 <!-- 					<footer>
 					<ul class="buttons">
 						<li><a href="#" class="button small">Learn More</a></li>
@@ -99,7 +99,7 @@
 					<header>
 					<h3>Optimal Control and Convex Optimization</h3>
 					</header>
-					<p>We combine elements of optimal control theory and convex optimization to compute actuator commands that will satisfy mission-level constraints. These are implemented in the on-board flight software. </p>
+					<p>Our GNC payload combines optimal control theory and convex optimization to compute the reaction wheel commands that satisfy all desired constraints. </p>
 				</section>
 			</div>
 		</div>
@@ -111,8 +111,7 @@
 						<!-- <header> -->
 						<!-- <h3>Constrained Attitude Control</h3> -->
 						<!-- </header> -->
-						<p>This payload leverages previous work done at the UW in this area. In particular, we adapt methods from  <a href="https://ieeexplore.ieee.org/abstract/document/5545176?reload=true">(Kim et al, 2010)</a> and <a href="https://pdfs.semanticscholar.org/0389/248a953b679e747ffe4d14dd613d273142cb.pdf">(Lee and Mesbahi, 2013)</a> to formulate the problem. <br /><br /> 
-						Solutions are obtained in real-time using the <a href="https://www.embotech.com/ECOS"> ECOS </a> solver running on the main flight computer. Our implementation is an on-going process, but will use elements of optimal control theory or <a href="https://arxiv.org/abs/1608.05133"> Successive Convexification </a>. </p>
+						<p>The payload leverages previous work done at the UW in this area. In particular, we adapt methods from  <a href="https://ieeexplore.ieee.org/abstract/document/5545176?reload=true">(Kim et al, 2010)</a> and <a href="https://pdfs.semanticscholar.org/0389/248a953b679e747ffe4d14dd613d273142cb.pdf">(Lee and Mesbahi, 2013)</a> to formulate the problem.	Solutions are obtained in real-time using the <a href="https://www.embotech.com/ECOS"> ECOS </a> solver running on the main flight computer. Our implementation is an on-going process, but will use elements of optimal control theory or <a href="https://arxiv.org/abs/1608.05133"> Successive Convexification </a>. </p>
 				</section>
 			</div>
 		</div>
@@ -168,7 +167,7 @@
 <!-- Other Subsystems -->
 <section class="wrapper style4 container">
 	<header> <h2> Imaging System </h2> </header>
-	<p> We are currently performing trade studies on candidate imaging systems sufficient for our mission's needs. </p>
+	<p> We have selected the <a href="https://www.4dsystems.com.au/product/uCAM_III/">uCam-III</a> from <a href="https://www.4dsystems.com.au/">4D Systems</a> as our on-board camera. The camera will be mounted on the long-axis of the 3U chassis. More to come as we develop the system!  </p>
 </section>
 <!-- <section class="wrapper style4 container">
 	<header> <h2> Power System </h2> </header>
@@ -178,11 +177,11 @@
 <section class="wrapper style4 container">
 	<header> <h2> Communication System </h2> </header>
 	<p> Placeholder for description of communication system </p>
-</section>
+</section> -->
 
-<section class="wrapper style4 container">
-	<header> <h2> Structural and Thermal System </h2> </header>
-	<p> Placeholder for description of structure/thermal system </p>
+<!-- <section class="wrapper style4 container">
+	<header> <h2> Structure, Thermal and Configuration System </h2> </header>
+	<p> We are very fortunate to be working with the Aerojet Foundation to support a senior capstone group who are working to develop the SOC-i chassis. Thank you Aerojet! </p>
 </section> -->
 
 <section id="cta">			
