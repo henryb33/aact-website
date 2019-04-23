@@ -8,6 +8,8 @@ categories: people students faculty
 icon: featured fa-user-astronaut
 ---
 
+<img src="images/FullTeam.jpg" alt="The students of AACT" style="width:855px">
+
 <section class="wrapper style2">
 	<div class="row half">
 		<div class="31-2u">
@@ -15,49 +17,43 @@ icon: featured fa-user-astronaut
 				<h2> <strong>Faculty</strong> </h2>
 			</header>
 			<div class="row">
-				<div class="6u">
+				<div class="3u">
 					<section>
 						<a href="https://faculty.washington.edu/mesbahi/" class="image featured">
 							<img src="images/mehran.jpg">
 						</a>
 						<center>
-							<header><h5><a href="https://faculty.washington.edu/mesbahi/"> Mehran Mesbahi </a></h5></header>
-						<p> Faculty champion </p>
+							<header><h5><a href="https://faculty.washington.edu/mesbahi/"> Mehran<br>Mesbahi </a></h5></header>
 						</center>
 					</section>
 				</div>
-				<div class="6u">
+				<div class="3u">
 					<section>
 						<a href="https://sites.google.com/a/uw.edu/uw_acl/home" class="image featured">
 							<img src="images/behcet.jpg">
 						</a>
 						<center>
-							<header><h5><a href="https://sites.google.com/a/uw.edu/uw_acl/home"> Behcet Acikmese </a></h5></header>
-							<p> Faculty champion </p>
+							<header><h5><a href="https://sites.google.com/a/uw.edu/uw_acl/home"> Behcet<br>Acikmese </a></h5></header>
 						</center>
 					</section>
 				</div>
-            </div>
-            <div class="row">
-				<div class="6u">
+				<div class="3u">
 					<section>
 						<a href="https://www.aa.washington.edu/people/faculty/morgansen/" class="image featured">
 							<img src="images/kristi.jpg">
 						</a>
 						<center>
-							<header><h5><a href="https://www.aa.washington.edu/people/faculty/morgansen/"> Kristi Morgansen </a></h5></header>
-							<p> Faculty champion </p>
+							<header><h5><a href="https://www.aa.washington.edu/people/faculty/morgansen/"> Kristi<br>Morgansen </a></h5></header>
 						</center>
 					</section>
 				</div>
-				<div class="6u">
+				<div class="3u">
 					<section>
-						<a href="#" class="image featured">
+						<a href="https://www.uwspacelab.com/people" class="image featured">
 							<img src="images/Justin.png">
 						</a>
 						<center>
-							<header><h5><a href="#"> Justin Little </a></h5></header>
-							<p> Faculty Technical Lead </p>
+							<header><h5><a href="https://www.uwspacelab.com/people"> Justin<br>Little </a></h5></header>
 						</center>
 					</section>
 				</div>
@@ -70,95 +66,97 @@ icon: featured fa-user-astronaut
 		<div class="31-2u">
 			<header> 
 				<h2> 
-					<strong> Students </strong> 
+					<strong> Student Leadership </strong> 
 				</h2> 
 			</header>
 			<div class="row">
-				<div class="6u">
+				<div class="3u">
 					<section>
-						<a href="https://uwspacelab2018.wixsite.com/mysite/people" class="image featured">
+						<a href="https://www.uwspacelab.com/people" class="image featured">
 							<img src="images/Charlie.png">
 						</a>
 						<center>
-							<header><h5><a href="https://www.uwspacelab.com/people"> Charlie Kelly </a></h5></header>
+							<header><h5><a href="https://www.uwspacelab.com/people"> Charlie<br>Kelly </a></h5></header>
 						<p> Project Manager </p>
 						</center>
 					</section>
 				</div>
-				<div class="6u">
+				<div class="3u">
 					<section>
 						<a href="https://depts.washington.edu/uwrainlab/taylor/" class="image featured">
 							<img src="images/taylor.jpg">
 						</a>
 						<center>
-							<header><h5><a href="https://depts.washington.edu/uwrainlab/taylor/"> Taylor Reynolds </a></h5></header>
+							<header><h5><a href="https://depts.washington.edu/uwrainlab/taylor/"> Taylor<br>Reynolds </a></h5></header>
 							<p> Project Scientist </p>
 						</center>
 					</section>
 				</div>
+                <div class="3u">
+                    <section>
+                        <a href="https://www.linkedin.com/in/jamesdrosenthal/" class="image featured">
+                            <img src="images/James.jpg">
+                        </a>
+                        <center>
+                            <header><h5><a href="https://www.linkedin.com/in/jamesdrosenthal/">James<br>Rosenthal</a></h5></header>
+                            <p> Technical Advisor </p>
+                        </center>
+                    </section>
+                </div>
+                <div class="3u">
+                    <section>
+                        <a href="https://www.linkedin.com/in/arnelagrebovic/" class="image featured">
+                            <img src="images/Arnela.jpg">
+                        </a>
+                        <center>
+                            <header><h5><a href="https://www.linkedin.com/in/arnelagrebovic/">Arnela<br>Grebovic</a></h5></header>
+                            <p> Structures </p>
+                        </center>
+                    </section>
+                </div>
             </div>
-            <!-- <div class="row">
-				<div class="6u">
-					<section>
-						<a href="#" class="image featured">
-							<img src="">
-						</a>
-						<center>
-							<header><h5><a href="#"> Devan Tormey </a></h5></header>
-							<p> GNC Lead </p>
-						</center>
-					</section>
-				</div>
-				<div class="6u">
-					<section>
-						<a href="https://uwspacelab2018.wixsite.com/mysite/people" class="image featured">
-							<img src="images/Nadiah.jpg">
-						</a>
-						<center>
-							<header><h5><a href="https://uwspacelab2018.wixsite.com/mysite/people"> Nadiah Jenkins </a></h5></header>
-							<p> Systems Engineer </p>
-						</center>
-					</section>
-				</div>
-			</div> -->
+        <div class="row">
+            <div class="3u">
+                <section>
+                    <a href="" class="image featured">
+                        <img src="images/Devan.jpg">
+                    </a>
+                    <center>
+                        <header><h5><a href="">Devan<br>Tormey</a></h5></header>
+                        <p> Controls </p>
+                    </center>
+                </section>
+            </div>
+            <div class="3u">
+                <section>
+                    <a href="" class="image featured">
+                        <img src="images/Ellory.jpg">
+                    </a>
+                    <center>
+                        <header><h5><a href="">Ellory<br>Freneau</a></h5></header>
+                        <p> Communications </p>
+                    </center>
+                </section>
+            </div>
+            <div class="3u">
+                <section>
+                    <a href="" class="image featured">
+                        <img src="images/Jerrold.png">
+                    </a>
+                    <center>
+                        <header><h5><a href="">Jerrold<br>Erickson</a></h5></header>
+                        <p> Power Systems </p>
+                    </center>
+                </section>
+            </div>
+        </div>
+
 		</div>
 		<svg height="5" width="1000">
   <line x1="0" y1="0" x2="43em" y2="0" style="stroke:rgb(210,210,210);stroke-width:2" />
 		</svg>
 		    <div>
-            	<ul style="list-style-type: disc">
-            		<li> <strong> Guidance, Navigation and Control </strong> </li>
-            		<ul>
-            			<li> Lead: Devan Tormey </li>
-            			<li> Ivan Machuca </li>
-            			<li> Katherine Williams </li>
-            			<li> Arvean Labib </li>
-            		</ul>
-            		<li> <strong> Structures, Thermal, and Configuration </strong> </li>
-            		<ul>
-            			<li> Lead: Arnela Grebovic </li>
-            			<li> 2019 A&A 4th year Capstone: Brian Harr and Ivan Cordero </li>
-            		</ul>
-            		<li> <strong> Electrical Power Systems </strong> </li>
-            		<ul>
-            			<li> Lead: Jerrold Erickson </li>
-            			<li> Ishaan Bhimani </li>
-            		</ul>
-            		<li> <strong> Communications </strong> </li>
-            		<ul>
-            			<li> Lead: Ellory Freneau </li>
-            			<li> James Rosenthal </li>
-            		</ul>
-            	 	<li> <strong> Command and Data Handling </strong> </li>
-            		<ul>
-            			<li>  </li>
-            		</ul>
-            		<li> <strong> Imaging Payload </strong> </li>
-            		<ul>
-            			<li>  </li>
-            		</ul>
-            	</ul>
-            	<p> We're always looking for new students. <a href="/contact-main.html"> Start here </a> if you're interested in joining the team! </p>
+                <p> We're always looking for new students. <a href="/contact-main.html"> Start here </a> if you're interested in joining the team! </p>
             </div> 
 	<!-- </div> -->
 <!--
