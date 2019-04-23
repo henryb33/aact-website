@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 22 Apr 2019 22:25:02 -0700</pubDate>
-    <lastBuildDate>Mon, 22 Apr 2019 22:25:02 -0700</lastBuildDate>
+    <pubDate>Mon, 22 Apr 2019 22:31:44 -0700</pubDate>
+    <lastBuildDate>Mon, 22 Apr 2019 22:31:44 -0700</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -41,7 +41,7 @@
 							&lt;img src=&quot;images/mehran.jpg&quot; /&gt;
 						&lt;/a&gt;
 						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://faculty.washington.edu/mesbahi/&quot;&gt; Mehran&lt;br /&gt;Mesbahi &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://faculty.washington.edu/mesbahi/&quot;&gt; Mehran &lt;br /&gt;Mesbahi &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
 						&lt;/center&gt;
 					&lt;/section&gt;
 				&lt;/div&gt;
@@ -51,7 +51,7 @@
 							&lt;img src=&quot;images/behcet.jpg&quot; /&gt;
 						&lt;/a&gt;
 						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://sites.google.com/a/uw.edu/uw_acl/home&quot;&gt; Behcet&lt;br /&gt;Acikmese &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://sites.google.com/a/uw.edu/uw_acl/home&quot;&gt; Behcet &lt;br /&gt;Acikmese &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
 						&lt;/center&gt;
 					&lt;/section&gt;
 				&lt;/div&gt;
@@ -61,7 +61,7 @@
 							&lt;img src=&quot;images/kristi.jpg&quot; /&gt;
 						&lt;/a&gt;
 						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.aa.washington.edu/people/faculty/morgansen/&quot;&gt; Kristi&lt;br /&gt;Morgansen &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.aa.washington.edu/people/faculty/morgansen/&quot;&gt; Kristi &lt;br /&gt;Morgansen &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
 						&lt;/center&gt;
 					&lt;/section&gt;
 				&lt;/div&gt;
@@ -71,7 +71,7 @@
 							&lt;img src=&quot;images/Justin.png&quot; /&gt;
 						&lt;/a&gt;
 						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.uwspacelab.com/people&quot;&gt; Justin&lt;br /&gt;Little &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.uwspacelab.com/people&quot;&gt; Justin &lt;br /&gt;Little &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
 						&lt;/center&gt;
 					&lt;/section&gt;
 				&lt;/div&gt;
@@ -94,8 +94,8 @@
 							&lt;img src=&quot;images/Charlie.png&quot; /&gt;
 						&lt;/a&gt;
 						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.uwspacelab.com/people&quot;&gt; Charlie&lt;br /&gt;Kelly &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-						&lt;p&gt; Project Manager &lt;/p&gt;
+							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.uwspacelab.com/people&quot;&gt; Charlie &lt;br /&gt;Kelly &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+						&lt;p&gt;&lt;center&gt;Project Manager&lt;/center&gt;&lt;/p&gt;
 						&lt;/center&gt;
 					&lt;/section&gt;
 				&lt;/div&gt;
@@ -105,8 +105,8 @@
 							&lt;img src=&quot;images/taylor.jpg&quot; /&gt;
 						&lt;/a&gt;
 						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://depts.washington.edu/uwrainlab/taylor/&quot;&gt; Taylor&lt;br /&gt;Reynolds &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-							&lt;p&gt; Project Scientist &lt;/p&gt;
+							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://depts.washington.edu/uwrainlab/taylor/&quot;&gt; Taylor &lt;br /&gt;Reynolds &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+							&lt;p&gt;&lt;center&gt;Project Scientist&lt;/center&gt;&lt;/p&gt;
 						&lt;/center&gt;
 					&lt;/section&gt;
 				&lt;/div&gt;
@@ -116,8 +116,8 @@
                             &lt;img src=&quot;images/James.jpg&quot; /&gt;
                         &lt;/a&gt;
                         &lt;center&gt;
-                            &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.linkedin.com/in/jamesdrosenthal/&quot;&gt;James&lt;br /&gt;Rosenthal&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-                            &lt;p&gt; Technical Advisor &lt;/p&gt;
+                            &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.linkedin.com/in/jamesdrosenthal/&quot;&gt;James &lt;br /&gt;Rosenthal&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+                            &lt;p&gt;&lt;center&gt;Technical Advisor&lt;/center&gt;&lt;/p&gt;
                         &lt;/center&gt;
                     &lt;/section&gt;
                 &lt;/div&gt;
@@ -127,8 +127,8 @@
                             &lt;img src=&quot;images/Arnela.jpg&quot; /&gt;
                         &lt;/a&gt;
                         &lt;center&gt;
-                            &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.linkedin.com/in/arnelagrebovic/&quot;&gt;Arnela&lt;br /&gt;Grebovic&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-                            &lt;p&gt; Structures &lt;/p&gt;
+                            &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.linkedin.com/in/arnelagrebovic/&quot;&gt;Arnela &lt;br /&gt;Grebovic&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+                            &lt;p&gt;&lt;center&gt;Structures&lt;/center&gt;&lt;/p&gt;
                         &lt;/center&gt;
                     &lt;/section&gt;
                 &lt;/div&gt;
@@ -140,8 +140,8 @@
                         &lt;img src=&quot;images/Devan.jpg&quot; /&gt;
                     &lt;/a&gt;
                     &lt;center&gt;
-                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Devan&lt;br /&gt;Tormey&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-                        &lt;p&gt; Controls &lt;/p&gt;
+                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Devan &lt;br /&gt;Tormey&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+                        &lt;p&gt;&lt;center&gt;Controls&lt;/center&gt;&lt;/p&gt;
                     &lt;/center&gt;
                 &lt;/section&gt;
             &lt;/div&gt;
@@ -151,8 +151,8 @@
                         &lt;img src=&quot;images/Ellory.jpg&quot; /&gt;
                     &lt;/a&gt;
                     &lt;center&gt;
-                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Ellory&lt;br /&gt;Freneau&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-                        &lt;p&gt; Communications &lt;/p&gt;
+                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Ellory &lt;br /&gt;Freneau&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+                        &lt;p&gt;&lt;center&gt;Communications&lt;/center&gt;&lt;/p&gt;
                     &lt;/center&gt;
                 &lt;/section&gt;
             &lt;/div&gt;
@@ -162,8 +162,8 @@
                         &lt;img src=&quot;images/Jerrold.png&quot; /&gt;
                     &lt;/a&gt;
                     &lt;center&gt;
-                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Jerrold&lt;br /&gt;Erickson&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-                        &lt;p&gt; Power Systems &lt;/p&gt;
+                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Jerrold &lt;br /&gt;Erickson&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+                        &lt;p&gt;&lt;center&gt;Power Systems&lt;/center&gt;&lt;/p&gt;
                     &lt;/center&gt;
                 &lt;/section&gt;
             &lt;/div&gt;
