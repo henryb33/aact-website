@@ -22,13 +22,13 @@ icon: fa-user-graduate
 				<li> Email us at <a href="mailto:aact@uw.edu"> aact@uw.edu.</a> Be sure to include: </li> 
 					<ul style="margin-left: 1em; list-style-type: circle">
 						<li> Academic status (undergrad, Master's or Ph.D.) and home department,</li>
-						<li> A copy of your resume, </li>
+						<li> A copy of your resume (if you have one), </li>
 						<li> A quick description of why you're interested in joining our team,</li>
 						<li> If possible, highlight relevant experience. This is not a requirement but it helps us get a sense of how you'd fit into our project!</li>
 					</ul>
-				<li> Drop by the Engineering Design Lab in AERB 023 during our shop hours:</li>
+				<li> After emailing us, drop by the Engineering Design Lab in AERB 023 during our shop hours:</li>
 				<ul style="margin-left: 1em; list-style-type: circle">
-					<li> Mondays 2-5 pm </li>
+                    <li> Mondays 11:30am-2:30pm </li>
 					<li> Tuesdays 12:30-3:30 pm </li>
 					<li> Wednesdays 1-4 pm </li>
 					<li> Thursdays 11:30am-2:30pm </li>

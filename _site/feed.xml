@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 22 Apr 2019 22:31:44 -0700</pubDate>
-    <lastBuildDate>Mon, 22 Apr 2019 22:31:44 -0700</lastBuildDate>
+    <pubDate>Mon, 07 Oct 2019 15:26:40 -0700</pubDate>
+    <lastBuildDate>Mon, 07 Oct 2019 15:26:40 -0700</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -19,7 +19,7 @@
                 &lt;div class=&quot;12u&quot;&gt;
                     &lt;section&gt;
                         &lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;
-                        &lt;img src=&quot;images/FullTeam.jpg&quot; alt=&quot;The students of AACT&quot; /&gt;
+                        &lt;img src=&quot;images/teampic_2019-10-03.jpg&quot; alt=&quot;The students of AACT&quot; /&gt;
                         &lt;/a&gt;
                     &lt;/section&gt;
                 &lt;/div&gt;
@@ -148,6 +148,17 @@
             &lt;div class=&quot;3u&quot;&gt;
                 &lt;section&gt;
                     &lt;a href=&quot;&quot; class=&quot;image featured&quot;&gt;
+                        &lt;img src=&quot;images/cole.jpg&quot; /&gt;
+                    &lt;/a&gt;
+                    &lt;center&gt;
+                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Cole &lt;br /&gt;Morgan&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+                        &lt;p&gt;&lt;center&gt;Controls&lt;/center&gt;&lt;/p&gt;
+                    &lt;/center&gt;
+                &lt;/section&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;3u&quot;&gt;
+                &lt;section&gt;
+                    &lt;a href=&quot;&quot; class=&quot;image featured&quot;&gt;
                         &lt;img src=&quot;images/Ellory.jpg&quot; /&gt;
                     &lt;/a&gt;
                     &lt;center&gt;
@@ -168,13 +179,38 @@
                 &lt;/section&gt;
             &lt;/div&gt;
         &lt;/div&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;3u&quot;&gt;
+                &lt;section&gt;
+                    &lt;a href=&quot;&quot; class=&quot;image featured&quot;&gt;
+                        &lt;img src=&quot;images/sheershak.jpg&quot; /&gt;
+                    &lt;/a&gt;
+                    &lt;center&gt;
+                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Sheershak &lt;br /&gt;Agarwal&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+                        &lt;p&gt;&lt;center&gt;Flight Computer&lt;/center&gt;&lt;/p&gt;
+                    &lt;/center&gt;
+                &lt;/section&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;3u&quot;&gt;
+                &lt;section&gt;
+                    &lt;a href=&quot;&quot; class=&quot;image featured&quot;&gt;
+                        &lt;img src=&quot;images/cameron.jpg&quot; /&gt;
+                    &lt;/a&gt;
+                    &lt;center&gt;
+                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Cameron &lt;br /&gt;Wutzke&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+                        &lt;p&gt;&lt;center&gt;Imaging&lt;/center&gt;&lt;/p&gt;
+                    &lt;/center&gt;
+                &lt;/section&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
 
 		&lt;/div&gt;
 		&lt;svg height=&quot;5&quot; width=&quot;1000&quot;&gt;
   &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;43em&quot; y2=&quot;0&quot; style=&quot;stroke:rgb(210,210,210);stroke-width:2&quot; /&gt;
 		&lt;/svg&gt;
 		    &lt;div&gt;
-                &lt;p&gt; We're always looking for new students. &lt;a href=&quot;/contact-main.html&quot;&gt; Start here &lt;/a&gt; if you're interested in joining the team! &lt;/p&gt;
+                &lt;p&gt; We're always looking for new students. &lt;a href=&quot;/contact-students.html&quot;&gt; Start here &lt;/a&gt; if you're interested in joining the team! &lt;/p&gt;
             &lt;/div&gt; 
 	&lt;!-- &lt;/div&gt; --&gt;
 &lt;!--
@@ -188,7 +224,7 @@
  --&gt;
 &lt;/section&gt;
 </description>
-        <pubDate>Sat, 06 Oct 2018 17:00:00 -0700</pubDate>
+        <pubDate>Sun, 06 Oct 2019 17:00:00 -0700</pubDate>
         <link>http://localhost:4000/people.html</link>
         <guid isPermaLink="true">http://localhost:4000/people.html</guid>
         
@@ -217,15 +253,17 @@
 				&lt;li&gt; Email us at &lt;a href=&quot;mailto:aact@uw.edu&quot;&gt; aact@uw.edu.&lt;/a&gt; Be sure to include: &lt;/li&gt; 
 					&lt;ul style=&quot;margin-left: 1em; list-style-type: circle&quot;&gt;
 						&lt;li&gt; Academic status (undergrad, Master's or Ph.D.) and home department,&lt;/li&gt;
-						&lt;li&gt; A copy of your resume, &lt;/li&gt;
+						&lt;li&gt; A copy of your resume (if you have one), &lt;/li&gt;
 						&lt;li&gt; A quick description of why you're interested in joining our team,&lt;/li&gt;
 						&lt;li&gt; If possible, highlight relevant experience. This is not a requirement but it helps us get a sense of how you'd fit into our project!&lt;/li&gt;
 					&lt;/ul&gt;
-				&lt;li&gt; Drop by the Engineering Design Lab in AERB 023 during our shop hours:&lt;/li&gt;
+				&lt;li&gt; After emailing us, drop by the Engineering Design Lab in AERB 023 during our shop hours:&lt;/li&gt;
 				&lt;ul style=&quot;margin-left: 1em; list-style-type: circle&quot;&gt;
-					&lt;li&gt; Wednesday 2-5 pm &lt;/li&gt;
-					&lt;li&gt; Friday 2-5 pm &lt;/li&gt;
-&lt;!-- 					&lt;li&gt; Friday 9-11 am &lt;/li&gt; --&gt;
+                    &lt;li&gt; Mondays 11:30am-2:30pm &lt;/li&gt;
+					&lt;li&gt; Tuesdays 12:30-3:30 pm &lt;/li&gt;
+					&lt;li&gt; Wednesdays 1-4 pm &lt;/li&gt;
+					&lt;li&gt; Thursdays 11:30am-2:30pm &lt;/li&gt;
+					&lt;li&gt; Fridays 10am-2pm &lt;/li&gt;
 				&lt;/ul&gt;
 			&lt;/ul&gt; 
 	&lt;/header&gt;
@@ -311,16 +349,17 @@
         <title>Our Design Facilities</title>
         <description>&lt;section class=&quot;wrapper style4&quot;&gt;
 	&lt;header&gt;&lt;h2&gt; Engineering Development Lab &lt;/h2&gt;&lt;/header&gt;
-	&lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;
-	Our engineering design space is in the Aerospace Engineering and Research Building (AERB) rooms 023 and 013. &lt;br /&gt;&lt;br /&gt;
-	&lt;div class=&quot;row&quot;&gt;
+	&lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/satcave.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;
+	Our engineering design space, affectionately dubbed the &quot;sat cave,&quot; is in the Aerospace Engineering and Research Building (AERB) rooms 023 and 013. &lt;br /&gt;&lt;br /&gt;
+	&lt;!--
+     &lt;div class=&quot;row&quot;&gt;
 		&lt;div class=&quot;4u&quot;&gt;						
 			&lt;section&gt;
 				&lt;header&gt;
 				&lt;h3&gt;T-Vac Chamber&lt;/h3&gt;
 				&lt;/header&gt;
 				&lt;p&gt;With industry support, students from our department have put together a thermal vaccum chamber that we can use to rigorously test the space-readiness of our satellites.&lt;/p&gt;
-				&lt;span class=&quot;imagenb featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;
+				&lt;span class=&quot;imagenb featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; alt=&quot;&quot;&gt;&lt;/span&gt;
 			&lt;/section&gt;					
 		&lt;/div&gt;
 		&lt;div class=&quot;4u&quot;&gt;						
@@ -328,8 +367,8 @@
 				&lt;header&gt;
 				&lt;h3&gt;Vibrational Table&lt;/h3&gt;
 				&lt;/header&gt;
-				&lt;p&gt;A newly purchased vibrational table allows us to assess the structural integrity of our satellites before we send them for launch.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-				&lt;span class=&quot;imagenb featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;
+				&lt;p&gt;A newly purchased vibrational table allows us to assess the structural integrity of our satellites before we send them for launch.&lt;br&gt;&lt;br/&gt;&lt;/p&gt;
+				&lt;span class=&quot;imagenb featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; alt=&quot;&quot;&gt;&lt;/span&gt;
 			&lt;/section&gt;				
 		&lt;/div&gt;
 		&lt;div class=&quot;4u&quot;&gt;						
@@ -337,11 +376,12 @@
 				&lt;header&gt;
 				&lt;h3&gt;Clean Room&lt;/h3&gt;
 				&lt;/header&gt;
-				&lt;p&gt;An on-campus clean room supports final flight model integration.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-				&lt;span class=&quot;imagenb featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;
+				&lt;p&gt;An on-campus clean room supports final flight model integration.&lt;br&gt;&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;/p&gt;
+				&lt;span class=&quot;imagenb featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; alt=&quot;&quot;&gt;&lt;/span&gt;
 			&lt;/section&gt;						
 		&lt;/div&gt;
 	&lt;/div&gt;
+     --&gt;
 &lt;/section&gt;
 &lt;section class=&quot;wrapper style2&quot;&gt;
 	&lt;header&gt;&lt;h2&gt; Mission Control Center&lt;/h2&gt;&lt;/header&gt;

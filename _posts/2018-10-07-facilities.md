@@ -10,9 +10,10 @@ icon: fa-drafting-compass
 
 <section class="wrapper style4">
 	<header><h2> Engineering Development Lab </h2></header>
-	<span class="image featured"><img src="/images/pic03.jpg" alt=""></span>
-	Our engineering design space is in the Aerospace Engineering and Research Building (AERB) rooms 023 and 013. <br/><br/>
-	<div class="row">
+	<span class="image featured"><img src="/images/satcave.jpg" alt=""></span>
+	Our engineering design space, affectionately dubbed the "sat cave," is in the Aerospace Engineering and Research Building (AERB) rooms 023 and 013. <br/><br/>
+	<!--
+     <div class="row">
 		<div class="4u">						
 			<section>
 				<header>
@@ -41,6 +42,7 @@ icon: fa-drafting-compass
 			</section>						
 		</div>
 	</div>
+     -->
 </section>
 <section class="wrapper style2">
 	<header><h2> Mission Control Center</h2></header>
