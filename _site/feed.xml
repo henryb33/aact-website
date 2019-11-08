@@ -6,9 +6,54 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 07 Oct 2019 15:26:40 -0700</pubDate>
-    <lastBuildDate>Mon, 07 Oct 2019 15:26:40 -0700</lastBuildDate>
+    <pubDate>Thu, 07 Nov 2019 23:29:59 -0800</pubDate>
+    <lastBuildDate>Thu, 07 Nov 2019 23:29:59 -0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Team News</title>
+        <description>&lt;section class=&quot;wrapper style2&quot;&gt;
+  &lt;ul style=&quot;list-style-type: none&quot;&gt;
+      &lt;li&gt;&lt;h2&gt; What is AACT Up To?  &lt;/h2&gt;&lt;/li&gt;
+      &lt;p&gt; Check in here for team updates, milestones, announcements, and anything else we'd like to share.&lt;/p&gt;
+        &lt;ul style=&quot;list-style-type: square&quot;&gt;
+           &lt;li&gt; &lt;b&gt;November 4, 2019&lt;/b&gt;: we've submitted our launch application for the SOC-i mission! A 212 page document detailing every aspect of the spacecraft's design so far. Happy reading, NASA. &lt;/li&gt;
+           &lt;li&gt; &lt;b&gt;October, 2019&lt;/b&gt;: AACT hosts a Preliminary Design Review for the SOC-i mission. A group of faculty and industry professionals critiqued our design, and offered a ton of great feedback. A huge milestone for the team as we near the launch application.&lt;/li&gt;
+           &lt;li&gt; &lt;b&gt;February, 2019&lt;/b&gt;: AACT hosts a Systems and Requirements Review for the SOC-i mission. We put together a team of faculty and industry professionals to assess our mission plan and help us shape the scope, ConOps and implementation plan for our first mission. Lots of work to do now to turn it into reality.&lt;/li&gt;
+           &lt;li&gt; &lt;b&gt; July, 2018 &lt;/b&gt;: AACT's funding proposal is accepted by the College of Engineering. Houston, we have a space program. Fun fact: One of the co-founders was literally at the Johnson Space Center when he got this phone call.&lt;/li&gt;
+           &lt;li&gt; &lt;b&gt; April, 2018&lt;/b&gt;: The idea for AACT is conceived. Many team names are bandied about over malted beverages, and a proposal for funding is submitted to the College of Engineering. &lt;/li&gt;
+           &lt;!-- &lt;li&gt; Pre-April 2018, years 2-1 BAACT. Does our department even do spacecraft engineering? Anybody? &lt;/li&gt; --&gt;
+           &lt;!-- &lt;li&gt; September 2016, the year 2 BAACT. Taylor &amp; Charlie start at UW. &lt;/li&gt; --&gt;
+        &lt;/ul&gt;
+  &lt;/ul&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;wrapper style5&quot;&gt;
+	&lt;ul style=&quot;list-style-type: none&quot;&gt;
+  		&lt;li&gt;&lt;h2&gt; Recent Publications &lt;/h2&gt;&lt;/li&gt;
+  			&lt;ul style=&quot;list-style-type: disc&quot;&gt;
+  				 &lt;li&gt; T. P. Reynolds, K. Kaycee, B. Barzgaran, M. Hudoba de Badyn, S. Rice, E. Hansen, A. Adler, B. Acikmese and M. Mesbahi, “&lt;a style=&quot;color:#4169e1&quot; href=&quot;https://arc.aiaa.org/doi/abs/10.2514/6.2018-5403&quot;&gt; Development of a Generic Guidance Navigation &amp;amp; Control System for Small Satellites: Application to HuskySat-1, &lt;/a&gt;” AIAA Space Forum, Orlando, FL, 2018.&lt;/li&gt;
+  			&lt;/ul&gt;
+	&lt;/ul&gt;
+&lt;/section&gt;
+
+</description>
+        <pubDate>Wed, 06 Nov 2019 16:00:00 -0800</pubDate>
+        <link>http://localhost:4000/news.html</link>
+        <guid isPermaLink="true">http://localhost:4000/news.html</guid>
+        
+        
+        <category>news</category>
+        
+        <category>publications</category>
+        
+        <category>papers</category>
+        
+        <category>research</category>
+        
+        <category>space-systems</category>
+        
+      </item>
     
       <item>
         <title>Meet our Team</title>
@@ -716,112 +761,6 @@
         
         
         <category>missions soc-i attitude-control optimal-control convex-optimization optimal-spacecraft-attitude-motion</category>
-        
-      </item>
-    
-      <item>
-        <title>Electric Propulsion</title>
-        <description>&lt;!-- One --&gt;
-&lt;section class=&quot;wrapper style4 container&quot;&gt;			
-	&lt;div class=&quot;row oneandhalf&quot;&gt;
-		&lt;div class=&quot;8u&quot;&gt;						
-		&lt;!-- Content --&gt;
-			&lt;div class=&quot;content&quot;&gt;
-				&lt;section&gt;
-					&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;&lt;img src=&quot;images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-					&lt;header&gt;
-						&lt;h3&gt;CubeSat Propulsion&lt;/h3&gt;
-					&lt;/header&gt;
-					&lt;p&gt;something something rockets!.&lt;/p&gt;
-					&lt;p&gt;Maybe provide some idea/link to work you guys are doing in EP and how that might play into what we do on certain missions.&lt;/p&gt;
-				&lt;/section&gt;
-			&lt;/div&gt;	
-		&lt;/div&gt;
-		&lt;div class=&quot;4u&quot;&gt;								
-		&lt;!-- Sidebar --&gt;
-			&lt;div class=&quot;sidebar&quot;&gt;
-				&lt;section&gt;
-					&lt;header&gt;
-						&lt;h3&gt;Pulsed Plasma Thrusters&lt;/h3&gt;
-					&lt;/header&gt;
-					&lt;p&gt;Our use of PPTs is to...&lt;/p&gt;
-&lt;!-- 					&lt;footer&gt;
-						&lt;ul class=&quot;buttons&quot;&gt;
-							&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small&quot;&gt;Learn More&lt;/a&gt;&lt;/li&gt;
-						&lt;/ul&gt;
-					&lt;/footer&gt; --&gt;
-				&lt;/section&gt;
-				&lt;section&gt;
-					&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;&lt;img src=&quot;images/pic04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-					&lt;header&gt;
-						&lt;h3&gt;Placeholder&lt;/h3&gt;
-					&lt;/header&gt;
-					&lt;p&gt;Placeholder text.&lt;/p&gt;
-&lt;!-- 					&lt;footer&gt;
-						&lt;ul class=&quot;buttons&quot;&gt;
-							&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small&quot;&gt;Learn More&lt;/a&gt;&lt;/li&gt;
-						&lt;/ul&gt;
-					&lt;/footer&gt; --&gt;
-				&lt;/section&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;					
-&lt;/section&gt;
-&lt;!-- Two --&gt;
-&lt;section class=&quot;wrapper style1 container special&quot;&gt;
-	&lt;div class=&quot;row&quot;&gt;
-		&lt;div class=&quot;4u&quot;&gt;					
-			&lt;section&gt;
-				&lt;header&gt;
-					&lt;h3&gt;Link to something&lt;/h3&gt;
-				&lt;/header&gt;
-				&lt;p&gt;Description of (external) link.&lt;/p&gt;
-				&lt;footer&gt;
-					&lt;ul class=&quot;buttons&quot;&gt;
-						&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small special&quot;&gt;Learn More&lt;/a&gt;&lt;/li&gt;
-					&lt;/ul&gt;
-				&lt;/footer&gt;
-			&lt;/section&gt;				
-		&lt;/div&gt;
-		&lt;div class=&quot;4u&quot;&gt;					
-			&lt;section&gt;
-				&lt;header&gt;
-					&lt;h3&gt;Also Something&lt;/h3&gt;
-				&lt;/header&gt;
-				&lt;p&gt;Description of (external) link.&lt;/p&gt;
-				&lt;footer&gt;
-					&lt;ul class=&quot;buttons&quot;&gt;
-						&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small special&quot;&gt;Learn More&lt;/a&gt;&lt;/li&gt;
-					&lt;/ul&gt;
-				&lt;/footer&gt;
-			&lt;/section&gt;			
-		&lt;/div&gt;
-		&lt;div class=&quot;4u&quot;&gt;					
-			&lt;section&gt;
-				&lt;header&gt;
-					&lt;h3&gt;Probably Something&lt;/h3&gt;
-				&lt;/header&gt;
-				&lt;p&gt;Description of (external) link.&lt;/p&gt;
-				&lt;footer&gt;
-					&lt;ul class=&quot;buttons&quot;&gt;
-						&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small special&quot;&gt;Learn More&lt;/a&gt;&lt;/li&gt;
-					&lt;/ul&gt;
-				&lt;/footer&gt;
-			&lt;/section&gt;						
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/section&gt;
-</description>
-        <pubDate>Thu, 13 Sep 2018 17:00:00 -0700</pubDate>
-        <link>http://localhost:4000/electric-propulsion.html</link>
-        <guid isPermaLink="true">http://localhost:4000/electric-propulsion.html</guid>
-        
-        
-        <category>research</category>
-        
-        <category>electric-propulsion</category>
-        
-        <category>propulsion</category>
         
       </item>
     

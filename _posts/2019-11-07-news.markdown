@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Team News"
+date:   2019-11-07 00:00:00
+author: A&ampA CubeSat Team
+permalink: /news.html
+categories: news publications papers research space-systems
+icon: fa-book-open
+---
+
+<section class="wrapper style2">
+  <ul style="list-style-type: none">
+      <li><h2> What is AACT Up To?  </h2></li>
+      <p> Check in here for team updates, milestones, announcements, and anything else we'd like to share.</p>
+        <ul style="list-style-type: square">
+           <li> <b>November 4, 2019</b>: we've submitted our launch application for the SOC-i mission! A 212 page document detailing every aspect of the spacecraft's design so far. Happy reading, NASA. </li>
+           <li> <b>October, 2019</b>: AACT hosts a Preliminary Design Review for the SOC-i mission. A group of faculty and industry professionals critiqued our design, and offered a ton of great feedback. A huge milestone for the team as we near the launch application.</li>
+           <li> <b>February, 2019</b>: AACT hosts a Systems and Requirements Review for the SOC-i mission. We put together a team of faculty and industry professionals to assess our mission plan and help us shape the scope, ConOps and implementation plan for our first mission. Lots of work to do now to turn it into reality.</li>
+           <li> <b> July, 2018 </b>: AACT's funding proposal is accepted by the College of Engineering. Houston, we have a space program. Fun fact: One of the co-founders was literally at the Johnson Space Center when he got this phone call.</li>
+           <li> <b> April, 2018</b>: The idea for AACT is conceived. Many team names are bandied about over malted beverages, and a proposal for funding is submitted to the College of Engineering. </li>
+           <!-- <li> Pre-April 2018, years 2-1 BAACT. Does our department even do spacecraft engineering? Anybody? </li> -->
+           <!-- <li> September 2016, the year 2 BAACT. Taylor & Charlie start at UW. </li> -->
+        </ul>
+  </ul>
+</section>
+
+<section class="wrapper style5">
+	<ul style="list-style-type: none">
+  		<li><h2> Recent Publications </h2></li>
+  			<ul style="list-style-type: disc">
+  				 <li> T. P. Reynolds, K. Kaycee, B. Barzgaran, M. Hudoba de Badyn, S. Rice, E. Hansen, A. Adler, B. Acikmese and M. Mesbahi, “<a style="color:#4169e1" href="https://arc.aiaa.org/doi/abs/10.2514/6.2018-5403"> Development of a Generic Guidance Navigation & Control System for Small Satellites: Application to HuskySat-1, </a>” AIAA Space Forum, Orlando, FL, 2018.</li>
+  			</ul>
+	</ul>
+</section>
+

@@ -41,7 +41,7 @@
 		-o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		color: #3fb1a3;
+		color: #b87aa0;
 		text-decoration: none;
 		border-bottom: dotted 1px;
 	}
@@ -699,6 +699,30 @@
 			}
 
 				.wrapper.style4 .button.special:hover {
+					border-color: inherit !important;
+					color: white !important;
+				}
+
+		.wrapper.style5 {
+			background-color: #b8a57a;
+			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
+			background-position: top left, top right;
+			background-repeat: no-repeat, no-repeat;
+			background-size: 25em, 25em;
+			color: black;
+		}
+		
+			.wrapper.style5 .button:hover {
+				background: rgba(75, 47, 132, 0.15) !important;
+			}
+
+			.wrapper.style5 .button.special {
+				background: #4b2f84;
+				border-color: #4b2f84;
+				color: white !important;
+			}
+
+				.wrapper.style5 .button.special:hover {
 					border-color: inherit !important;
 					color: white !important;
 				}
