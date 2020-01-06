@@ -29,8 +29,8 @@ icon: fa-user-graduate
 				<li> After emailing us, drop by the Engineering Design Lab in AERB 023 during our shop hours:</li>
 				<ul style="margin-left: 1em; list-style-type: circle">
                     <li> Mondays 11:30am-2:30pm </li>
-					<li> Tuesdays 12:30-3:30 pm </li>
-					<li> Wednesdays 1-4 pm </li>
+					<li> Tuesdays 1-4pm </li>
+					<li> Wednesdays 1-4pm </li>
 					<li> Thursdays 11:30am-2:30pm </li>
 					<li> Fridays 10am-2pm </li>
 				</ul>
