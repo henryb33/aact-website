@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 07 Nov 2019 23:29:59 -0800</pubDate>
-    <lastBuildDate>Thu, 07 Nov 2019 23:29:59 -0800</lastBuildDate>
+    <pubDate>Thu, 26 Mar 2020 16:24:43 -0700</pubDate>
+    <lastBuildDate>Thu, 26 Mar 2020 16:24:43 -0700</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -16,15 +16,20 @@
   &lt;ul style=&quot;list-style-type: none&quot;&gt;
       &lt;li&gt;&lt;h2&gt; What is AACT Up To?  &lt;/h2&gt;&lt;/li&gt;
       &lt;p&gt; Check in here for team updates, milestones, announcements, and anything else we'd like to share.&lt;/p&gt;
-        &lt;ul style=&quot;list-style-type: square&quot;&gt;
-           &lt;li&gt; &lt;b&gt;November 4, 2019&lt;/b&gt;: we've submitted our launch application for the SOC-i mission! A 212 page document detailing every aspect of the spacecraft's design so far. Happy reading, NASA. &lt;/li&gt;
-           &lt;li&gt; &lt;b&gt;October, 2019&lt;/b&gt;: AACT hosts a Preliminary Design Review for the SOC-i mission. A group of faculty and industry professionals critiqued our design, and offered a ton of great feedback. A huge milestone for the team as we near the launch application.&lt;/li&gt;
-           &lt;li&gt; &lt;b&gt;February, 2019&lt;/b&gt;: AACT hosts a Systems and Requirements Review for the SOC-i mission. We put together a team of faculty and industry professionals to assess our mission plan and help us shape the scope, ConOps and implementation plan for our first mission. Lots of work to do now to turn it into reality.&lt;/li&gt;
-           &lt;li&gt; &lt;b&gt; July, 2018 &lt;/b&gt;: AACT's funding proposal is accepted by the College of Engineering. Houston, we have a space program. Fun fact: One of the co-founders was literally at the Johnson Space Center when he got this phone call.&lt;/li&gt;
-           &lt;li&gt; &lt;b&gt; April, 2018&lt;/b&gt;: The idea for AACT is conceived. Many team names are bandied about over malted beverages, and a proposal for funding is submitted to the College of Engineering. &lt;/li&gt;
-           &lt;!-- &lt;li&gt; Pre-April 2018, years 2-1 BAACT. Does our department even do spacecraft engineering? Anybody? &lt;/li&gt; --&gt;
-           &lt;!-- &lt;li&gt; September 2016, the year 2 BAACT. Taylor &amp; Charlie start at UW. &lt;/li&gt; --&gt;
-        &lt;/ul&gt;
+      &lt;b style=&quot;color:#b8a57a;font-size:125%;&quot;&gt; Congratulations to Cole, Devan &amp;amp; Arnela!&lt;/b&gt;
+      &lt;p&gt; March, 2020: Our GNC leads Cole Morgan and Devan Tormey have accepted a full-time job offer to join SpaceX and Blue Origin respectively, both in the Seattle area. Our STC lead Arnela Grebovic has accepted a full-time job offer to join Blue Origin. Congrats to you three and thank you for all that you've done on the SOC-i mission! &lt;/p&gt;
+      &lt;b style=&quot;color:#b8a57a;font-size:125%;&quot;&gt; SOC-i is Chosen For Launch!&lt;/b&gt;
+        &lt;p&gt;February 21, 2020: Our launch application was selected by NASA as one of 18 CubeSats in the pool of applicants. Of the chosen 18, we were ranked 8th in the manifest list. At just over one year since the AACTs kick-off meeting, we are incredibly proud of the work our team has done to get to this point so quickly. &lt;a href=&quot;https://www.aa.washington.edu/news/article/2020-03-04/aa-cubesat-secures-exclusive-nasa-spot?utm_source=UW_News_Subscribers&amp;amp;utm_medium=email&amp;amp;utm_campaign=UW_Today_secondary&amp;amp;mkt_tok=eyJpIjoiT1RSak9HWXlOV1F3WW1ObCIsInQiOiIyQjE1N1ZNa1wvWElDOFQ5QWJrbHF6NmpqUnFFaHM5YjNDR2RtTnZMNW54MzcwNnhPSHdwY2Q0UlV3MXZkdkhabVF3OGVQQ1I5c3crVTNQbHhIT3VEdkNQZ2FaZGplWHp6UkhtTDJuTUthYWxKY1YyMktpNWhSNmNmemVodkRrajkifQ%3D%3D&quot;&gt; Read more in the UW's press release.&lt;/a&gt; &lt;/p&gt;
+      &lt;b style=&quot;color:#b8a57a;font-size:125%;&quot;&gt; AACT Applies to Launch SOC-i with NASA Program&lt;/b&gt;
+        &lt;p&gt;November 4, 2019: We've submitted our launch application for the SOC-i mission! A 212 page document detailing every aspect of the spacecraft's design so far. Happy reading, NASA.&lt;/p&gt;
+      &lt;b style=&quot;color:#b8a57a;font-size:125%;&quot;&gt; AACT hosts a Preliminary Design Review for the SOC-i mission.&lt;/b&gt;
+        &lt;p&gt;October, 2019: A group of faculty and industry professionals critiqued our design, and offered a ton of great feedback. A huge milestone for the team as we near the launch application.&lt;/p&gt;
+      &lt;b style=&quot;color:#b8a57a;font-size:125%;&quot;&gt; AACT hosts a Systems and Requirements Review for the SOC-i mission.&lt;/b&gt;
+        &lt;p&gt;February, 2019: We put together a team of faculty and industry professionals to assess our mission plan and help us shape the scope, ConOps and implementation plan for our first mission. Lots of work to do now to turn it into reality.&lt;/p&gt;
+      &lt;b style=&quot;color:#b8a57a;font-size:125%;&quot;&gt; The Birth of AACT&lt;/b&gt;
+        &lt;p&gt;July, 2018: The idea for AACT was conceived in April, 2018. Many team names were bandied about over malted beverages, and a proposal for funding was eventually submitted to the College of Engineering using the Aeronautics &amp;amp; Astronautics CubeSat Team. In July, AACT's funding proposal was accepted by the College of Engineering. Houston, we have a space program. Fun fact: One of the co-founders was literally at the Johnson Space Center when he got the phone call.&lt;/p&gt;
+        &lt;!-- &lt;li&gt; Pre-April 2018, years 2-1 BAACT. Does our department even do spacecraft engineering? Anybody? &lt;/li&gt; --&gt;
+        &lt;!-- &lt;li&gt; September 2016, the year 2 BAACT. Taylor &amp; Charlie start at UW. &lt;/li&gt; --&gt;
   &lt;/ul&gt;
 &lt;/section&gt;
 
@@ -52,6 +57,33 @@
         <category>research</category>
         
         <category>space-systems</category>
+        
+      </item>
+    
+      <item>
+        <title>AACT Applies to Launch SOC-i with NASA Program</title>
+        <description>&lt;section class=&quot;wrapper style1&quot;&gt;
+  &lt;ul style=&quot;list-style-type: none&quot;&gt;
+      &lt;p&gt; We've submitted our launch application for the SOC-i mission! A 212 page document detailing every aspect of the spacecraft's design so far. Happy reading, NASA.  &lt;/p&gt;
+  &lt;/ul&gt; 
+&lt;/section&gt;
+</description>
+        <pubDate>Sun, 03 Nov 2019 16:00:00 -0800</pubDate>
+        <link>http://localhost:4000/news/launch_app_submit.html</link>
+        <guid isPermaLink="true">http://localhost:4000/news/launch_app_submit.html</guid>
+        
+        
+        <category>news</category>
+        
+        <category>publications</category>
+        
+        <category>papers</category>
+        
+        <category>research</category>
+        
+        <category>space-systems</category>
+        
+        <category>nasa</category>
         
       </item>
     
@@ -302,14 +334,17 @@
 						&lt;li&gt; A quick description of why you're interested in joining our team,&lt;/li&gt;
 						&lt;li&gt; If possible, highlight relevant experience. This is not a requirement but it helps us get a sense of how you'd fit into our project!&lt;/li&gt;
 					&lt;/ul&gt;
-				&lt;li&gt; After emailing us, drop by the Engineering Design Lab in AERB 023 during our shop hours:&lt;/li&gt;
-				&lt;ul style=&quot;margin-left: 1em; list-style-type: circle&quot;&gt;
-                    &lt;li&gt; Mondays 11:30am-2:30pm &lt;/li&gt;
-					&lt;li&gt; Tuesdays 12:30-3:30 pm &lt;/li&gt;
-					&lt;li&gt; Wednesdays 1-4 pm &lt;/li&gt;
-					&lt;li&gt; Thursdays 11:30am-2:30pm &lt;/li&gt;
-					&lt;li&gt; Fridays 10am-2pm &lt;/li&gt;
-				&lt;/ul&gt;
+				&lt;li&gt; After emailing us, drop by the Engineering Design Lab in AERB 023 during our shop hours: &lt;/li&gt;	
+				&lt;p&gt;
+					&lt;b&gt;IMPORTANT: The current coronavirus pandemic has halted our in person shop hours. During this time, we will only be accepting a limited number of new students to work on specific projects. Please contact us through &lt;a href=&quot;mailto:aact@uw.edu&quot;&gt; aact@uw.edu.&lt;/a&gt; to hear what we're &quot;hiring&quot; for!&lt;/b&gt;
+				&lt;/p&gt;
+&lt;!-- 				&lt;ul style=&quot;margin-left: 1em; list-style-type: circle&quot;&gt;
+                    &lt;li&gt; Mondays 12pm-3pm &lt;/li&gt;
+					&lt;li&gt; Tuesdays 1-4pm &lt;/li&gt;
+					&lt;li&gt; Wednesdays 12-3pm &lt;/li&gt;
+					&lt;li&gt; Thursdays 10:30am-1:30pm &lt;/li&gt;
+					&lt;li&gt; Fridays 11am-2pm &lt;/li&gt;
+				&lt;/ul&gt; --&gt;
 			&lt;/ul&gt; 
 	&lt;/header&gt;
 &lt;/div&gt;
@@ -617,150 +652,6 @@
         
         
         <category>missions rainier electric-propulsion propulsion</category>
-        
-      </item>
-    
-      <item>
-        <title>Satellite for Optimal Control and Imaging</title>
-        <description>&lt;div style=&quot;max-width:300px; margin:0 auto; text-align: center&quot;&gt;
-	&lt;section&gt;
-		&lt;a class=&quot;image featured&quot;&gt;
-			&lt;img src=&quot;/images/m1_patch.png&quot; /&gt;
-		&lt;/a&gt;
-	&lt;/section&gt;
-&lt;/div&gt;
-&lt;section class=&quot;wrapper style2 container&quot;&gt;
-	&lt;header&gt; &lt;h2&gt; Mission Objectives &lt;/h2&gt; &lt;/header&gt;
-	&lt;p&gt; The SOC-i mission will carry an advanced guidance, navigation and control (GNC) payload capable of reorienting the spacecraft while satisfying multiple pointing constraints. SOC-i will also carry an Earth imaging camera, enabling it to take pictures of specified ground locations.
-	&lt;br /&gt;&lt;br /&gt;
-	The mission will operate in space for 6 months, and will be supported by a UW ground station being developed in the Aerospace Engineering Research Building. It is a stated goal of the mission to be completely open-source, maintain code on our team's &lt;a href=&quot;https://github.com/AA-CubeSat-Team&quot;&gt; GitHub page &lt;/a&gt;. 
-	&lt;br /&gt;&lt;br /&gt;
-&lt;!-- 	All subsystems are being developed to support the primary science objectives, while also serving to define an AACT-standard 3U bus for future missions. --&gt;
-	 &lt;/p&gt;
-&lt;/section&gt;
-&lt;!-- One --&gt;
-&lt;section class=&quot;wrapper style4&quot;&gt;		
-	&lt;header&gt;&lt;h2&gt; &lt;strong&gt; Guidance Navigation and Control &lt;/strong&gt; &lt;/h2&gt;&lt;/header&gt;
-			&lt;p&gt; The experimental GNC system is capable of reorienting the spacecraft while guaranteeing hard pointing constraints and minimizing the change in angular momentum stored in a set of three reaction wheels. In the figure below, the green cone represents a navigation sensor's field of view, while the red cone represents the camera's field of view. Reorientation maneuvers must be executed such that (i) the sun vector &lt;img src=&quot;http://latex.codecogs.com/svg.latex?\boldmath{s}_{\mathcal{B}}&quot; border=&quot;0&quot; /&gt; remains inside the green cone, (ii) the sun vector simultaneously remains outside the red cone and (iii) actuator and slew-rate limits are not violated. The satellite must compute these solutions on-board without any pre-loaded solutions or ground intervention. &lt;/p&gt;			
-	&lt;div class=&quot;row&quot;&gt;
-		&lt;div class=&quot;4u&quot;&gt;
-		&lt;!-- Sidebar --&gt;
-			&lt;div class=&quot;sidebar&quot;&gt;
-				&lt;section&gt;
-					&lt;header&gt;
-					&lt;h3&gt;Primary GNC System&lt;/h3&gt;
-					&lt;/header&gt;
-					&lt;p&gt; The satellite will also carry a standard suite of GNC software capable of performing all mission objectives. This software system does not use any advanced control techniques. Rather, it uses elements from our work presented at &lt;a href=&quot;https://arc.aiaa.org/doi/abs/10.2514/6.2018-5403&quot;&gt; AIAA Space 2018 &lt;/a&gt;. The generic version of this code base is open-source and &lt;a href=&quot;https://github.com/tpreynolds/uw_cubesat_adcs&quot;&gt; available on our GitHub!&lt;/a&gt; &lt;/p&gt;
-&lt;!-- 					&lt;footer&gt;
-					&lt;ul class=&quot;buttons&quot;&gt;
-						&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small&quot;&gt;Learn More&lt;/a&gt;&lt;/li&gt;
-					&lt;/ul&gt;
-					&lt;/footer&gt; --&gt;
-				&lt;/section&gt;
-				&lt;section&gt;
-				&lt;!-- &lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt; --&gt;
-					&lt;header&gt;
-					&lt;h3&gt;Optimal Control and Convex Optimization&lt;/h3&gt;
-					&lt;/header&gt;
-					&lt;p&gt;Our GNC payload combines optimal control theory and convex optimization to compute the reaction wheel commands that satisfy all desired constraints. &lt;/p&gt;
-				&lt;/section&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;8u skel-cell-important&quot;&gt;								
-		&lt;!-- Content --&gt;
-			&lt;div class=&quot;content&quot;&gt;
-				&lt;section&gt;
-					&lt;a href=&quot;#&quot; class=&quot;imagenb featured&quot;&gt;&lt;img src=&quot;/images/tikz_cubesat_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-						&lt;!-- &lt;header&gt; --&gt;
-						&lt;!-- &lt;h3&gt;Constrained Attitude Control&lt;/h3&gt; --&gt;
-						&lt;!-- &lt;/header&gt; --&gt;
-						&lt;p&gt;The payload leverages previous work done at the UW in this area. In particular, we adapt methods from  &lt;a href=&quot;https://ieeexplore.ieee.org/abstract/document/5545176?reload=true&quot;&gt;(Kim et al, 2010)&lt;/a&gt; and &lt;a href=&quot;https://pdfs.semanticscholar.org/0389/248a953b679e747ffe4d14dd613d273142cb.pdf&quot;&gt;(Lee and Mesbahi, 2013)&lt;/a&gt; to formulate the problem.	Solutions are obtained in real-time using the &lt;a href=&quot;https://www.embotech.com/ECOS&quot;&gt; ECOS &lt;/a&gt; solver running on the main flight computer. Our implementation is an on-going process, but will use elements of optimal control theory or &lt;a href=&quot;https://arxiv.org/abs/1608.05133&quot;&gt; Successive Convexification &lt;/a&gt;. &lt;/p&gt;
-				&lt;/section&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;			
-	&lt;div class=&quot;row&quot;&gt;
-		&lt;div class=&quot;4u&quot;&gt;						
-			&lt;section&gt;
-				&lt;center&gt;
-					&lt;header&gt;
-						&lt;h3&gt;Software&lt;/h3&gt;
-					&lt;/header&gt;
-					&lt;p&gt;See the open source GNC code based in Matlab/Simulink.&lt;/p&gt;
-					&lt;footer&gt;
-						&lt;ul class=&quot;buttons&quot;&gt;
-						&lt;li&gt;&lt;a href=&quot;https://github.com/tpreynolds/uw_cubesat_adcs&quot; class=&quot;button small special&quot;&gt;Visit GitHub&lt;/a&gt;&lt;/li&gt;
-						&lt;/ul&gt;
-					&lt;/footer&gt;
-				&lt;/center&gt;	
-			&lt;/section&gt;					
-		&lt;/div&gt;
-		&lt;div class=&quot;4u&quot;&gt;						
-			&lt;section&gt;
-				&lt;center&gt;
-					&lt;header&gt;
-						&lt;h3&gt;System Validation&lt;/h3&gt;
-					&lt;/header&gt;
-					&lt;p&gt;Read about our experimental GNC system validation&lt;/p&gt;
-					&lt;footer&gt;
-						&lt;ul class=&quot;buttons&quot;&gt;
-							&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small special&quot;&gt;See the Process&lt;/a&gt;&lt;/li&gt;
-						&lt;/ul&gt;
-					&lt;/footer&gt;
-				&lt;/center&gt;
-			&lt;/section&gt;				
-		&lt;/div&gt;
-		&lt;div class=&quot;4u&quot;&gt;						
-			&lt;section&gt;
-				&lt;center&gt;
-					&lt;header&gt;
-						&lt;h3&gt;Publications&lt;/h3&gt;
-					&lt;/header&gt;
-						&lt;p&gt;See our publications to read more on this topic.&lt;/p&gt;
-					&lt;footer&gt;
-						&lt;ul class=&quot;buttons&quot;&gt;
-							&lt;li&gt;&lt;a href=&quot;/publications.html&quot; class=&quot;button small special&quot;&gt;Read More&lt;/a&gt;&lt;/li&gt;
-						&lt;/ul&gt;
-					&lt;/footer&gt;
-				&lt;/center&gt;
-			&lt;/section&gt;						
-		&lt;/div&gt;
-	&lt;/div&gt;		
-&lt;/section&gt;
-&lt;!-- Other Subsystems --&gt;
-&lt;section class=&quot;wrapper style4 container&quot;&gt;
-	&lt;header&gt; &lt;h2&gt; Imaging System &lt;/h2&gt; &lt;/header&gt;
-	&lt;p&gt; We have selected the &lt;a href=&quot;https://www.4dsystems.com.au/product/uCAM_III/&quot;&gt;uCam-III&lt;/a&gt; from &lt;a href=&quot;https://www.4dsystems.com.au/&quot;&gt;4D Systems&lt;/a&gt; as our on-board camera. The camera will be mounted on the long-axis of the 3U chassis. More to come as we develop the system!  &lt;/p&gt;
-&lt;/section&gt;
-&lt;!-- &lt;section class=&quot;wrapper style4 container&quot;&gt;
-	&lt;header&gt; &lt;h2&gt; Power System &lt;/h2&gt; &lt;/header&gt;
-	&lt;p&gt; Placeholder for description of power system &lt;/p&gt;
-&lt;/section&gt;
-
-&lt;section class=&quot;wrapper style4 container&quot;&gt;
-	&lt;header&gt; &lt;h2&gt; Communication System &lt;/h2&gt; &lt;/header&gt;
-	&lt;p&gt; Placeholder for description of communication system &lt;/p&gt;
-&lt;/section&gt; --&gt;
-
-&lt;!-- &lt;section class=&quot;wrapper style4 container&quot;&gt;
-	&lt;header&gt; &lt;h2&gt; Structure, Thermal and Configuration System &lt;/h2&gt; &lt;/header&gt;
-	&lt;p&gt; We are very fortunate to be working with the Aerojet Foundation to support a senior capstone group who are working to develop the SOC-i chassis. Thank you Aerojet! &lt;/p&gt;
-&lt;/section&gt; --&gt;
-
-&lt;section id=&quot;cta&quot;&gt;			
-	&lt;header&gt;
-		&lt;h2&gt;&lt;strong&gt; Project Partners &lt;/strong&gt;&lt;/h2&gt;
-		&lt;p&gt;  &lt;/p&gt;
-	&lt;/header&gt;	
-&lt;/section&gt;
-
-</description>
-        <pubDate>Thu, 13 Sep 2018 17:00:00 -0700</pubDate>
-        <link>http://localhost:4000/missions/missionI.html</link>
-        <guid isPermaLink="true">http://localhost:4000/missions/missionI.html</guid>
-        
-        
-        <category>missions soc-i attitude-control optimal-control convex-optimization optimal-spacecraft-attitude-motion</category>
         
       </item>
     

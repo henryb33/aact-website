@@ -26,14 +26,17 @@ icon: fa-user-graduate
 						<li> A quick description of why you're interested in joining our team,</li>
 						<li> If possible, highlight relevant experience. This is not a requirement but it helps us get a sense of how you'd fit into our project!</li>
 					</ul>
-				<li> After emailing us, drop by the Engineering Design Lab in AERB 023 during our shop hours:</li>
-				<ul style="margin-left: 1em; list-style-type: circle">
+				<li> After emailing us, drop by the Engineering Design Lab in AERB 023 during our shop hours: </li>	
+				<p>
+					<b>IMPORTANT: The current coronavirus pandemic has halted our in person shop hours. During this time, we will only be accepting a limited number of new students to work on specific projects. Please contact us through <a href="mailto:aact@uw.edu"> aact@uw.edu.</a> to hear what we're "hiring" for!</b>
+				</p>
+<!-- 				<ul style="margin-left: 1em; list-style-type: circle">
                     <li> Mondays 12pm-3pm </li>
 					<li> Tuesdays 1-4pm </li>
 					<li> Wednesdays 12-3pm </li>
 					<li> Thursdays 10:30am-1:30pm </li>
 					<li> Fridays 11am-2pm </li>
-				</ul>
+				</ul> -->
 			</ul> 
 	</header>
 </div>

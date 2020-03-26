@@ -1,0 +1,14 @@
+---
+layout: news-item
+title:  "AACT Applies to Launch SOC-i with NASA Program"
+date:   2019-11-04 00:00:00
+author: A&ampA CubeSat Team
+permalink: /news/launch_app_submit.html
+categories: news publications papers research space-systems nasa
+---
+
+<section class="wrapper style1">
+  <ul style="list-style-type: none">
+      <p> We've submitted our launch application for the SOC-i mission! A 212 page document detailing every aspect of the spacecraft's design so far. Happy reading, NASA.  </p>
+  </ul> 
+</section>

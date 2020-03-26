@@ -12,15 +12,20 @@ icon: fa-book-open
   <ul style="list-style-type: none">
       <li><h2> What is AACT Up To?  </h2></li>
       <p> Check in here for team updates, milestones, announcements, and anything else we'd like to share.</p>
-        <ul style="list-style-type: square">
-           <li> <b>November 4, 2019</b>: we've submitted our launch application for the SOC-i mission! A 212 page document detailing every aspect of the spacecraft's design so far. Happy reading, NASA. </li>
-           <li> <b>October, 2019</b>: AACT hosts a Preliminary Design Review for the SOC-i mission. A group of faculty and industry professionals critiqued our design, and offered a ton of great feedback. A huge milestone for the team as we near the launch application.</li>
-           <li> <b>February, 2019</b>: AACT hosts a Systems and Requirements Review for the SOC-i mission. We put together a team of faculty and industry professionals to assess our mission plan and help us shape the scope, ConOps and implementation plan for our first mission. Lots of work to do now to turn it into reality.</li>
-           <li> <b> July, 2018 </b>: AACT's funding proposal is accepted by the College of Engineering. Houston, we have a space program. Fun fact: One of the co-founders was literally at the Johnson Space Center when he got this phone call.</li>
-           <li> <b> April, 2018</b>: The idea for AACT is conceived. Many team names are bandied about over malted beverages, and a proposal for funding is submitted to the College of Engineering. </li>
-           <!-- <li> Pre-April 2018, years 2-1 BAACT. Does our department even do spacecraft engineering? Anybody? </li> -->
-           <!-- <li> September 2016, the year 2 BAACT. Taylor & Charlie start at UW. </li> -->
-        </ul>
+      <b style="color:#b8a57a;font-size:125%;"> Congratulations to Cole, Devan & Arnela!</b>
+      <p> March, 2020: Our GNC leads Cole Morgan and Devan Tormey have accepted a full-time job offer to join SpaceX and Blue Origin respectively, both in the Seattle area. Our STC lead Arnela Grebovic has accepted a full-time job offer to join Blue Origin. Congrats to you three and thank you for all that you've done on the SOC-i mission! </p>
+      <b style="color:#b8a57a;font-size:125%;"> SOC-i is Chosen For Launch!</b>
+        <p>February 21, 2020: Our launch application was selected by NASA as one of 18 CubeSats in the pool of applicants. Of the chosen 18, we were ranked 8th in the manifest list. At just over one year since the AACTs kick-off meeting, we are incredibly proud of the work our team has done to get to this point so quickly. <a href="https://www.aa.washington.edu/news/article/2020-03-04/aa-cubesat-secures-exclusive-nasa-spot?utm_source=UW_News_Subscribers&utm_medium=email&utm_campaign=UW_Today_secondary&mkt_tok=eyJpIjoiT1RSak9HWXlOV1F3WW1ObCIsInQiOiIyQjE1N1ZNa1wvWElDOFQ5QWJrbHF6NmpqUnFFaHM5YjNDR2RtTnZMNW54MzcwNnhPSHdwY2Q0UlV3MXZkdkhabVF3OGVQQ1I5c3crVTNQbHhIT3VEdkNQZ2FaZGplWHp6UkhtTDJuTUthYWxKY1YyMktpNWhSNmNmemVodkRrajkifQ%3D%3D"> Read more in the UW's press release.</a> </p>
+      <b style="color:#b8a57a;font-size:125%;"> AACT Applies to Launch SOC-i with NASA Program</b>
+        <p>November 4, 2019: We've submitted our launch application for the SOC-i mission! A 212 page document detailing every aspect of the spacecraft's design so far. Happy reading, NASA.</p>
+      <b style="color:#b8a57a;font-size:125%;"> AACT hosts a Preliminary Design Review for the SOC-i mission.</b>
+        <p>October, 2019: A group of faculty and industry professionals critiqued our design, and offered a ton of great feedback. A huge milestone for the team as we near the launch application.</p>
+      <b style="color:#b8a57a;font-size:125%;"> AACT hosts a Systems and Requirements Review for the SOC-i mission.</b>
+        <p>February, 2019: We put together a team of faculty and industry professionals to assess our mission plan and help us shape the scope, ConOps and implementation plan for our first mission. Lots of work to do now to turn it into reality.</p>
+      <b style="color:#b8a57a;font-size:125%;"> The Birth of AACT</b>
+        <p>July, 2018: The idea for AACT was conceived in April, 2018. Many team names were bandied about over malted beverages, and a proposal for funding was eventually submitted to the College of Engineering using the Aeronautics & Astronautics CubeSat Team. In July, AACT's funding proposal was accepted by the College of Engineering. Houston, we have a space program. Fun fact: One of the co-founders was literally at the Johnson Space Center when he got the phone call.</p>
+        <!-- <li> Pre-April 2018, years 2-1 BAACT. Does our department even do spacecraft engineering? Anybody? </li> -->
+        <!-- <li> September 2016, the year 2 BAACT. Taylor & Charlie start at UW. </li> -->
   </ul>
 </section>
 
