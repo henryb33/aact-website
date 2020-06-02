@@ -283,11 +283,13 @@
 		.image.featured {
 			display: block;
 			margin: 0 0 2em 0;
+			vertical-align: top;
 		}
 
 			.image.featured img {
 				display: block;
-				width: 100%;
+				max-width: 100%;
+				vertical-align: middle;
 			}
 
 		.image.logo {
@@ -635,8 +637,9 @@
 /* Wrapper */
 
 	.wrapper {
-		margin-bottom: 5em;
-		padding: 5em;
+		margin-top: 2.5em;
+		margin-bottom: 2.5em;
+		padding: 2em;
 	}
 
 		.wrapper.style1 {
@@ -659,7 +662,7 @@
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
-			background-size: 25em, 25em;
+			background-size: 20em, 20em;
 			color: white;
 		}
 

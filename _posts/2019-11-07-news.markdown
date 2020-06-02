@@ -12,8 +12,10 @@ icon: fa-book-open
   <ul style="list-style-type: none">
       <li><h2> What is AACT Up To?  </h2></li>
       <p> Check in here for team updates, milestones, announcements, and anything else we'd like to share.</p>
+      <b style="color:#b8a57a;font-size:125%;"> AACT Marches Forward</b>
+      <p> June, 2020: Even with a global pandemic forcing us out of our development labs, the work continues to try and push SOC-i closer to completion. Working entirely from home, we've maintained a steady pace on both the hardware and software fronts. </p>
       <b style="color:#b8a57a;font-size:125%;"> Congratulations to Cole, Devan & Arnela!</b>
-      <p> March, 2020: Our GNC leads Cole Morgan and Devan Tormey have accepted a full-time job offer to join SpaceX and Blue Origin respectively, both in the Seattle area. Our STC lead Arnela Grebovic has accepted a full-time job offer to join Blue Origin. Congrats to you three and thank you for all that you've done on the SOC-i mission! </p>
+      <p> March, 2020: Our GNC leads Cole Morgan and Devan Tormey have accepted a full-time job offers to join SpaceX and Blue Origin respectively, both in the Seattle area. Our STC lead Arnela Grebovic has accepted a full-time job offer to join Blue Origin. Congrats to you three and thank you for all that you've done on the SOC-i mission! </p>
       <b style="color:#b8a57a;font-size:125%;"> SOC-i is Chosen For Launch!</b>
         <p>February 21, 2020: Our launch application was selected by NASA as one of 18 CubeSats in the pool of applicants. Of the chosen 18, we were ranked 8th in the manifest list. At just over one year since the AACTs kick-off meeting, we are incredibly proud of the work our team has done to get to this point so quickly. <a href="https://www.aa.washington.edu/news/article/2020-03-04/aa-cubesat-secures-exclusive-nasa-spot?utm_source=UW_News_Subscribers&utm_medium=email&utm_campaign=UW_Today_secondary&mkt_tok=eyJpIjoiT1RSak9HWXlOV1F3WW1ObCIsInQiOiIyQjE1N1ZNa1wvWElDOFQ5QWJrbHF6NmpqUnFFaHM5YjNDR2RtTnZMNW54MzcwNnhPSHdwY2Q0UlV3MXZkdkhabVF3OGVQQ1I5c3crVTNQbHhIT3VEdkNQZ2FaZGplWHp6UkhtTDJuTUthYWxKY1YyMktpNWhSNmNmemVodkRrajkifQ%3D%3D"> Read more in the UW's press release.</a> </p>
       <b style="color:#b8a57a;font-size:125%;"> AACT Applies to Launch SOC-i with NASA Program</b>
@@ -32,7 +34,10 @@ icon: fa-book-open
 <section class="wrapper style5">
 	<ul style="list-style-type: none">
   		<li><h2> Recent Publications </h2></li>
-  			<ul style="list-style-type: disc">
+        <ul style="list-style-type: disc; padding-left: 1em">
+           <li> We are working on a poster for the 34th Annual Small Satellite Conference, Virtual, 2020.</li>
+        </ul>
+  			<ul style="list-style-type: disc; padding-left: 1em">
   				 <li> T. P. Reynolds, K. Kaycee, B. Barzgaran, M. Hudoba de Badyn, S. Rice, E. Hansen, A. Adler, B. Acikmese and M. Mesbahi, “<a style="color:#4169e1" href="https://arc.aiaa.org/doi/abs/10.2514/6.2018-5403"> Development of a Generic Guidance Navigation & Control System for Small Satellites: Application to HuskySat-1, </a>” AIAA Space Forum, Orlando, FL, 2018.</li>
   			</ul>
 	</ul>

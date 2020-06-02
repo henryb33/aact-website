@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 26 Mar 2020 16:24:43 -0700</pubDate>
-    <lastBuildDate>Thu, 26 Mar 2020 16:24:43 -0700</lastBuildDate>
+    <pubDate>Mon, 01 Jun 2020 22:42:44 -0700</pubDate>
+    <lastBuildDate>Mon, 01 Jun 2020 22:42:44 -0700</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -16,8 +16,10 @@
   &lt;ul style=&quot;list-style-type: none&quot;&gt;
       &lt;li&gt;&lt;h2&gt; What is AACT Up To?  &lt;/h2&gt;&lt;/li&gt;
       &lt;p&gt; Check in here for team updates, milestones, announcements, and anything else we'd like to share.&lt;/p&gt;
+      &lt;b style=&quot;color:#b8a57a;font-size:125%;&quot;&gt; AACT Marches Forward&lt;/b&gt;
+      &lt;p&gt; June, 2020: Even with a global pandemic forcing us out of our development labs, the work continues to try and push SOC-i closer to completion. Working entirely from home, we've maintained a steady pace on both the hardware and software fronts. &lt;/p&gt;
       &lt;b style=&quot;color:#b8a57a;font-size:125%;&quot;&gt; Congratulations to Cole, Devan &amp;amp; Arnela!&lt;/b&gt;
-      &lt;p&gt; March, 2020: Our GNC leads Cole Morgan and Devan Tormey have accepted a full-time job offer to join SpaceX and Blue Origin respectively, both in the Seattle area. Our STC lead Arnela Grebovic has accepted a full-time job offer to join Blue Origin. Congrats to you three and thank you for all that you've done on the SOC-i mission! &lt;/p&gt;
+      &lt;p&gt; March, 2020: Our GNC leads Cole Morgan and Devan Tormey have accepted a full-time job offers to join SpaceX and Blue Origin respectively, both in the Seattle area. Our STC lead Arnela Grebovic has accepted a full-time job offer to join Blue Origin. Congrats to you three and thank you for all that you've done on the SOC-i mission! &lt;/p&gt;
       &lt;b style=&quot;color:#b8a57a;font-size:125%;&quot;&gt; SOC-i is Chosen For Launch!&lt;/b&gt;
         &lt;p&gt;February 21, 2020: Our launch application was selected by NASA as one of 18 CubeSats in the pool of applicants. Of the chosen 18, we were ranked 8th in the manifest list. At just over one year since the AACTs kick-off meeting, we are incredibly proud of the work our team has done to get to this point so quickly. &lt;a href=&quot;https://www.aa.washington.edu/news/article/2020-03-04/aa-cubesat-secures-exclusive-nasa-spot?utm_source=UW_News_Subscribers&amp;amp;utm_medium=email&amp;amp;utm_campaign=UW_Today_secondary&amp;amp;mkt_tok=eyJpIjoiT1RSak9HWXlOV1F3WW1ObCIsInQiOiIyQjE1N1ZNa1wvWElDOFQ5QWJrbHF6NmpqUnFFaHM5YjNDR2RtTnZMNW54MzcwNnhPSHdwY2Q0UlV3MXZkdkhabVF3OGVQQ1I5c3crVTNQbHhIT3VEdkNQZ2FaZGplWHp6UkhtTDJuTUthYWxKY1YyMktpNWhSNmNmemVodkRrajkifQ%3D%3D&quot;&gt; Read more in the UW's press release.&lt;/a&gt; &lt;/p&gt;
       &lt;b style=&quot;color:#b8a57a;font-size:125%;&quot;&gt; AACT Applies to Launch SOC-i with NASA Program&lt;/b&gt;
@@ -36,7 +38,10 @@
 &lt;section class=&quot;wrapper style5&quot;&gt;
 	&lt;ul style=&quot;list-style-type: none&quot;&gt;
   		&lt;li&gt;&lt;h2&gt; Recent Publications &lt;/h2&gt;&lt;/li&gt;
-  			&lt;ul style=&quot;list-style-type: disc&quot;&gt;
+        &lt;ul style=&quot;list-style-type: disc; padding-left: 1em&quot;&gt;
+           &lt;li&gt; We are working on a poster for the 34th Annual Small Satellite Conference, Virtual, 2020.&lt;/li&gt;
+        &lt;/ul&gt;
+  			&lt;ul style=&quot;list-style-type: disc; padding-left: 1em&quot;&gt;
   				 &lt;li&gt; T. P. Reynolds, K. Kaycee, B. Barzgaran, M. Hudoba de Badyn, S. Rice, E. Hansen, A. Adler, B. Acikmese and M. Mesbahi, “&lt;a style=&quot;color:#4169e1&quot; href=&quot;https://arc.aiaa.org/doi/abs/10.2514/6.2018-5403&quot;&gt; Development of a Generic Guidance Navigation &amp;amp; Control System for Small Satellites: Application to HuskySat-1, &lt;/a&gt;” AIAA Space Forum, Orlando, FL, 2018.&lt;/li&gt;
   			&lt;/ul&gt;
 	&lt;/ul&gt;
@@ -105,11 +110,12 @@
     &lt;/div&gt;
 &lt;/section&gt;
 
+&lt;!-- FACULTY --&gt;
 &lt;section class=&quot;wrapper style2&quot;&gt;
 	&lt;div class=&quot;row half&quot;&gt;
 		&lt;div class=&quot;31-2u&quot;&gt;
 			&lt;header&gt;
-				&lt;h2&gt; &lt;strong&gt;Faculty&lt;/strong&gt; &lt;/h2&gt;
+				&lt;h2&gt; &lt;strong&gt;Faculty Advisors&lt;/strong&gt; &lt;/h2&gt;
 			&lt;/header&gt;
 			&lt;div class=&quot;row&quot;&gt;
 				&lt;div class=&quot;3u&quot;&gt;
@@ -142,74 +148,64 @@
 						&lt;/center&gt;
 					&lt;/section&gt;
 				&lt;/div&gt;
-				&lt;div class=&quot;3u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;https://www.uwspacelab.com/people&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/Justin.png&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.uwspacelab.com/people&quot;&gt; Justin &lt;br /&gt;Little &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
 			&lt;/div&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;			
 &lt;/section&gt;
+&lt;!-- CURRENT STUDENTS --&gt;
 &lt;section class=&quot;wrapper style2&quot;&gt;
-	&lt;!-- &lt;div class=&quot;row half&quot;&gt; --&gt;
-		&lt;div class=&quot;31-2u&quot;&gt;
-			&lt;header&gt; 
-				&lt;h2&gt; 
-					&lt;strong&gt; Student Leadership &lt;/strong&gt; 
-				&lt;/h2&gt; 
-			&lt;/header&gt;
-			&lt;div class=&quot;row&quot;&gt;
-				&lt;div class=&quot;3u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;https://www.uwspacelab.com/people&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/Charlie.png&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.uwspacelab.com/people&quot;&gt; Charlie &lt;br /&gt;Kelly &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-						&lt;p&gt;&lt;center&gt;Project Manager&lt;/center&gt;&lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-				&lt;div class=&quot;3u&quot;&gt;
-					&lt;section&gt;
-						&lt;a href=&quot;https://depts.washington.edu/uwrainlab/taylor/&quot; class=&quot;image featured&quot;&gt;
-							&lt;img src=&quot;images/taylor.jpg&quot; /&gt;
-						&lt;/a&gt;
-						&lt;center&gt;
-							&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://depts.washington.edu/uwrainlab/taylor/&quot;&gt; Taylor &lt;br /&gt;Reynolds &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-							&lt;p&gt;&lt;center&gt;Project Scientist&lt;/center&gt;&lt;/p&gt;
-						&lt;/center&gt;
-					&lt;/section&gt;
-				&lt;/div&gt;
-                &lt;div class=&quot;3u&quot;&gt;
-                    &lt;section&gt;
-                        &lt;a href=&quot;https://www.linkedin.com/in/jamesdrosenthal/&quot; class=&quot;image featured&quot;&gt;
-                            &lt;img src=&quot;images/James.jpg&quot; /&gt;
-                        &lt;/a&gt;
-                        &lt;center&gt;
-                            &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.linkedin.com/in/jamesdrosenthal/&quot;&gt;James &lt;br /&gt;Rosenthal&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-                            &lt;p&gt;&lt;center&gt;Technical Advisor&lt;/center&gt;&lt;/p&gt;
-                        &lt;/center&gt;
-                    &lt;/section&gt;
-                &lt;/div&gt;
-                &lt;div class=&quot;3u&quot;&gt;
-                    &lt;section&gt;
-                        &lt;a href=&quot;https://www.linkedin.com/in/arnelagrebovic/&quot; class=&quot;image featured&quot;&gt;
-                            &lt;img src=&quot;images/Arnela.jpg&quot; /&gt;
-                        &lt;/a&gt;
-                        &lt;center&gt;
-                            &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.linkedin.com/in/arnelagrebovic/&quot;&gt;Arnela &lt;br /&gt;Grebovic&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-                            &lt;p&gt;&lt;center&gt;Structures&lt;/center&gt;&lt;/p&gt;
-                        &lt;/center&gt;
-                    &lt;/section&gt;
-                &lt;/div&gt;
+	&lt;div class=&quot;31-2u&quot;&gt;
+		&lt;header&gt; 
+			&lt;h2&gt; 
+				&lt;strong&gt; Student Leadership &lt;/strong&gt; 
+			&lt;/h2&gt; 
+		&lt;/header&gt;
+		&lt;div class=&quot;row&quot;&gt;
+			&lt;div class=&quot;3u&quot;&gt;
+				&lt;section&gt;
+					&lt;a href=&quot;https://www.uwspacelab.com/people&quot; class=&quot;image featured&quot;&gt;
+						&lt;img src=&quot;images/Charlie.png&quot; /&gt;
+					&lt;/a&gt;
+					&lt;center&gt;
+						&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.uwspacelab.com/people&quot;&gt; Charlie &lt;br /&gt;Kelly &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+					&lt;p&gt;&lt;center&gt;Project Manager&lt;/center&gt;&lt;/p&gt;
+					&lt;/center&gt;
+				&lt;/section&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;3u&quot;&gt;
+				&lt;section&gt;
+					&lt;a href=&quot;https://depts.washington.edu/uwrainlab/taylor/&quot; class=&quot;image featured&quot;&gt;
+						&lt;img src=&quot;images/taylor.jpg&quot; /&gt;
+					&lt;/a&gt;
+					&lt;center&gt;
+						&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://depts.washington.edu/uwrainlab/taylor/&quot;&gt; Taylor &lt;br /&gt;Reynolds &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+						&lt;p&gt;&lt;center&gt;Project Scientist&lt;/center&gt;&lt;/p&gt;
+					&lt;/center&gt;
+				&lt;/section&gt;
+			&lt;/div&gt;
+            &lt;div class=&quot;3u&quot;&gt;
+                &lt;section&gt;
+                    &lt;a href=&quot;https://www.linkedin.com/in/jamesdrosenthal/&quot; class=&quot;image featured&quot;&gt;
+                        &lt;img src=&quot;images/James.jpg&quot; /&gt;
+                    &lt;/a&gt;
+                    &lt;center&gt;
+                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.linkedin.com/in/jamesdrosenthal/&quot;&gt;James &lt;br /&gt;Rosenthal&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+                        &lt;p&gt;&lt;center&gt;Technical Advisor&lt;/center&gt;&lt;/p&gt;
+                    &lt;/center&gt;
+                &lt;/section&gt;
             &lt;/div&gt;
+            &lt;div class=&quot;3u&quot;&gt;
+                &lt;section&gt;
+                    &lt;a href=&quot;https://www.linkedin.com/in/arnelagrebovic/&quot; class=&quot;image featured&quot;&gt;
+                        &lt;img src=&quot;images/Arnela.jpg&quot; /&gt;
+                    &lt;/a&gt;
+                    &lt;center&gt;
+                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.linkedin.com/in/arnelagrebovic/&quot;&gt;Arnela &lt;br /&gt;Grebovic&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+                        &lt;p&gt;&lt;center&gt;Structures&lt;/center&gt;&lt;/p&gt;
+                    &lt;/center&gt;
+                &lt;/section&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
         &lt;div class=&quot;row&quot;&gt;
             &lt;div class=&quot;3u&quot;&gt;
                 &lt;section&gt;
@@ -280,26 +276,22 @@
                 &lt;/section&gt;
             &lt;/div&gt;
         &lt;/div&gt;
-
-
-		&lt;/div&gt;
-		&lt;svg height=&quot;5&quot; width=&quot;1000&quot;&gt;
-  &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;43em&quot; y2=&quot;0&quot; style=&quot;stroke:rgb(210,210,210);stroke-width:2&quot; /&gt;
-		&lt;/svg&gt;
-		    &lt;div&gt;
-                &lt;p&gt; We're always looking for new students. &lt;a href=&quot;/contact-students.html&quot;&gt; Start here &lt;/a&gt; if you're interested in joining the team! &lt;/p&gt;
-            &lt;/div&gt; 
-	&lt;!-- &lt;/div&gt; --&gt;
-&lt;!--
+    &lt;/div&gt;
+	&lt;svg height=&quot;5&quot; width=&quot;1000&quot;&gt;
+        &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;43em&quot; y2=&quot;0&quot; style=&quot;stroke:rgb(210,210,210);stroke-width:2&quot; /&gt;
+	&lt;/svg&gt;
+    &lt;div&gt;
+        &lt;p&gt; We're always looking for new students. &lt;a href=&quot;/contact-students.html&quot;&gt; Start here &lt;/a&gt; if you're interested in joining the team! &lt;/p&gt;
+    &lt;/div&gt; 
 &lt;/section&gt;
-&lt;section class=&quot;wrapper style2&quot;&gt;
-	&lt;div class=&quot;31-2u&quot;&gt;
-		&lt;header&gt; &lt;h2&gt; &lt;strong&gt; Undergraduate Students &lt;/strong&gt;&lt;/h2&gt;&lt;/header&gt;
-			&lt;p&gt; List the undergraduate students, possibly with grouping into capstone project groups.&lt;/p&gt;
-	&lt;/div&gt;
-&lt;/section&gt;
- --&gt;
-&lt;/section&gt;
+&lt;!-- PREVIOUS STUDENTS --&gt;
+&lt;!-- &lt;section class=&quot;wrapper style2&quot;&gt;
+    &lt;header&gt; &lt;h2&gt; &lt;strong&gt; Past Students &lt;/strong&gt; &lt;/h2&gt; &lt;/header&gt;
+        &lt;p&gt; We're very proud to brag about some of the students that have worked with us in the past! Many of these students have gone on to jobs in the space industry, grad school, and beyond, taking their AACT experience with them. &lt;/p&gt;
+        &lt;ul style=&quot;list-style-type: circle; padding-left: 1em&quot;&gt;
+            &lt;li&gt;Test&lt;/li&gt;
+        &lt;/ul&gt; 
+&lt;/section&gt; --&gt;
 </description>
         <pubDate>Sun, 06 Oct 2019 17:00:00 -0700</pubDate>
         <link>http://localhost:4000/people.html</link>
@@ -517,17 +509,15 @@
         <description>&lt;!-- &lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic02.jpg&quot; alt=&quot;&quot;&gt;&lt;/span&gt; --&gt;
 &lt;div&gt;
 	&lt;header class=&quot;special container small&quot;&gt; 
-		&lt;span class=&quot;icon&quot;&gt; &lt;strong&gt; Mission I &lt;/strong&gt; &lt;/span&gt;
-			&lt;div style=&quot;max-width:300px; margin:0 auto; text-align: center&quot;&gt;
-				&lt;section&gt;
-					&lt;a href=&quot;/missions/missionI.html&quot; class=&quot;image featured&quot;&gt;
-						&lt;img src=&quot;images/m1_patch.png&quot; /&gt;
-					&lt;/a&gt;
-				&lt;/section&gt;
-			&lt;/div&gt;
+		&lt;span class=&quot;icon&quot;&gt; &lt;strong&gt; SOC-i &lt;/strong&gt; &lt;/span&gt;
+		&lt;div style=&quot;max-width:300px; margin:0 auto; text-align: center&quot;&gt;
+			&lt;a href=&quot;/missions/missionI.html&quot; class=&quot;image featured&quot;&gt;
+				&lt;img src=&quot;/images/m1_patch.png&quot; /&gt;
+			&lt;/a&gt;
+		&lt;/div&gt;
 			&lt;h2&gt; &lt;strong&gt;S&lt;/strong&gt;atellite for &lt;strong&gt;O&lt;/strong&gt;ptimal &lt;strong&gt;C&lt;/strong&gt;ontrol and &lt;strong&gt;I&lt;/strong&gt;maging &lt;/h2&gt;
 			&lt;br /&gt;
-			&lt;p&gt; SOC-i will carry an advanced guidance, navigation and control (GNC) payload capable of reorienting the spacecraft while satisfying multiple pointing constraints. Along side a standard GNC system, this will provide accurate pointing for an onboard Earth imaging camera. &lt;/p&gt;
+			&lt;p&gt; A techonology demonstration, SOC-i will carry an advanced guidance, navigation and control (GNC) payload capable of reorienting the spacecraft while satisfying multiple pointing constraints. Alongside a standard GNC system, this payload will provide accurate pointing for an onboard Earth imaging camera. &lt;/p&gt;
 		&lt;center&gt;
 			&lt;section class=&quot;major&quot;&gt;
 				&lt;ul class=&quot;buttons&quot;&gt;

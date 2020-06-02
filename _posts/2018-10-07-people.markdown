@@ -24,11 +24,12 @@ icon: featured fa-user-astronaut
     </div>
 </section>
 
+<!-- FACULTY -->
 <section class="wrapper style2">
 	<div class="row half">
 		<div class="31-2u">
 			<header>
-				<h2> <strong>Faculty</strong> </h2>
+				<h2> <strong>Faculty Advisors</strong> </h2>
 			</header>
 			<div class="row">
 				<div class="3u">
@@ -61,74 +62,64 @@ icon: featured fa-user-astronaut
 						</center>
 					</section>
 				</div>
-				<div class="3u">
-					<section>
-						<a href="https://www.uwspacelab.com/people" class="image featured">
-							<img src="images/Justin.png">
-						</a>
-						<center>
-							<header><h5><a href="https://www.uwspacelab.com/people"> Justin <br>Little </a></h5></header>
-						</center>
-					</section>
-				</div>
 			</div>
 		</div>
 	</div>			
 </section>
+<!-- CURRENT STUDENTS -->
 <section class="wrapper style2">
-	<!-- <div class="row half"> -->
-		<div class="31-2u">
-			<header> 
-				<h2> 
-					<strong> Student Leadership </strong> 
-				</h2> 
-			</header>
-			<div class="row">
-				<div class="3u">
-					<section>
-						<a href="https://www.uwspacelab.com/people" class="image featured">
-							<img src="images/Charlie.png">
-						</a>
-						<center>
-							<header><h5><a href="https://www.uwspacelab.com/people"> Charlie <br>Kelly </a></h5></header>
-						<p><center>Project Manager</center></p>
-						</center>
-					</section>
-				</div>
-				<div class="3u">
-					<section>
-						<a href="https://depts.washington.edu/uwrainlab/taylor/" class="image featured">
-							<img src="images/taylor.jpg">
-						</a>
-						<center>
-							<header><h5><a href="https://depts.washington.edu/uwrainlab/taylor/"> Taylor <br>Reynolds </a></h5></header>
-							<p><center>Project Scientist</center></p>
-						</center>
-					</section>
-				</div>
-                <div class="3u">
-                    <section>
-                        <a href="https://www.linkedin.com/in/jamesdrosenthal/" class="image featured">
-                            <img src="images/James.jpg">
-                        </a>
-                        <center>
-                            <header><h5><a href="https://www.linkedin.com/in/jamesdrosenthal/">James <br>Rosenthal</a></h5></header>
-                            <p><center>Technical Advisor</center></p>
-                        </center>
-                    </section>
-                </div>
-                <div class="3u">
-                    <section>
-                        <a href="https://www.linkedin.com/in/arnelagrebovic/" class="image featured">
-                            <img src="images/Arnela.jpg">
-                        </a>
-                        <center>
-                            <header><h5><a href="https://www.linkedin.com/in/arnelagrebovic/">Arnela <br>Grebovic</a></h5></header>
-                            <p><center>Structures</center></p>
-                        </center>
-                    </section>
-                </div>
+	<div class="31-2u">
+		<header> 
+			<h2> 
+				<strong> Student Leadership </strong> 
+			</h2> 
+		</header>
+		<div class="row">
+			<div class="3u">
+				<section>
+					<a href="https://www.uwspacelab.com/people" class="image featured">
+						<img src="images/Charlie.png">
+					</a>
+					<center>
+						<header><h5><a href="https://www.uwspacelab.com/people"> Charlie <br>Kelly </a></h5></header>
+					<p><center>Project Manager</center></p>
+					</center>
+				</section>
+			</div>
+			<div class="3u">
+				<section>
+					<a href="https://depts.washington.edu/uwrainlab/taylor/" class="image featured">
+						<img src="images/taylor.jpg">
+					</a>
+					<center>
+						<header><h5><a href="https://depts.washington.edu/uwrainlab/taylor/"> Taylor <br>Reynolds </a></h5></header>
+						<p><center>Project Scientist</center></p>
+					</center>
+				</section>
+			</div>
+            <div class="3u">
+                <section>
+                    <a href="https://www.linkedin.com/in/jamesdrosenthal/" class="image featured">
+                        <img src="images/James.jpg">
+                    </a>
+                    <center>
+                        <header><h5><a href="https://www.linkedin.com/in/jamesdrosenthal/">James <br>Rosenthal</a></h5></header>
+                        <p><center>Technical Advisor</center></p>
+                    </center>
+                </section>
             </div>
+            <div class="3u">
+                <section>
+                    <a href="https://www.linkedin.com/in/arnelagrebovic/" class="image featured">
+                        <img src="images/Arnela.jpg">
+                    </a>
+                    <center>
+                        <header><h5><a href="https://www.linkedin.com/in/arnelagrebovic/">Arnela <br>Grebovic</a></h5></header>
+                        <p><center>Structures</center></p>
+                    </center>
+                </section>
+            </div>
+        </div>
         <div class="row">
             <div class="3u">
                 <section>
@@ -199,22 +190,19 @@ icon: featured fa-user-astronaut
                 </section>
             </div>
         </div>
-
-
-		</div>
-		<svg height="5" width="1000">
-  <line x1="0" y1="0" x2="43em" y2="0" style="stroke:rgb(210,210,210);stroke-width:2" />
-		</svg>
-		    <div>
-                <p> We're always looking for new students. <a href="/contact-students.html"> Start here </a> if you're interested in joining the team! </p>
-            </div> 
-	<!-- </div> -->
-<!--
+    </div>
+	<svg height="5" width="1000">
+        <line x1="0" y1="0" x2="43em" y2="0" style="stroke:rgb(210,210,210);stroke-width:2" />
+	</svg>
+    <div>
+        <p> We're always looking for new students. <a href="/contact-students.html"> Start here </a> if you're interested in joining the team! </p>
+    </div> 
 </section>
-<section class="wrapper style2">
-	<div class="31-2u">
-		<header> <h2> <strong> Undergraduate Students </strong></h2></header>
-			<p> List the undergraduate students, possibly with grouping into capstone project groups.</p>
-	</div>
-</section>
- -->
+<!-- PREVIOUS STUDENTS -->
+<!-- <section class="wrapper style2">
+    <header> <h2> <strong> Past Students </strong> </h2> </header>
+        <p> We're very proud to brag about some of the students that have worked with us in the past! Many of these students have gone on to jobs in the space industry, grad school, and beyond, taking their AACT experience with them. </p>
+        <ul style="list-style-type: circle; padding-left: 1em">
+            <li>Test</li>
+        </ul> 
+</section> -->
