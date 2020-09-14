@@ -32,7 +32,6 @@ icon: fa-user-graduate
 					<li> Thursdays 10:30am-1:30pm </li>
 					<li> Fridays 11am-2pm </li>
 				</ul> -->
-			</ul> 
 	</header>
 </div>
 
