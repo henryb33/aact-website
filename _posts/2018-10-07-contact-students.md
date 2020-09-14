@@ -20,9 +20,10 @@ icon: fa-user-graduate
 		After some light reading, here are the best ways to get involved:
 			<ul style="list-style-type: disc">
 				<li> <a href="https://forms.gle/eAyyZdRxJWyajUfw9"> Fill out our application.</a> Don't worry - we accept everyone, this is just a convenient way for us to get to know you before you join.  </li> 
-				<li> After filling out the application, drop by the Engineering Design Lab in AERB 023 during our shop hours: </li>	
+				<li> After filling out the application, drop by the Engineering Design Lab in AERB 023 during our shop hours: </li>
+		</ul>
 				<p>
-					<b>IMPORTANT: The current coronavirus pandemic has halted our in person shop hours.  We have weekly team meetings on Zoom where you will be able to meet other members and see what we're working on.
+					<b>IMPORTANT:</b> The current coronavirus pandemic has halted our in person shop hours.  We have weekly team meetings on Zoom where you will be able to meet other members and see what we're working on.
 				</p>
 <!-- 				<ul style="margin-left: 1em; list-style-type: circle">
                     <li> Mondays 12pm-3pm </li>
