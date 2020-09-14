@@ -19,7 +19,7 @@ icon: fa-user-graduate
 		</p>
 		After some light reading, here are the best ways to get involved:
 			<ul style="list-style-type: disc">
-				<li> <a href="https://forms.gle/eAyyZdRxJWyajUfw9"> Fill out our application.</a> Don't worry - we accept everyone, this is just a convenient way for us to get to know you before you join.  </li> 
+				<li> <a href="https://forms.gle/eAyyZdRxJWyajUfw9"> Fill out our application.</a> Don't worry - we accept everyone, this is just a convenient way for us to get to know you before you join. If you have any questions, feel free to email us at <a href="mailto:aact@uw.edu"> aact@uw.edu</a>.</li> 
 				<li> After filling out the application, drop by the Engineering Design Lab in AERB 023 during our shop hours: </li>
 		</ul>
 				<p>
