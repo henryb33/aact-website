@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 31 Oct 2020 17:24:12 -0700</pubDate>
-    <lastBuildDate>Sat, 31 Oct 2020 17:24:12 -0700</lastBuildDate>
+    <pubDate>Sat, 31 Oct 2020 17:43:08 -0700</pubDate>
+    <lastBuildDate>Sat, 31 Oct 2020 17:43:08 -0700</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -237,7 +237,7 @@
             &lt;div class=&quot;3u&quot;&gt;
                 &lt;section&gt;
                     &lt;a href=&quot;&quot; class=&quot;image featured&quot;&gt;
-                        &lt;img src=&quot;images/derek.jpg&quot; /&gt;
+                        &lt;img src=&quot;images/derek.jpg&quot; width=&quot;300&quot; /&gt;
                     &lt;/a&gt;
                     &lt;center&gt;
                         &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Derek &lt;br /&gt;Stritzinger&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
@@ -248,7 +248,7 @@
             &lt;div class=&quot;3u&quot;&gt;
                 &lt;section&gt;
                     &lt;a href=&quot;&quot; class=&quot;image featured&quot;&gt;
-                        &lt;img src=&quot;images/garrett.jpg&quot; /&gt;
+                        &lt;img src=&quot;images/garrett.jpg&quot; width=&quot;300&quot; /&gt;
                     &lt;/a&gt;
                     &lt;center&gt;
                         &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Garrett &lt;br /&gt;Giddings&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;

@@ -146,7 +146,7 @@ icon: featured fa-user-astronaut
             <div class="3u">
                 <section>
                     <a href="" class="image featured">
-                        <img src="images/derek.jpg">
+                        <img src="images/derek.jpg" width="300">
                     </a>
                     <center>
                         <header><h5><a href="">Derek <br>Stritzinger</a></h5></header>
@@ -157,7 +157,7 @@ icon: featured fa-user-astronaut
             <div class="3u">
                 <section>
                     <a href="" class="image featured">
-                        <img src="images/garrett.jpg">
+                        <img src="images/garrett.jpg" width="300">
                     </a>
                     <center>
                         <header><h5><a href="">Garrett <br>Giddings</a></h5></header>
