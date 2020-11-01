@@ -8,98 +8,58 @@
 \begin{document}
  
 \begin{tikzpicture}[scale=1]
-\tikzmath{ \lx=1; \ly=1; \lz=1;
-		\x1=\lx+\lz*cos(45); \y1=\ly+\lz*sin(45);
-		\x2=\lx+\ly*cos(45); \y2=\ly+\lz*sin(45);
-		\aa=45;
-		\sr=0.5;
-		\xr=\sr*cos(45); \yr=\sr*sin(45);
-		\sx=\lx+0.2*\x1; \sy=\ly+0.5*\x2;
+\tikzmath{ \cXx=3; \cYy=2; \rOt=60; \scl=0.75;
+		\sx=2; \sy=4.2;
 		\Lcone=1.5; \Acone=2*45; \Dcone=0.25;
-		\xp=1/sqrt(2.75); \yp=1.5/sqrt(2.75);
-		\cx=0.9*\lx+0.65; \cy=1.0; }
+		\xp=cos(60); \yp=sin(60);
+}
 
-% Main satellite
-\begin{scope}[shift={(2cm,0cm)},rotate=\aa]
-\draw[thick,fill=black!5!white] (0,0) -- (\lx,0) -- (\lx,\ly) -- (0,\ly) -- (0,0);
-\draw[] (0.1,0.1) -- (0.9*\lx,0.1) -- (0.9*\lx,0.9*\ly) -- (0.1,0.9*\ly) -- (0.1,0.1);
-\draw[thick,fill=black!5!white] (\lx,0) -- (\lx+\x1,\y1) -- (\lx+\x1,\ly+\y1) -- (\lx,\ly);
-\draw[thick,fill=black!5!white] (0,\ly) -- (\x2,\ly+\y2) -- (\lx+\x2,\ly+\y2);
-%\isoaxesNL{0.5*\lx+0.5*\x1}{0.5*\ly+0.5*\y1}{-30}{1}{1}{$\Fbody$};
-% Draw in solar panels
-\filldraw[blue!10!white] (0.1,0.9*\ly+0.15) -- (0.7,0.9*\ly+0.75) -- (0.9*\lx+0.7,0.9*\ly+0.75) -- (0.9*\lx+0.1,0.9*\ly+0.15) -- (0.1,0.9*\ly+0.15);
-\draw[thin] (0.1,0.9*\ly+0.15) -- (0.9*\lx+0.1,0.9*\ly+0.15);
-\draw[thin] (0.2,0.9*\ly+0.25) -- (0.9*\lx+0.2,0.9*\ly+0.25);
-\draw[thin] (0.3,0.9*\ly+0.35) -- (0.9*\lx+0.3,0.9*\ly+0.35);
-\draw[thin] (0.4,0.9*\ly+0.45) -- (0.9*\lx+0.4,0.9*\ly+0.45);
-\draw[thin] (0.5,0.9*\ly+0.55) -- (0.9*\lx+0.5,0.9*\ly+0.55);
-\draw[thin] (0.6,0.9*\ly+0.65) -- (0.9*\lx+0.6,0.9*\ly+0.65);
-\draw[thin] (0.7,0.9*\ly+0.75) -- (0.9*\lx+0.7,0.9*\ly+0.75);
-% after sensor
-\filldraw[blue!10!white] (1.1,0.9*\ly+1.15) -- (1.7,0.9*\ly+1.75) -- (0.9*\lx+1.7,0.9*\ly+1.75) -- (0.9*\lx+1.1,0.9*\ly+1.15) -- (1.1,0.9*\ly+1.15);
-\draw[thin] (1.1,0.9*\ly+1.15) -- (0.9*\lx+1.1,0.9*\ly+1.15);
-\draw[thin] (1.2,0.9*\ly+1.25) -- (0.9*\lx+1.2,0.9*\ly+1.25);
-\draw[thin] (1.3,0.9*\ly+1.35) -- (0.9*\lx+1.3,0.9*\ly+1.35);
-\draw[thin] (1.4,0.9*\ly+1.45) -- (0.9*\lx+1.4,0.9*\ly+1.45);
-\draw[thin] (1.5,0.9*\ly+1.55) -- (0.9*\lx+1.5,0.9*\ly+1.55);
-\draw[thin] (1.6,0.9*\ly+1.65) -- (0.9*\lx+1.6,0.9*\ly+1.65);
-\draw[thin] (1.7,0.9*\ly+1.75) -- (0.9*\lx+1.7,0.9*\ly+1.75);
-% Side panel 
-\filldraw[blue!10!white] (0.9*\lx+0.15,0.1) -- (0.9*\lx+0.55,0.5) -- (0.9*\lx+0.55,0.9*\ly+0.5) -- (0.9*\lx+0.15,0.9*\ly+0.1) -- (0.9*\lx+0.15,0.1);
-\draw[thin] (0.9*\lx+0.15,0.1) -- (0.9*\lx+0.15,0.9*\ly+0.1);
-\draw[thin] (0.9*\lx+0.25,0.2) -- (0.9*\lx+0.25,0.9*\ly+0.2);
-\draw[thin] (0.9*\lx+0.35,0.3) -- (0.9*\lx+0.35,0.9*\ly+0.3);
-\draw[thin] (0.9*\lx+0.45,0.4) -- (0.9*\lx+0.45,0.9*\ly+0.4);
-\draw[thin] (0.9*\lx+0.55,0.5) -- (0.9*\lx+0.55,0.9*\ly+0.5);
-%\draw[thin] (0.9*\lx+0.65,0.6) -- (0.9*\lx+0.65,0.9*\ly+0.6);
-\filldraw[blue!10!white] (0.9*\lx+0.75,0.7) -- (0.9*\lx+1.15,1.1) -- (0.9*\lx+1.15,0.9*\ly+1.1) -- (0.9*\lx+0.75,0.9*\ly+0.7) -- (0.9*\lx+0.75,0.7);
-\draw[thin] (0.9*\lx+0.75,0.7) -- (0.9*\lx+0.75,0.9*\ly+0.7);
-\draw[thin] (0.9*\lx+0.85,0.8) -- (0.9*\lx+0.85,0.9*\ly+0.8);
-\draw[thin] (0.9*\lx+0.95,0.9) -- (0.9*\lx+0.95,0.9*\ly+0.9);
-\draw[thin] (0.9*\lx+1.05,1.0) -- (0.9*\lx+1.05,0.9*\ly+1.0);
-\draw[thin] (0.9*\lx+1.15,1.1) -- (0.9*\lx+1.15,0.9*\ly+1.1);
-%\draw[thin] (0.9*\lx+1.25,1.2) -- (0.9*\lx+1.25,0.9*\ly+1.2);
-\filldraw[blue!10!white] (0.9*\lx+1.35,1.3) -- (0.9*\lx+1.75,1.7) -- (0.9*\lx+1.75,0.9*\ly+1.7) -- (0.9*\lx+1.35,0.9*\ly+1.3) -- (0.9*\lx+1.35,1.3);
-\draw[thin] (0.9*\lx+1.35,1.3) -- (0.9*\lx+1.35,0.9*\ly+1.3);
-\draw[thin] (0.9*\lx+1.45,1.4) -- (0.9*\lx+1.45,0.9*\ly+1.4);
-\draw[thin] (0.9*\lx+1.55,1.5) -- (0.9*\lx+1.55,0.9*\ly+1.5);
-\draw[thin] (0.9*\lx+1.65,1.6) -- (0.9*\lx+1.65,0.9*\ly+1.6);
-\draw[thin] (0.9*\lx+1.75,1.7) -- (0.9*\lx+1.75,0.9*\ly+1.7);
+\coordinate (LL) at (-4,-0.5);
+\coordinate (UR) at (4.5,6.25);
+
+\fill[uwgold] (LL) rectangle (UR); 
+\fill[uwgold!50,rounded corners=6pt] ($(LL)+(0.5,0.5)$) rectangle ($(UR)+(-0.5,-0.5)$);
+
+% draw satellite
+\satelliteUUU{\cXx}{\cYy}{\rOt}{\scl}
+
 % Draw sensor boresight and FoV Cone
-\begin{scope}[shift={(\sx,\sy)},rotate=180]
-\filldraw[green!30!white] (0,0) circle (2pt);
-\draw[thick,->] (0,0) -- (0,-1) node[pos=0.9,anchor=south] {$\bm{p}_{\body}$};
-\cone{0}{0}{0}{\Lcone}{\Acone}{\Dcone}{color=green!100,opacity=0.10,shading=axis,shading angle=90,left color=green!100,right color=green!0};
-\coneback{0}{0}{0}{\Lcone}{\Acone}{\Dcone}{color=black!100,densely dotted};
-\draw (-1.0,-2.25) node[text width=2.75cm,align=center,anchor=south,font=\small] {Body-fixed \\ $\alpha_{\max}$ keep in cone};
-\draw (-1.0,-2.25) to[out=0,in=90] (-0.8,-1.8);
+\begin{scope}[shift={(2,3.7)},rotate=-90,scale=0.8]
+	\filldraw[darkgreen] (0,0) circle (2pt);
+	\draw[thick,->] (0,0) -- (0,-1) node[pos=0.9,anchor=south] {$\bm{p}_{\body}$};
+	\cone{0}{0}{0}{\Lcone}{\Acone}{\Dcone}{color=green!100,opacity=0.10,shading=axis,shading angle=90,left color=green!100,right color=green!0};
+	\coneback{0}{0}{0}{\Lcone}{\Acone}{\Dcone}{color=black!100,densely dotted};
+	\node[text width=2.75cm,align=center,anchor=south,font=\small] (txt) at (-1.0,-3.4) {Body-fixed \\ $\alpha_{\max}$ keep in cone};
+	\draw (txt.south) to[out=0,in=-90] ++(0.5,1.5);
 \end{scope}
+
 % Vector to sun
-\draw[thick,->] (\sx,\sy) -- (\sx-\xp,\sy+\yp) node[pos=0.99,anchor=north,yshift=-0.2cm] (sunvec) {$\bm{s}_{\body}$};
-\node[below of=sunvec, anchor=east] (suntext) {Sun vector in the body frame};
-\draw (suntext) to[out=90,in=-90] (sunvec);
+\draw[thick,->] (2,3.7) -- (2-0.78,3.7-0.2) node[pos=0.99,anchor=north,yshift=0.1cm] (sunvec) {$\bm{s}_{\body}$};
+% \node[anchor=west,text width=2.75cm,align=center,font=\small] (suntext) at ($(sunvec)+(1,2)$) {Sun vector in the body frame};
+% \draw (suntext.south) to[out=-90,in=0] (sunvec.north);
+
 % Camera
-\begin{scope}[shift={(\cx,\cy)},rotate=90]
-\filldraw[red!30!white] (0,0) circle (2pt);
+\begin{scope}[shift={(2.325,1.955)},rotate=0,scale=0.8]
+\filldraw[darkred] (0,0) circle (2pt);
 \cone{0}{0}{0}{\Lcone}{\Acone}{\Dcone}{color=red!100,opacity=0.10,shading=axis,shading angle=90,left color=red!100,right color=red!0};
 \coneback{0}{0}{0}{\Lcone}{\Acone}{\Dcone}{color=black!100,densely dotted}
-\draw[thick,->] (0,0) -- (0,-1) node[pos=0.9,anchor=north west] {$\bm{c}_{\body}$};
-\draw (-1,0) node[text width=2.75cm,align=center,anchor=west,font=\small] {Body-fixed \\ $\beta_{\max}$ keep out cone};
-\draw (-1.25,-0.55) to[out=30,in=40] (-0.45,-0.45);
-\end{scope}
+\draw[thick,->] (0,0) -- (0,-1) node[pos=0.8,anchor=north west] {$\bm{c}_{\body}$};
+\node[text width=2.75cm,align=center,anchor=west,font=\small] (txt) at (-5.7,-0.8) {Body-fixed \\ $\beta_{\max}$ keep out cone};
+\draw (txt.east) to[out=0,in=170] ++(0.78,-0.25);
 \end{scope}
 
 % Sun
 \begin{scope}[shift={(-2cm,3cm)}]
-\filldraw[yellow] (0,0) circle (\sr);
-\draw[thick,yellow] (0,1.25*\sr) -- (0,2*\sr);
-\draw[thick,yellow] (1.25*\sr,0) -- (2*\sr,0);
-\draw[thick,yellow] (0,-1.25*\sr) -- (0,-2*\sr);
-\draw[thick,yellow] (-1.25*\sr,0) -- (-2*\sr,0);
-\draw[thick,yellow] (-1.25*\xr,-1.25*\yr) -- (-2*\xr,-2*\yr);
-\draw[thick,yellow] (1.25*\xr,-1.25*\yr) -- (2*\xr,-2*\yr);
-\draw[thick,yellow] (-1.25*\xr,1.25*\yr) -- (-2*\xr,2*\yr);
-\draw[thick,yellow] (1.25*\xr,1.25*\yr) -- (2*\xr,2*\yr);
+	\filldraw[yellow!90!black] (0,0) circle (\sr);
+	\draw[uwgold!70!black] (0,0) circle (\sr);
+	\draw[thick,uwgold!70!black] (0,1.25*\sr) -- (0,2*\sr);
+	\draw[thick,uwgold!70!black] (1.25*\sr,0) -- (2*\sr,0);
+	\draw[thick,uwgold!70!black] (0,-1.25*\sr) -- (0,-2*\sr);
+	\draw[thick,uwgold!70!black] (-1.25*\sr,0) -- (-2*\sr,0);
+	\draw[thick,uwgold!70!black] (-1.25*\xr,-1.25*\yr) -- (-2*\xr,-2*\yr);
+	\draw[thick,uwgold!70!black] (1.25*\xr,-1.25*\yr) -- (2*\xr,-2*\yr);
+	\draw[thick,uwgold!70!black] (-1.25*\xr,1.25*\yr) -- (-2*\xr,2*\yr);
+	\draw[thick,uwgold!70!black] (1.25*\xr,1.25*\yr) -- (2*\xr,2*\yr);
 \end{scope}
 
 \end{tikzpicture} 

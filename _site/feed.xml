@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 01 Jun 2020 22:42:44 -0700</pubDate>
-    <lastBuildDate>Mon, 01 Jun 2020 22:42:44 -0700</lastBuildDate>
+    <pubDate>Sat, 31 Oct 2020 17:24:12 -0700</pubDate>
+    <lastBuildDate>Sat, 31 Oct 2020 17:24:12 -0700</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -16,6 +16,8 @@
   &lt;ul style=&quot;list-style-type: none&quot;&gt;
       &lt;li&gt;&lt;h2&gt; What is AACT Up To?  &lt;/h2&gt;&lt;/li&gt;
       &lt;p&gt; Check in here for team updates, milestones, announcements, and anything else we'd like to share.&lt;/p&gt;
+      &lt;b style=&quot;color:#b8a57a;font-size:125%;&quot;&gt; IEEE Aerospace Paper Accepted&lt;/b&gt;
+      &lt;p&gt; September, 2020: We've finished our first full-length conference paper. AACT will be sending students to present at the 2021 IEEE Aerospace conference (virtually) on the SOC-i spacecraft. More than 20 students contributed to writing the paper, and many more contributed to the work that it represents. Full citation/link below!  &lt;/p&gt;
       &lt;b style=&quot;color:#b8a57a;font-size:125%;&quot;&gt; AACT Marches Forward&lt;/b&gt;
       &lt;p&gt; June, 2020: Even with a global pandemic forcing us out of our development labs, the work continues to try and push SOC-i closer to completion. Working entirely from home, we've maintained a steady pace on both the hardware and software fronts. &lt;/p&gt;
       &lt;b style=&quot;color:#b8a57a;font-size:125%;&quot;&gt; Congratulations to Cole, Devan &amp;amp; Arnela!&lt;/b&gt;
@@ -39,7 +41,10 @@
 	&lt;ul style=&quot;list-style-type: none&quot;&gt;
   		&lt;li&gt;&lt;h2&gt; Recent Publications &lt;/h2&gt;&lt;/li&gt;
         &lt;ul style=&quot;list-style-type: disc; padding-left: 1em&quot;&gt;
-           &lt;li&gt; We are working on a poster for the 34th Annual Small Satellite Conference, Virtual, 2020.&lt;/li&gt;
+           &lt;li&gt; T. P. Reynolds, C. L. Kelly, C. Morgan, A. Grebovic, J. Erickson, H. Brown, W. C. Pope, J. Casamayor, K. Kearsley, G. Caylak, K. E. Fisher, C. Wutzke, K. Ashton, J. Rosenthal, D. Tormey, E. Freneau, G. Giddings, H. E. Horata, A. Dighde, S. Parakh, J. Zhen, J. C. Purpura, D. B. Pratt, and A. Hunt, “&lt;a style=&quot;color:#4169e1&quot; href=&quot;https://drive.google.com/file/d/1_JSYfWirsACYcvqLq-kNZiXv5VKv9qmc/view?usp=sharing&quot;&gt; SOC-i: A CubeSat Demonstration of Optimization-Based Real-Time Constrained Attitude Control, &lt;/a&gt;” IEEE Aerospace Conference, Virtual, 2020. &lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;ul style=&quot;list-style-type: disc; padding-left: 1em&quot;&gt;
+           &lt;li&gt; S. Agarwal, J. Erickson, E. Freneau, A. Grebovic, C. Kelly, C. Morgan, T. P. Reynolds, D. Tormey, C. Wutzke and H. Yu, “&lt;a style=&quot;color:#4169e1&quot; href=&quot;https://drive.google.com/file/d/1vZinUM7jGbUQtDAJNz_xh6MnbRLpauhW/view?usp=sharing&quot;&gt; A CubeSat Flight Demonstration of Constrained Attitude Control, &lt;/a&gt;” 34th Annual Small Satellite Conference, Virtual, 2020.&lt;/li&gt;
         &lt;/ul&gt;
   			&lt;ul style=&quot;list-style-type: disc; padding-left: 1em&quot;&gt;
   				 &lt;li&gt; T. P. Reynolds, K. Kaycee, B. Barzgaran, M. Hudoba de Badyn, S. Rice, E. Hansen, A. Adler, B. Acikmese and M. Mesbahi, “&lt;a style=&quot;color:#4169e1&quot; href=&quot;https://arc.aiaa.org/doi/abs/10.2514/6.2018-5403&quot;&gt; Development of a Generic Guidance Navigation &amp;amp; Control System for Small Satellites: Application to HuskySat-1, &lt;/a&gt;” AIAA Space Forum, Orlando, FL, 2018.&lt;/li&gt;
@@ -101,7 +106,7 @@
                 &lt;div class=&quot;12u&quot;&gt;
                     &lt;section&gt;
                         &lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;
-                        &lt;img src=&quot;images/teampic_2019-10-03.jpg&quot; alt=&quot;The students of AACT&quot; /&gt;
+                        &lt;img src=&quot;images/teampic_fall2020.png&quot; alt=&quot;The students of AACT&quot; /&gt;
                         &lt;/a&gt;
                     &lt;/section&gt;
                 &lt;/div&gt;
@@ -196,11 +201,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;3u&quot;&gt;
                 &lt;section&gt;
-                    &lt;a href=&quot;https://www.linkedin.com/in/arnelagrebovic/&quot; class=&quot;image featured&quot;&gt;
-                        &lt;img src=&quot;images/Arnela.jpg&quot; /&gt;
+                    &lt;a href=&quot;&quot; class=&quot;image featured&quot;&gt;
+                        &lt;img src=&quot;images/henry.jpeg&quot; /&gt;
                     &lt;/a&gt;
                     &lt;center&gt;
-                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.linkedin.com/in/arnelagrebovic/&quot;&gt;Arnela &lt;br /&gt;Grebovic&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Henry &lt;br /&gt;Brown&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
                         &lt;p&gt;&lt;center&gt;Structures&lt;/center&gt;&lt;/p&gt;
                     &lt;/center&gt;
                 &lt;/section&gt;
@@ -210,10 +215,10 @@
             &lt;div class=&quot;3u&quot;&gt;
                 &lt;section&gt;
                     &lt;a href=&quot;&quot; class=&quot;image featured&quot;&gt;
-                        &lt;img src=&quot;images/Devan.jpg&quot; /&gt;
+                        &lt;img src=&quot;images/will.jpg&quot; /&gt;
                     &lt;/a&gt;
                     &lt;center&gt;
-                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Devan &lt;br /&gt;Tormey&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;William &lt;br /&gt;Pope&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
                         &lt;p&gt;&lt;center&gt;Controls&lt;/center&gt;&lt;/p&gt;
                     &lt;/center&gt;
                 &lt;/section&gt;
@@ -221,21 +226,21 @@
             &lt;div class=&quot;3u&quot;&gt;
                 &lt;section&gt;
                     &lt;a href=&quot;&quot; class=&quot;image featured&quot;&gt;
-                        &lt;img src=&quot;images/cole.jpg&quot; /&gt;
+                        &lt;img src=&quot;images/abhay.png&quot; /&gt;
                     &lt;/a&gt;
                     &lt;center&gt;
-                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Cole &lt;br /&gt;Morgan&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-                        &lt;p&gt;&lt;center&gt;Controls&lt;/center&gt;&lt;/p&gt;
+                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Abhay &lt;br /&gt;Komanduri&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+                        &lt;p&gt;&lt;center&gt;Mission Control&lt;/center&gt;&lt;/p&gt;
                     &lt;/center&gt;
                 &lt;/section&gt;
             &lt;/div&gt;
             &lt;div class=&quot;3u&quot;&gt;
                 &lt;section&gt;
                     &lt;a href=&quot;&quot; class=&quot;image featured&quot;&gt;
-                        &lt;img src=&quot;images/Ellory.jpg&quot; /&gt;
+                        &lt;img src=&quot;images/derek.jpg&quot; /&gt;
                     &lt;/a&gt;
                     &lt;center&gt;
-                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Ellory &lt;br /&gt;Freneau&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Derek &lt;br /&gt;Stritzinger&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
                         &lt;p&gt;&lt;center&gt;Communications&lt;/center&gt;&lt;/p&gt;
                     &lt;/center&gt;
                 &lt;/section&gt;
@@ -243,10 +248,10 @@
             &lt;div class=&quot;3u&quot;&gt;
                 &lt;section&gt;
                     &lt;a href=&quot;&quot; class=&quot;image featured&quot;&gt;
-                        &lt;img src=&quot;images/Jerrold.png&quot; /&gt;
+                        &lt;img src=&quot;images/garrett.jpg&quot; /&gt;
                     &lt;/a&gt;
                     &lt;center&gt;
-                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Jerrold &lt;br /&gt;Erickson&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Garrett &lt;br /&gt;Giddings&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
                         &lt;p&gt;&lt;center&gt;Power Systems&lt;/center&gt;&lt;/p&gt;
                     &lt;/center&gt;
                 &lt;/section&gt;
@@ -256,11 +261,22 @@
             &lt;div class=&quot;3u&quot;&gt;
                 &lt;section&gt;
                     &lt;a href=&quot;&quot; class=&quot;image featured&quot;&gt;
-                        &lt;img src=&quot;images/sheershak.jpg&quot; /&gt;
+                        &lt;img src=&quot;images/gorkem.jpg&quot; /&gt;
                     &lt;/a&gt;
                     &lt;center&gt;
-                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Sheershak &lt;br /&gt;Agarwal&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
-                        &lt;p&gt;&lt;center&gt;Flight Computer&lt;/center&gt;&lt;/p&gt;
+                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Gorkem &lt;br /&gt;Caylak&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+                        &lt;p&gt;&lt;center&gt;Flight Software&lt;/center&gt;&lt;/p&gt;
+                    &lt;/center&gt;
+                &lt;/section&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;3u&quot;&gt;
+                &lt;section&gt;
+                    &lt;a href=&quot;&quot; class=&quot;image featured&quot;&gt;
+                        &lt;img src=&quot;images/jon.png&quot; /&gt;
+                    &lt;/a&gt;
+                    &lt;center&gt;
+                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Jon &lt;br /&gt;Casamayor&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+                        &lt;p&gt;&lt;center&gt;Onboard Computer&lt;/center&gt;&lt;/p&gt;
                     &lt;/center&gt;
                 &lt;/section&gt;
             &lt;/div&gt;
@@ -285,13 +301,19 @@
     &lt;/div&gt; 
 &lt;/section&gt;
 &lt;!-- PREVIOUS STUDENTS --&gt;
-&lt;!-- &lt;section class=&quot;wrapper style2&quot;&gt;
-    &lt;header&gt; &lt;h2&gt; &lt;strong&gt; Past Students &lt;/strong&gt; &lt;/h2&gt; &lt;/header&gt;
+&lt;section class=&quot;wrapper style2&quot;&gt;
+    &lt;header&gt; &lt;h2&gt; &lt;strong&gt; Past Subsystem Leads &lt;/strong&gt; &lt;/h2&gt; &lt;/header&gt;
         &lt;p&gt; We're very proud to brag about some of the students that have worked with us in the past! Many of these students have gone on to jobs in the space industry, grad school, and beyond, taking their AACT experience with them. &lt;/p&gt;
-        &lt;ul style=&quot;list-style-type: circle; padding-left: 1em&quot;&gt;
-            &lt;li&gt;Test&lt;/li&gt;
+        &lt;ul style=&quot;list-style-type: disc; padding-left: 1em&quot;&gt;
+            &lt;li&gt; Arnela Grebovic (Structures), Blue Origin &lt;/li&gt;
+            &lt;li&gt; Cole Morgan (Controls), SpaceX &lt;/li&gt;
+            &lt;li&gt; Devan Tormey (Controls), Blue Origin &lt;/li&gt;
+            &lt;li&gt; Jerrold Erickson (Power Systems) &lt;/li&gt;
+            &lt;li&gt; Ellory Freneau (Communications) &lt;/li&gt;
+            &lt;li&gt; Sheershak Agarwal (Onboard Computer) &lt;/li&gt;
+            &lt;li&gt; Haomin Yu (Imaging) &lt;/li&gt;
         &lt;/ul&gt; 
-&lt;/section&gt; --&gt;
+&lt;/section&gt;
 </description>
         <pubDate>Sun, 06 Oct 2019 17:00:00 -0700</pubDate>
         <link>http://localhost:4000/people.html</link>
@@ -319,16 +341,11 @@
 		&lt;/p&gt;
 		After some light reading, here are the best ways to get involved:
 			&lt;ul style=&quot;list-style-type: disc&quot;&gt;
-				&lt;li&gt; Email us at &lt;a href=&quot;mailto:aact@uw.edu&quot;&gt; aact@uw.edu.&lt;/a&gt; Be sure to include: &lt;/li&gt; 
-					&lt;ul style=&quot;margin-left: 1em; list-style-type: circle&quot;&gt;
-						&lt;li&gt; Academic status (undergrad, Master's or Ph.D.) and home department,&lt;/li&gt;
-						&lt;li&gt; A copy of your resume (if you have one), &lt;/li&gt;
-						&lt;li&gt; A quick description of why you're interested in joining our team,&lt;/li&gt;
-						&lt;li&gt; If possible, highlight relevant experience. This is not a requirement but it helps us get a sense of how you'd fit into our project!&lt;/li&gt;
-					&lt;/ul&gt;
-				&lt;li&gt; After emailing us, drop by the Engineering Design Lab in AERB 023 during our shop hours: &lt;/li&gt;	
+				&lt;li&gt; &lt;a href=&quot;https://forms.gle/eAyyZdRxJWyajUfw9&quot;&gt; Fill out our application.&lt;/a&gt; Don't worry - we accept everyone, this is just a convenient way for us to get to know you before you join. If you have any questions, feel free to email us at &lt;a href=&quot;mailto:aact@uw.edu&quot;&gt; aact@uw.edu&lt;/a&gt;.&lt;/li&gt; 
+				&lt;li&gt; After filling out the application, drop by the Engineering Design Lab in AERB 023 during our shop hours: &lt;/li&gt;
+		&lt;/ul&gt;
 				&lt;p&gt;
-					&lt;b&gt;IMPORTANT: The current coronavirus pandemic has halted our in person shop hours. During this time, we will only be accepting a limited number of new students to work on specific projects. Please contact us through &lt;a href=&quot;mailto:aact@uw.edu&quot;&gt; aact@uw.edu.&lt;/a&gt; to hear what we're &quot;hiring&quot; for!&lt;/b&gt;
+					&lt;b&gt;IMPORTANT:&lt;/b&gt; The current coronavirus pandemic has halted our in person shop hours.  We have weekly team meetings on Zoom where you will be able to meet other members and see what we're working on.
 				&lt;/p&gt;
 &lt;!-- 				&lt;ul style=&quot;margin-left: 1em; list-style-type: circle&quot;&gt;
                     &lt;li&gt; Mondays 12pm-3pm &lt;/li&gt;
@@ -337,7 +354,6 @@
 					&lt;li&gt; Thursdays 10:30am-1:30pm &lt;/li&gt;
 					&lt;li&gt; Fridays 11am-2pm &lt;/li&gt;
 				&lt;/ul&gt; --&gt;
-			&lt;/ul&gt; 
 	&lt;/header&gt;
 &lt;/div&gt;
 

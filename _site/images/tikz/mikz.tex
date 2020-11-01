@@ -5,16 +5,23 @@
 \usetikzlibrary{scopes}
 \usetikzlibrary{fadings}
 \usetikzlibrary{arrows}
+\usetikzlibrary{decorations,decorations.text,backgrounds}
 \tikzset{>=latex}
 
 % NOT BEAMER
 
-\pgfdeclarelayer{bg}    % declare background layer
-\pgfsetlayers{bg,main}  % set the order of the layers (main is the standard layer)
+% \pgfdeclarelayer{bg}    % declare background layer
+% \pgfsetlayers{bg,main}  % set the order of the layers (main is the standard layer)
 
 \definecolor{beige}{RGB}{245,245,220}
 \definecolor{darkred}{rgb}{0.90,0.00,0.00}%red}%!75!black!100}
 \definecolor{darkgreen}{rgb}{0.00,0.45,0.00}
+% \definecolor{uwgold}{RGB}{232,211,162}
+\definecolor{uwgold}{HTML}{b7a57a}
+\definecolor{uwpurp}{RGB}{75,47,132}
+\definecolor{uwdarkgold}{RGB}{184,165,122}
+
+\colorlet{spcol}{blue!35!white!95!black}
 
 \newcommand{\threeaxes}[8]{
 	\tikzmath{
@@ -377,4 +384,45 @@
 				 -- (-\ax7,-\ay7)
 				 -- (-\ax8,-\ay8)
 				 -- (-\ax1,-\ay1);
+}
+
+\newcommand{\satelliteUUU}[4]{
+    % \satelliteUUU{cx}{cy}{rotate}{scale}
+    \tikzmath{ \lx=1; \ly=1; \lz=3;
+        \lzx=\lz*cos(30); \lzy=\lz*sin(30);
+        \lxx=\lx*cos(30); \lxy=\lx*sin(30);
+        \ca=cos(30); \sa=sin(30);
+        \aa=#3;
+        \sr=0.5;
+        \xr=\sr*cos(45); \yr=\sr*sin(45);
+        \sx=\lx; \sy=\ly;
+        \Lcone=1.5; \Acone=2*45; \Dcone=0.25;
+        \xp=1/sqrt(2.75); \yp=1.5/sqrt(2.75);
+        \cx=#1; \cy=#2;
+        \dx=0.1;\dy=0.05; \dsep=0.59; }
+
+% Main satellite
+\begin{scope}[shift={(\cx,\cy)},rotate=\aa,scale=#4]
+\shadedraw[thick,fill=black!5!white,rounded corners=1pt,left color=black!10!white,right color=black!25!white] (0,0) -- (0,\ly) -- (\lzx,\lzy+\ly) -- (\lzx,\lzy) -- cycle;
+\shadedraw[thick,fill=black!5!white,rounded corners=1pt,left color=yellow!10!white,right color=black!10!white] (0,0) -- (0,\ly) -- (-\lxx,\lxy+\ly) -- (-\lxx,\lxy) -- cycle;
+\shadedraw[thick,fill=white,rounded corners=1pt,left color=yellow!10!white,right color=black!25!white] (0,\ly) -- (\lzx,\lzy+\ly) -- +(-\lxx,\lxy) -- (-\lxx,\lxy+\ly) -- cycle;
+
+% TOP SOLAR PANELS
+\draw[spcol,fill=blue!15!white] (-\lxx+\dx,\lxy+\ly) -- ++(0.35,0.2) -- ++(0.2,0.02) -- ++(0.6*\ca,-0.6*\sa) -- ++(0.0,-0.18) -- ++(-0.3,-0.18) -- cycle;
+\draw[spcol,fill=blue!15!white] (-\lxx+\dx+\dsep*\ca,\lxy+\ly+\dsep*\sa) -- ++(0.35,0.2) -- ++(0.2,0.02) -- ++(0.6*\ca,-0.6*\sa) -- ++(0.0,-0.18) -- ++(-0.3,-0.18) -- cycle;
+\draw[spcol,fill=blue!15!white] (-\lxx+\dx+2*\dsep*\ca,\lxy+\ly+2*\dsep*\sa) -- ++(0.35,0.2) -- ++(0.2,0.02) -- ++(0.6*\ca,-0.6*\sa) -- ++(0.0,-0.18) -- ++(-0.3,-0.18) -- cycle;
+% \draw[spcol,fill=blue!15!white] (-\lxx+\dx+3*\dsep*\ca,\lxy+\ly+3*\dsep*\sa) -- ++(0.35,0.2) -- ++(0.2,0.02) -- ++(0.6*\ca,-0.6*\sa) -- ++(0.0,-0.18) -- ++(-0.3,-0.18) -- cycle;
+\draw[spcol,fill=blue!15!white] (-\lxx+\dx+4*\dsep*\ca,\lxy+\ly+4*\dsep*\sa) -- ++(0.35,0.2) -- ++(0.2,0.02) -- ++(0.6*\ca,-0.6*\sa) -- ++(0.0,-0.18) -- ++(-0.3,-0.18) -- cycle;
+
+% SIDE SOLAR PANELS
+\draw[spcol,fill=blue!15!white] (0.5*\dx,1.5*\dy) -- ++(0,\ly-2*\dy) -- ++(0.35*\ca,0.35*\sa) -- ++(0.15,-0.1) -- ++(0,-0.6) -- ++(-0.1,-0.17) -- cycle;
+\draw[spcol,fill=blue!15!white] (0.5*\dx+\dsep*\ca,1.5*\dy+\dsep*\sa) -- ++(0,\ly-2*\dy) -- ++(0.35*\ca,0.35*\sa) -- ++(0.15,-0.1) -- ++(0,-0.6) -- ++(-0.1,-0.17) -- cycle;
+\draw[spcol,fill=blue!15!white] (0.5*\dx+2*\dsep*\ca,1.5*\dy+2*\dsep*\sa) -- ++(0,\ly-2*\dy) -- ++(0.35*\ca,0.35*\sa) -- ++(0.15,-0.1) -- ++(0,-0.6) -- ++(-0.1,-0.17) -- cycle;
+\draw[spcol,fill=blue!15!white] (0.5*\dx+3*\dsep*\ca,1.5*\dy+3*\dsep*\sa) -- ++(0,\ly-2*\dy) -- ++(0.35*\ca,0.35*\sa) -- ++(0.15,-0.1) -- ++(0,-0.6) -- ++(-0.1,-0.17) -- cycle;
+\draw[spcol,fill=blue!15!white] (0.5*\dx+4*\dsep*\ca,1.5*\dy+4*\dsep*\sa) -- ++(0,\ly-2*\dy) -- ++(0.35*\ca,0.35*\sa) -- ++(0.15,-0.1) -- ++(0,-0.6) -- ++(-0.1,-0.17) -- cycle;
+
+% END PLATE
+\draw[blue!35!white,fill=black!10!white,rounded corners=1pt] (-0.5*\dx,2*\dy) -- (-0.5*\dx,\ly-\dy) -- (-\ca+0.5*\dx,\ly+\sa-2*\dy) -- (-\ca+0.5*\dx,\sa+\dy) -- cycle;
+\draw[black,fill=black!50!white] (-0.5*\lx,0.75*\ly) circle (2pt);
+\end{scope}
 }
