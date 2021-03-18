@@ -6,16 +6,18 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 31 Oct 2020 17:43:08 -0700</pubDate>
-    <lastBuildDate>Sat, 31 Oct 2020 17:43:08 -0700</lastBuildDate>
+    <pubDate>Wed, 17 Mar 2021 22:09:29 -0700</pubDate>
+    <lastBuildDate>Wed, 17 Mar 2021 22:09:29 -0700</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
-        <title>Team News</title>
+        <title>Team News &amp; Publications</title>
         <description>&lt;section class=&quot;wrapper style2&quot;&gt;
   &lt;ul style=&quot;list-style-type: none&quot;&gt;
       &lt;li&gt;&lt;h2&gt; What is AACT Up To?  &lt;/h2&gt;&lt;/li&gt;
       &lt;p&gt; Check in here for team updates, milestones, announcements, and anything else we'd like to share.&lt;/p&gt;
+      &lt;b style=&quot;color:#b8a57a;font-size:125%;&quot;&gt; AACT Accepts a Launch for SOC-i&lt;/b&gt;
+      &lt;p&gt; February, 2021: We're extremely excited to announce that AACT has accepted a launch with Firefly Aerospace on the VCLS Demo 2 mission! SOC-i's mission is now being tailored to a 550km Sun-synchronous orbit, slated to launch in early-to-mid 2022. Now the hard work really kicks in, time to deliver! &lt;/p&gt;
       &lt;b style=&quot;color:#b8a57a;font-size:125%;&quot;&gt; IEEE Aerospace Paper Accepted&lt;/b&gt;
       &lt;p&gt; September, 2020: We've finished our first full-length conference paper. AACT will be sending students to present at the 2021 IEEE Aerospace conference (virtually) on the SOC-i spacecraft. More than 20 students contributed to writing the paper, and many more contributed to the work that it represents. Full citation/link below!  &lt;/p&gt;
       &lt;b style=&quot;color:#b8a57a;font-size:125%;&quot;&gt; AACT Marches Forward&lt;/b&gt;
@@ -41,7 +43,7 @@
 	&lt;ul style=&quot;list-style-type: none&quot;&gt;
   		&lt;li&gt;&lt;h2&gt; Recent Publications &lt;/h2&gt;&lt;/li&gt;
         &lt;ul style=&quot;list-style-type: disc; padding-left: 1em&quot;&gt;
-           &lt;li&gt; T. P. Reynolds, C. L. Kelly, C. Morgan, A. Grebovic, J. Erickson, H. Brown, W. C. Pope, J. Casamayor, K. Kearsley, G. Caylak, K. E. Fisher, C. Wutzke, K. Ashton, J. Rosenthal, D. Tormey, E. Freneau, G. Giddings, H. E. Horata, A. Dighde, S. Parakh, J. Zhen, J. C. Purpura, D. B. Pratt, and A. Hunt, “&lt;a style=&quot;color:#4169e1&quot; href=&quot;https://drive.google.com/file/d/1_JSYfWirsACYcvqLq-kNZiXv5VKv9qmc/view?usp=sharing&quot;&gt; SOC-i: A CubeSat Demonstration of Optimization-Based Real-Time Constrained Attitude Control, &lt;/a&gt;” IEEE Aerospace Conference, Virtual, 2020. &lt;/li&gt;
+           &lt;li&gt; T. P. Reynolds, C. L. Kelly, C. Morgan, A. Grebovic, J. Erickson, H. Brown, W. C. Pope, J. Casamayor, K. Kearsley, G. Caylak, K. E. Fisher, C. Wutzke, K. Ashton, J. Rosenthal, D. Tormey, E. Freneau, G. Giddings, H. E. Horata, A. Dighde, S. Parakh, J. Zhen, J. C. Purpura, D. B. Pratt, and A. Hunt, “&lt;a style=&quot;color:#4169e1&quot; href=&quot;https://drive.google.com/file/d/1_JSYfWirsACYcvqLq-kNZiXv5VKv9qmc/view?usp=sharing&quot;&gt;SOC-i: A CubeSat Demonstration of Optimization-Based Real-Time Constrained Attitude Control,&lt;/a&gt;” IEEE Aerospace Conference, Big Sky, MT, 2020. &lt;/li&gt;
         &lt;/ul&gt;
         &lt;ul style=&quot;list-style-type: disc; padding-left: 1em&quot;&gt;
            &lt;li&gt; S. Agarwal, J. Erickson, E. Freneau, A. Grebovic, C. Kelly, C. Morgan, T. P. Reynolds, D. Tormey, C. Wutzke and H. Yu, “&lt;a style=&quot;color:#4169e1&quot; href=&quot;https://drive.google.com/file/d/1vZinUM7jGbUQtDAJNz_xh6MnbRLpauhW/view?usp=sharing&quot;&gt; A CubeSat Flight Demonstration of Constrained Attitude Control, &lt;/a&gt;” 34th Annual Small Satellite Conference, Virtual, 2020.&lt;/li&gt;
@@ -106,7 +108,7 @@
                 &lt;div class=&quot;12u&quot;&gt;
                     &lt;section&gt;
                         &lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;
-                        &lt;img src=&quot;images/teampic_fall2020.png&quot; alt=&quot;The students of AACT&quot; /&gt;
+                        &lt;img src=&quot;images/teampic_summer2020.png&quot; alt=&quot;The students of AACT&quot; /&gt;
                         &lt;/a&gt;
                     &lt;/section&gt;
                 &lt;/div&gt;
@@ -226,10 +228,10 @@
             &lt;div class=&quot;3u&quot;&gt;
                 &lt;section&gt;
                     &lt;a href=&quot;&quot; class=&quot;image featured&quot;&gt;
-                        &lt;img src=&quot;images/abhay.png&quot; /&gt;
+                        &lt;img src=&quot;images/socirender.png&quot; /&gt;
                     &lt;/a&gt;
                     &lt;center&gt;
-                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Abhay &lt;br /&gt;Komanduri&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Amy &lt;br /&gt;Shyu&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
                         &lt;p&gt;&lt;center&gt;Mission Control&lt;/center&gt;&lt;/p&gt;
                     &lt;/center&gt;
                 &lt;/section&gt;
@@ -269,17 +271,17 @@
                     &lt;/center&gt;
                 &lt;/section&gt;
             &lt;/div&gt;
-            &lt;div class=&quot;3u&quot;&gt;
+&lt;!--             &lt;div class=&quot;3u&quot;&gt;
                 &lt;section&gt;
                     &lt;a href=&quot;&quot; class=&quot;image featured&quot;&gt;
-                        &lt;img src=&quot;images/jon.png&quot; /&gt;
+                        &lt;img src=&quot;images/jon.png&quot;&gt;
                     &lt;/a&gt;
                     &lt;center&gt;
-                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Jon &lt;br /&gt;Casamayor&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Jon &lt;br&gt;Casamayor&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
                         &lt;p&gt;&lt;center&gt;Onboard Computer&lt;/center&gt;&lt;/p&gt;
                     &lt;/center&gt;
                 &lt;/section&gt;
-            &lt;/div&gt;
+            &lt;/div&gt; --&gt;
             &lt;div class=&quot;3u&quot;&gt;
                 &lt;section&gt;
                     &lt;a href=&quot;&quot; class=&quot;image featured&quot;&gt;
@@ -305,15 +307,17 @@
     &lt;header&gt; &lt;h2&gt; &lt;strong&gt; Past Subsystem Leads &lt;/strong&gt; &lt;/h2&gt; &lt;/header&gt;
         &lt;p&gt; We're very proud to brag about some of the students that have worked with us in the past! Many of these students have gone on to jobs in the space industry, grad school, and beyond, taking their AACT experience with them. &lt;/p&gt;
         &lt;ul style=&quot;list-style-type: disc; padding-left: 1em&quot;&gt;
+            &lt;li&gt; Jon Casamayor (CDH, Onboard Computer), Lockheed Martin
             &lt;li&gt; Arnela Grebovic (Structures), Blue Origin &lt;/li&gt;
             &lt;li&gt; Cole Morgan (Controls), SpaceX &lt;/li&gt;
             &lt;li&gt; Devan Tormey (Controls), Blue Origin &lt;/li&gt;
             &lt;li&gt; Jerrold Erickson (Power Systems) &lt;/li&gt;
             &lt;li&gt; Ellory Freneau (Communications) &lt;/li&gt;
-            &lt;li&gt; Sheershak Agarwal (Onboard Computer) &lt;/li&gt;
+            &lt;li&gt; Sheershak Agarwal (CDH) &lt;/li&gt;
             &lt;li&gt; Haomin Yu (Imaging) &lt;/li&gt;
-        &lt;/ul&gt; 
-&lt;/section&gt;
+        &amp;lt;/ul&amp;gt; 
+&amp;lt;/section&amp;gt;
+&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;
 </description>
         <pubDate>Sun, 06 Oct 2019 17:00:00 -0700</pubDate>
         <link>http://localhost:4000/people.html</link>
@@ -493,6 +497,7 @@
 	&lt;ul style=&quot;list-style-type: none&quot;&gt;
   		&lt;li&gt;&lt;h2&gt; Conferences &lt;/h2&gt;&lt;/li&gt;
   			&lt;ul style=&quot;list-style-type: circle&quot;&gt;
+           &lt;li&gt; T. P. Reynolds, C. L. Kelly, C. Morgan, A. Grebovic, J. Erickson, H. Brown, W. C. Pope, J. Casamayor, K. Kearsley, G. Caylak, K. E. Fisher, C. Wutzke, K. Ashton, J. Rosenthal, D. Tormey, E. Freneau, G. Giddings, H. E. Horata, A. Dighde, S. Parakh, J. Zhen, J. C. Purpura, D. B. Pratt, and A. Hunt, “&lt;a href=&quot;https://drive.google.com/file/d/1H1AmpzZXELVXmiq-60IkbE0ugf2QGjA_/view&quot;&gt; SOC-i: A CubeSat Demonstration of Optimization-Based Real-Time Constrained Attitude Control, &lt;/a&gt;” IEEE Aerospace Conference, Big Sky, MT, 2021.&lt;/li&gt;
   				 &lt;li&gt; T. P. Reynolds, K. Kaycee, B. Barzgaran, M. Hudoba de Badyn, S. Rice, E. Hansen, A. Adler, B. Acikmese and M. Mesbahi, “&lt;a href=&quot;https://arc.aiaa.org/doi/abs/10.2514/6.2018-5403&quot;&gt; Development of a Generic Guidance Navigation &amp;amp; Control System for Small Satellites: Application to HuskySat-1, &lt;/a&gt;” AIAA Space Forum, Orlando, FL, 2018.&lt;/li&gt;
   			&lt;/ul&gt;
 &lt;!--
