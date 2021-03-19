@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 17 Mar 2021 22:09:29 -0700</pubDate>
-    <lastBuildDate>Wed, 17 Mar 2021 22:09:29 -0700</lastBuildDate>
+    <pubDate>Thu, 18 Mar 2021 21:33:25 -0700</pubDate>
+    <lastBuildDate>Thu, 18 Mar 2021 21:33:25 -0700</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -228,7 +228,7 @@
             &lt;div class=&quot;3u&quot;&gt;
                 &lt;section&gt;
                     &lt;a href=&quot;&quot; class=&quot;image featured&quot;&gt;
-                        &lt;img src=&quot;images/socirender.png&quot; /&gt;
+                        &lt;img src=&quot;images/amy.jpg&quot; /&gt;
                     &lt;/a&gt;
                     &lt;center&gt;
                         &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Amy &lt;br /&gt;Shyu&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
@@ -307,7 +307,7 @@
     &lt;header&gt; &lt;h2&gt; &lt;strong&gt; Past Subsystem Leads &lt;/strong&gt; &lt;/h2&gt; &lt;/header&gt;
         &lt;p&gt; We're very proud to brag about some of the students that have worked with us in the past! Many of these students have gone on to jobs in the space industry, grad school, and beyond, taking their AACT experience with them. &lt;/p&gt;
         &lt;ul style=&quot;list-style-type: disc; padding-left: 1em&quot;&gt;
-            &lt;li&gt; Jon Casamayor (CDH, Onboard Computer), Lockheed Martin
+            &lt;li&gt; Jon Casamayor (CDH, Onboard Computer), Lockheed Martin &lt;/li&gt;
             &lt;li&gt; Arnela Grebovic (Structures), Blue Origin &lt;/li&gt;
             &lt;li&gt; Cole Morgan (Controls), SpaceX &lt;/li&gt;
             &lt;li&gt; Devan Tormey (Controls), Blue Origin &lt;/li&gt;
@@ -315,9 +315,8 @@
             &lt;li&gt; Ellory Freneau (Communications) &lt;/li&gt;
             &lt;li&gt; Sheershak Agarwal (CDH) &lt;/li&gt;
             &lt;li&gt; Haomin Yu (Imaging) &lt;/li&gt;
-        &amp;lt;/ul&amp;gt; 
-&amp;lt;/section&amp;gt;
-&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;
+        &lt;/ul&gt;
+&lt;/section&gt;
 </description>
         <pubDate>Sun, 06 Oct 2019 17:00:00 -0700</pubDate>
         <link>http://localhost:4000/people.html</link>
