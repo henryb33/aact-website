@@ -12,6 +12,10 @@ icon: fa-book-open
   <ul style="list-style-type: none">
       <li><h2> What is AACT Up To?  </h2></li>
       <p> Check in here for team updates, milestones, announcements, and anything else we'd like to share.</p>
+      <b style="color:#b8a57a;font-size:125%;"> Congrats to our Outgoing Admins</b>
+      <p> June, 2021: At the end of the school year, we said goodbye to several subsystem leads that have had a huge impact on SOC-i. Thank you to Garrett Giddings, Amy Shyu, Billy Lin, Gorkem Caylak, James Rosenthal, and William Pope for all of their efforts! All of them are off to bigger and better things in the world and we're excited for them! </p>
+      <b style="color:#b8a57a;font-size:125%;"> AACT Passes CDR</b>
+      <p> May, 2021: We had a successful three-day long review with external reviewers from the UW, industry, and partner universities. Thank you so much to everyone that gave their time to review our system design. We're excited to be pushing towards delivery for flight! </p>
       <b style="color:#b8a57a;font-size:125%;"> AACT Accepts a Launch for SOC-i</b>
       <p> February, 2021: We're extremely excited to announce that AACT has accepted a launch with Firefly Aerospace on the VCLS Demo 2 mission! SOC-i's mission is now being tailored to a 550km Sun-synchronous orbit, slated to launch in early-to-mid 2022. Now the hard work really kicks in, time to deliver! </p>
       <b style="color:#b8a57a;font-size:125%;"> IEEE Aerospace Paper Accepted</b>

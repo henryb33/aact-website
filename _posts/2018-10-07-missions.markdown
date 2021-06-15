@@ -27,21 +27,26 @@ icon: fa-microscope
 		</center>
 	</header>
 </div>
-<!-- <div>
+<div>
 	<header class="special container small">
-		<span class="icon"> <strong> Mission I </strong> </span>
-			<h2> <strong>RainierSat</strong> </h2> 
-			<h3>A demonstration of CubeSat electric propulsion.</h3>
+		<span class="icon"> <strong> Maratus </strong> </span>
+		<div style="max-width:300px; margin:0 auto; text-align: center">
+			<a href="/missions/maratus.html" class="image featured">
+				<img src="{{site.baseurl}}/images/aactlogo.png">
+			</a>
+		</div>
+			<h2> <strong>The Maratus Mission</strong> </h2> 
+			<h3>A Study of the Circumgalactic Medium.</h3>
 				<br />
-					<p> Named after the focal point of the Seattle landscape, our first mission will develop core technologies to be used in future missions. Electric propulsion is a strength of the UWs Aeronautics and Astronautics department, and comprises the primary payload of this satellite. Moreover, this mission will kick-off our integration with senior capstone design and curriculum integration
+				<p> Maratus is our second mission that is designed to support a payload from the UW's Astronomy Department. This mission will study the circumgalactic medium to better understand how galaxies are formed from the gaseous raw materials that exist in the regions between galaxies. 
 				</p>
 		<center>
 			<section class="major">
 				<ul class="buttons">
-					<li><a href="/missions/rainiersat.html" class="button special">RainierSat Mission</a></li>
+					<li><a href="/missions/maratus.html" class="button special">Maratus Mission</a></li>
 				</ul>
 			</section>
 		</center>
 	</header>
-</div> -->
+</div>
 

@@ -89,15 +89,15 @@ icon: featured fa-user-astronaut
 			<div class="3u">
 				<section>
 					<a href="https://depts.washington.edu/uwrainlab/taylor/" class="image featured">
-						<img src="images/taylor.jpg">
+						<img src="images/derek.jpg" width="300">
 					</a>
 					<center>
-						<header><h5><a href="https://depts.washington.edu/uwrainlab/taylor/"> Taylor <br>Reynolds </a></h5></header>
+						<header><h5><a href="https://depts.washington.edu/uwrainlab/taylor/"> Derek <br>Stritzinger </a></h5></header>
 						<p><center>Project Scientist</center></p>
 					</center>
 				</section>
 			</div>
-            <div class="3u">
+<!--             <div class="3u">
                 <section>
                     <a href="https://www.linkedin.com/in/jamesdrosenthal/" class="image featured">
                         <img src="images/James.jpg">
@@ -107,7 +107,7 @@ icon: featured fa-user-astronaut
                         <p><center>Technical Advisor</center></p>
                     </center>
                 </section>
-            </div>
+            </div> -->
             <div class="3u">
                 <section>
                     <a href="" class="image featured">
@@ -135,10 +135,10 @@ icon: featured fa-user-astronaut
             <div class="3u">
                 <section>
                     <a href="" class="image featured">
-                        <img src="images/amy.jpg">
+                        <img src="images/m1_patch.png">
                     </a>
                     <center>
-                        <header><h5><a href="">Amy <br>Shyu</a></h5></header>
+                        <header><h5><a href="">Charlie <br> Norgaard</a></h5></header>
                         <p><center>Mission Control</center></p>
                     </center>
                 </section>
@@ -146,10 +146,10 @@ icon: featured fa-user-astronaut
             <div class="3u">
                 <section>
                     <a href="" class="image featured">
-                        <img src="images/derek.jpg" width="300">
+                        <img src="images/m1_patch.png" width="300">
                     </a>
                     <center>
-                        <header><h5><a href="">Derek <br>Stritzinger</a></h5></header>
+                        <header><h5><a href="">Anika <br> Dighde </a></h5></header>
                         <p><center>Communications</center></p>
                     </center>
                 </section>
@@ -157,10 +157,10 @@ icon: featured fa-user-astronaut
             <div class="3u">
                 <section>
                     <a href="" class="image featured">
-                        <img src="images/garrett.jpg" width="300">
+                        <img src="images/m1_patch.png" width="300">
                     </a>
                     <center>
-                        <header><h5><a href="">Garrett <br>Giddings</a></h5></header>
+                        <header><h5><a href="">Gordon <br> McCulloh</a></h5></header>
                         <p><center>Power Systems</center></p>
                     </center>
                 </section>
@@ -170,10 +170,10 @@ icon: featured fa-user-astronaut
             <div class="3u">
                 <section>
                     <a href="" class="image featured">
-                        <img src="images/gorkem.jpg">
+                        <img src="images/m1_patch.png">
                     </a>
                     <center>
-                        <header><h5><a href="">Gorkem <br>Caylak</a></h5></header>
+                        <header><h5><a href="">Jay <br> Lee</a></h5></header>
                         <p><center>Flight Software</center></p>
                     </center>
                 </section>
@@ -214,13 +214,20 @@ icon: featured fa-user-astronaut
     <header> <h2> <strong> Past Subsystem Leads </strong> </h2> </header>
         <p> We're very proud to brag about some of the students that have worked with us in the past! Many of these students have gone on to jobs in the space industry, grad school, and beyond, taking their AACT experience with them. </p>
         <ul style="list-style-type: disc; padding-left: 1em">
-            <li> Jon Casamayor (CDH, Onboard Computer), Lockheed Martin </li>
-            <li> Arnela Grebovic (Structures), Blue Origin </li>
-            <li> Cole Morgan (Controls), SpaceX </li>
-            <li> Devan Tormey (Controls), Blue Origin </li>
-            <li> Jerrold Erickson (Power Systems) </li>
-            <li> Ellory Freneau (Communications) </li>
-            <li> Sheershak Agarwal (CDH) </li>
-            <li> Haomin Yu (Imaging) </li>
+            <li> <strong> Billy Lin </strong> (CDH, 2020-21), UC Berkeley </li>
+            <li> <strong> Taylor Reynolds </strong> (Project Scientist, 2018-21), Amazon Prime Air </li>
+            <li> <strong> Gorkem Caylak </strong> (CDH, 2020-21) </li>
+            <li> <strong> William Pope </strong> (GNC, 2020-21), University of Colorado at Boulder </li>
+            <li> <strong> Amy Shyu </strong> (IMG, 2019-20) </li>
+            <li> <strong> James Rosenthal </strong> (Advisor, 2018-21), Swiss Federal Institute of Technology </li>
+            <li> <strong> Garrett Giddings </strong> (EPS, 2020-21), Sandia National Labs </li> 
+            <li> <strong> Jon Casamayor </strong> (CDH, Onboard Computer, 2019-21), Lockheed Martin </li>
+            <li> <strong> Arnela Grebovic </strong> (STC, 2018-20), Blue Origin </li>
+            <li> <strong> Cole Morgan </strong> (GNC, 2018-20), SpaceX </li>
+            <li> <strong> Devan Tormey </strong> (GNC, 2018-20), Blue Origin </li>
+            <li> <strong> Jerrold Erickson </strong> (EPS, 2018-20) </li>
+            <li> <strong> Ellory Freneau </strong> (Communications, 2018-20) </li>
+            <li> <strong> Sheershak Agarwal </strong> (CDH, 2018-19) </li>
+            <li> <strong> Haomin Yu </strong> (Imaging, 2018) </li>
         </ul>
 </section>

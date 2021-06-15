@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 18 Mar 2021 21:33:25 -0700</pubDate>
-    <lastBuildDate>Thu, 18 Mar 2021 21:33:25 -0700</lastBuildDate>
+    <pubDate>Mon, 14 Jun 2021 21:59:29 -0700</pubDate>
+    <lastBuildDate>Mon, 14 Jun 2021 21:59:29 -0700</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -16,6 +16,10 @@
   &lt;ul style=&quot;list-style-type: none&quot;&gt;
       &lt;li&gt;&lt;h2&gt; What is AACT Up To?  &lt;/h2&gt;&lt;/li&gt;
       &lt;p&gt; Check in here for team updates, milestones, announcements, and anything else we'd like to share.&lt;/p&gt;
+      &lt;b style=&quot;color:#b8a57a;font-size:125%;&quot;&gt; Congrats to our Outgoing Admins&lt;/b&gt;
+      &lt;p&gt; June, 2021: At the end of the school year, we said goodbye to several subsystem leads that have had a huge impact on SOC-i. Thank you to Garrett Giddings, Amy Shyu, Billy Lin, Gorkem Caylak, James Rosenthal, and William Pope for all of their efforts! All of them are off to bigger and better things in the world and we're excited for them! &lt;/p&gt;
+      &lt;b style=&quot;color:#b8a57a;font-size:125%;&quot;&gt; AACT Passes CDR&lt;/b&gt;
+      &lt;p&gt; May, 2021: We had a successful three-day long review with external reviewers from the UW, industry, and partner universities. Thank you so much to everyone that gave their time to review our system design. We're excited to be pushing towards delivery for flight! &lt;/p&gt;
       &lt;b style=&quot;color:#b8a57a;font-size:125%;&quot;&gt; AACT Accepts a Launch for SOC-i&lt;/b&gt;
       &lt;p&gt; February, 2021: We're extremely excited to announce that AACT has accepted a launch with Firefly Aerospace on the VCLS Demo 2 mission! SOC-i's mission is now being tailored to a 550km Sun-synchronous orbit, slated to launch in early-to-mid 2022. Now the hard work really kicks in, time to deliver! &lt;/p&gt;
       &lt;b style=&quot;color:#b8a57a;font-size:125%;&quot;&gt; IEEE Aerospace Paper Accepted&lt;/b&gt;
@@ -182,25 +186,25 @@
 			&lt;div class=&quot;3u&quot;&gt;
 				&lt;section&gt;
 					&lt;a href=&quot;https://depts.washington.edu/uwrainlab/taylor/&quot; class=&quot;image featured&quot;&gt;
-						&lt;img src=&quot;images/taylor.jpg&quot; /&gt;
+						&lt;img src=&quot;images/derek.jpg&quot; width=&quot;300&quot; /&gt;
 					&lt;/a&gt;
 					&lt;center&gt;
-						&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://depts.washington.edu/uwrainlab/taylor/&quot;&gt; Taylor &lt;br /&gt;Reynolds &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+						&lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://depts.washington.edu/uwrainlab/taylor/&quot;&gt; Derek &lt;br /&gt;Stritzinger &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
 						&lt;p&gt;&lt;center&gt;Project Scientist&lt;/center&gt;&lt;/p&gt;
 					&lt;/center&gt;
 				&lt;/section&gt;
 			&lt;/div&gt;
-            &lt;div class=&quot;3u&quot;&gt;
+&lt;!--             &lt;div class=&quot;3u&quot;&gt;
                 &lt;section&gt;
                     &lt;a href=&quot;https://www.linkedin.com/in/jamesdrosenthal/&quot; class=&quot;image featured&quot;&gt;
-                        &lt;img src=&quot;images/James.jpg&quot; /&gt;
+                        &lt;img src=&quot;images/James.jpg&quot;&gt;
                     &lt;/a&gt;
                     &lt;center&gt;
-                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.linkedin.com/in/jamesdrosenthal/&quot;&gt;James &lt;br /&gt;Rosenthal&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;https://www.linkedin.com/in/jamesdrosenthal/&quot;&gt;James &lt;br&gt;Rosenthal&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
                         &lt;p&gt;&lt;center&gt;Technical Advisor&lt;/center&gt;&lt;/p&gt;
                     &lt;/center&gt;
                 &lt;/section&gt;
-            &lt;/div&gt;
+            &lt;/div&gt; --&gt;
             &lt;div class=&quot;3u&quot;&gt;
                 &lt;section&gt;
                     &lt;a href=&quot;&quot; class=&quot;image featured&quot;&gt;
@@ -228,10 +232,10 @@
             &lt;div class=&quot;3u&quot;&gt;
                 &lt;section&gt;
                     &lt;a href=&quot;&quot; class=&quot;image featured&quot;&gt;
-                        &lt;img src=&quot;images/amy.jpg&quot; /&gt;
+                        &lt;img src=&quot;images/m1_patch.png&quot; /&gt;
                     &lt;/a&gt;
                     &lt;center&gt;
-                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Amy &lt;br /&gt;Shyu&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Charlie &lt;br /&gt; Norgaard&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
                         &lt;p&gt;&lt;center&gt;Mission Control&lt;/center&gt;&lt;/p&gt;
                     &lt;/center&gt;
                 &lt;/section&gt;
@@ -239,10 +243,10 @@
             &lt;div class=&quot;3u&quot;&gt;
                 &lt;section&gt;
                     &lt;a href=&quot;&quot; class=&quot;image featured&quot;&gt;
-                        &lt;img src=&quot;images/derek.jpg&quot; width=&quot;300&quot; /&gt;
+                        &lt;img src=&quot;images/m1_patch.png&quot; width=&quot;300&quot; /&gt;
                     &lt;/a&gt;
                     &lt;center&gt;
-                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Derek &lt;br /&gt;Stritzinger&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Anika &lt;br /&gt; Dighde &lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
                         &lt;p&gt;&lt;center&gt;Communications&lt;/center&gt;&lt;/p&gt;
                     &lt;/center&gt;
                 &lt;/section&gt;
@@ -250,10 +254,10 @@
             &lt;div class=&quot;3u&quot;&gt;
                 &lt;section&gt;
                     &lt;a href=&quot;&quot; class=&quot;image featured&quot;&gt;
-                        &lt;img src=&quot;images/garrett.jpg&quot; width=&quot;300&quot; /&gt;
+                        &lt;img src=&quot;images/m1_patch.png&quot; width=&quot;300&quot; /&gt;
                     &lt;/a&gt;
                     &lt;center&gt;
-                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Garrett &lt;br /&gt;Giddings&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Gordon &lt;br /&gt; McCulloh&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
                         &lt;p&gt;&lt;center&gt;Power Systems&lt;/center&gt;&lt;/p&gt;
                     &lt;/center&gt;
                 &lt;/section&gt;
@@ -263,10 +267,10 @@
             &lt;div class=&quot;3u&quot;&gt;
                 &lt;section&gt;
                     &lt;a href=&quot;&quot; class=&quot;image featured&quot;&gt;
-                        &lt;img src=&quot;images/gorkem.jpg&quot; /&gt;
+                        &lt;img src=&quot;images/m1_patch.png&quot; /&gt;
                     &lt;/a&gt;
                     &lt;center&gt;
-                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Gorkem &lt;br /&gt;Caylak&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
+                        &lt;header&gt;&lt;h5&gt;&lt;a href=&quot;&quot;&gt;Jay &lt;br /&gt; Lee&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;
                         &lt;p&gt;&lt;center&gt;Flight Software&lt;/center&gt;&lt;/p&gt;
                     &lt;/center&gt;
                 &lt;/section&gt;
@@ -307,14 +311,21 @@
     &lt;header&gt; &lt;h2&gt; &lt;strong&gt; Past Subsystem Leads &lt;/strong&gt; &lt;/h2&gt; &lt;/header&gt;
         &lt;p&gt; We're very proud to brag about some of the students that have worked with us in the past! Many of these students have gone on to jobs in the space industry, grad school, and beyond, taking their AACT experience with them. &lt;/p&gt;
         &lt;ul style=&quot;list-style-type: disc; padding-left: 1em&quot;&gt;
-            &lt;li&gt; Jon Casamayor (CDH, Onboard Computer), Lockheed Martin &lt;/li&gt;
-            &lt;li&gt; Arnela Grebovic (Structures), Blue Origin &lt;/li&gt;
-            &lt;li&gt; Cole Morgan (Controls), SpaceX &lt;/li&gt;
-            &lt;li&gt; Devan Tormey (Controls), Blue Origin &lt;/li&gt;
-            &lt;li&gt; Jerrold Erickson (Power Systems) &lt;/li&gt;
-            &lt;li&gt; Ellory Freneau (Communications) &lt;/li&gt;
-            &lt;li&gt; Sheershak Agarwal (CDH) &lt;/li&gt;
-            &lt;li&gt; Haomin Yu (Imaging) &lt;/li&gt;
+            &lt;li&gt; &lt;strong&gt; Billy Lin &lt;/strong&gt; (CDH, 2020-21), UC Berkeley &lt;/li&gt;
+            &lt;li&gt; &lt;strong&gt; Taylor Reynolds &lt;/strong&gt; (Project Scientist, 2018-21), Amazon Prime Air &lt;/li&gt;
+            &lt;li&gt; &lt;strong&gt; Gorkem Caylak &lt;/strong&gt; (CDH, 2020-21) &lt;/li&gt;
+            &lt;li&gt; &lt;strong&gt; William Pope &lt;/strong&gt; (GNC, 2020-21), University of Colorado at Boulder &lt;/li&gt;
+            &lt;li&gt; &lt;strong&gt; Amy Shyu &lt;/strong&gt; (IMG, 2019-20) &lt;/li&gt;
+            &lt;li&gt; &lt;strong&gt; James Rosenthal &lt;/strong&gt; (Advisor, 2018-21), Swiss Federal Institute of Technology &lt;/li&gt;
+            &lt;li&gt; &lt;strong&gt; Garrett Giddings &lt;/strong&gt; (EPS, 2020-21), Sandia National Labs &lt;/li&gt; 
+            &lt;li&gt; &lt;strong&gt; Jon Casamayor &lt;/strong&gt; (CDH, Onboard Computer, 2019-21), Lockheed Martin &lt;/li&gt;
+            &lt;li&gt; &lt;strong&gt; Arnela Grebovic &lt;/strong&gt; (STC, 2018-20), Blue Origin &lt;/li&gt;
+            &lt;li&gt; &lt;strong&gt; Cole Morgan &lt;/strong&gt; (GNC, 2018-20), SpaceX &lt;/li&gt;
+            &lt;li&gt; &lt;strong&gt; Devan Tormey &lt;/strong&gt; (GNC, 2018-20), Blue Origin &lt;/li&gt;
+            &lt;li&gt; &lt;strong&gt; Jerrold Erickson &lt;/strong&gt; (EPS, 2018-20) &lt;/li&gt;
+            &lt;li&gt; &lt;strong&gt; Ellory Freneau &lt;/strong&gt; (Communications, 2018-20) &lt;/li&gt;
+            &lt;li&gt; &lt;strong&gt; Sheershak Agarwal &lt;/strong&gt; (CDH, 2018-19) &lt;/li&gt;
+            &lt;li&gt; &lt;strong&gt; Haomin Yu &lt;/strong&gt; (Imaging, 2018) &lt;/li&gt;
         &lt;/ul&gt;
 &lt;/section&gt;
 </description>
@@ -547,23 +558,28 @@
 		&lt;/center&gt;
 	&lt;/header&gt;
 &lt;/div&gt;
-&lt;!-- &lt;div&gt;
+&lt;div&gt;
 	&lt;header class=&quot;special container small&quot;&gt;
-		&lt;span class=&quot;icon&quot;&gt; &lt;strong&gt; Mission I &lt;/strong&gt; &lt;/span&gt;
-			&lt;h2&gt; &lt;strong&gt;RainierSat&lt;/strong&gt; &lt;/h2&gt; 
-			&lt;h3&gt;A demonstration of CubeSat electric propulsion.&lt;/h3&gt;
+		&lt;span class=&quot;icon&quot;&gt; &lt;strong&gt; Maratus &lt;/strong&gt; &lt;/span&gt;
+		&lt;div style=&quot;max-width:300px; margin:0 auto; text-align: center&quot;&gt;
+			&lt;a href=&quot;/missions/maratus.html&quot; class=&quot;image featured&quot;&gt;
+				&lt;img src=&quot;/images/aactlogo.png&quot; /&gt;
+			&lt;/a&gt;
+		&lt;/div&gt;
+			&lt;h2&gt; &lt;strong&gt;The Maratus Mission&lt;/strong&gt; &lt;/h2&gt; 
+			&lt;h3&gt;A Study of the Circumgalactic Medium.&lt;/h3&gt;
 				&lt;br /&gt;
-					&lt;p&gt; Named after the focal point of the Seattle landscape, our first mission will develop core technologies to be used in future missions. Electric propulsion is a strength of the UWs Aeronautics and Astronautics department, and comprises the primary payload of this satellite. Moreover, this mission will kick-off our integration with senior capstone design and curriculum integration
+				&lt;p&gt; Maratus is our second mission that is designed to support a payload from the UW's Astronomy Department. This mission will study the circumgalactic medium to better understand how galaxies are formed from the gaseous raw materials that exist in the regions between galaxies. 
 				&lt;/p&gt;
 		&lt;center&gt;
 			&lt;section class=&quot;major&quot;&gt;
 				&lt;ul class=&quot;buttons&quot;&gt;
-					&lt;li&gt;&lt;a href=&quot;/missions/rainiersat.html&quot; class=&quot;button special&quot;&gt;RainierSat Mission&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;/missions/maratus.html&quot; class=&quot;button special&quot;&gt;Maratus Mission&lt;/a&gt;&lt;/li&gt;
 				&lt;/ul&gt;
 			&lt;/section&gt;
 		&lt;/center&gt;
 	&lt;/header&gt;
-&lt;/div&gt; --&gt;
+&lt;/div&gt;
 
 </description>
         <pubDate>Fri, 14 Sep 2018 07:36:23 -0700</pubDate>
@@ -574,19 +590,19 @@
       </item>
     
       <item>
-        <title>RainierSat</title>
+        <title>The Maratus Mission</title>
         <description>&lt;section class=&quot;wrapper style2 container&quot;&gt;
 	&lt;header&gt; &lt;h2&gt; Mission Objectives &lt;/h2&gt; &lt;/header&gt;
-	&lt;p&gt; The mission objectives are... &lt;/p&gt;
+	&lt;p&gt; This mission is designed to support a payload from UW's Astronomy Department that aims to study the Circumgalactic Medium. This project will advance our understanding of how galaxies form, and will be the second mission supported by AACT. This mission is a 6U CubeSat with very tight pointing requirements and will be a 4 year-long effort. &lt;/p&gt;
 &lt;/section&gt;
 
 &lt;section class=&quot;wrapper style4 container&quot;&gt;			
 	&lt;div class=&quot;row oneandhalf&quot;&gt;
-		&lt;div class=&quot;8u&quot;&gt;			
-		&lt;header&gt;&lt;h2&gt; Propulsion System &lt;/h2&gt;&lt;/header&gt;	
-		&lt;p&gt; The primary payload of RainierSat, our propulsion system is capable of giving us 5000 m/s of delta-V over the mission's lifetime. Wow! &lt;/p&gt;		
+		&lt;div class=&quot;12u&quot;&gt;			
+		&lt;header&gt;&lt;h2&gt; Preliminary Design &lt;/h2&gt;&lt;/header&gt;	
+		&lt;p&gt; AACT supported a fourth year capstone team that helped us carry out an initial system design. They worked hard over two semesters to design everything from the target orbit, subsystems, and payload interface. Their final report is &lt;a href=&quot;https://drive.google.com/file/d/1qNqZ_mvf6vtClRcZljYD410FsgViqHd9/view?usp=sharing&quot;&gt; available here &lt;/a&gt; and provides all of the details. More to come! &lt;/p&gt;		
 		&lt;!-- Content --&gt;
-			&lt;div class=&quot;content&quot;&gt;
+&lt;!-- 			&lt;div class=&quot;content&quot;&gt;
 				&lt;section&gt;
 					&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
 					&lt;header&gt;
@@ -595,22 +611,22 @@
 					&lt;p&gt;something something rockets!.&lt;/p&gt;
 					&lt;p&gt;Maybe provide some idea/link to work you guys are doing in EP and how that might play into what we do on certain missions.&lt;/p&gt;
 				&lt;/section&gt;
-			&lt;/div&gt;	
-		&lt;/div&gt;
-		&lt;div class=&quot;4u&quot;&gt;								
+			&lt;/div&gt;
+		&lt;/div&gt; --&gt;
+&lt;!-- 		&lt;div class=&quot;4u&quot;&gt;								
 		&lt;!-- Sidebar --&gt;
-			&lt;div class=&quot;sidebar&quot;&gt;
+&lt;!-- 			&lt;div class=&quot;sidebar&quot;&gt;
 				&lt;section&gt;
 					&lt;header&gt;
 						&lt;h3&gt;Pulsed Plasma Thrusters&lt;/h3&gt;
 					&lt;/header&gt;
-					&lt;p&gt;Our use of PPTs is to...&lt;/p&gt;
+					&lt;p&gt;Our use of PPTs is to...&lt;/p&gt; --&gt;
 &lt;!-- 					&lt;footer&gt;
 						&lt;ul class=&quot;buttons&quot;&gt;
 							&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small&quot;&gt;Learn More&lt;/a&gt;&lt;/li&gt;
 						&lt;/ul&gt;
 					&lt;/footer&gt; --&gt;
-				&lt;/section&gt;
+&lt;!-- 				&lt;/section&gt;
 				&lt;section&gt;
 					&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
 					&lt;header&gt;
@@ -623,12 +639,12 @@
 						&lt;/ul&gt;
 					&lt;/footer&gt;
 				&lt;/section&gt;
-			&lt;/div&gt;
+			&lt;/div&gt; --&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;					
 &lt;/section&gt;
 
-&lt;section class=&quot;wrapper style4 container&quot;&gt;
+&lt;!-- &lt;section class=&quot;wrapper style4 container&quot;&gt;
 	&lt;header&gt; &lt;h2&gt; Power System &lt;/h2&gt; &lt;/header&gt;
 	&lt;p&gt; Placeholder for description of power system &lt;/p&gt;
 &lt;/section&gt;
@@ -646,22 +662,26 @@
 &lt;section class=&quot;wrapper style4 container&quot;&gt;
 	&lt;header&gt; &lt;h2&gt; Structural and Thermal System &lt;/h2&gt; &lt;/header&gt;
 	&lt;p&gt; Placeholder for description of structure/thermal system &lt;/p&gt;
-&lt;/section&gt;
+&lt;/section&gt; --&gt;
 
 &lt;section id=&quot;cta&quot;&gt;			
 	&lt;header&gt;
 		&lt;h2&gt;&lt;strong&gt; Project Partners &lt;/strong&gt;&lt;/h2&gt;
-		&lt;p&gt;Put logos of folks that partnered with us on this specific project.&lt;/p&gt;
+		&lt;div class=&quot;row&quot;&gt;
+			&lt;div class=&quot;4u&quot;&gt;
+				&lt;a href=&quot;http://depts.washington.edu/astron/&quot;&gt;&lt;img src=&quot;../images/uw_astronomy_logo.png&quot; style=&quot;height:50px&quot; /&gt;&lt;/a&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
 	&lt;/header&gt;	
 &lt;/section&gt;
 
 </description>
         <pubDate>Thu, 13 Sep 2018 17:00:00 -0700</pubDate>
-        <link>http://localhost:4000/missions/rainiersat.html</link>
-        <guid isPermaLink="true">http://localhost:4000/missions/rainiersat.html</guid>
+        <link>http://localhost:4000/missions/maratus.html</link>
+        <guid isPermaLink="true">http://localhost:4000/missions/maratus.html</guid>
         
         
-        <category>missions rainier electric-propulsion propulsion</category>
+        <category>missions</category>
         
       </item>
     

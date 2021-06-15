@@ -1,23 +1,23 @@
 ---
 layout: post-right
-title: "RainierSat"
+title: "The Maratus Mission"
 date:   2018-09-14 00:00:00
 author: A&ampA CubeSat Team
-permalink: /missions/rainiersat.html
-category: missions rainier electric-propulsion propulsion
+permalink: /missions/maratus.html
+category: missions
 ---
 <section class="wrapper style2 container">
 	<header> <h2> Mission Objectives </h2> </header>
-	<p> The mission objectives are... </p>
+	<p> This mission is designed to support a payload from UW's Astronomy Department that aims to study the Circumgalactic Medium. This project will advance our understanding of how galaxies form, and will be the second mission supported by AACT. This mission is a 6U CubeSat with very tight pointing requirements and will be a 4 year-long effort. </p>
 </section>
 
 <section class="wrapper style4 container">			
 	<div class="row oneandhalf">
-		<div class="8u">			
-		<header><h2> Propulsion System </h2></header>	
-		<p> The primary payload of RainierSat, our propulsion system is capable of giving us 5000 m/s of delta-V over the mission's lifetime. Wow! </p>		
+		<div class="12u">			
+		<header><h2> Preliminary Design </h2></header>	
+		<p> AACT supported a fourth year capstone team that helped us carry out an initial system design. They worked hard over two semesters to design everything from the target orbit, subsystems, and payload interface. Their final report is <a href="https://drive.google.com/file/d/1qNqZ_mvf6vtClRcZljYD410FsgViqHd9/view?usp=sharing"> available here </a> and provides all of the details. More to come! </p>		
 		<!-- Content -->
-			<div class="content">
+<!-- 			<div class="content">
 				<section>
 					<a href="#" class="image featured"><img src="/images/pic03.jpg" alt="" /></a>
 					<header>
@@ -26,22 +26,22 @@ category: missions rainier electric-propulsion propulsion
 					<p>something something rockets!.</p>
 					<p>Maybe provide some idea/link to work you guys are doing in EP and how that might play into what we do on certain missions.</p>
 				</section>
-			</div>	
-		</div>
-		<div class="4u">								
+			</div>
+		</div> -->
+<!-- 		<div class="4u">								
 		<!-- Sidebar -->
-			<div class="sidebar">
+<!-- 			<div class="sidebar">
 				<section>
 					<header>
 						<h3>Pulsed Plasma Thrusters</h3>
 					</header>
-					<p>Our use of PPTs is to...</p>
+					<p>Our use of PPTs is to...</p> -->
 <!-- 					<footer>
 						<ul class="buttons">
 							<li><a href="#" class="button small">Learn More</a></li>
 						</ul>
 					</footer> -->
-				</section>
+<!-- 				</section>
 				<section>
 					<a href="#" class="image featured"><img src="/images/pic04.jpg" alt="" /></a>
 					<header>
@@ -54,12 +54,12 @@ category: missions rainier electric-propulsion propulsion
 						</ul>
 					</footer>
 				</section>
-			</div>
+			</div> -->
 		</div>
 	</div>					
 </section>
 
-<section class="wrapper style4 container">
+<!-- <section class="wrapper style4 container">
 	<header> <h2> Power System </h2> </header>
 	<p> Placeholder for description of power system </p>
 </section>
@@ -77,12 +77,16 @@ category: missions rainier electric-propulsion propulsion
 <section class="wrapper style4 container">
 	<header> <h2> Structural and Thermal System </h2> </header>
 	<p> Placeholder for description of structure/thermal system </p>
-</section>
+</section> -->
 
 <section id="cta">			
 	<header>
 		<h2><strong> Project Partners </strong></h2>
-		<p>Put logos of folks that partnered with us on this specific project.</p>
+		<div class="row">
+			<div class="4u">
+				<a href="http://depts.washington.edu/astron/"><img src="../images/uw_astronomy_logo.png" style="height:50px"></a>
+			</div>
+		</div>
 	</header>	
 </section>
 	
