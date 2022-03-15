@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Communications</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="A small satellite and space systems development lab in the W.E. Boeing Department of Aeronautics and Astronautics at the University of Washington. 
+">
+    <meta name="keywords" content="" />
+    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.dropotron.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/jquery.scrollgress.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/skel-layers.min.js"></script>
+    <script src="/js/init.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="/css/skel.css" />
+        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="/css/style-wide.css" />
+        <link rel="stylesheet" href="/css/style-noscript.css" />
+    </noscript>
+    <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie/v9.css" /><![endif]-->
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="canonical" href="http://localhost:4000/publications.html">
+</head>
+
+
+<body class="no-sidebar">
+
+    <header id="header">
+        <h1 id="logo"><a href="https://aact.space">UW A&ampA <span>CubeSat Team <img src="/images/aactlogo.png" style="width: 25px"></span></a></h1>
+        <nav id="nav">
+            <ul>
+                <!-- <li><a href="/">Home</a></li> -->
+                <li><a href="/missions.html">Missions</a></li>
+                <li><a href="/people.html">People</a></li>
+                <li><a href="/news.html">News</a></li>
+                <li><a href="/facilities.html">Facilities</a></li>
+                <li class="submenu">
+                    <a href="/contact-main.html">Contact Us</a>
+                    <ul>
+                        <li><a href="/contact-students.html">Students</a></li>
+                        <li><a href="contact-sponsor.html">Sponsors</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="page-content">
+        <article id="main">
+            <header class="special container">
+                <span class="fas fa-book-open"></span>
+                <h2 class="post-title">Instructions for Decoding SOC-i’s Radio Transmissions</h2>
+                <p class="post-meta">A&ampA CubeSat Team</p>
+            </header>
+
+            <!-- BACKGROUND -->
+            <section class="wrapper style2 container">
+                <header> <h2>Background</h2> </header>
+                <p>
+                    The Satellite for Optimal Control and Imaging (SOC-i) will use a Pacific Crest XDL Micro Transceiver. The XDL radio can only transmit using a limited number of transmission protocols, none of which are commonly used and have little to no publicly available documentation. This document describes how anyone can decode SOC-i’s telemetry.
+                </p>
+            </section>
+
+            <!-- SECTION 2 -->
+            <section class="style4 wrapper container">
+                <header><h2>How to Receive a Beacon</h2></header>
+                <p>
+                    SOC-i will transmit its telemetry beacon once per minute if it is in a nominal operating mode.
+                </p>
+
+                <header><h1>Finding SOC-i</h1></header>
+                <p>
+                    Thanks to NORAD, a two line element (TLE) for SOC-i will be available at <a href="https://www.celestrak.com/NORAD/elements/">celstrak.com</a> after SOC-i launches. With a TLE, one can how to point your antenna to receive SOC-i’s transmission. <a href="www.amsat.org/keplerian-elements-resources">The AMSAT website</a> ex- plains how to do this.
+                </p>
+
+                <header><h1>Link Margin</h1></header>
+                <p>
+                    To accurately demodulate SOC-i’s beacon, a signal to noise ratio of about 10 dB is re- quired. SOC-i will be in a 555 km orbit, and will transmit with an EIRP between 23.2 dBm and 27.7 dBm (depending on where SOC-i is pointing its antenna). It will transmit between 435 MHz and 438 MHz. This should provide enough information to determine if a ground station will have enough gain to demodulate SOC-i’s beacon. You will need to factor in the gains and losses of your ground station. Also note that SOC-i is only555 km when it is directly overhead, and is actually over 2,000 km away when it is near the horizon, so keep this in mind when you calculate free space path losses. For a com- parison, this <a href="https://docs.google.com/spreadsheets/d/1LnmVq8DV7MKtmCDrb- FcXqUdP9y6fdAOcGNFGtgSXoE/edit?usp=sharing">link</a> describes our link margin calcula- tions in greater detail. We plan on using an ICOM 9100 radio with a 13 dBi Yagi antenna, and our calculations show that we have a suitable signal to noise ratio.
+                </p>
+            </section>
+
+            <!-- SECTION 3 -->
+            <section class="style4 wrapper container">
+                <header><h2>Demodulation</h2></header>
+                <p>
+                    There are many ways to demodulate a signal from SOC-i. One way would be to usea radio which is already capable of demodulating FM signals, such as the ICOM-9100. Another way will be to simply record the baseband signal, using a software defined radio, and submit the IQ signal to our website where it will be automatically demodulated and decoded. This feature is currently a work in progress, however. An IQ signal can also be demodulated using GNU Radio companion, which can be downloaded at this <a href="www.gnuradio.org/">link</a> or any other demodulation software.
+                </p>
+                <br>
+                <p>
+                    The baseband signal (absolute value of IQ vectors):
+                </p>
+
+                <center>
+                    <header>Figure 1: A packet received from SOC-i</header>
+                    <a href="#" class="imagenb featured"><img src="/images/soci_chassis.png" /></a>
+                </center>
+                
+            </section>
+
+        </article>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+
+        <ul class="icons">
+            <li><a href="#" class="fab circle fa-google"><span class="label"></span></a></li>
+            <li><a href="#" class="icon circle fa-github"><span class="label">Github</span></a></li>
+        </ul>
+
+        <ul class="copyright">
+            <li>&copy; <a href="https://www.aa.washington.edu/">W.E Boeing Department of Aeronautics and Astronautics</a></li>
+        </ul>
+
+    </footer>
+
+</body>
+
+</html>
