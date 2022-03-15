@@ -75,12 +75,12 @@
 
     <header><h1>Finding SOC-i</h1></header>
     <p>
-        Thanks to NORAD, a two line element (TLE) for SOC-i will be available at <a href="https://www.celestrak.com/NORAD/elements/">celstrak.com</a> after SOC-i launches. With a TLE, one can how to point your antenna to receive SOC-i’s transmission. <a href="www.amsat.org/keplerian-elements-resources">The AMSAT website</a> ex- plains how to do this.
+        Thanks to NORAD, a two line element (TLE) for SOC-i will be available at <a href="https://www.celestrak.com/NORAD/elements/">celstrak.com</a> after SOC-i launches. With a TLE, one can how to point your antenna to receive SOC-i’s transmission. <a href="www.amsat.org/keplerian-elements-resources">The AMSAT website</a> explains how to do this.
     </p>
 
     <header><h1>Link Margin</h1></header>
     <p>
-        To accurately demodulate SOC-i’s beacon, a signal to noise ratio of about 10 dB is re- quired. SOC-i will be in a 555 km orbit, and will transmit with an EIRP between 23.2 dBm and 27.7 dBm (depending on where SOC-i is pointing its antenna). It will transmit between 435 MHz and 438 MHz. This should provide enough information to determine if a ground station will have enough gain to demodulate SOC-i’s beacon. You will need to factor in the gains and losses of your ground station. Also note that SOC-i is only555 km when it is directly overhead, and is actually over 2,000 km away when it is near the horizon, so keep this in mind when you calculate free space path losses. For a com- parison, this <a href="https://docs.google.com/spreadsheets/d/1LnmVq8DV7MKtmCDrb- FcXqUdP9y6fdAOcGNFGtgSXoE/edit?usp=sharing">link</a> describes our link margin calcula- tions in greater detail. We plan on using an ICOM 9100 radio with a 13 dBi Yagi antenna, and our calculations show that we have a suitable signal to noise ratio.
+        To accurately demodulate SOC-i’s beacon, a signal to noise ratio of about 10 dB is required. SOC-i will be in a 555 km orbit, and will transmit with an EIRP between 23.2 dBm and 27.7 dBm (depending on where SOC-i is pointing its antenna). It will transmit between 435 MHz and 438 MHz. This should provide enough information to determine if a ground station will have enough gain to demodulate SOC-i’s beacon. You will need to factor in the gains and losses of your ground station. Also note that SOC-i is only555 km when it is directly overhead, and is actually over 2,000 km away when it is near the horizon, so keep this in mind when you calculate free space path losses. For a comparison, this <a href="https://docs.google.com/spreadsheets/d/1LnmVq8DV7MKtmCDrb-FcXqUdP9y6fdAOcGNFGtgSXoE/edit?usp=sharing">link</a> describes our link margin calculations in greater detail. We plan on using an ICOM 9100 radio with a 13 dBi Yagi antenna, and our calculations show that we have a suitable signal to noise ratio.
     </p>
 </section>
 
@@ -151,7 +151,7 @@
     </center>
     <br />
     <p>
-        For the first block, bytes A,B,C,D and E are the header bytes. The subscripts on each byte represent the bit number in the byte. The ×represents separating bits (the pairsof separating bits are a 1 and a 0 or a 0 and a 1), and can be ignored. Therefore, 18 interleaved bits form a block of 160 bits. The algorithm in figure 5 shows how the bits can be de- interleaved:
+        For the first block, bytes A,B,C,D and E are the header bytes. The subscripts on each byte represent the bit number in the byte. The ×represents separating bits (the pairsof separating bits are a 1 and a 0 or a 0 and a 1), and can be ignored. Therefore, 18 interleaved bits form a block of 160 bits. The algorithm in figure 5 shows how the bits can be de-interleaved:
     </p>
     <br />
     <center>
@@ -215,17 +215,6 @@
     <p>
         You will also be able to submit this telemetry to our website. This feature is still a work in progress.
     </p>                
-</section>
-
-<section id="cta">			
-	<header>
-		<h2><strong> Project Partners </strong></h2>
-		<div class="row">
-			<div class="4u">
-				<a href="https://firefly.com/launch-alpha/"><img src="../images/firefly_logo.jpg" style="height:130px" /></a>
-			</div>
-		</div>
-	</header>	
 </section>
 
 
