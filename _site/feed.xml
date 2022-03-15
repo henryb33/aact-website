@@ -6,9 +6,190 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 15 Mar 2022 13:52:46 -0700</pubDate>
-    <lastBuildDate>Tue, 15 Mar 2022 13:52:46 -0700</lastBuildDate>
+    <pubDate>Tue, 15 Mar 2022 15:34:41 -0700</pubDate>
+    <lastBuildDate>Tue, 15 Mar 2022 15:34:41 -0700</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Instructions for Decoding SOC-i’s Radio Transmissions</title>
+        <description>&lt;!-- BACKGROUND --&gt;
+&lt;section class=&quot;wrapper style2 container&quot;&gt;
+    &lt;header&gt; &lt;h2&gt;Background&lt;/h2&gt; &lt;/header&gt;
+    &lt;p&gt;
+        The Satellite for Optimal Control and Imaging (SOC-i) will use a Pacific Crest XDL Micro Transceiver. The XDL radio can only transmit using a limited number of transmission protocols, none of which are commonly used and have little to no publicly available documentation. This document describes how anyone can decode SOC-i’s telemetry.
+    &lt;/p&gt;
+&lt;/section&gt;
+&lt;!-- SECTION 2 --&gt;
+&lt;section class=&quot;style4 wrapper container&quot;&gt;
+    &lt;header&gt;&lt;h2&gt;How to Receive a Beacon&lt;/h2&gt;&lt;/header&gt;
+    &lt;p&gt;
+        SOC-i will transmit its telemetry beacon once per minute if it is in a nominal operating mode.
+    &lt;/p&gt;
+
+    &lt;header&gt;&lt;h1&gt;Finding SOC-i&lt;/h1&gt;&lt;/header&gt;
+    &lt;p&gt;
+        Thanks to NORAD, a two line element (TLE) for SOC-i will be available at &lt;a href=&quot;https://www.celestrak.com/NORAD/elements/&quot;&gt;celstrak.com&lt;/a&gt; after SOC-i launches. With a TLE, one can how to point your antenna to receive SOC-i’s transmission. &lt;a href=&quot;www.amsat.org/keplerian-elements-resources&quot;&gt;The AMSAT website&lt;/a&gt; ex- plains how to do this.
+    &lt;/p&gt;
+
+    &lt;header&gt;&lt;h1&gt;Link Margin&lt;/h1&gt;&lt;/header&gt;
+    &lt;p&gt;
+        To accurately demodulate SOC-i’s beacon, a signal to noise ratio of about 10 dB is re- quired. SOC-i will be in a 555 km orbit, and will transmit with an EIRP between 23.2 dBm and 27.7 dBm (depending on where SOC-i is pointing its antenna). It will transmit between 435 MHz and 438 MHz. This should provide enough information to determine if a ground station will have enough gain to demodulate SOC-i’s beacon. You will need to factor in the gains and losses of your ground station. Also note that SOC-i is only555 km when it is directly overhead, and is actually over 2,000 km away when it is near the horizon, so keep this in mind when you calculate free space path losses. For a com- parison, this &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1LnmVq8DV7MKtmCDrb- FcXqUdP9y6fdAOcGNFGtgSXoE/edit?usp=sharing&quot;&gt;link&lt;/a&gt; describes our link margin calcula- tions in greater detail. We plan on using an ICOM 9100 radio with a 13 dBi Yagi antenna, and our calculations show that we have a suitable signal to noise ratio.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;!-- SECTION 3 --&gt;
+&lt;section class=&quot;style4 wrapper container&quot;&gt;
+    &lt;header&gt;&lt;h2&gt;Demodulation&lt;/h2&gt;&lt;/header&gt;
+    &lt;p&gt;
+        There are many ways to demodulate a signal from SOC-i. One way would be to usea radio which is already capable of demodulating FM signals, such as the ICOM-9100. Another way will be to simply record the baseband signal, using a software defined radio, and submit the IQ signal to our website where it will be automatically demodulated and decoded. This feature is currently a work in progress, however. An IQ signal can also be demodulated using GNU Radio companion, which can be downloaded at this &lt;a href=&quot;www.gnuradio.org/&quot;&gt;link&lt;/a&gt; or any other demodulation software.
+    &lt;/p&gt;
+
+    &lt;br /&gt;
+    &lt;p&gt;
+        The baseband signal (absolute value of IQ vectors):
+    &lt;/p&gt;
+    &lt;center&gt;
+        &lt;div class=&quot;5u&quot;&gt;
+            &lt;a href=&quot;#&quot; class=&quot;imagenb featured&quot;&gt;&lt;img src=&quot;/images/Figure1.png&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;header&gt;Figure 1: A packet received from SOC-i&lt;/header&gt;
+    &lt;/center&gt;
+
+    &lt;br /&gt;
+    &lt;p&gt;
+        The demodulated packet:
+    &lt;/p&gt;
+    &lt;center&gt;
+        &lt;div class=&quot;6u&quot;&gt;
+            &lt;a href=&quot;#&quot; class=&quot;imagenb featured&quot;&gt;&lt;img src=&quot;/images/Figure2.png&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;header&gt;Figure 2: Demodulated Bits&lt;/header&gt;
+    &lt;/center&gt;
+    
+&lt;/section&gt;
+
+&lt;!-- SECTION 4 --&gt;
+&lt;section class=&quot;style4 wrapper container&quot;&gt;
+    &lt;header&gt;&lt;h2&gt;Decoding&lt;/h2&gt;&lt;/header&gt;
+    &lt;p&gt;
+        Once you have demodulated the signal into bits, you need to decode the bits to determine the message sent by SOC-i. Each transmission is sent as a single packet. The start of the packet is the preamble, which is a series of 142 alternating pairs of 1’s and 0’s (284 total):
+    &lt;/p&gt;
+    &lt;center&gt;
+        &lt;p&gt;Preamble: [1 1 0 0 1 1 0 0 1 1 0 0 1 1 0 0 1 1 ...]&lt;/p&gt;
+    &lt;/center&gt;
+    &lt;p&gt;
+        The full preamble is shown in figure 3.
+    &lt;/p&gt;
+    &lt;center&gt;
+        &lt;div class=&quot;6u&quot;&gt;
+            &lt;a href=&quot;#&quot; class=&quot;imagenb featured&quot;&gt;&lt;img src=&quot;/images/Figure3.png&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;header&gt;Figure 3: The Preamble, bits 1-284&lt;/header&gt;
+        &lt;br /&gt;
+        &lt;br /&gt;
+        &lt;div class=&quot;6u&quot;&gt;
+            &lt;a href=&quot;#&quot; class=&quot;imagenb featured&quot;&gt;&lt;img src=&quot;/images/Figure4.png&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;header&gt;Figure 4: The Message, bits 285-725&lt;/header&gt;
+    &lt;/center&gt;
+
+    &lt;br /&gt;
+    &lt;p&gt;
+        After the preamble, the radio sends 5 header bytes (the team is communicating with Trimble to learn what these 5 bytes are used for), and 49 data bytes, for a total of 54 bytes. The 54 bytes are sent 18 bytes at a time in three blocks, and are interleaved together. The interleaving pattern for one block of 18 bytes is described below:
+    &lt;/p&gt;
+    &lt;center&gt;
+        &lt;p&gt;Bytes Sent = [A B C D E F G H I J K L M N O P Q R]&lt;/p&gt;
+        &lt;br /&gt;
+        &lt;p&gt;Bits Received = [× × A1 B1 C1 ... × × A2 B2 C2 ... × × A3 B3 C3 ... × × P8 Q8 R8]&lt;/p&gt;
+    &lt;/center&gt;
+    &lt;br /&gt;
+    &lt;p&gt;
+        For the first block, bytes A,B,C,D and E are the header bytes. The subscripts on each byte represent the bit number in the byte. The ×represents separating bits (the pairsof separating bits are a 1 and a 0 or a 0 and a 1), and can be ignored. Therefore, 18 interleaved bits form a block of 160 bits. The algorithm in figure 5 shows how the bits can be de- interleaved:
+    &lt;/p&gt;
+    &lt;br /&gt;
+    &lt;center&gt;
+        &lt;div class=&quot;6u&quot;&gt;
+            &lt;a href=&quot;#&quot; class=&quot;imagenb featured&quot;&gt;&lt;img src=&quot;/images/Figure5.png&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;header&gt;Figure 5: De-interleaving Algorithm&lt;/header&gt;
+    &lt;/center&gt;
+
+    &lt;br /&gt;
+    &lt;p&gt;
+        Each packet contains three of these blocks. With the de-interleaving algorithm, the message from figure 2 can be decoded! For example, the first block (bits 285-445) in hexadecimal is:
+    &lt;/p&gt;
+    &lt;center&gt;
+        &lt;p&gt;[90 00 09 1F 7C 92 FF F8 00 50 49 72 8C AF 6C 80 17 06 06 62]&lt;/p&gt;
+    &lt;/center&gt;
+    &lt;p&gt;
+        And when de-interleaved becomes:
+    &lt;/p&gt;
+    &lt;center&gt;
+        &lt;p&gt;[01 E0 0C 00 24 48 65 6C 6C 6F 20 77 6F 72 6C 64 21 20]&lt;/p&gt;
+    &lt;/center&gt;
+    &lt;br /&gt;
+    &lt;p&gt;
+        The first 5 bytes here are the header bytes, and can be ignored for now. The two remaining blocks after being de-interleaved become:
+    &lt;/p&gt;
+    &lt;center&gt;
+        &lt;p&gt;[54 68 69 73 20 69 73 20 53 30 43 2D 49 21 20 47 6F 6F]&lt;/p&gt;
+        &lt;br /&gt;
+        &lt;p&gt;[64 62 79 65 21 66 66 66 66 66 66 66 66 66 66 66 66 66]&lt;/p&gt;
+    &lt;/center&gt;
+    &lt;br /&gt;
+    &lt;p&gt;
+        We ignore the final 13 bytes in block 3, since our message is only 36 bytes long. Thus our message is decoded! If we convert the bytes to ASCII characters, we recover SOC-i’s message:
+    &lt;/p&gt;
+    &lt;center&gt;
+        &lt;div class=&quot;6u&quot;&gt;
+            &lt;a href=&quot;#&quot; class=&quot;imagenb featured&quot;&gt;&lt;img src=&quot;/images/Figure6.png&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;header&gt;Figure 6: A Message From SOC-i&lt;/header&gt;
+    &lt;/center&gt;
+
+    &lt;br /&gt;
+    &lt;p&gt;
+        The packet also contains reed-solomon error correction bytes at the end of the packet. The team is currently working on a code which will use these bytes for error correction.
+    &lt;/p&gt;
+
+&lt;/section&gt;
+
+&lt;!-- SECTION 5 --&gt;
+&lt;section class=&quot;style4 wrapper container&quot;&gt;
+    &lt;header&gt;&lt;h2&gt;Parsing Telemetry&lt;/h2&gt;&lt;/header&gt;
+    &lt;p&gt;
+        The bytes in the telemetry beacon will include information about the cubesat’s battery voltages, operating mode, attitude, rotation rate and more. You will be able to parse these bytes using a table from our website. However, this is still a work in progress.
+    &lt;/p&gt;                
+&lt;/section&gt;
+
+&lt;!-- SECTION 6 --&gt;
+&lt;section class=&quot;style4 wrapper container&quot;&gt;
+    &lt;header&gt;&lt;h2&gt;Submitting Telemetry to the AACT Website&lt;/h2&gt;&lt;/header&gt;
+    &lt;p&gt;
+        You will also be able to submit this telemetry to our website. This feature is still a work in progress.
+    &lt;/p&gt;                
+&lt;/section&gt;
+
+&lt;section id=&quot;cta&quot;&gt;			
+	&lt;header&gt;
+		&lt;h2&gt;&lt;strong&gt; Project Partners &lt;/strong&gt;&lt;/h2&gt;
+		&lt;div class=&quot;row&quot;&gt;
+			&lt;div class=&quot;4u&quot;&gt;
+				&lt;a href=&quot;https://firefly.com/launch-alpha/&quot;&gt;&lt;img src=&quot;../images/firefly_logo.jpg&quot; style=&quot;height:130px&quot; /&gt;&lt;/a&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/header&gt;	
+&lt;/section&gt;
+
+</description>
+        <pubDate>Mon, 14 Mar 2022 17:00:00 -0700</pubDate>
+        <link>http://localhost:4000/communications.html</link>
+        <guid isPermaLink="true">http://localhost:4000/communications.html</guid>
+        
+        
+        <category>missions soc-i attitude-control optimal-control convex-optimization optimal-spacecraft-attitude-motion</category>
+        
+      </item>
     
       <item>
         <title>Team News &amp; Publications</title>
@@ -586,102 +767,6 @@
         <link>http://localhost:4000/missions.html</link>
         <guid isPermaLink="true">http://localhost:4000/missions.html</guid>
         
-        
-      </item>
-    
-      <item>
-        <title>The Maratus Mission</title>
-        <description>&lt;section class=&quot;wrapper style2 container&quot;&gt;
-	&lt;header&gt; &lt;h2&gt; Mission Objectives &lt;/h2&gt; &lt;/header&gt;
-	&lt;p&gt; This mission is designed to support a payload from UW's Astronomy Department that aims to study the Circumgalactic Medium. This project will advance our understanding of how galaxies form, and will be the second mission supported by AACT. This mission is a 6U CubeSat with very tight pointing requirements and will be a 4 year-long effort. &lt;/p&gt;
-&lt;/section&gt;
-
-&lt;section class=&quot;wrapper style4 container&quot;&gt;			
-	&lt;div class=&quot;row oneandhalf&quot;&gt;
-		&lt;div class=&quot;12u&quot;&gt;			
-		&lt;header&gt;&lt;h2&gt; Preliminary Design &lt;/h2&gt;&lt;/header&gt;	
-		&lt;p&gt; AACT supported a fourth year capstone team that helped us carry out an initial system design. They worked hard over two semesters to design everything from the target orbit, subsystems, and payload interface. Their final report is &lt;a href=&quot;https://drive.google.com/file/d/1qNqZ_mvf6vtClRcZljYD410FsgViqHd9/view?usp=sharing&quot;&gt; available here &lt;/a&gt; and provides all of the details. More to come! &lt;/p&gt;		
-		&lt;!-- Content --&gt;
-&lt;!-- 			&lt;div class=&quot;content&quot;&gt;
-				&lt;section&gt;
-					&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-					&lt;header&gt;
-						&lt;h3&gt;CubeSat Propulsion&lt;/h3&gt;
-					&lt;/header&gt;
-					&lt;p&gt;something something rockets!.&lt;/p&gt;
-					&lt;p&gt;Maybe provide some idea/link to work you guys are doing in EP and how that might play into what we do on certain missions.&lt;/p&gt;
-				&lt;/section&gt;
-			&lt;/div&gt;
-		&lt;/div&gt; --&gt;
-&lt;!-- 		&lt;div class=&quot;4u&quot;&gt;								
-		&lt;!-- Sidebar --&gt;
-&lt;!-- 			&lt;div class=&quot;sidebar&quot;&gt;
-				&lt;section&gt;
-					&lt;header&gt;
-						&lt;h3&gt;Pulsed Plasma Thrusters&lt;/h3&gt;
-					&lt;/header&gt;
-					&lt;p&gt;Our use of PPTs is to...&lt;/p&gt; --&gt;
-&lt;!-- 					&lt;footer&gt;
-						&lt;ul class=&quot;buttons&quot;&gt;
-							&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button small&quot;&gt;Learn More&lt;/a&gt;&lt;/li&gt;
-						&lt;/ul&gt;
-					&lt;/footer&gt; --&gt;
-&lt;!-- 				&lt;/section&gt;
-				&lt;section&gt;
-					&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-					&lt;header&gt;
-						&lt;h3&gt;See More&lt;/h3&gt;
-					&lt;/header&gt;
-					&lt;p&gt;See our publications on the topic for more details.&lt;/p&gt;
-					&lt;footer&gt;
-						&lt;ul class=&quot;buttons&quot;&gt;
-							&lt;li&gt;&lt;a href=&quot;/publications.html&quot; class=&quot;button special small&quot;&gt;Learn More&lt;/a&gt;&lt;/li&gt;
-						&lt;/ul&gt;
-					&lt;/footer&gt;
-				&lt;/section&gt;
-			&lt;/div&gt; --&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;					
-&lt;/section&gt;
-
-&lt;!-- &lt;section class=&quot;wrapper style4 container&quot;&gt;
-	&lt;header&gt; &lt;h2&gt; Power System &lt;/h2&gt; &lt;/header&gt;
-	&lt;p&gt; Placeholder for description of power system &lt;/p&gt;
-&lt;/section&gt;
-
-&lt;section class=&quot;wrapper style4 container&quot;&gt;
-	&lt;header&gt; &lt;h2&gt; Communication System &lt;/h2&gt; &lt;/header&gt;
-	&lt;p&gt; Placeholder for description of communication system &lt;/p&gt;
-&lt;/section&gt;
-
-&lt;section class=&quot;wrapper style4 container&quot;&gt;
-	&lt;header&gt; &lt;h2&gt; Guidance Navigation and Control System &lt;/h2&gt; &lt;/header&gt;
-	&lt;p&gt; Placeholder for description of GNC system &lt;/p&gt;
-&lt;/section&gt;
-
-&lt;section class=&quot;wrapper style4 container&quot;&gt;
-	&lt;header&gt; &lt;h2&gt; Structural and Thermal System &lt;/h2&gt; &lt;/header&gt;
-	&lt;p&gt; Placeholder for description of structure/thermal system &lt;/p&gt;
-&lt;/section&gt; --&gt;
-
-&lt;section id=&quot;cta&quot;&gt;			
-	&lt;header&gt;
-		&lt;h2&gt;&lt;strong&gt; Project Partners &lt;/strong&gt;&lt;/h2&gt;
-		&lt;div class=&quot;row&quot;&gt;
-			&lt;div class=&quot;4u&quot;&gt;
-				&lt;a href=&quot;http://depts.washington.edu/astron/&quot;&gt;&lt;img src=&quot;../images/uw_astronomy_logo.png&quot; style=&quot;height:50px&quot; /&gt;&lt;/a&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/header&gt;	
-&lt;/section&gt;
-
-</description>
-        <pubDate>Thu, 13 Sep 2018 17:00:00 -0700</pubDate>
-        <link>http://localhost:4000/missions/maratus.html</link>
-        <guid isPermaLink="true">http://localhost:4000/missions/maratus.html</guid>
-        
-        
-        <category>missions</category>
         
       </item>
     

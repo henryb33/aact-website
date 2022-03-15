@@ -1,65 +1,13 @@
-<!DOCTYPE html>
-<html>
-
-  <head>
-    <title>Instructions for Decoding SOC-i’s Radio Transmissions</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="A small satellite and space systems development lab in the W.E. Boeing Department of Aeronautics and Astronautics at the University of Washington. 
-">
-    <meta name="keywords" content="" />
-    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/jquery.dropotron.min.js"></script>
-    <script src="/js/jquery.scrolly.min.js"></script>
-    <script src="/js/jquery.scrollgress.min.js"></script>
-    <script src="/js/skel.min.js"></script>
-    <script src="/js/skel-layers.min.js"></script>
-    <script src="/js/init.js"></script>
-    <noscript>
-        <link rel="stylesheet" href="/css/skel.css" />
-        <link rel="stylesheet" href="/css/style.css" />
-        <link rel="stylesheet" href="/css/style-wide.css" />
-        <link rel="stylesheet" href="/css/style-noscript.css" />
-    </noscript>
-    <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
-    <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie/v9.css" /><![endif]-->
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="canonical" href="http://localhost:4000/communications.html">
-</head>
-
-
-  <body class="left-sidebar">
-
-    <header id="header">
-				<h1 id="logo"><a href="https://aact.space">UW A&ampA <span>CubeSat Team <img src="/images/aactlogo.png" style="width: 25px"></span></a></h1>
-				<nav id="nav">
-					<ul>
-						<!-- <li><a href="/">Home</a></li> -->
-                        <li><a href="/missions.html">Missions</a></li>
-                        <li><a href="/people.html">People</a></li>
-                        <li><a href="/news.html">News</a></li>
-                        <li><a href="/facilities.html">Facilities</a></li>
-                        <li class="submenu">
-                        	<a href="/contact-main.html">Contact Us</a>
-                        	<ul>
-                        		<li><a href="/contact-students.html">Students</a></li>
-                        		<li><a href="contact-sponsor.html">Sponsors</a></li>
-                        	</ul>
-                        </li>
-					</ul>
-				</nav>
-			</header>
-    <div class="page-content">
-        <article id="main">
-  <header class="special container">
-    <span class="fas fa-book-open"></span>
-    <h2 class="post-title">Instructions for Decoding SOC-i’s Radio Transmissions</h2>
-    <p class="post-meta">A&ampA CubeSat Team</p>
-  </header>
-
-  <section class="style1 wrapper container">
-    <!-- BACKGROUND -->
+---
+layout: post-left
+title: "Instructions for Decoding SOC-i’s Radio Transmissions"
+date: 2022-03-15 00:00:00
+author: A&ampA CubeSat Team
+permalink: /communications.html
+category: missions soc-i attitude-control optimal-control convex-optimization optimal-spacecraft-attitude-motion
+icon: fa-book-open
+---
+<!-- BACKGROUND -->
 <section class="wrapper style2 container">
     <header> <h2>Background</h2> </header>
     <p>
@@ -91,7 +39,7 @@
         There are many ways to demodulate a signal from SOC-i. One way would be to usea radio which is already capable of demodulating FM signals, such as the ICOM-9100. Another way will be to simply record the baseband signal, using a software defined radio, and submit the IQ signal to our website where it will be automatically demodulated and decoded. This feature is currently a work in progress, however. An IQ signal can also be demodulated using GNU Radio companion, which can be downloaded at this <a href="www.gnuradio.org/">link</a> or any other demodulation software.
     </p>
 
-    <br />
+    <br/>
     <p>
         The baseband signal (absolute value of IQ vectors):
     </p>
@@ -102,7 +50,7 @@
         <header>Figure 1: A packet received from SOC-i</header>
     </center>
 
-    <br />
+    <br/>
     <p>
         The demodulated packet:
     </p>
@@ -132,28 +80,28 @@
             <a href="#" class="imagenb featured"><img src="/images/Figure3.png" /></a>
         </div>
         <header>Figure 3: The Preamble, bits 1-284</header>
-        <br />
-        <br />
+        <br/>
+        <br/>
         <div class="6u">
             <a href="#" class="imagenb featured"><img src="/images/Figure4.png" /></a>
         </div>
         <header>Figure 4: The Message, bits 285-725</header>
     </center>
 
-    <br />
+    <br/>
     <p>
         After the preamble, the radio sends 5 header bytes (the team is communicating with Trimble to learn what these 5 bytes are used for), and 49 data bytes, for a total of 54 bytes. The 54 bytes are sent 18 bytes at a time in three blocks, and are interleaved together. The interleaving pattern for one block of 18 bytes is described below:
     </p>
     <center>
         <p>Bytes Sent = [A B C D E F G H I J K L M N O P Q R]</p>
-        <br />
+        <br/>
         <p>Bits Received = [× × A1 B1 C1 ... × × A2 B2 C2 ... × × A3 B3 C3 ... × × P8 Q8 R8]</p>
     </center>
-    <br />
+    <br/>
     <p>
         For the first block, bytes A,B,C,D and E are the header bytes. The subscripts on each byte represent the bit number in the byte. The ×represents separating bits (the pairsof separating bits are a 1 and a 0 or a 0 and a 1), and can be ignored. Therefore, 18 interleaved bits form a block of 160 bits. The algorithm in figure 5 shows how the bits can be de- interleaved:
     </p>
-    <br />
+    <br/>
     <center>
         <div class="6u">
             <a href="#" class="imagenb featured"><img src="/images/Figure5.png" /></a>
@@ -161,7 +109,7 @@
         <header>Figure 5: De-interleaving Algorithm</header>
     </center>
 
-    <br />
+    <br/>
     <p>
         Each packet contains three of these blocks. With the de-interleaving algorithm, the message from figure 2 can be decoded! For example, the first block (bits 285-445) in hexadecimal is:
     </p>
@@ -174,16 +122,16 @@
     <center>
         <p>[01 E0 0C 00 24 48 65 6C 6C 6F 20 77 6F 72 6C 64 21 20]</p>
     </center>
-    <br />
+    <br/>
     <p>
         The first 5 bytes here are the header bytes, and can be ignored for now. The two remaining blocks after being de-interleaved become:
     </p>
     <center>
         <p>[54 68 69 73 20 69 73 20 53 30 43 2D 49 21 20 47 6F 6F]</p>
-        <br />
+        <br/>
         <p>[64 62 79 65 21 66 66 66 66 66 66 66 66 66 66 66 66 66]</p>
     </center>
-    <br />
+    <br/>
     <p>
         We ignore the final 13 bytes in block 3, since our message is only 36 bytes long. Thus our message is decoded! If we convert the bytes to ASCII characters, we recover SOC-i’s message:
     </p>
@@ -194,7 +142,7 @@
         <header>Figure 6: A Message From SOC-i</header>
     </center>
 
-    <br />
+    <br/>
     <p>
         The packet also contains reed-solomon error correction bytes at the end of the packet. The team is currently working on a code which will use these bytes for error correction.
     </p>
@@ -222,38 +170,10 @@
 		<h2><strong> Project Partners </strong></h2>
 		<div class="row">
 			<div class="4u">
-				<a href="https://firefly.com/launch-alpha/"><img src="../images/firefly_logo.jpg" style="height:130px" /></a>
+				<a href="https://firefly.com/launch-alpha/"><img src="../images/firefly_logo.jpg" style="height:130px"></a>
 			</div>
 		</div>
 	</header>	
-</section>
+</section>	
 
 
-  </section>
-    
-<!--     <footer>
-        
-        <a href="/news.html" class="post-prev">&larr; Previous post</a> 
-        
-    </footer> -->
-</article>
-
-
-    </div>
-    <!-- Footer -->
-<footer id="footer">
-
-    <ul class="icons">
-        <li><a href="#" class="fab circle fa-google"><span class="label"></span></a></li>
-        <li><a href="#" class="icon circle fa-github"><span class="label">Github</span></a></li>
-    </ul>
-
-    <ul class="copyright">
-        <li>&copy; <a href="https://www.aa.washington.edu/">W.E Boeing Department of Aeronautics and Astronautics</a></li>
-    </ul>
-
-</footer>
-
-  </body>
-
-</html>
