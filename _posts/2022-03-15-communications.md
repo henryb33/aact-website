@@ -30,6 +30,11 @@ icon: fa-book-open
     <p>
         To accurately demodulate SOC-i’s beacon, a signal to noise ratio of about 10 dB is required. SOC-i will be in a 555 km orbit, and will transmit with an EIRP between 23.2 dBm and 27.7 dBm (depending on where SOC-i is pointing its antenna). It will transmit between 435 MHz and 438 MHz. This should provide enough information to determine if a ground station will have enough gain to demodulate SOC-i’s beacon. You will need to factor in the gains and losses of your ground station. Also note that SOC-i is only555 km when it is directly overhead, and is actually over 2,000 km away when it is near the horizon, so keep this in mind when you calculate free space path losses. For a comparison, this <a href="https://docs.google.com/spreadsheets/d/1LnmVq8DV7MKtmCDrb-FcXqUdP9y6fdAOcGNFGtgSXoE/edit?usp=sharing">link</a> describes our link margin calculations in greater detail. We plan on using an ICOM 9100 radio with a 13 dBi Yagi antenna, and our calculations show that we have a suitable signal to noise ratio.
     </p>
+
+    <header><h1>Sample Recording</h1></header>
+    <p>
+        Check out our <a href="https://github.com/AA-CubeSat-Team/decoding">GitHub page</a> where you can use our code to test out receiving a sample recording from SOC-i’s radio! This page includes our code to demodulate and unpackage transmissions from SOC-i and describes this process with the sample recording.
+    </p>
 </section>
 
 <!-- SECTION 3 -->
