@@ -23,7 +23,7 @@ icon: fa-book-open
 
     <header><h1>Finding SOC-i</h1></header>
     <p>
-        Thanks to NORAD, a two line element (TLE) for SOC-i will be available at <a href="https://www.celestrak.com/NORAD/elements/">celstrak.com</a> after SOC-i launches. With a TLE, one can how to point your antenna to receive SOC-i’s transmission. <a href="www.amsat.org/keplerian-elements-resources">The AMSAT website</a> explains how to do this.
+        Thanks to NORAD, a two line element (TLE) for SOC-i will be available at <a href="https://www.celestrak.com/NORAD/elements/">celstrak.com</a> after SOC-i launches. With a TLE, one can how to point your antenna to receive SOC-i’s transmission. <a href="https://www.amsat.org/keplerian-elements-resources">The AMSAT website</a> explains how to do this.
     </p>
 
     <header><h1>Link Margin</h1></header>
