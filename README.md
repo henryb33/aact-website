@@ -1,7 +1,7 @@
 # aact-website
 
 The website is hosted at `aact.space`
-
+ 
 ## To get up and running:
 1. Install a ruby development environment. See https://jekyllrb.com/docs/installation/.
 2. Install Jekyll using: `gem install jekyll bundler` at the command line.
